@@ -41,7 +41,7 @@ class User extends CI_Controller
     public function index()
     {
         if ($this->session->logged_in) {
-            redirect('PatientRegistration/allpatientList');
+            redirect('PurchaseRequest');
         }
 
         $aModel = new AuthModel();

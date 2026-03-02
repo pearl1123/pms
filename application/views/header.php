@@ -58,7 +58,7 @@
                 </div>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('libraries/purchase_request'); ?>">
+                    <a class="nav-link" href="<?php echo base_url('PurchaseRequest'); ?>">
                         <i class="fas fa-fw fa-list"></i>
                         <span>Purchase Request List</span></a>
                 </li>
@@ -99,6 +99,7 @@
                     <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <a class="collapse-item" href="<?php echo base_url('libraries/procurementSettings'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Settings</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/availableStock'); ?>"><i class="fas fa-fw fa-circle"></i> Available Stock</a>
                         </div>
                     </div>
                 </li>

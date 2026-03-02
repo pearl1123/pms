@@ -3730,3 +3730,12854 @@ INFO - 2026-03-02 08:53:13 --> Language file loaded: language/english/aauth_lang
 DEBUG - 2026-03-02 08:53:13 --> Config file loaded: C:\xampp\htdocs\procurement\application\config/aauth.php
 INFO - 2026-03-02 08:53:13 --> Database Driver Class Initialized
 INFO - 2026-03-02 08:53:13 --> Database Driver Class Initialized
+ERROR - 2026-03-02 09:31:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 09:31:38 --> Config Class Initialized
+INFO - 2026-03-02 09:31:38 --> Hooks Class Initialized
+DEBUG - 2026-03-02 09:31:38 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:31:38 --> Utf8 Class Initialized
+INFO - 2026-03-02 09:31:38 --> URI Class Initialized
+INFO - 2026-03-02 09:31:38 --> Router Class Initialized
+INFO - 2026-03-02 09:31:38 --> Output Class Initialized
+INFO - 2026-03-02 09:31:38 --> Security Class Initialized
+DEBUG - 2026-03-02 09:31:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 09:31:38 --> Input Class Initialized
+INFO - 2026-03-02 09:31:38 --> Language Class Initialized
+ERROR - 2026-03-02 09:31:38 --> 404 Page Not Found: /index
+ERROR - 2026-03-02 09:32:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 09:32:34 --> Config Class Initialized
+INFO - 2026-03-02 09:32:34 --> Hooks Class Initialized
+DEBUG - 2026-03-02 09:32:34 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:32:34 --> Utf8 Class Initialized
+INFO - 2026-03-02 09:32:34 --> URI Class Initialized
+INFO - 2026-03-02 09:32:34 --> Router Class Initialized
+INFO - 2026-03-02 09:32:34 --> Output Class Initialized
+INFO - 2026-03-02 09:32:34 --> Security Class Initialized
+DEBUG - 2026-03-02 09:32:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 09:32:34 --> Input Class Initialized
+INFO - 2026-03-02 09:32:34 --> Language Class Initialized
+ERROR - 2026-03-02 09:32:34 --> 404 Page Not Found: /index
+ERROR - 2026-03-02 09:33:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 09:33:25 --> Config Class Initialized
+INFO - 2026-03-02 09:33:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 09:33:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:33:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 09:33:25 --> URI Class Initialized
+INFO - 2026-03-02 09:33:25 --> Router Class Initialized
+INFO - 2026-03-02 09:33:25 --> Output Class Initialized
+INFO - 2026-03-02 09:33:25 --> Security Class Initialized
+DEBUG - 2026-03-02 09:33:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 09:33:25 --> Input Class Initialized
+INFO - 2026-03-02 09:33:25 --> Language Class Initialized
+INFO - 2026-03-02 09:33:25 --> Loader Class Initialized
+INFO - 2026-03-02 09:33:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 09:33:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 09:33:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 09:33:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 09:33:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 09:33:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 09:33:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 09:33:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 09:33:25 --> Encryption Class Initialized
+INFO - 2026-03-02 09:33:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 09:33:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 09:33:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 09:33:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 09:33:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 09:33:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 09:33:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 09:33:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 09:33:25 --> Model "User_model" initialized
+INFO - 2026-03-02 09:33:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 09:33:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 09:33:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 09:33:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 09:33:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 09:33:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 09:33:25 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 09:33:25 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 09:33:25 --> Final output sent to browser
+DEBUG - 2026-03-02 09:33:25 --> Total execution time: 0.1887
+ERROR - 2026-03-02 09:33:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 09:33:59 --> Config Class Initialized
+INFO - 2026-03-02 09:33:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:33:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 09:33:59 --> URI Class Initialized
+INFO - 2026-03-02 09:33:59 --> Router Class Initialized
+INFO - 2026-03-02 09:33:59 --> Output Class Initialized
+INFO - 2026-03-02 09:33:59 --> Security Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 09:33:59 --> Input Class Initialized
+INFO - 2026-03-02 09:33:59 --> Language Class Initialized
+INFO - 2026-03-02 09:33:59 --> Loader Class Initialized
+INFO - 2026-03-02 09:33:59 --> Helper loaded: url_helper
+INFO - 2026-03-02 09:33:59 --> Helper loaded: form_helper
+INFO - 2026-03-02 09:33:59 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 09:33:59 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 09:33:59 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 09:33:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 09:33:59 --> Encryption Class Initialized
+INFO - 2026-03-02 09:33:59 --> Model "PatientModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "AuthModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "BedsModel" initialized
+INFO - 2026-03-02 09:33:59 --> Database Forge Class Initialized
+INFO - 2026-03-02 09:33:59 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 09:33:59 --> Model "DeathModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 09:33:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 09:33:59 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 09:33:59 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 09:33:59 --> Model "ReportModel" initialized
+INFO - 2026-03-02 09:33:59 --> Model "User_model" initialized
+INFO - 2026-03-02 09:33:59 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 09:33:59 --> Controller Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 09:33:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 09:33:59 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 09:33:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 09:33:59 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 09:33:59 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/listview.php
+INFO - 2026-03-02 09:33:59 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/modal_add.php
+INFO - 2026-03-02 09:33:59 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/modal_update.php
+INFO - 2026-03-02 09:33:59 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 09:33:59 --> Final output sent to browser
+DEBUG - 2026-03-02 09:33:59 --> Total execution time: 0.1383
+ERROR - 2026-03-02 09:33:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 09:33:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 09:33:59 --> Config Class Initialized
+INFO - 2026-03-02 09:33:59 --> Config Class Initialized
+INFO - 2026-03-02 09:33:59 --> Hooks Class Initialized
+INFO - 2026-03-02 09:33:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:33:59 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:33:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 09:33:59 --> URI Class Initialized
+ERROR - 2026-03-02 09:33:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 09:33:59 --> URI Class Initialized
+ERROR - 2026-03-02 09:33:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 09:33:59 --> Router Class Initialized
+INFO - 2026-03-02 09:33:59 --> Router Class Initialized
+INFO - 2026-03-02 09:33:59 --> Config Class Initialized
+INFO - 2026-03-02 09:33:59 --> Hooks Class Initialized
+INFO - 2026-03-02 09:33:59 --> Config Class Initialized
+INFO - 2026-03-02 09:33:59 --> Hooks Class Initialized
+INFO - 2026-03-02 09:33:59 --> Output Class Initialized
+INFO - 2026-03-02 09:33:59 --> Output Class Initialized
+INFO - 2026-03-02 09:33:59 --> Security Class Initialized
+INFO - 2026-03-02 09:33:59 --> Security Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:33:59 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:33:59 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 09:33:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 09:33:59 --> Input Class Initialized
+INFO - 2026-03-02 09:33:59 --> Input Class Initialized
+INFO - 2026-03-02 09:33:59 --> URI Class Initialized
+INFO - 2026-03-02 09:33:59 --> URI Class Initialized
+INFO - 2026-03-02 09:33:59 --> Language Class Initialized
+INFO - 2026-03-02 09:33:59 --> Language Class Initialized
+INFO - 2026-03-02 09:33:59 --> Router Class Initialized
+INFO - 2026-03-02 09:33:59 --> Router Class Initialized
+ERROR - 2026-03-02 09:33:59 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 09:33:59 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 09:33:59 --> Output Class Initialized
+INFO - 2026-03-02 09:33:59 --> Output Class Initialized
+INFO - 2026-03-02 09:33:59 --> Security Class Initialized
+INFO - 2026-03-02 09:33:59 --> Security Class Initialized
+DEBUG - 2026-03-02 09:33:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 09:33:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 09:33:59 --> Input Class Initialized
+INFO - 2026-03-02 09:33:59 --> Input Class Initialized
+INFO - 2026-03-02 09:33:59 --> Language Class Initialized
+INFO - 2026-03-02 09:33:59 --> Language Class Initialized
+ERROR - 2026-03-02 09:33:59 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 09:33:59 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 09:34:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 09:34:10 --> Config Class Initialized
+INFO - 2026-03-02 09:34:10 --> Hooks Class Initialized
+DEBUG - 2026-03-02 09:34:10 --> UTF-8 Support Enabled
+INFO - 2026-03-02 09:34:10 --> Utf8 Class Initialized
+INFO - 2026-03-02 09:34:10 --> URI Class Initialized
+INFO - 2026-03-02 09:34:10 --> Router Class Initialized
+INFO - 2026-03-02 09:34:10 --> Output Class Initialized
+INFO - 2026-03-02 09:34:10 --> Security Class Initialized
+DEBUG - 2026-03-02 09:34:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 09:34:10 --> Input Class Initialized
+INFO - 2026-03-02 09:34:10 --> Language Class Initialized
+INFO - 2026-03-02 09:34:10 --> Loader Class Initialized
+INFO - 2026-03-02 09:34:10 --> Helper loaded: url_helper
+INFO - 2026-03-02 09:34:10 --> Helper loaded: form_helper
+INFO - 2026-03-02 09:34:10 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 09:34:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 09:34:10 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 09:34:10 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 09:34:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 09:34:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 09:34:10 --> Encryption Class Initialized
+INFO - 2026-03-02 09:34:10 --> Model "PatientModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "AuthModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "BedsModel" initialized
+INFO - 2026-03-02 09:34:10 --> Database Forge Class Initialized
+INFO - 2026-03-02 09:34:10 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 09:34:10 --> Model "DeathModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 09:34:10 --> Database Driver Class Initialized
+INFO - 2026-03-02 09:34:10 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 09:34:10 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 09:34:10 --> Model "ReportModel" initialized
+INFO - 2026-03-02 09:34:10 --> Model "User_model" initialized
+INFO - 2026-03-02 09:34:10 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 09:34:10 --> Controller Class Initialized
+DEBUG - 2026-03-02 09:34:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 09:34:10 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 09:34:10 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 09:34:10 --> Database Driver Class Initialized
+INFO - 2026-03-02 09:34:10 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 11:14:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:14:52 --> Config Class Initialized
+INFO - 2026-03-02 11:14:52 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:14:52 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:14:52 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:14:52 --> URI Class Initialized
+INFO - 2026-03-02 11:14:52 --> Router Class Initialized
+INFO - 2026-03-02 11:14:52 --> Output Class Initialized
+INFO - 2026-03-02 11:14:52 --> Security Class Initialized
+DEBUG - 2026-03-02 11:14:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:14:52 --> Input Class Initialized
+INFO - 2026-03-02 11:14:52 --> Language Class Initialized
+ERROR - 2026-03-02 11:14:52 --> 404 Page Not Found: /index
+ERROR - 2026-03-02 11:15:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:15:00 --> Config Class Initialized
+INFO - 2026-03-02 11:15:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:15:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:15:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:15:00 --> URI Class Initialized
+INFO - 2026-03-02 11:15:00 --> Router Class Initialized
+INFO - 2026-03-02 11:15:00 --> Output Class Initialized
+INFO - 2026-03-02 11:15:00 --> Security Class Initialized
+DEBUG - 2026-03-02 11:15:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:15:00 --> Input Class Initialized
+INFO - 2026-03-02 11:15:00 --> Language Class Initialized
+INFO - 2026-03-02 11:15:00 --> Loader Class Initialized
+INFO - 2026-03-02 11:15:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:15:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:15:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:15:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:15:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:15:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:15:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:15:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:15:00 --> Encryption Class Initialized
+INFO - 2026-03-02 11:15:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:15:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:15:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:15:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:15:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:15:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:15:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:15:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:15:00 --> Model "User_model" initialized
+INFO - 2026-03-02 11:15:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:15:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:15:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:15:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:15:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:15:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:15:00 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 11:15:00 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 11:15:00 --> Final output sent to browser
+DEBUG - 2026-03-02 11:15:00 --> Total execution time: 0.6262
+ERROR - 2026-03-02 11:15:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:15:52 --> Config Class Initialized
+INFO - 2026-03-02 11:15:52 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:15:52 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:15:52 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:15:52 --> URI Class Initialized
+INFO - 2026-03-02 11:15:52 --> Router Class Initialized
+INFO - 2026-03-02 11:15:52 --> Output Class Initialized
+INFO - 2026-03-02 11:15:52 --> Security Class Initialized
+DEBUG - 2026-03-02 11:15:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:15:52 --> Input Class Initialized
+INFO - 2026-03-02 11:15:52 --> Language Class Initialized
+INFO - 2026-03-02 11:15:52 --> Loader Class Initialized
+INFO - 2026-03-02 11:15:52 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:15:52 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:15:52 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:15:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:15:52 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:15:52 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:15:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:15:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:15:52 --> Encryption Class Initialized
+INFO - 2026-03-02 11:15:52 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:15:52 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:15:52 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:15:52 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:15:52 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:15:52 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:15:52 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:15:52 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:15:52 --> Model "User_model" initialized
+INFO - 2026-03-02 11:15:52 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:15:52 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:15:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:15:52 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:15:52 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:15:52 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:15:52 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 11:15:52 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 11:15:52 --> Helper loaded: email_helper
+ERROR - 2026-03-02 11:15:53 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 11:15:53 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 11:15:53 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 11:15:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:15:53 --> Config Class Initialized
+INFO - 2026-03-02 11:15:53 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:15:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:15:53 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:15:53 --> URI Class Initialized
+INFO - 2026-03-02 11:15:53 --> Router Class Initialized
+INFO - 2026-03-02 11:15:53 --> Output Class Initialized
+INFO - 2026-03-02 11:15:53 --> Security Class Initialized
+DEBUG - 2026-03-02 11:15:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:15:53 --> Input Class Initialized
+INFO - 2026-03-02 11:15:53 --> Language Class Initialized
+INFO - 2026-03-02 11:15:53 --> Loader Class Initialized
+INFO - 2026-03-02 11:15:53 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:15:53 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:15:53 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:15:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:15:53 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:15:53 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:15:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:15:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:15:53 --> Encryption Class Initialized
+INFO - 2026-03-02 11:15:53 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:15:53 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:15:53 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:15:53 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:15:53 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:15:53 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:15:53 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:15:53 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:15:53 --> Model "User_model" initialized
+INFO - 2026-03-02 11:15:53 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:15:53 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:15:53 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:15:53 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:15:53 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:15:53 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:15:53 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 11:15:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:15:53 --> Config Class Initialized
+INFO - 2026-03-02 11:15:53 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:15:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:15:53 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:15:53 --> URI Class Initialized
+INFO - 2026-03-02 11:15:53 --> Router Class Initialized
+INFO - 2026-03-02 11:15:53 --> Output Class Initialized
+INFO - 2026-03-02 11:15:53 --> Security Class Initialized
+DEBUG - 2026-03-02 11:15:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:15:53 --> Input Class Initialized
+INFO - 2026-03-02 11:15:53 --> Language Class Initialized
+ERROR - 2026-03-02 11:15:53 --> 404 Page Not Found: PatientRegistration/allpatientList
+ERROR - 2026-03-02 11:16:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:06 --> Config Class Initialized
+INFO - 2026-03-02 11:16:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:06 --> URI Class Initialized
+INFO - 2026-03-02 11:16:06 --> Router Class Initialized
+INFO - 2026-03-02 11:16:06 --> Output Class Initialized
+INFO - 2026-03-02 11:16:06 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:06 --> Input Class Initialized
+INFO - 2026-03-02 11:16:06 --> Language Class Initialized
+INFO - 2026-03-02 11:16:06 --> Loader Class Initialized
+INFO - 2026-03-02 11:16:06 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:16:06 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:16:06 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:16:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:16:07 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:16:07 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:16:07 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:16:07 --> Encryption Class Initialized
+INFO - 2026-03-02 11:16:07 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:16:07 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:16:07 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:16:07 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:16:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:07 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:16:07 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:16:07 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "User_model" initialized
+INFO - 2026-03-02 11:16:07 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:16:07 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:16:07 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:16:07 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:16:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:07 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:16:07 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/listview.php
+INFO - 2026-03-02 11:16:07 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/modal_add.php
+INFO - 2026-03-02 11:16:07 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/modal_update.php
+INFO - 2026-03-02 11:16:07 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:16:07 --> Final output sent to browser
+DEBUG - 2026-03-02 11:16:07 --> Total execution time: 0.1918
+ERROR - 2026-03-02 11:16:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:16:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:07 --> Config Class Initialized
+INFO - 2026-03-02 11:16:07 --> Hooks Class Initialized
+INFO - 2026-03-02 11:16:07 --> Config Class Initialized
+INFO - 2026-03-02 11:16:07 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:07 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:07 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:07 --> URI Class Initialized
+INFO - 2026-03-02 11:16:07 --> URI Class Initialized
+INFO - 2026-03-02 11:16:07 --> Router Class Initialized
+INFO - 2026-03-02 11:16:07 --> Router Class Initialized
+INFO - 2026-03-02 11:16:07 --> Output Class Initialized
+INFO - 2026-03-02 11:16:07 --> Output Class Initialized
+INFO - 2026-03-02 11:16:07 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:07 --> Input Class Initialized
+INFO - 2026-03-02 11:16:07 --> Language Class Initialized
+INFO - 2026-03-02 11:16:07 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2026-03-02 11:16:07 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 11:16:07 --> Input Class Initialized
+INFO - 2026-03-02 11:16:07 --> Language Class Initialized
+ERROR - 2026-03-02 11:16:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:16:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:07 --> Config Class Initialized
+INFO - 2026-03-02 11:16:07 --> Config Class Initialized
+ERROR - 2026-03-02 11:16:07 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 11:16:07 --> Hooks Class Initialized
+INFO - 2026-03-02 11:16:07 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:16:07 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:07 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:07 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:07 --> URI Class Initialized
+INFO - 2026-03-02 11:16:07 --> URI Class Initialized
+INFO - 2026-03-02 11:16:07 --> Router Class Initialized
+INFO - 2026-03-02 11:16:07 --> Router Class Initialized
+INFO - 2026-03-02 11:16:07 --> Output Class Initialized
+INFO - 2026-03-02 11:16:07 --> Output Class Initialized
+INFO - 2026-03-02 11:16:07 --> Security Class Initialized
+INFO - 2026-03-02 11:16:07 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:07 --> Input Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:07 --> Input Class Initialized
+INFO - 2026-03-02 11:16:07 --> Language Class Initialized
+INFO - 2026-03-02 11:16:07 --> Language Class Initialized
+ERROR - 2026-03-02 11:16:07 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 11:16:07 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 11:16:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:07 --> Config Class Initialized
+INFO - 2026-03-02 11:16:07 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:07 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:07 --> URI Class Initialized
+INFO - 2026-03-02 11:16:07 --> Router Class Initialized
+INFO - 2026-03-02 11:16:07 --> Output Class Initialized
+INFO - 2026-03-02 11:16:07 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:07 --> Input Class Initialized
+INFO - 2026-03-02 11:16:07 --> Language Class Initialized
+INFO - 2026-03-02 11:16:07 --> Loader Class Initialized
+INFO - 2026-03-02 11:16:07 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:16:07 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:16:07 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:16:07 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:16:07 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:16:07 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:16:07 --> Encryption Class Initialized
+INFO - 2026-03-02 11:16:07 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:16:07 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:16:07 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:16:07 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:16:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:07 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:16:07 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:16:07 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:16:07 --> Model "User_model" initialized
+INFO - 2026-03-02 11:16:07 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:16:07 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:16:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:16:07 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:16:07 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:16:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:07 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:16:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:09 --> Config Class Initialized
+INFO - 2026-03-02 11:16:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:09 --> URI Class Initialized
+INFO - 2026-03-02 11:16:09 --> Router Class Initialized
+INFO - 2026-03-02 11:16:09 --> Output Class Initialized
+INFO - 2026-03-02 11:16:09 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:09 --> Input Class Initialized
+INFO - 2026-03-02 11:16:09 --> Language Class Initialized
+INFO - 2026-03-02 11:16:09 --> Loader Class Initialized
+INFO - 2026-03-02 11:16:09 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:16:09 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:16:09 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:16:09 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:16:09 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:16:09 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:16:09 --> Encryption Class Initialized
+INFO - 2026-03-02 11:16:09 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:16:09 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:16:09 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:16:09 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:16:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:09 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:16:09 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:16:09 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "User_model" initialized
+INFO - 2026-03-02 11:16:09 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:16:09 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:16:09 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:16:09 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:16:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:09 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:16:09 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/listview.php
+INFO - 2026-03-02 11:16:09 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_add.php
+INFO - 2026-03-02 11:16:09 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_update.php
+INFO - 2026-03-02 11:16:09 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:16:09 --> Final output sent to browser
+DEBUG - 2026-03-02 11:16:09 --> Total execution time: 0.2234
+ERROR - 2026-03-02 11:16:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:16:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:09 --> Config Class Initialized
+INFO - 2026-03-02 11:16:09 --> Hooks Class Initialized
+INFO - 2026-03-02 11:16:09 --> Config Class Initialized
+INFO - 2026-03-02 11:16:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:16:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:09 --> URI Class Initialized
+INFO - 2026-03-02 11:16:09 --> URI Class Initialized
+INFO - 2026-03-02 11:16:09 --> Router Class Initialized
+INFO - 2026-03-02 11:16:09 --> Router Class Initialized
+INFO - 2026-03-02 11:16:09 --> Output Class Initialized
+INFO - 2026-03-02 11:16:09 --> Output Class Initialized
+INFO - 2026-03-02 11:16:09 --> Security Class Initialized
+INFO - 2026-03-02 11:16:09 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:09 --> Input Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:09 --> Input Class Initialized
+INFO - 2026-03-02 11:16:09 --> Language Class Initialized
+INFO - 2026-03-02 11:16:09 --> Language Class Initialized
+ERROR - 2026-03-02 11:16:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:16:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:16:09 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 11:16:09 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 11:16:09 --> Config Class Initialized
+INFO - 2026-03-02 11:16:09 --> Config Class Initialized
+INFO - 2026-03-02 11:16:09 --> Hooks Class Initialized
+INFO - 2026-03-02 11:16:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:16:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:09 --> URI Class Initialized
+INFO - 2026-03-02 11:16:09 --> URI Class Initialized
+INFO - 2026-03-02 11:16:09 --> Router Class Initialized
+INFO - 2026-03-02 11:16:09 --> Router Class Initialized
+INFO - 2026-03-02 11:16:09 --> Output Class Initialized
+INFO - 2026-03-02 11:16:09 --> Output Class Initialized
+INFO - 2026-03-02 11:16:09 --> Security Class Initialized
+INFO - 2026-03-02 11:16:09 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:16:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:09 --> Input Class Initialized
+INFO - 2026-03-02 11:16:09 --> Input Class Initialized
+INFO - 2026-03-02 11:16:09 --> Language Class Initialized
+INFO - 2026-03-02 11:16:09 --> Language Class Initialized
+ERROR - 2026-03-02 11:16:09 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 11:16:09 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 11:16:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:09 --> Config Class Initialized
+INFO - 2026-03-02 11:16:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:09 --> URI Class Initialized
+INFO - 2026-03-02 11:16:09 --> Router Class Initialized
+INFO - 2026-03-02 11:16:09 --> Output Class Initialized
+INFO - 2026-03-02 11:16:09 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:09 --> Input Class Initialized
+INFO - 2026-03-02 11:16:09 --> Language Class Initialized
+INFO - 2026-03-02 11:16:09 --> Loader Class Initialized
+INFO - 2026-03-02 11:16:09 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:16:09 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:16:09 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:16:09 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:16:09 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:16:09 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:16:09 --> Encryption Class Initialized
+INFO - 2026-03-02 11:16:09 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:16:09 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:16:09 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:16:09 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:16:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:09 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:16:09 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:16:09 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:16:09 --> Model "User_model" initialized
+INFO - 2026-03-02 11:16:09 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:16:09 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:16:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:16:09 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:16:09 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:16:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:09 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:16:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:12 --> Config Class Initialized
+INFO - 2026-03-02 11:16:12 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:12 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:12 --> URI Class Initialized
+INFO - 2026-03-02 11:16:12 --> Router Class Initialized
+INFO - 2026-03-02 11:16:12 --> Output Class Initialized
+INFO - 2026-03-02 11:16:12 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:12 --> Input Class Initialized
+INFO - 2026-03-02 11:16:12 --> Language Class Initialized
+INFO - 2026-03-02 11:16:12 --> Loader Class Initialized
+INFO - 2026-03-02 11:16:12 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:16:12 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:16:12 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:16:12 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:16:12 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:16:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:16:12 --> Encryption Class Initialized
+INFO - 2026-03-02 11:16:12 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:16:12 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:16:12 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:16:12 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:16:12 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:12 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:16:12 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:16:12 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "User_model" initialized
+INFO - 2026-03-02 11:16:12 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:16:12 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:16:12 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:16:12 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:16:12 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:12 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:16:12 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 11:16:12 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 11:16:12 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 11:16:12 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:16:12 --> Final output sent to browser
+DEBUG - 2026-03-02 11:16:12 --> Total execution time: 0.2185
+ERROR - 2026-03-02 11:16:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:16:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:12 --> Config Class Initialized
+INFO - 2026-03-02 11:16:12 --> Hooks Class Initialized
+INFO - 2026-03-02 11:16:12 --> Config Class Initialized
+INFO - 2026-03-02 11:16:12 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:12 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:12 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:12 --> URI Class Initialized
+INFO - 2026-03-02 11:16:12 --> URI Class Initialized
+INFO - 2026-03-02 11:16:12 --> Router Class Initialized
+INFO - 2026-03-02 11:16:12 --> Router Class Initialized
+INFO - 2026-03-02 11:16:12 --> Output Class Initialized
+INFO - 2026-03-02 11:16:12 --> Output Class Initialized
+INFO - 2026-03-02 11:16:12 --> Security Class Initialized
+INFO - 2026-03-02 11:16:12 --> Security Class Initialized
+ERROR - 2026-03-02 11:16:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:16:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 11:16:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:12 --> Input Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:12 --> Input Class Initialized
+INFO - 2026-03-02 11:16:12 --> Language Class Initialized
+INFO - 2026-03-02 11:16:12 --> Language Class Initialized
+INFO - 2026-03-02 11:16:12 --> Config Class Initialized
+INFO - 2026-03-02 11:16:12 --> Hooks Class Initialized
+INFO - 2026-03-02 11:16:12 --> Config Class Initialized
+INFO - 2026-03-02 11:16:12 --> Hooks Class Initialized
+ERROR - 2026-03-02 11:16:12 --> 404 Page Not Found: Libraries/img
+DEBUG - 2026-03-02 11:16:12 --> UTF-8 Support Enabled
+ERROR - 2026-03-02 11:16:12 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 11:16:12 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:12 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:12 --> URI Class Initialized
+INFO - 2026-03-02 11:16:12 --> URI Class Initialized
+INFO - 2026-03-02 11:16:12 --> Router Class Initialized
+INFO - 2026-03-02 11:16:12 --> Router Class Initialized
+INFO - 2026-03-02 11:16:12 --> Output Class Initialized
+INFO - 2026-03-02 11:16:12 --> Output Class Initialized
+INFO - 2026-03-02 11:16:12 --> Security Class Initialized
+INFO - 2026-03-02 11:16:12 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:16:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:12 --> Input Class Initialized
+INFO - 2026-03-02 11:16:12 --> Input Class Initialized
+INFO - 2026-03-02 11:16:12 --> Language Class Initialized
+INFO - 2026-03-02 11:16:12 --> Language Class Initialized
+ERROR - 2026-03-02 11:16:12 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 11:16:12 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 11:16:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:12 --> Config Class Initialized
+INFO - 2026-03-02 11:16:12 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:12 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:12 --> URI Class Initialized
+INFO - 2026-03-02 11:16:12 --> Router Class Initialized
+INFO - 2026-03-02 11:16:12 --> Output Class Initialized
+INFO - 2026-03-02 11:16:12 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:12 --> Input Class Initialized
+INFO - 2026-03-02 11:16:12 --> Language Class Initialized
+INFO - 2026-03-02 11:16:12 --> Loader Class Initialized
+INFO - 2026-03-02 11:16:12 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:16:12 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:16:12 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:16:12 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:16:12 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:16:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:16:12 --> Encryption Class Initialized
+INFO - 2026-03-02 11:16:12 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:16:12 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:16:12 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:16:12 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:16:12 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:12 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:16:12 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:16:12 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:16:12 --> Model "User_model" initialized
+INFO - 2026-03-02 11:16:12 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:16:12 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:16:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:16:12 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:16:12 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:16:12 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:12 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:16:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:17 --> Config Class Initialized
+INFO - 2026-03-02 11:16:17 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:17 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:17 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:17 --> URI Class Initialized
+INFO - 2026-03-02 11:16:17 --> Router Class Initialized
+INFO - 2026-03-02 11:16:17 --> Output Class Initialized
+INFO - 2026-03-02 11:16:17 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:17 --> Input Class Initialized
+INFO - 2026-03-02 11:16:17 --> Language Class Initialized
+ERROR - 2026-03-02 11:16:17 --> 404 Page Not Found: Libraries/procurementSettings
+ERROR - 2026-03-02 11:16:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:20 --> Config Class Initialized
+INFO - 2026-03-02 11:16:20 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:20 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:20 --> URI Class Initialized
+INFO - 2026-03-02 11:16:20 --> Router Class Initialized
+INFO - 2026-03-02 11:16:20 --> Output Class Initialized
+INFO - 2026-03-02 11:16:20 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:20 --> Input Class Initialized
+INFO - 2026-03-02 11:16:20 --> Language Class Initialized
+INFO - 2026-03-02 11:16:20 --> Loader Class Initialized
+INFO - 2026-03-02 11:16:20 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:16:20 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:16:20 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:16:20 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:16:20 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:16:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:16:20 --> Encryption Class Initialized
+INFO - 2026-03-02 11:16:20 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:16:20 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:16:20 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:16:20 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:16:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:20 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:16:20 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:16:20 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "User_model" initialized
+INFO - 2026-03-02 11:16:20 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:16:20 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:16:20 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:16:20 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:16:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:20 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:16:20 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 11:16:20 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 11:16:20 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 11:16:20 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:16:20 --> Final output sent to browser
+DEBUG - 2026-03-02 11:16:20 --> Total execution time: 0.2763
+ERROR - 2026-03-02 11:16:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:16:20 --> Config Class Initialized
+INFO - 2026-03-02 11:16:20 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:16:20 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:16:20 --> URI Class Initialized
+INFO - 2026-03-02 11:16:20 --> Router Class Initialized
+INFO - 2026-03-02 11:16:20 --> Output Class Initialized
+INFO - 2026-03-02 11:16:20 --> Security Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:16:20 --> Input Class Initialized
+INFO - 2026-03-02 11:16:20 --> Language Class Initialized
+INFO - 2026-03-02 11:16:20 --> Loader Class Initialized
+INFO - 2026-03-02 11:16:20 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:16:20 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:16:20 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:16:20 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:16:20 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:16:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:16:20 --> Encryption Class Initialized
+INFO - 2026-03-02 11:16:20 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:16:20 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:16:20 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:16:20 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:16:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:20 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:16:20 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:16:20 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:16:20 --> Model "User_model" initialized
+INFO - 2026-03-02 11:16:20 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:16:20 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:16:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:16:20 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:16:20 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:16:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:16:20 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:17:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:17:00 --> Config Class Initialized
+INFO - 2026-03-02 11:17:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:17:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:17:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:17:00 --> URI Class Initialized
+INFO - 2026-03-02 11:17:00 --> Router Class Initialized
+INFO - 2026-03-02 11:17:00 --> Output Class Initialized
+INFO - 2026-03-02 11:17:00 --> Security Class Initialized
+DEBUG - 2026-03-02 11:17:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:17:00 --> Input Class Initialized
+INFO - 2026-03-02 11:17:00 --> Language Class Initialized
+ERROR - 2026-03-02 11:17:00 --> 404 Page Not Found: Libraries/purchase_request
+ERROR - 2026-03-02 11:23:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:23:00 --> Config Class Initialized
+INFO - 2026-03-02 11:23:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:23:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:23:00 --> URI Class Initialized
+INFO - 2026-03-02 11:23:00 --> Router Class Initialized
+INFO - 2026-03-02 11:23:00 --> Output Class Initialized
+INFO - 2026-03-02 11:23:00 --> Security Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:23:00 --> Input Class Initialized
+INFO - 2026-03-02 11:23:00 --> Language Class Initialized
+INFO - 2026-03-02 11:23:00 --> Loader Class Initialized
+INFO - 2026-03-02 11:23:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:23:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:23:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:23:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:23:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:23:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:23:00 --> Encryption Class Initialized
+INFO - 2026-03-02 11:23:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:23:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:23:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:23:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:23:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:23:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:23:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "User_model" initialized
+INFO - 2026-03-02 11:23:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:23:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:23:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:23:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:23:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:00 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:23:00 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 11:23:00 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 11:23:00 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 11:23:00 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:23:00 --> Final output sent to browser
+DEBUG - 2026-03-02 11:23:00 --> Total execution time: 0.2811
+ERROR - 2026-03-02 11:23:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:23:00 --> Config Class Initialized
+INFO - 2026-03-02 11:23:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:23:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:23:00 --> URI Class Initialized
+INFO - 2026-03-02 11:23:00 --> Router Class Initialized
+INFO - 2026-03-02 11:23:00 --> Output Class Initialized
+INFO - 2026-03-02 11:23:00 --> Security Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:23:00 --> Input Class Initialized
+INFO - 2026-03-02 11:23:00 --> Language Class Initialized
+INFO - 2026-03-02 11:23:00 --> Loader Class Initialized
+INFO - 2026-03-02 11:23:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:23:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:23:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:23:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:23:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:23:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:23:00 --> Encryption Class Initialized
+INFO - 2026-03-02 11:23:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:23:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:23:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:23:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:23:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:23:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:23:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:23:00 --> Model "User_model" initialized
+INFO - 2026-03-02 11:23:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:23:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:23:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:23:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:23:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:23:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:00 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:23:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:23:01 --> Config Class Initialized
+INFO - 2026-03-02 11:23:01 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:23:01 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:23:01 --> URI Class Initialized
+INFO - 2026-03-02 11:23:01 --> Router Class Initialized
+INFO - 2026-03-02 11:23:01 --> Output Class Initialized
+INFO - 2026-03-02 11:23:01 --> Security Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:23:01 --> Input Class Initialized
+INFO - 2026-03-02 11:23:01 --> Language Class Initialized
+INFO - 2026-03-02 11:23:01 --> Loader Class Initialized
+INFO - 2026-03-02 11:23:01 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:23:01 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:23:01 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:23:01 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:23:01 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:23:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:23:01 --> Encryption Class Initialized
+INFO - 2026-03-02 11:23:01 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:23:01 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:23:01 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:23:01 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:23:01 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:01 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:23:01 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:23:01 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "User_model" initialized
+INFO - 2026-03-02 11:23:01 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:23:01 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:23:01 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:23:01 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:23:01 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:01 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:23:01 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/listview.php
+INFO - 2026-03-02 11:23:01 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_add.php
+INFO - 2026-03-02 11:23:01 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_update.php
+INFO - 2026-03-02 11:23:01 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:23:01 --> Final output sent to browser
+DEBUG - 2026-03-02 11:23:01 --> Total execution time: 0.1481
+ERROR - 2026-03-02 11:23:01 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:23:01 --> Config Class Initialized
+INFO - 2026-03-02 11:23:01 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:23:01 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:23:01 --> URI Class Initialized
+INFO - 2026-03-02 11:23:01 --> Router Class Initialized
+INFO - 2026-03-02 11:23:01 --> Output Class Initialized
+INFO - 2026-03-02 11:23:01 --> Security Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:23:01 --> Input Class Initialized
+INFO - 2026-03-02 11:23:01 --> Language Class Initialized
+INFO - 2026-03-02 11:23:01 --> Loader Class Initialized
+INFO - 2026-03-02 11:23:01 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:23:01 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:23:01 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:23:01 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:23:01 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:23:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:23:01 --> Encryption Class Initialized
+INFO - 2026-03-02 11:23:01 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:23:01 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:23:01 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:23:01 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:23:01 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:01 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:23:01 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:23:01 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:23:01 --> Model "User_model" initialized
+INFO - 2026-03-02 11:23:01 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:23:01 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:23:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:23:01 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:23:01 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:23:01 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:01 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:23:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:23:02 --> Config Class Initialized
+INFO - 2026-03-02 11:23:02 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:23:02 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:23:02 --> URI Class Initialized
+INFO - 2026-03-02 11:23:02 --> Router Class Initialized
+INFO - 2026-03-02 11:23:02 --> Output Class Initialized
+INFO - 2026-03-02 11:23:02 --> Security Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:23:02 --> Input Class Initialized
+INFO - 2026-03-02 11:23:02 --> Language Class Initialized
+INFO - 2026-03-02 11:23:02 --> Loader Class Initialized
+INFO - 2026-03-02 11:23:02 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:23:02 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:23:02 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:23:02 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:23:02 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:23:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:23:02 --> Encryption Class Initialized
+INFO - 2026-03-02 11:23:02 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:23:02 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:23:02 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:23:02 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:23:02 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:02 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:23:02 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:23:02 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "User_model" initialized
+INFO - 2026-03-02 11:23:02 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:23:02 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:23:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:23:02 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:23:02 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:02 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:23:02 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/listview.php
+INFO - 2026-03-02 11:23:02 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/modal_add.php
+INFO - 2026-03-02 11:23:02 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/item/modal_update.php
+INFO - 2026-03-02 11:23:02 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:23:02 --> Final output sent to browser
+DEBUG - 2026-03-02 11:23:02 --> Total execution time: 0.1345
+ERROR - 2026-03-02 11:23:02 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:23:02 --> Config Class Initialized
+INFO - 2026-03-02 11:23:02 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:23:02 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:23:02 --> URI Class Initialized
+INFO - 2026-03-02 11:23:02 --> Router Class Initialized
+INFO - 2026-03-02 11:23:02 --> Output Class Initialized
+INFO - 2026-03-02 11:23:02 --> Security Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:23:02 --> Input Class Initialized
+INFO - 2026-03-02 11:23:02 --> Language Class Initialized
+INFO - 2026-03-02 11:23:02 --> Loader Class Initialized
+INFO - 2026-03-02 11:23:02 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:23:02 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:23:02 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:23:02 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:23:02 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:23:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:23:02 --> Encryption Class Initialized
+INFO - 2026-03-02 11:23:02 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:23:02 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:23:02 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:23:02 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:23:02 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:02 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:23:02 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:23:02 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:23:02 --> Model "User_model" initialized
+INFO - 2026-03-02 11:23:02 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:23:02 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:23:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:23:02 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:23:02 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:23:02 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:02 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:23:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:23:48 --> Config Class Initialized
+INFO - 2026-03-02 11:23:48 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:23:48 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:23:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:23:48 --> URI Class Initialized
+INFO - 2026-03-02 11:23:48 --> Router Class Initialized
+INFO - 2026-03-02 11:23:48 --> Output Class Initialized
+INFO - 2026-03-02 11:23:48 --> Security Class Initialized
+DEBUG - 2026-03-02 11:23:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:23:48 --> Input Class Initialized
+INFO - 2026-03-02 11:23:48 --> Language Class Initialized
+INFO - 2026-03-02 11:23:48 --> Loader Class Initialized
+INFO - 2026-03-02 11:23:48 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:23:48 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:23:48 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:23:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:23:48 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:23:48 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:23:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:23:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:23:48 --> Encryption Class Initialized
+INFO - 2026-03-02 11:23:48 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:23:48 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:23:48 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:23:48 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:23:48 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:48 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:23:48 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:23:48 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:23:48 --> Model "User_model" initialized
+INFO - 2026-03-02 11:23:48 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:23:48 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:23:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:23:48 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:23:48 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:23:48 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:23:48 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 11:23:48 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 11:23:48 --> Final output sent to browser
+DEBUG - 2026-03-02 11:23:48 --> Total execution time: 0.2132
+ERROR - 2026-03-02 11:34:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:34:09 --> Config Class Initialized
+INFO - 2026-03-02 11:34:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:34:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:34:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:34:09 --> URI Class Initialized
+INFO - 2026-03-02 11:34:09 --> Router Class Initialized
+INFO - 2026-03-02 11:34:09 --> Output Class Initialized
+INFO - 2026-03-02 11:34:09 --> Security Class Initialized
+DEBUG - 2026-03-02 11:34:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:34:09 --> Input Class Initialized
+INFO - 2026-03-02 11:34:09 --> Language Class Initialized
+INFO - 2026-03-02 11:34:09 --> Loader Class Initialized
+INFO - 2026-03-02 11:34:09 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:34:09 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:34:09 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:34:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:34:09 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:34:09 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:34:09 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:34:09 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:34:09 --> Encryption Class Initialized
+INFO - 2026-03-02 11:34:09 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:34:09 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:34:09 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:34:09 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:34:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:34:09 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:34:09 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:34:09 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:34:09 --> Model "User_model" initialized
+INFO - 2026-03-02 11:34:09 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:34:09 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:34:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:34:09 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:34:09 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:34:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:34:09 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 11:34:09 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 11:34:09 --> Helper loaded: email_helper
+ERROR - 2026-03-02 11:34:09 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 11:34:10 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 11:34:10 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 11:34:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:34:10 --> Config Class Initialized
+INFO - 2026-03-02 11:34:10 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:34:10 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:34:10 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:34:10 --> URI Class Initialized
+INFO - 2026-03-02 11:34:10 --> Router Class Initialized
+INFO - 2026-03-02 11:34:10 --> Output Class Initialized
+INFO - 2026-03-02 11:34:10 --> Security Class Initialized
+DEBUG - 2026-03-02 11:34:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:34:10 --> Input Class Initialized
+INFO - 2026-03-02 11:34:10 --> Language Class Initialized
+INFO - 2026-03-02 11:34:10 --> Loader Class Initialized
+INFO - 2026-03-02 11:34:10 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:34:10 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:34:10 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:34:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:34:10 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:34:10 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:34:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:34:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:34:10 --> Encryption Class Initialized
+INFO - 2026-03-02 11:34:10 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:34:10 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:34:10 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:34:10 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:34:10 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:34:10 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:34:10 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:34:10 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:34:10 --> Model "User_model" initialized
+INFO - 2026-03-02 11:34:10 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:34:10 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:34:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:34:10 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:34:10 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:34:10 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:34:10 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 11:34:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:34:10 --> Config Class Initialized
+INFO - 2026-03-02 11:34:10 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:34:10 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:34:10 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:34:10 --> URI Class Initialized
+INFO - 2026-03-02 11:34:10 --> Router Class Initialized
+INFO - 2026-03-02 11:34:10 --> Output Class Initialized
+INFO - 2026-03-02 11:34:10 --> Security Class Initialized
+DEBUG - 2026-03-02 11:34:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:34:10 --> Input Class Initialized
+INFO - 2026-03-02 11:34:10 --> Language Class Initialized
+ERROR - 2026-03-02 11:34:10 --> 404 Page Not Found: PatientRegistration/allpatientList
+ERROR - 2026-03-02 11:34:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:34:24 --> Config Class Initialized
+INFO - 2026-03-02 11:34:24 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:34:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:34:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:34:24 --> URI Class Initialized
+INFO - 2026-03-02 11:34:24 --> Router Class Initialized
+INFO - 2026-03-02 11:34:24 --> Output Class Initialized
+INFO - 2026-03-02 11:34:24 --> Security Class Initialized
+DEBUG - 2026-03-02 11:34:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:34:24 --> Input Class Initialized
+INFO - 2026-03-02 11:34:24 --> Language Class Initialized
+ERROR - 2026-03-02 11:34:24 --> 404 Page Not Found: PurchaseRequest/index
+ERROR - 2026-03-02 11:35:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:35:14 --> Config Class Initialized
+INFO - 2026-03-02 11:35:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:35:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:35:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:35:14 --> URI Class Initialized
+INFO - 2026-03-02 11:35:14 --> Router Class Initialized
+INFO - 2026-03-02 11:35:14 --> Output Class Initialized
+INFO - 2026-03-02 11:35:14 --> Security Class Initialized
+DEBUG - 2026-03-02 11:35:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:35:14 --> Input Class Initialized
+INFO - 2026-03-02 11:35:14 --> Language Class Initialized
+INFO - 2026-03-02 11:35:14 --> Loader Class Initialized
+INFO - 2026-03-02 11:35:14 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:35:14 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:35:14 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:35:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:35:14 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:35:14 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:35:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:35:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:35:14 --> Encryption Class Initialized
+INFO - 2026-03-02 11:35:14 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:35:14 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:35:14 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:35:14 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:35:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:35:14 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:35:14 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:35:14 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:35:14 --> Model "User_model" initialized
+INFO - 2026-03-02 11:35:14 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:35:14 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:35:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:35:14 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:35:14 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:35:14 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:35:15 --> Severity: error --> Exception: Unable to locate the model you have specified: PurchaseRequestModel C:\xampp\htdocs\pms\system\core\Loader.php 350
+ERROR - 2026-03-02 11:35:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:35:49 --> Config Class Initialized
+INFO - 2026-03-02 11:35:49 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:35:49 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:35:49 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:35:49 --> URI Class Initialized
+INFO - 2026-03-02 11:35:49 --> Router Class Initialized
+INFO - 2026-03-02 11:35:49 --> Output Class Initialized
+INFO - 2026-03-02 11:35:49 --> Security Class Initialized
+DEBUG - 2026-03-02 11:35:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:35:49 --> Input Class Initialized
+INFO - 2026-03-02 11:35:49 --> Language Class Initialized
+INFO - 2026-03-02 11:35:49 --> Loader Class Initialized
+INFO - 2026-03-02 11:35:49 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:35:49 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:35:49 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:35:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:35:49 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:35:49 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:35:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:35:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:35:49 --> Encryption Class Initialized
+INFO - 2026-03-02 11:35:49 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:35:49 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:35:49 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:35:49 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:35:49 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:35:49 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:35:49 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:35:49 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:35:49 --> Model "User_model" initialized
+INFO - 2026-03-02 11:35:49 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:35:49 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:35:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:35:49 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:35:49 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:35:49 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:35:49 --> Severity: error --> Exception: C:\xampp\htdocs\pms\application\models/PurchaseRequestModel.php exists, but doesn't declare class PurchaseRequestModel C:\xampp\htdocs\pms\system\core\Loader.php 342
+ERROR - 2026-03-02 11:36:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:36:54 --> Config Class Initialized
+INFO - 2026-03-02 11:36:54 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:36:54 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:36:54 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:36:54 --> URI Class Initialized
+INFO - 2026-03-02 11:36:54 --> Router Class Initialized
+INFO - 2026-03-02 11:36:54 --> Output Class Initialized
+INFO - 2026-03-02 11:36:54 --> Security Class Initialized
+DEBUG - 2026-03-02 11:36:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:36:54 --> Input Class Initialized
+INFO - 2026-03-02 11:36:54 --> Language Class Initialized
+INFO - 2026-03-02 11:36:54 --> Loader Class Initialized
+INFO - 2026-03-02 11:36:54 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:36:54 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:36:54 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:36:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:36:54 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:36:54 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:36:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:36:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:36:54 --> Encryption Class Initialized
+INFO - 2026-03-02 11:36:54 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:36:54 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:36:54 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:36:54 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:36:54 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:36:54 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:36:54 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:36:54 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:36:54 --> Model "User_model" initialized
+INFO - 2026-03-02 11:36:54 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:36:54 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:36:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:36:54 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:36:54 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:36:54 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:36:54 --> Severity: Compile Error --> Cannot declare class BedsModel, because the name is already in use C:\xampp\htdocs\pms\application\models\PurchaseRequestModel.php 4
+ERROR - 2026-03-02 11:37:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:37:08 --> Config Class Initialized
+INFO - 2026-03-02 11:37:08 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:37:08 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:37:08 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:37:08 --> URI Class Initialized
+INFO - 2026-03-02 11:37:08 --> Router Class Initialized
+INFO - 2026-03-02 11:37:08 --> Output Class Initialized
+INFO - 2026-03-02 11:37:08 --> Security Class Initialized
+DEBUG - 2026-03-02 11:37:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:37:08 --> Input Class Initialized
+INFO - 2026-03-02 11:37:08 --> Language Class Initialized
+INFO - 2026-03-02 11:37:08 --> Loader Class Initialized
+INFO - 2026-03-02 11:37:08 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:37:08 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:37:08 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:37:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:37:08 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:37:08 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:37:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:37:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:37:08 --> Encryption Class Initialized
+INFO - 2026-03-02 11:37:08 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:37:08 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:37:08 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:37:08 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:37:08 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:37:08 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:37:08 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:37:08 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:37:08 --> Model "User_model" initialized
+INFO - 2026-03-02 11:37:08 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:37:08 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:37:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:37:08 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:37:08 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:37:08 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:37:08 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:37:08 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+ERROR - 2026-03-02 11:48:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:48:45 --> Config Class Initialized
+INFO - 2026-03-02 11:48:45 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:48:45 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:48:45 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:48:45 --> URI Class Initialized
+INFO - 2026-03-02 11:48:45 --> Router Class Initialized
+INFO - 2026-03-02 11:48:45 --> Output Class Initialized
+INFO - 2026-03-02 11:48:45 --> Security Class Initialized
+DEBUG - 2026-03-02 11:48:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:48:45 --> Input Class Initialized
+INFO - 2026-03-02 11:48:45 --> Language Class Initialized
+INFO - 2026-03-02 11:48:45 --> Loader Class Initialized
+INFO - 2026-03-02 11:48:45 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:48:45 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:48:45 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:48:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:48:45 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:48:45 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:48:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:48:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:48:45 --> Encryption Class Initialized
+INFO - 2026-03-02 11:48:45 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:48:45 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:48:45 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:48:45 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:48:45 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:48:45 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:48:45 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:48:45 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:48:45 --> Model "User_model" initialized
+INFO - 2026-03-02 11:48:45 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:48:45 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:48:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:48:45 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:48:45 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:48:45 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:48:45 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:48:45 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+ERROR - 2026-03-02 11:49:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:49:00 --> Config Class Initialized
+INFO - 2026-03-02 11:49:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:49:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:49:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:49:00 --> URI Class Initialized
+INFO - 2026-03-02 11:49:00 --> Router Class Initialized
+INFO - 2026-03-02 11:49:00 --> Output Class Initialized
+INFO - 2026-03-02 11:49:00 --> Security Class Initialized
+DEBUG - 2026-03-02 11:49:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:49:00 --> Input Class Initialized
+INFO - 2026-03-02 11:49:00 --> Language Class Initialized
+INFO - 2026-03-02 11:49:00 --> Loader Class Initialized
+INFO - 2026-03-02 11:49:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:49:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:49:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:49:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:49:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:49:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:49:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:49:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:49:00 --> Encryption Class Initialized
+INFO - 2026-03-02 11:49:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:49:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:49:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:49:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:49:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:49:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:49:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:49:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:49:00 --> Model "User_model" initialized
+INFO - 2026-03-02 11:49:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:49:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:49:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:49:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:49:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:49:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:49:00 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:49:00 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:49:00 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+ERROR - 2026-03-02 11:49:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:49:07 --> Config Class Initialized
+INFO - 2026-03-02 11:49:07 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:49:07 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:49:07 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:49:07 --> URI Class Initialized
+INFO - 2026-03-02 11:49:07 --> Router Class Initialized
+INFO - 2026-03-02 11:49:07 --> Output Class Initialized
+INFO - 2026-03-02 11:49:07 --> Security Class Initialized
+DEBUG - 2026-03-02 11:49:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:49:07 --> Input Class Initialized
+INFO - 2026-03-02 11:49:07 --> Language Class Initialized
+INFO - 2026-03-02 11:49:07 --> Loader Class Initialized
+INFO - 2026-03-02 11:49:07 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:49:07 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:49:07 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:49:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:49:07 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:49:07 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:49:07 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:49:07 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:49:07 --> Encryption Class Initialized
+INFO - 2026-03-02 11:49:07 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:49:07 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:49:07 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:49:07 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:49:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:49:07 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:49:07 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:49:07 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:49:07 --> Model "User_model" initialized
+INFO - 2026-03-02 11:49:07 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:49:07 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:49:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:49:07 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:49:07 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:49:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:49:08 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:49:08 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:49:08 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 11:49:08 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 11:49:08 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 11:49:08 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:49:08 --> Final output sent to browser
+DEBUG - 2026-03-02 11:49:08 --> Total execution time: 0.2325
+ERROR - 2026-03-02 11:49:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:49:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:49:08 --> Config Class Initialized
+INFO - 2026-03-02 11:49:08 --> Hooks Class Initialized
+INFO - 2026-03-02 11:49:08 --> Config Class Initialized
+INFO - 2026-03-02 11:49:08 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:49:08 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:49:08 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 11:49:08 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:49:08 --> URI Class Initialized
+INFO - 2026-03-02 11:49:08 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:49:08 --> URI Class Initialized
+INFO - 2026-03-02 11:49:08 --> Router Class Initialized
+INFO - 2026-03-02 11:49:08 --> Router Class Initialized
+INFO - 2026-03-02 11:49:08 --> Output Class Initialized
+INFO - 2026-03-02 11:49:08 --> Output Class Initialized
+INFO - 2026-03-02 11:49:08 --> Security Class Initialized
+INFO - 2026-03-02 11:49:08 --> Security Class Initialized
+DEBUG - 2026-03-02 11:49:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:49:08 --> Input Class Initialized
+INFO - 2026-03-02 11:49:08 --> Language Class Initialized
+DEBUG - 2026-03-02 11:49:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:49:08 --> Input Class Initialized
+INFO - 2026-03-02 11:49:08 --> Language Class Initialized
+ERROR - 2026-03-02 11:49:08 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 11:49:08 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 11:49:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:49:08 --> Config Class Initialized
+INFO - 2026-03-02 11:49:08 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:49:08 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:49:08 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:49:08 --> URI Class Initialized
+INFO - 2026-03-02 11:49:08 --> Router Class Initialized
+INFO - 2026-03-02 11:49:08 --> Output Class Initialized
+INFO - 2026-03-02 11:49:08 --> Security Class Initialized
+DEBUG - 2026-03-02 11:49:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:49:08 --> Input Class Initialized
+INFO - 2026-03-02 11:49:08 --> Language Class Initialized
+ERROR - 2026-03-02 11:49:08 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 11:49:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:49:08 --> Config Class Initialized
+INFO - 2026-03-02 11:49:08 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:49:08 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:49:08 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:49:08 --> URI Class Initialized
+INFO - 2026-03-02 11:49:08 --> Router Class Initialized
+INFO - 2026-03-02 11:49:08 --> Output Class Initialized
+INFO - 2026-03-02 11:49:08 --> Security Class Initialized
+DEBUG - 2026-03-02 11:49:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:49:08 --> Input Class Initialized
+INFO - 2026-03-02 11:49:08 --> Language Class Initialized
+ERROR - 2026-03-02 11:49:08 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 11:50:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:50:14 --> Config Class Initialized
+INFO - 2026-03-02 11:50:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:50:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:50:14 --> URI Class Initialized
+INFO - 2026-03-02 11:50:14 --> Router Class Initialized
+INFO - 2026-03-02 11:50:14 --> Output Class Initialized
+INFO - 2026-03-02 11:50:14 --> Security Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:50:14 --> Input Class Initialized
+INFO - 2026-03-02 11:50:14 --> Language Class Initialized
+INFO - 2026-03-02 11:50:14 --> Loader Class Initialized
+INFO - 2026-03-02 11:50:14 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:50:14 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:50:14 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:50:14 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:50:14 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:50:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:50:14 --> Encryption Class Initialized
+INFO - 2026-03-02 11:50:14 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:50:14 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:50:14 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:50:14 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:50:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:50:14 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:50:14 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:50:14 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "User_model" initialized
+INFO - 2026-03-02 11:50:14 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:50:14 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:50:14 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:50:14 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:50:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:50:14 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:50:14 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:50:14 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 11:50:14 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 11:50:14 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 11:50:14 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:50:14 --> Final output sent to browser
+DEBUG - 2026-03-02 11:50:14 --> Total execution time: 0.2585
+ERROR - 2026-03-02 11:50:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:50:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:50:14 --> Config Class Initialized
+INFO - 2026-03-02 11:50:14 --> Hooks Class Initialized
+INFO - 2026-03-02 11:50:14 --> Config Class Initialized
+INFO - 2026-03-02 11:50:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:50:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:50:14 --> URI Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:50:14 --> Router Class Initialized
+INFO - 2026-03-02 11:50:14 --> Utf8 Class Initialized
+ERROR - 2026-03-02 11:50:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:50:14 --> URI Class Initialized
+INFO - 2026-03-02 11:50:14 --> Output Class Initialized
+ERROR - 2026-03-02 11:50:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:50:14 --> Config Class Initialized
+INFO - 2026-03-02 11:50:14 --> Hooks Class Initialized
+INFO - 2026-03-02 11:50:14 --> Router Class Initialized
+INFO - 2026-03-02 11:50:14 --> Security Class Initialized
+INFO - 2026-03-02 11:50:14 --> Config Class Initialized
+INFO - 2026-03-02 11:50:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:50:14 --> Input Class Initialized
+INFO - 2026-03-02 11:50:14 --> Output Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:50:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:50:14 --> Language Class Initialized
+INFO - 2026-03-02 11:50:14 --> Security Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:50:14 --> URI Class Initialized
+INFO - 2026-03-02 11:50:14 --> Utf8 Class Initialized
+ERROR - 2026-03-02 11:50:14 --> 404 Page Not Found: Img/undraw_profile_2.svg
+DEBUG - 2026-03-02 11:50:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:50:14 --> URI Class Initialized
+INFO - 2026-03-02 11:50:14 --> Input Class Initialized
+INFO - 2026-03-02 11:50:14 --> Router Class Initialized
+INFO - 2026-03-02 11:50:14 --> Router Class Initialized
+INFO - 2026-03-02 11:50:14 --> Language Class Initialized
+INFO - 2026-03-02 11:50:14 --> Output Class Initialized
+INFO - 2026-03-02 11:50:14 --> Output Class Initialized
+ERROR - 2026-03-02 11:50:14 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 11:50:14 --> Security Class Initialized
+INFO - 2026-03-02 11:50:14 --> Security Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:50:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:50:14 --> Input Class Initialized
+INFO - 2026-03-02 11:50:14 --> Input Class Initialized
+INFO - 2026-03-02 11:50:14 --> Language Class Initialized
+INFO - 2026-03-02 11:50:14 --> Language Class Initialized
+ERROR - 2026-03-02 11:50:14 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 11:50:14 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 11:50:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:50:14 --> Config Class Initialized
+INFO - 2026-03-02 11:50:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:50:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:50:14 --> URI Class Initialized
+INFO - 2026-03-02 11:50:14 --> Router Class Initialized
+INFO - 2026-03-02 11:50:14 --> Output Class Initialized
+INFO - 2026-03-02 11:50:14 --> Security Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:50:14 --> Input Class Initialized
+INFO - 2026-03-02 11:50:14 --> Language Class Initialized
+INFO - 2026-03-02 11:50:14 --> Loader Class Initialized
+INFO - 2026-03-02 11:50:14 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:50:14 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:50:14 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:50:14 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:50:14 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:50:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:50:14 --> Encryption Class Initialized
+INFO - 2026-03-02 11:50:14 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:50:14 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:50:14 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:50:14 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:50:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:50:14 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:50:14 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:50:14 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:50:14 --> Model "User_model" initialized
+INFO - 2026-03-02 11:50:14 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:50:14 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:50:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:50:14 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:50:14 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:50:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:50:14 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:57:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:36 --> Config Class Initialized
+INFO - 2026-03-02 11:57:36 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:36 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:36 --> URI Class Initialized
+INFO - 2026-03-02 11:57:36 --> Router Class Initialized
+INFO - 2026-03-02 11:57:36 --> Output Class Initialized
+INFO - 2026-03-02 11:57:36 --> Security Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:36 --> Input Class Initialized
+INFO - 2026-03-02 11:57:36 --> Language Class Initialized
+INFO - 2026-03-02 11:57:36 --> Loader Class Initialized
+INFO - 2026-03-02 11:57:36 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:57:36 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:57:36 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:57:36 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:57:36 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:57:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:57:36 --> Encryption Class Initialized
+INFO - 2026-03-02 11:57:36 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:57:36 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:57:36 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:57:36 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:57:36 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:57:36 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:57:36 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:57:36 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:57:36 --> Model "User_model" initialized
+INFO - 2026-03-02 11:57:36 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:57:36 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:57:36 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:57:36 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:57:36 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:57:36 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:57:36 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:57:36 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 11:57:36 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 11:57:36 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 11:57:36 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:57:36 --> Final output sent to browser
+DEBUG - 2026-03-02 11:57:36 --> Total execution time: 0.2808
+ERROR - 2026-03-02 11:57:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:57:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:36 --> Config Class Initialized
+INFO - 2026-03-02 11:57:36 --> Config Class Initialized
+INFO - 2026-03-02 11:57:36 --> Hooks Class Initialized
+INFO - 2026-03-02 11:57:36 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:57:36 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:36 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:36 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:36 --> URI Class Initialized
+INFO - 2026-03-02 11:57:36 --> URI Class Initialized
+ERROR - 2026-03-02 11:57:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:57:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:36 --> Router Class Initialized
+INFO - 2026-03-02 11:57:36 --> Router Class Initialized
+INFO - 2026-03-02 11:57:36 --> Config Class Initialized
+INFO - 2026-03-02 11:57:36 --> Config Class Initialized
+INFO - 2026-03-02 11:57:36 --> Hooks Class Initialized
+INFO - 2026-03-02 11:57:36 --> Hooks Class Initialized
+INFO - 2026-03-02 11:57:36 --> Output Class Initialized
+INFO - 2026-03-02 11:57:36 --> Output Class Initialized
+INFO - 2026-03-02 11:57:36 --> Security Class Initialized
+INFO - 2026-03-02 11:57:36 --> Security Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:57:36 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:36 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:36 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:36 --> Input Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:36 --> URI Class Initialized
+INFO - 2026-03-02 11:57:36 --> Input Class Initialized
+INFO - 2026-03-02 11:57:36 --> URI Class Initialized
+INFO - 2026-03-02 11:57:36 --> Language Class Initialized
+INFO - 2026-03-02 11:57:36 --> Language Class Initialized
+INFO - 2026-03-02 11:57:36 --> Router Class Initialized
+ERROR - 2026-03-02 11:57:36 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 11:57:36 --> Router Class Initialized
+ERROR - 2026-03-02 11:57:36 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 11:57:36 --> Output Class Initialized
+INFO - 2026-03-02 11:57:36 --> Output Class Initialized
+INFO - 2026-03-02 11:57:36 --> Security Class Initialized
+INFO - 2026-03-02 11:57:36 --> Security Class Initialized
+DEBUG - 2026-03-02 11:57:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:57:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:36 --> Input Class Initialized
+INFO - 2026-03-02 11:57:36 --> Input Class Initialized
+INFO - 2026-03-02 11:57:36 --> Language Class Initialized
+INFO - 2026-03-02 11:57:36 --> Language Class Initialized
+ERROR - 2026-03-02 11:57:36 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 11:57:36 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 11:57:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:37 --> Config Class Initialized
+INFO - 2026-03-02 11:57:37 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:57:37 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:37 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:37 --> URI Class Initialized
+INFO - 2026-03-02 11:57:37 --> Router Class Initialized
+INFO - 2026-03-02 11:57:37 --> Output Class Initialized
+INFO - 2026-03-02 11:57:37 --> Security Class Initialized
+DEBUG - 2026-03-02 11:57:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:37 --> Input Class Initialized
+INFO - 2026-03-02 11:57:37 --> Language Class Initialized
+INFO - 2026-03-02 11:57:37 --> Loader Class Initialized
+INFO - 2026-03-02 11:57:37 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:57:37 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:57:37 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:57:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:57:37 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:57:37 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:57:37 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:57:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:57:37 --> Encryption Class Initialized
+INFO - 2026-03-02 11:57:37 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:57:37 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:57:37 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:57:37 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:57:37 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:57:37 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:57:37 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:57:37 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:57:37 --> Model "User_model" initialized
+INFO - 2026-03-02 11:57:37 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:57:37 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:57:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:57:37 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:57:37 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:57:37 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:57:37 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:57:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:50 --> Config Class Initialized
+INFO - 2026-03-02 11:57:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:50 --> URI Class Initialized
+INFO - 2026-03-02 11:57:50 --> Router Class Initialized
+INFO - 2026-03-02 11:57:50 --> Output Class Initialized
+INFO - 2026-03-02 11:57:50 --> Security Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:50 --> Input Class Initialized
+INFO - 2026-03-02 11:57:50 --> Language Class Initialized
+INFO - 2026-03-02 11:57:50 --> Loader Class Initialized
+INFO - 2026-03-02 11:57:50 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:57:50 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:57:50 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:57:50 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:57:50 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:57:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:57:50 --> Encryption Class Initialized
+INFO - 2026-03-02 11:57:50 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:57:50 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:57:50 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:57:50 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:57:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:57:50 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:57:50 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:57:50 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "User_model" initialized
+INFO - 2026-03-02 11:57:50 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:57:50 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:57:50 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:57:50 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:57:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:57:50 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:57:50 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:57:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 11:57:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 11:57:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 11:57:50 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:57:50 --> Final output sent to browser
+DEBUG - 2026-03-02 11:57:50 --> Total execution time: 0.1953
+ERROR - 2026-03-02 11:57:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:50 --> Config Class Initialized
+INFO - 2026-03-02 11:57:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:50 --> Utf8 Class Initialized
+ERROR - 2026-03-02 11:57:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:50 --> URI Class Initialized
+ERROR - 2026-03-02 11:57:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:57:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:50 --> Config Class Initialized
+INFO - 2026-03-02 11:57:50 --> Router Class Initialized
+INFO - 2026-03-02 11:57:50 --> Hooks Class Initialized
+INFO - 2026-03-02 11:57:50 --> Config Class Initialized
+INFO - 2026-03-02 11:57:50 --> Config Class Initialized
+INFO - 2026-03-02 11:57:50 --> Output Class Initialized
+INFO - 2026-03-02 11:57:50 --> Hooks Class Initialized
+INFO - 2026-03-02 11:57:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:50 --> Security Class Initialized
+INFO - 2026-03-02 11:57:50 --> URI Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:57:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:57:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:50 --> Input Class Initialized
+INFO - 2026-03-02 11:57:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:50 --> Router Class Initialized
+INFO - 2026-03-02 11:57:50 --> Language Class Initialized
+INFO - 2026-03-02 11:57:50 --> URI Class Initialized
+INFO - 2026-03-02 11:57:50 --> URI Class Initialized
+INFO - 2026-03-02 11:57:50 --> Output Class Initialized
+ERROR - 2026-03-02 11:57:50 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 11:57:50 --> Router Class Initialized
+INFO - 2026-03-02 11:57:50 --> Router Class Initialized
+INFO - 2026-03-02 11:57:50 --> Security Class Initialized
+INFO - 2026-03-02 11:57:50 --> Output Class Initialized
+INFO - 2026-03-02 11:57:50 --> Output Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:50 --> Input Class Initialized
+INFO - 2026-03-02 11:57:50 --> Security Class Initialized
+INFO - 2026-03-02 11:57:50 --> Security Class Initialized
+INFO - 2026-03-02 11:57:50 --> Language Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:57:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:50 --> Input Class Initialized
+INFO - 2026-03-02 11:57:50 --> Input Class Initialized
+ERROR - 2026-03-02 11:57:50 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 11:57:50 --> Language Class Initialized
+INFO - 2026-03-02 11:57:50 --> Language Class Initialized
+ERROR - 2026-03-02 11:57:50 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 11:57:50 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 11:57:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:57:50 --> Config Class Initialized
+INFO - 2026-03-02 11:57:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:57:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:57:50 --> URI Class Initialized
+INFO - 2026-03-02 11:57:50 --> Router Class Initialized
+INFO - 2026-03-02 11:57:50 --> Output Class Initialized
+INFO - 2026-03-02 11:57:50 --> Security Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:57:50 --> Input Class Initialized
+INFO - 2026-03-02 11:57:50 --> Language Class Initialized
+INFO - 2026-03-02 11:57:50 --> Loader Class Initialized
+INFO - 2026-03-02 11:57:50 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:57:50 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:57:50 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:57:50 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:57:50 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:57:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:57:50 --> Encryption Class Initialized
+INFO - 2026-03-02 11:57:50 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:57:50 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:57:50 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:57:50 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:57:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:57:50 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:57:50 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:57:50 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:57:50 --> Model "User_model" initialized
+INFO - 2026-03-02 11:57:50 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:57:50 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:57:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:57:50 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:57:50 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:57:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:57:50 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:59:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:27 --> Config Class Initialized
+INFO - 2026-03-02 11:59:27 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:27 --> URI Class Initialized
+INFO - 2026-03-02 11:59:27 --> Router Class Initialized
+INFO - 2026-03-02 11:59:27 --> Output Class Initialized
+INFO - 2026-03-02 11:59:27 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:27 --> Input Class Initialized
+INFO - 2026-03-02 11:59:27 --> Language Class Initialized
+INFO - 2026-03-02 11:59:27 --> Loader Class Initialized
+INFO - 2026-03-02 11:59:27 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:59:27 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:59:27 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:59:27 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:59:27 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:59:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:59:27 --> Encryption Class Initialized
+INFO - 2026-03-02 11:59:27 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:59:27 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:59:27 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:59:27 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:59:27 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:27 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:59:27 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:59:27 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "User_model" initialized
+INFO - 2026-03-02 11:59:27 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:59:27 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:59:27 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:59:27 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:59:27 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:27 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:59:27 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:59:27 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 11:59:27 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 11:59:27 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 11:59:27 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:59:27 --> Final output sent to browser
+DEBUG - 2026-03-02 11:59:27 --> Total execution time: 0.1249
+ERROR - 2026-03-02 11:59:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:59:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:27 --> Config Class Initialized
+INFO - 2026-03-02 11:59:27 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:27 --> Config Class Initialized
+INFO - 2026-03-02 11:59:27 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:27 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:27 --> URI Class Initialized
+INFO - 2026-03-02 11:59:27 --> URI Class Initialized
+ERROR - 2026-03-02 11:59:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:27 --> Router Class Initialized
+ERROR - 2026-03-02 11:59:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:27 --> Router Class Initialized
+INFO - 2026-03-02 11:59:27 --> Output Class Initialized
+INFO - 2026-03-02 11:59:27 --> Output Class Initialized
+INFO - 2026-03-02 11:59:27 --> Config Class Initialized
+INFO - 2026-03-02 11:59:27 --> Config Class Initialized
+INFO - 2026-03-02 11:59:27 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:27 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:27 --> Security Class Initialized
+INFO - 2026-03-02 11:59:27 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:27 --> Input Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:59:27 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:59:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:27 --> Input Class Initialized
+INFO - 2026-03-02 11:59:27 --> Language Class Initialized
+INFO - 2026-03-02 11:59:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:27 --> Language Class Initialized
+INFO - 2026-03-02 11:59:27 --> URI Class Initialized
+INFO - 2026-03-02 11:59:27 --> URI Class Initialized
+ERROR - 2026-03-02 11:59:27 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 11:59:27 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 11:59:27 --> Router Class Initialized
+INFO - 2026-03-02 11:59:27 --> Router Class Initialized
+INFO - 2026-03-02 11:59:27 --> Output Class Initialized
+INFO - 2026-03-02 11:59:27 --> Output Class Initialized
+INFO - 2026-03-02 11:59:27 --> Security Class Initialized
+INFO - 2026-03-02 11:59:27 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:59:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:27 --> Input Class Initialized
+INFO - 2026-03-02 11:59:27 --> Input Class Initialized
+INFO - 2026-03-02 11:59:27 --> Language Class Initialized
+INFO - 2026-03-02 11:59:27 --> Language Class Initialized
+ERROR - 2026-03-02 11:59:27 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 11:59:27 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 11:59:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:27 --> Config Class Initialized
+INFO - 2026-03-02 11:59:27 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:27 --> URI Class Initialized
+INFO - 2026-03-02 11:59:27 --> Router Class Initialized
+INFO - 2026-03-02 11:59:27 --> Output Class Initialized
+INFO - 2026-03-02 11:59:27 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:27 --> Input Class Initialized
+INFO - 2026-03-02 11:59:27 --> Language Class Initialized
+INFO - 2026-03-02 11:59:27 --> Loader Class Initialized
+INFO - 2026-03-02 11:59:27 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:59:27 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:59:27 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:59:27 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:59:27 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:59:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:59:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:59:27 --> Encryption Class Initialized
+INFO - 2026-03-02 11:59:27 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:59:27 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:59:27 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:59:27 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:59:27 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:27 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:59:27 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:59:27 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:59:28 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "User_model" initialized
+INFO - 2026-03-02 11:59:28 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:59:28 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:59:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:59:28 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:59:28 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:59:28 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:28 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:59:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:28 --> Config Class Initialized
+INFO - 2026-03-02 11:59:28 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:28 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:28 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:28 --> URI Class Initialized
+INFO - 2026-03-02 11:59:28 --> Router Class Initialized
+INFO - 2026-03-02 11:59:28 --> Output Class Initialized
+INFO - 2026-03-02 11:59:28 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:28 --> Input Class Initialized
+INFO - 2026-03-02 11:59:28 --> Language Class Initialized
+INFO - 2026-03-02 11:59:28 --> Loader Class Initialized
+INFO - 2026-03-02 11:59:28 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:59:28 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:59:28 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:59:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:59:28 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:59:28 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:59:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:59:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:59:28 --> Encryption Class Initialized
+INFO - 2026-03-02 11:59:28 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:59:28 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:59:28 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:59:28 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:59:28 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:28 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:59:28 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:59:28 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:59:28 --> Model "User_model" initialized
+INFO - 2026-03-02 11:59:28 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:59:28 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:59:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:59:28 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:59:28 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:59:28 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:29 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:59:29 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:59:29 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 11:59:29 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 11:59:29 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 11:59:29 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:59:29 --> Final output sent to browser
+DEBUG - 2026-03-02 11:59:29 --> Total execution time: 0.1773
+ERROR - 2026-03-02 11:59:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:59:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:29 --> Config Class Initialized
+INFO - 2026-03-02 11:59:29 --> Config Class Initialized
+INFO - 2026-03-02 11:59:29 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:29 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:29 --> Utf8 Class Initialized
+ERROR - 2026-03-02 11:59:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:59:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 11:59:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:29 --> URI Class Initialized
+INFO - 2026-03-02 11:59:29 --> URI Class Initialized
+INFO - 2026-03-02 11:59:29 --> Config Class Initialized
+INFO - 2026-03-02 11:59:29 --> Config Class Initialized
+INFO - 2026-03-02 11:59:29 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:29 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:29 --> Router Class Initialized
+INFO - 2026-03-02 11:59:29 --> Router Class Initialized
+INFO - 2026-03-02 11:59:29 --> Output Class Initialized
+INFO - 2026-03-02 11:59:29 --> Output Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:59:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:29 --> Security Class Initialized
+INFO - 2026-03-02 11:59:29 --> Security Class Initialized
+INFO - 2026-03-02 11:59:29 --> URI Class Initialized
+INFO - 2026-03-02 11:59:29 --> URI Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:29 --> Input Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:29 --> Router Class Initialized
+INFO - 2026-03-02 11:59:29 --> Input Class Initialized
+INFO - 2026-03-02 11:59:29 --> Language Class Initialized
+INFO - 2026-03-02 11:59:29 --> Router Class Initialized
+INFO - 2026-03-02 11:59:29 --> Language Class Initialized
+INFO - 2026-03-02 11:59:29 --> Output Class Initialized
+INFO - 2026-03-02 11:59:29 --> Output Class Initialized
+ERROR - 2026-03-02 11:59:29 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 11:59:29 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 11:59:29 --> Security Class Initialized
+INFO - 2026-03-02 11:59:29 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:59:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:29 --> Input Class Initialized
+INFO - 2026-03-02 11:59:29 --> Input Class Initialized
+INFO - 2026-03-02 11:59:29 --> Language Class Initialized
+INFO - 2026-03-02 11:59:29 --> Language Class Initialized
+ERROR - 2026-03-02 11:59:29 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 11:59:29 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 11:59:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:29 --> Config Class Initialized
+INFO - 2026-03-02 11:59:29 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:29 --> URI Class Initialized
+INFO - 2026-03-02 11:59:29 --> Router Class Initialized
+INFO - 2026-03-02 11:59:29 --> Output Class Initialized
+INFO - 2026-03-02 11:59:29 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:29 --> Input Class Initialized
+INFO - 2026-03-02 11:59:29 --> Language Class Initialized
+INFO - 2026-03-02 11:59:29 --> Loader Class Initialized
+INFO - 2026-03-02 11:59:29 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:59:29 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:59:29 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:59:29 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:59:29 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:59:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:59:29 --> Encryption Class Initialized
+INFO - 2026-03-02 11:59:29 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:59:29 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:59:29 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:59:29 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:59:29 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:29 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:59:29 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:59:29 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:59:29 --> Model "User_model" initialized
+INFO - 2026-03-02 11:59:29 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:59:29 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:59:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:59:29 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:59:29 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:59:29 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:29 --> Database Driver Class Initialized
+ERROR - 2026-03-02 11:59:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:30 --> Config Class Initialized
+INFO - 2026-03-02 11:59:30 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:30 --> URI Class Initialized
+INFO - 2026-03-02 11:59:30 --> Router Class Initialized
+INFO - 2026-03-02 11:59:30 --> Output Class Initialized
+INFO - 2026-03-02 11:59:30 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:30 --> Input Class Initialized
+INFO - 2026-03-02 11:59:30 --> Language Class Initialized
+INFO - 2026-03-02 11:59:30 --> Loader Class Initialized
+INFO - 2026-03-02 11:59:30 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:59:30 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:59:30 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:59:30 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:59:30 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:59:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:59:30 --> Encryption Class Initialized
+INFO - 2026-03-02 11:59:30 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:59:30 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:59:30 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:59:30 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:59:30 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:30 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:59:30 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:59:30 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "User_model" initialized
+INFO - 2026-03-02 11:59:30 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:59:30 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:59:30 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:59:30 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:59:30 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:30 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 11:59:30 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 11:59:30 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 11:59:30 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 11:59:30 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 11:59:30 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 11:59:30 --> Final output sent to browser
+DEBUG - 2026-03-02 11:59:30 --> Total execution time: 0.1767
+ERROR - 2026-03-02 11:59:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:59:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:30 --> Config Class Initialized
+INFO - 2026-03-02 11:59:30 --> Config Class Initialized
+INFO - 2026-03-02 11:59:30 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:30 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:59:30 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:30 --> Utf8 Class Initialized
+ERROR - 2026-03-02 11:59:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 11:59:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:30 --> URI Class Initialized
+INFO - 2026-03-02 11:59:30 --> URI Class Initialized
+INFO - 2026-03-02 11:59:30 --> Router Class Initialized
+INFO - 2026-03-02 11:59:30 --> Router Class Initialized
+INFO - 2026-03-02 11:59:30 --> Config Class Initialized
+INFO - 2026-03-02 11:59:30 --> Config Class Initialized
+INFO - 2026-03-02 11:59:30 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:30 --> Hooks Class Initialized
+INFO - 2026-03-02 11:59:30 --> Output Class Initialized
+INFO - 2026-03-02 11:59:30 --> Output Class Initialized
+INFO - 2026-03-02 11:59:30 --> Security Class Initialized
+INFO - 2026-03-02 11:59:30 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 11:59:30 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:30 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:59:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:30 --> URI Class Initialized
+INFO - 2026-03-02 11:59:30 --> URI Class Initialized
+INFO - 2026-03-02 11:59:30 --> Input Class Initialized
+INFO - 2026-03-02 11:59:30 --> Input Class Initialized
+INFO - 2026-03-02 11:59:30 --> Language Class Initialized
+INFO - 2026-03-02 11:59:30 --> Language Class Initialized
+INFO - 2026-03-02 11:59:30 --> Router Class Initialized
+INFO - 2026-03-02 11:59:30 --> Router Class Initialized
+ERROR - 2026-03-02 11:59:30 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 11:59:30 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 11:59:30 --> Output Class Initialized
+INFO - 2026-03-02 11:59:30 --> Output Class Initialized
+INFO - 2026-03-02 11:59:30 --> Security Class Initialized
+INFO - 2026-03-02 11:59:30 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 11:59:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:30 --> Input Class Initialized
+INFO - 2026-03-02 11:59:30 --> Input Class Initialized
+INFO - 2026-03-02 11:59:30 --> Language Class Initialized
+INFO - 2026-03-02 11:59:30 --> Language Class Initialized
+ERROR - 2026-03-02 11:59:30 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 11:59:30 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 11:59:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 11:59:30 --> Config Class Initialized
+INFO - 2026-03-02 11:59:30 --> Hooks Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> UTF-8 Support Enabled
+INFO - 2026-03-02 11:59:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 11:59:30 --> URI Class Initialized
+INFO - 2026-03-02 11:59:30 --> Router Class Initialized
+INFO - 2026-03-02 11:59:30 --> Output Class Initialized
+INFO - 2026-03-02 11:59:30 --> Security Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 11:59:30 --> Input Class Initialized
+INFO - 2026-03-02 11:59:30 --> Language Class Initialized
+INFO - 2026-03-02 11:59:30 --> Loader Class Initialized
+INFO - 2026-03-02 11:59:30 --> Helper loaded: url_helper
+INFO - 2026-03-02 11:59:30 --> Helper loaded: form_helper
+INFO - 2026-03-02 11:59:30 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 11:59:30 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 11:59:30 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 11:59:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 11:59:30 --> Encryption Class Initialized
+INFO - 2026-03-02 11:59:30 --> Model "PatientModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "AuthModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "BedsModel" initialized
+INFO - 2026-03-02 11:59:30 --> Database Forge Class Initialized
+INFO - 2026-03-02 11:59:30 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 11:59:30 --> Model "DeathModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 11:59:30 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:30 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 11:59:30 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 11:59:30 --> Model "ReportModel" initialized
+INFO - 2026-03-02 11:59:30 --> Model "User_model" initialized
+INFO - 2026-03-02 11:59:30 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 11:59:30 --> Controller Class Initialized
+DEBUG - 2026-03-02 11:59:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 11:59:30 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 11:59:30 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 11:59:30 --> Database Driver Class Initialized
+INFO - 2026-03-02 11:59:30 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:31:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:21 --> Config Class Initialized
+INFO - 2026-03-02 13:31:21 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:21 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:21 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:21 --> URI Class Initialized
+INFO - 2026-03-02 13:31:21 --> Router Class Initialized
+INFO - 2026-03-02 13:31:21 --> Output Class Initialized
+INFO - 2026-03-02 13:31:21 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:21 --> Input Class Initialized
+INFO - 2026-03-02 13:31:21 --> Language Class Initialized
+INFO - 2026-03-02 13:31:22 --> Loader Class Initialized
+INFO - 2026-03-02 13:31:22 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:31:22 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:31:22 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:31:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:31:22 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:31:22 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:31:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:31:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:31:22 --> Encryption Class Initialized
+INFO - 2026-03-02 13:31:22 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:31:22 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:31:22 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:31:22 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:31:22 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:22 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:31:22 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:31:22 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "User_model" initialized
+INFO - 2026-03-02 13:31:22 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:31:22 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:31:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:31:22 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:31:22 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:31:22 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:22 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 13:31:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:22 --> Config Class Initialized
+INFO - 2026-03-02 13:31:22 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:22 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:22 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:22 --> URI Class Initialized
+INFO - 2026-03-02 13:31:22 --> Router Class Initialized
+INFO - 2026-03-02 13:31:22 --> Output Class Initialized
+INFO - 2026-03-02 13:31:22 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:22 --> Input Class Initialized
+INFO - 2026-03-02 13:31:22 --> Language Class Initialized
+INFO - 2026-03-02 13:31:22 --> Loader Class Initialized
+INFO - 2026-03-02 13:31:22 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:31:22 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:31:22 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:31:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:31:22 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:31:22 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:31:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:31:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:31:22 --> Encryption Class Initialized
+INFO - 2026-03-02 13:31:22 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:31:22 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:31:22 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:31:22 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:31:22 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:22 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:31:22 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:31:22 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:31:22 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:31:23 --> Model "User_model" initialized
+INFO - 2026-03-02 13:31:23 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:31:23 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:31:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:31:23 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:31:23 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:31:23 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:23 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 13:31:23 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 13:31:23 --> Final output sent to browser
+DEBUG - 2026-03-02 13:31:23 --> Total execution time: 0.3241
+ERROR - 2026-03-02 13:31:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:27 --> Config Class Initialized
+INFO - 2026-03-02 13:31:27 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:27 --> URI Class Initialized
+INFO - 2026-03-02 13:31:27 --> Router Class Initialized
+INFO - 2026-03-02 13:31:27 --> Output Class Initialized
+INFO - 2026-03-02 13:31:27 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:27 --> Input Class Initialized
+INFO - 2026-03-02 13:31:27 --> Language Class Initialized
+INFO - 2026-03-02 13:31:27 --> Loader Class Initialized
+INFO - 2026-03-02 13:31:27 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:31:27 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:31:27 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:31:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:31:27 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:31:27 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:31:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:31:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:31:27 --> Encryption Class Initialized
+INFO - 2026-03-02 13:31:27 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:31:27 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:31:27 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:31:27 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:31:27 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:27 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:31:27 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:31:27 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:31:27 --> Model "User_model" initialized
+INFO - 2026-03-02 13:31:27 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:31:27 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:31:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:31:27 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:31:27 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:31:27 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:27 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 13:31:27 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 13:31:28 --> Helper loaded: email_helper
+ERROR - 2026-03-02 13:31:28 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 13:31:29 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 13:31:29 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 13:31:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:29 --> Config Class Initialized
+INFO - 2026-03-02 13:31:29 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:29 --> URI Class Initialized
+INFO - 2026-03-02 13:31:29 --> Router Class Initialized
+INFO - 2026-03-02 13:31:29 --> Output Class Initialized
+INFO - 2026-03-02 13:31:29 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:29 --> Input Class Initialized
+INFO - 2026-03-02 13:31:29 --> Language Class Initialized
+INFO - 2026-03-02 13:31:29 --> Loader Class Initialized
+INFO - 2026-03-02 13:31:29 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:31:29 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:31:29 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:31:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:31:29 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:31:29 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:31:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:31:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:31:29 --> Encryption Class Initialized
+INFO - 2026-03-02 13:31:29 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:31:29 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:31:29 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:31:29 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:31:29 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:29 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:31:29 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:31:29 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:31:29 --> Model "User_model" initialized
+INFO - 2026-03-02 13:31:29 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:31:29 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:31:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:31:29 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:31:29 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:31:29 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:29 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 13:31:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:29 --> Config Class Initialized
+INFO - 2026-03-02 13:31:29 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:29 --> URI Class Initialized
+INFO - 2026-03-02 13:31:30 --> Router Class Initialized
+INFO - 2026-03-02 13:31:30 --> Output Class Initialized
+INFO - 2026-03-02 13:31:30 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:30 --> Input Class Initialized
+INFO - 2026-03-02 13:31:30 --> Language Class Initialized
+ERROR - 2026-03-02 13:31:30 --> 404 Page Not Found: PatientRegistration/allpatientList
+ERROR - 2026-03-02 13:31:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:39 --> Config Class Initialized
+INFO - 2026-03-02 13:31:39 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:39 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:39 --> URI Class Initialized
+INFO - 2026-03-02 13:31:39 --> Router Class Initialized
+INFO - 2026-03-02 13:31:39 --> Output Class Initialized
+INFO - 2026-03-02 13:31:39 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:39 --> Input Class Initialized
+INFO - 2026-03-02 13:31:39 --> Language Class Initialized
+INFO - 2026-03-02 13:31:39 --> Loader Class Initialized
+INFO - 2026-03-02 13:31:39 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:31:39 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:31:39 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:31:39 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:31:39 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:31:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:31:39 --> Encryption Class Initialized
+INFO - 2026-03-02 13:31:39 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:31:39 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:31:39 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:31:39 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:31:39 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:39 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:31:39 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:31:39 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "User_model" initialized
+INFO - 2026-03-02 13:31:39 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:31:39 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:31:39 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:31:39 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:31:39 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:39 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 13:31:39 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:31:39 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 13:31:39 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 13:31:39 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 13:31:39 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:31:39 --> Final output sent to browser
+DEBUG - 2026-03-02 13:31:39 --> Total execution time: 0.5257
+ERROR - 2026-03-02 13:31:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:31:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:39 --> Config Class Initialized
+INFO - 2026-03-02 13:31:39 --> Hooks Class Initialized
+INFO - 2026-03-02 13:31:39 --> Config Class Initialized
+INFO - 2026-03-02 13:31:39 --> Hooks Class Initialized
+ERROR - 2026-03-02 13:31:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:31:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 13:31:39 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:39 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:39 --> Config Class Initialized
+INFO - 2026-03-02 13:31:39 --> URI Class Initialized
+INFO - 2026-03-02 13:31:39 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:39 --> Hooks Class Initialized
+INFO - 2026-03-02 13:31:39 --> Config Class Initialized
+INFO - 2026-03-02 13:31:39 --> Hooks Class Initialized
+INFO - 2026-03-02 13:31:39 --> URI Class Initialized
+INFO - 2026-03-02 13:31:39 --> Router Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:39 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:39 --> Router Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:39 --> Output Class Initialized
+INFO - 2026-03-02 13:31:39 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:39 --> URI Class Initialized
+INFO - 2026-03-02 13:31:39 --> URI Class Initialized
+INFO - 2026-03-02 13:31:39 --> Output Class Initialized
+INFO - 2026-03-02 13:31:39 --> Security Class Initialized
+INFO - 2026-03-02 13:31:39 --> Router Class Initialized
+INFO - 2026-03-02 13:31:39 --> Router Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:39 --> Security Class Initialized
+INFO - 2026-03-02 13:31:39 --> Input Class Initialized
+INFO - 2026-03-02 13:31:39 --> Output Class Initialized
+INFO - 2026-03-02 13:31:39 --> Output Class Initialized
+INFO - 2026-03-02 13:31:39 --> Language Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:39 --> Input Class Initialized
+INFO - 2026-03-02 13:31:39 --> Security Class Initialized
+INFO - 2026-03-02 13:31:39 --> Language Class Initialized
+INFO - 2026-03-02 13:31:39 --> Security Class Initialized
+ERROR - 2026-03-02 13:31:39 --> 404 Page Not Found: Img/undraw_profile_1.svg
+DEBUG - 2026-03-02 13:31:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:39 --> Input Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2026-03-02 13:31:39 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 13:31:39 --> Input Class Initialized
+INFO - 2026-03-02 13:31:39 --> Language Class Initialized
+INFO - 2026-03-02 13:31:39 --> Language Class Initialized
+ERROR - 2026-03-02 13:31:39 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 13:31:39 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 13:31:39 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:39 --> Config Class Initialized
+INFO - 2026-03-02 13:31:39 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:39 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:39 --> URI Class Initialized
+INFO - 2026-03-02 13:31:39 --> Router Class Initialized
+INFO - 2026-03-02 13:31:39 --> Output Class Initialized
+INFO - 2026-03-02 13:31:39 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:39 --> Input Class Initialized
+INFO - 2026-03-02 13:31:39 --> Language Class Initialized
+INFO - 2026-03-02 13:31:39 --> Loader Class Initialized
+INFO - 2026-03-02 13:31:39 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:31:39 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:31:39 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:31:39 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:31:39 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:31:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:31:39 --> Encryption Class Initialized
+INFO - 2026-03-02 13:31:39 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:31:39 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:31:39 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:31:39 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:31:39 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:39 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:31:39 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:31:39 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:31:39 --> Model "User_model" initialized
+INFO - 2026-03-02 13:31:39 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:31:39 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:31:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:31:40 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:31:40 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:31:40 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:40 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:31:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:47 --> Config Class Initialized
+INFO - 2026-03-02 13:31:47 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:47 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:47 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:47 --> URI Class Initialized
+INFO - 2026-03-02 13:31:47 --> Router Class Initialized
+INFO - 2026-03-02 13:31:47 --> Output Class Initialized
+INFO - 2026-03-02 13:31:47 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:47 --> Input Class Initialized
+INFO - 2026-03-02 13:31:47 --> Language Class Initialized
+INFO - 2026-03-02 13:31:47 --> Loader Class Initialized
+INFO - 2026-03-02 13:31:47 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:31:47 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:31:47 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:31:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:31:47 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:31:47 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:31:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:31:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:31:47 --> Encryption Class Initialized
+INFO - 2026-03-02 13:31:47 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:31:47 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:31:47 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:31:47 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:31:47 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:47 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:31:47 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:31:47 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:31:47 --> Model "User_model" initialized
+INFO - 2026-03-02 13:31:47 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:31:47 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:31:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:31:47 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:31:47 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:31:47 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:48 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 13:31:48 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:31:48 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 13:31:48 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 13:31:48 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 13:31:48 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:31:48 --> Final output sent to browser
+DEBUG - 2026-03-02 13:31:48 --> Total execution time: 0.2351
+ERROR - 2026-03-02 13:31:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:31:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:48 --> Config Class Initialized
+INFO - 2026-03-02 13:31:48 --> Config Class Initialized
+INFO - 2026-03-02 13:31:48 --> Hooks Class Initialized
+INFO - 2026-03-02 13:31:48 --> Hooks Class Initialized
+ERROR - 2026-03-02 13:31:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:31:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 13:31:48 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 13:31:48 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:48 --> Config Class Initialized
+INFO - 2026-03-02 13:31:48 --> Config Class Initialized
+INFO - 2026-03-02 13:31:48 --> Hooks Class Initialized
+INFO - 2026-03-02 13:31:48 --> Hooks Class Initialized
+INFO - 2026-03-02 13:31:48 --> URI Class Initialized
+INFO - 2026-03-02 13:31:48 --> URI Class Initialized
+INFO - 2026-03-02 13:31:48 --> Router Class Initialized
+INFO - 2026-03-02 13:31:48 --> Router Class Initialized
+DEBUG - 2026-03-02 13:31:48 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 13:31:48 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:48 --> Output Class Initialized
+INFO - 2026-03-02 13:31:48 --> URI Class Initialized
+INFO - 2026-03-02 13:31:48 --> Output Class Initialized
+INFO - 2026-03-02 13:31:48 --> URI Class Initialized
+INFO - 2026-03-02 13:31:48 --> Security Class Initialized
+INFO - 2026-03-02 13:31:48 --> Security Class Initialized
+INFO - 2026-03-02 13:31:48 --> Router Class Initialized
+INFO - 2026-03-02 13:31:48 --> Router Class Initialized
+DEBUG - 2026-03-02 13:31:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:31:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:48 --> Input Class Initialized
+INFO - 2026-03-02 13:31:48 --> Input Class Initialized
+INFO - 2026-03-02 13:31:48 --> Output Class Initialized
+INFO - 2026-03-02 13:31:48 --> Output Class Initialized
+INFO - 2026-03-02 13:31:48 --> Language Class Initialized
+INFO - 2026-03-02 13:31:48 --> Language Class Initialized
+INFO - 2026-03-02 13:31:48 --> Security Class Initialized
+INFO - 2026-03-02 13:31:48 --> Security Class Initialized
+ERROR - 2026-03-02 13:31:48 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 13:31:48 --> 404 Page Not Found: Img/undraw_profile_2.svg
+DEBUG - 2026-03-02 13:31:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:31:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:48 --> Input Class Initialized
+INFO - 2026-03-02 13:31:48 --> Input Class Initialized
+INFO - 2026-03-02 13:31:48 --> Language Class Initialized
+INFO - 2026-03-02 13:31:48 --> Language Class Initialized
+ERROR - 2026-03-02 13:31:48 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 13:31:48 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 13:31:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:31:48 --> Config Class Initialized
+INFO - 2026-03-02 13:31:48 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:31:48 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:31:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:31:48 --> URI Class Initialized
+INFO - 2026-03-02 13:31:48 --> Router Class Initialized
+INFO - 2026-03-02 13:31:48 --> Output Class Initialized
+INFO - 2026-03-02 13:31:48 --> Security Class Initialized
+DEBUG - 2026-03-02 13:31:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:31:48 --> Input Class Initialized
+INFO - 2026-03-02 13:31:48 --> Language Class Initialized
+INFO - 2026-03-02 13:31:48 --> Loader Class Initialized
+INFO - 2026-03-02 13:31:48 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:31:48 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:31:48 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:31:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:31:48 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:31:48 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:31:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:31:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:31:48 --> Encryption Class Initialized
+INFO - 2026-03-02 13:31:48 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:31:48 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:31:48 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:31:48 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:31:48 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:48 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:31:48 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:31:48 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:31:48 --> Model "User_model" initialized
+INFO - 2026-03-02 13:31:48 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:31:48 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:31:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:31:48 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:31:48 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:31:48 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:31:48 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:32:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:00 --> Config Class Initialized
+INFO - 2026-03-02 13:32:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:00 --> URI Class Initialized
+INFO - 2026-03-02 13:32:00 --> Router Class Initialized
+INFO - 2026-03-02 13:32:00 --> Output Class Initialized
+INFO - 2026-03-02 13:32:00 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:00 --> Input Class Initialized
+INFO - 2026-03-02 13:32:00 --> Language Class Initialized
+INFO - 2026-03-02 13:32:00 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:00 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:00 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 13:32:00 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:32:00 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 13:32:00 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 13:32:00 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 13:32:00 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:32:00 --> Final output sent to browser
+DEBUG - 2026-03-02 13:32:00 --> Total execution time: 0.1533
+ERROR - 2026-03-02 13:32:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:00 --> Config Class Initialized
+INFO - 2026-03-02 13:32:00 --> Config Class Initialized
+INFO - 2026-03-02 13:32:00 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:00 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:00 --> Utf8 Class Initialized
+ERROR - 2026-03-02 13:32:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:00 --> URI Class Initialized
+INFO - 2026-03-02 13:32:00 --> URI Class Initialized
+INFO - 2026-03-02 13:32:00 --> Config Class Initialized
+INFO - 2026-03-02 13:32:00 --> Config Class Initialized
+INFO - 2026-03-02 13:32:00 --> Router Class Initialized
+INFO - 2026-03-02 13:32:00 --> Router Class Initialized
+INFO - 2026-03-02 13:32:00 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:00 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:00 --> Output Class Initialized
+INFO - 2026-03-02 13:32:00 --> Output Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 13:32:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:00 --> Security Class Initialized
+INFO - 2026-03-02 13:32:00 --> Security Class Initialized
+INFO - 2026-03-02 13:32:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:00 --> URI Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:00 --> URI Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:00 --> Input Class Initialized
+INFO - 2026-03-02 13:32:00 --> Input Class Initialized
+INFO - 2026-03-02 13:32:00 --> Router Class Initialized
+INFO - 2026-03-02 13:32:00 --> Language Class Initialized
+INFO - 2026-03-02 13:32:00 --> Language Class Initialized
+INFO - 2026-03-02 13:32:00 --> Router Class Initialized
+INFO - 2026-03-02 13:32:00 --> Output Class Initialized
+ERROR - 2026-03-02 13:32:00 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 13:32:00 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 13:32:00 --> Output Class Initialized
+INFO - 2026-03-02 13:32:00 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:00 --> Security Class Initialized
+INFO - 2026-03-02 13:32:00 --> Input Class Initialized
+INFO - 2026-03-02 13:32:00 --> Language Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:00 --> Input Class Initialized
+INFO - 2026-03-02 13:32:00 --> Language Class Initialized
+ERROR - 2026-03-02 13:32:00 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 13:32:00 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 13:32:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:00 --> Config Class Initialized
+INFO - 2026-03-02 13:32:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:00 --> URI Class Initialized
+INFO - 2026-03-02 13:32:00 --> Router Class Initialized
+INFO - 2026-03-02 13:32:00 --> Output Class Initialized
+INFO - 2026-03-02 13:32:00 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:00 --> Input Class Initialized
+INFO - 2026-03-02 13:32:00 --> Language Class Initialized
+INFO - 2026-03-02 13:32:00 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:00 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:00 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:00 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:32:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:13 --> Config Class Initialized
+INFO - 2026-03-02 13:32:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:13 --> URI Class Initialized
+INFO - 2026-03-02 13:32:13 --> Router Class Initialized
+INFO - 2026-03-02 13:32:13 --> Output Class Initialized
+INFO - 2026-03-02 13:32:13 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:13 --> Input Class Initialized
+INFO - 2026-03-02 13:32:13 --> Language Class Initialized
+INFO - 2026-03-02 13:32:13 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:13 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:13 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:13 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:13 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:13 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:13 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:13 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:13 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:13 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:13 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:13 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:13 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:13 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:13 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:13 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:13 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:13 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:13 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 13:32:13 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:32:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 13:32:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 13:32:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 13:32:13 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:32:13 --> Final output sent to browser
+DEBUG - 2026-03-02 13:32:13 --> Total execution time: 0.2636
+ERROR - 2026-03-02 13:32:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:13 --> Config Class Initialized
+INFO - 2026-03-02 13:32:13 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:13 --> Config Class Initialized
+INFO - 2026-03-02 13:32:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:13 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:13 --> URI Class Initialized
+INFO - 2026-03-02 13:32:13 --> URI Class Initialized
+INFO - 2026-03-02 13:32:13 --> Router Class Initialized
+INFO - 2026-03-02 13:32:13 --> Router Class Initialized
+ERROR - 2026-03-02 13:32:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:13 --> Output Class Initialized
+INFO - 2026-03-02 13:32:13 --> Output Class Initialized
+INFO - 2026-03-02 13:32:13 --> Config Class Initialized
+INFO - 2026-03-02 13:32:13 --> Config Class Initialized
+INFO - 2026-03-02 13:32:13 --> Security Class Initialized
+INFO - 2026-03-02 13:32:13 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:13 --> Security Class Initialized
+INFO - 2026-03-02 13:32:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:32:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:13 --> Input Class Initialized
+INFO - 2026-03-02 13:32:13 --> Input Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 13:32:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:13 --> Language Class Initialized
+INFO - 2026-03-02 13:32:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:13 --> Language Class Initialized
+INFO - 2026-03-02 13:32:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:13 --> URI Class Initialized
+ERROR - 2026-03-02 13:32:13 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 13:32:13 --> URI Class Initialized
+ERROR - 2026-03-02 13:32:13 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 13:32:13 --> Router Class Initialized
+INFO - 2026-03-02 13:32:13 --> Router Class Initialized
+INFO - 2026-03-02 13:32:13 --> Output Class Initialized
+INFO - 2026-03-02 13:32:13 --> Output Class Initialized
+INFO - 2026-03-02 13:32:13 --> Security Class Initialized
+INFO - 2026-03-02 13:32:13 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:32:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:13 --> Input Class Initialized
+INFO - 2026-03-02 13:32:13 --> Input Class Initialized
+INFO - 2026-03-02 13:32:13 --> Language Class Initialized
+INFO - 2026-03-02 13:32:13 --> Language Class Initialized
+ERROR - 2026-03-02 13:32:13 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 13:32:13 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 13:32:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:13 --> Config Class Initialized
+INFO - 2026-03-02 13:32:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:13 --> URI Class Initialized
+INFO - 2026-03-02 13:32:13 --> Router Class Initialized
+INFO - 2026-03-02 13:32:13 --> Output Class Initialized
+INFO - 2026-03-02 13:32:13 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:13 --> Input Class Initialized
+INFO - 2026-03-02 13:32:13 --> Language Class Initialized
+INFO - 2026-03-02 13:32:13 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:13 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:13 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:13 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:13 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:13 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:13 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:13 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:13 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:13 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:13 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:13 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:13 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:13 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:13 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:13 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:13 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:13 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:13 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:13 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:32:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:18 --> Config Class Initialized
+INFO - 2026-03-02 13:32:18 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:18 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:18 --> URI Class Initialized
+INFO - 2026-03-02 13:32:18 --> Router Class Initialized
+INFO - 2026-03-02 13:32:18 --> Output Class Initialized
+INFO - 2026-03-02 13:32:18 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:18 --> Input Class Initialized
+INFO - 2026-03-02 13:32:18 --> Language Class Initialized
+INFO - 2026-03-02 13:32:18 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:18 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:18 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:18 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:18 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:18 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:18 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:18 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:18 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:18 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:18 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:18 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:18 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:18 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:18 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:18 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:18 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:18 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:18 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:18 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:18 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 13:32:18 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:32:18 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 13:32:18 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 13:32:18 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 13:32:18 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:32:18 --> Final output sent to browser
+DEBUG - 2026-03-02 13:32:18 --> Total execution time: 0.1443
+ERROR - 2026-03-02 13:32:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:18 --> Config Class Initialized
+INFO - 2026-03-02 13:32:18 --> Config Class Initialized
+INFO - 2026-03-02 13:32:18 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:18 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 13:32:18 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:18 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:18 --> Utf8 Class Initialized
+ERROR - 2026-03-02 13:32:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:18 --> URI Class Initialized
+INFO - 2026-03-02 13:32:18 --> URI Class Initialized
+INFO - 2026-03-02 13:32:18 --> Config Class Initialized
+INFO - 2026-03-02 13:32:18 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:18 --> Router Class Initialized
+INFO - 2026-03-02 13:32:18 --> Router Class Initialized
+INFO - 2026-03-02 13:32:18 --> Config Class Initialized
+INFO - 2026-03-02 13:32:18 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:18 --> Output Class Initialized
+INFO - 2026-03-02 13:32:18 --> Output Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:18 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:18 --> Security Class Initialized
+INFO - 2026-03-02 13:32:18 --> Security Class Initialized
+INFO - 2026-03-02 13:32:18 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:18 --> URI Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:18 --> URI Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:18 --> Input Class Initialized
+INFO - 2026-03-02 13:32:18 --> Input Class Initialized
+INFO - 2026-03-02 13:32:18 --> Router Class Initialized
+INFO - 2026-03-02 13:32:18 --> Language Class Initialized
+INFO - 2026-03-02 13:32:18 --> Language Class Initialized
+INFO - 2026-03-02 13:32:18 --> Router Class Initialized
+INFO - 2026-03-02 13:32:18 --> Output Class Initialized
+ERROR - 2026-03-02 13:32:18 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 13:32:18 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 13:32:18 --> Output Class Initialized
+INFO - 2026-03-02 13:32:18 --> Security Class Initialized
+INFO - 2026-03-02 13:32:18 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:18 --> Input Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:18 --> Input Class Initialized
+INFO - 2026-03-02 13:32:18 --> Language Class Initialized
+INFO - 2026-03-02 13:32:18 --> Language Class Initialized
+ERROR - 2026-03-02 13:32:18 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 13:32:18 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 13:32:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:18 --> Config Class Initialized
+INFO - 2026-03-02 13:32:18 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:18 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:18 --> URI Class Initialized
+INFO - 2026-03-02 13:32:18 --> Router Class Initialized
+INFO - 2026-03-02 13:32:18 --> Output Class Initialized
+INFO - 2026-03-02 13:32:18 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:18 --> Input Class Initialized
+INFO - 2026-03-02 13:32:18 --> Language Class Initialized
+INFO - 2026-03-02 13:32:18 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:18 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:18 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:18 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:18 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:18 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:18 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:18 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:18 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:18 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:18 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:18 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:18 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:18 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:18 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:18 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:18 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:18 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:18 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:18 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:18 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:18 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:32:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:24 --> Config Class Initialized
+INFO - 2026-03-02 13:32:24 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:24 --> URI Class Initialized
+INFO - 2026-03-02 13:32:24 --> Router Class Initialized
+INFO - 2026-03-02 13:32:24 --> Output Class Initialized
+INFO - 2026-03-02 13:32:24 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:24 --> Input Class Initialized
+INFO - 2026-03-02 13:32:24 --> Language Class Initialized
+INFO - 2026-03-02 13:32:24 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:24 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:24 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:24 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:24 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:24 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:24 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:24 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:24 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:24 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:24 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:24 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:24 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:24 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:24 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:24 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:24 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:24 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:24 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:24 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:24 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:24 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:24 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 13:32:24 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:32:24 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 13:32:24 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 13:32:24 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 13:32:24 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:32:24 --> Final output sent to browser
+DEBUG - 2026-03-02 13:32:24 --> Total execution time: 0.2973
+ERROR - 2026-03-02 13:32:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:24 --> Config Class Initialized
+INFO - 2026-03-02 13:32:24 --> Config Class Initialized
+INFO - 2026-03-02 13:32:24 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:24 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:24 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:24 --> URI Class Initialized
+INFO - 2026-03-02 13:32:24 --> URI Class Initialized
+INFO - 2026-03-02 13:32:24 --> Router Class Initialized
+ERROR - 2026-03-02 13:32:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:24 --> Router Class Initialized
+INFO - 2026-03-02 13:32:24 --> Output Class Initialized
+INFO - 2026-03-02 13:32:24 --> Config Class Initialized
+INFO - 2026-03-02 13:32:24 --> Config Class Initialized
+INFO - 2026-03-02 13:32:24 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:24 --> Output Class Initialized
+INFO - 2026-03-02 13:32:24 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:24 --> Security Class Initialized
+INFO - 2026-03-02 13:32:24 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:24 --> Input Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:24 --> Language Class Initialized
+INFO - 2026-03-02 13:32:24 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 13:32:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:24 --> Input Class Initialized
+INFO - 2026-03-02 13:32:24 --> URI Class Initialized
+ERROR - 2026-03-02 13:32:24 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 13:32:24 --> Language Class Initialized
+INFO - 2026-03-02 13:32:24 --> URI Class Initialized
+INFO - 2026-03-02 13:32:24 --> Router Class Initialized
+INFO - 2026-03-02 13:32:24 --> Router Class Initialized
+ERROR - 2026-03-02 13:32:24 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 13:32:24 --> Output Class Initialized
+INFO - 2026-03-02 13:32:24 --> Output Class Initialized
+INFO - 2026-03-02 13:32:24 --> Security Class Initialized
+INFO - 2026-03-02 13:32:24 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:32:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:24 --> Input Class Initialized
+INFO - 2026-03-02 13:32:24 --> Input Class Initialized
+INFO - 2026-03-02 13:32:24 --> Language Class Initialized
+INFO - 2026-03-02 13:32:24 --> Language Class Initialized
+ERROR - 2026-03-02 13:32:24 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 13:32:24 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 13:32:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:25 --> Config Class Initialized
+INFO - 2026-03-02 13:32:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:25 --> URI Class Initialized
+INFO - 2026-03-02 13:32:25 --> Router Class Initialized
+INFO - 2026-03-02 13:32:25 --> Output Class Initialized
+INFO - 2026-03-02 13:32:25 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:25 --> Input Class Initialized
+INFO - 2026-03-02 13:32:25 --> Language Class Initialized
+INFO - 2026-03-02 13:32:25 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:25 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:25 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:25 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:32:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:31 --> Config Class Initialized
+INFO - 2026-03-02 13:32:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:31 --> URI Class Initialized
+INFO - 2026-03-02 13:32:31 --> Router Class Initialized
+INFO - 2026-03-02 13:32:31 --> Output Class Initialized
+INFO - 2026-03-02 13:32:31 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:31 --> Input Class Initialized
+INFO - 2026-03-02 13:32:31 --> Language Class Initialized
+INFO - 2026-03-02 13:32:31 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:31 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:31 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:31 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:31 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:31 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:31 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:31 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:31 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:31 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:31 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:31 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:31 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:31 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:31 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:31 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:31 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:31 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:31 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:32:31 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 13:32:31 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 13:32:31 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 13:32:31 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:32:31 --> Final output sent to browser
+DEBUG - 2026-03-02 13:32:31 --> Total execution time: 0.2209
+ERROR - 2026-03-02 13:32:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:31 --> Config Class Initialized
+INFO - 2026-03-02 13:32:31 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:31 --> Config Class Initialized
+INFO - 2026-03-02 13:32:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:31 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:31 --> URI Class Initialized
+INFO - 2026-03-02 13:32:31 --> URI Class Initialized
+ERROR - 2026-03-02 13:32:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:31 --> Router Class Initialized
+INFO - 2026-03-02 13:32:31 --> Router Class Initialized
+INFO - 2026-03-02 13:32:31 --> Output Class Initialized
+INFO - 2026-03-02 13:32:31 --> Config Class Initialized
+INFO - 2026-03-02 13:32:31 --> Config Class Initialized
+INFO - 2026-03-02 13:32:31 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:31 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:31 --> Output Class Initialized
+INFO - 2026-03-02 13:32:31 --> Security Class Initialized
+INFO - 2026-03-02 13:32:31 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 13:32:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:32:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:31 --> Input Class Initialized
+INFO - 2026-03-02 13:32:31 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:31 --> Input Class Initialized
+INFO - 2026-03-02 13:32:31 --> Language Class Initialized
+INFO - 2026-03-02 13:32:31 --> URI Class Initialized
+INFO - 2026-03-02 13:32:31 --> URI Class Initialized
+INFO - 2026-03-02 13:32:31 --> Language Class Initialized
+INFO - 2026-03-02 13:32:31 --> Router Class Initialized
+INFO - 2026-03-02 13:32:31 --> Router Class Initialized
+ERROR - 2026-03-02 13:32:31 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 13:32:31 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 13:32:31 --> Output Class Initialized
+INFO - 2026-03-02 13:32:31 --> Output Class Initialized
+INFO - 2026-03-02 13:32:31 --> Security Class Initialized
+INFO - 2026-03-02 13:32:31 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:32:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:31 --> Input Class Initialized
+INFO - 2026-03-02 13:32:31 --> Input Class Initialized
+INFO - 2026-03-02 13:32:31 --> Language Class Initialized
+INFO - 2026-03-02 13:32:31 --> Language Class Initialized
+ERROR - 2026-03-02 13:32:31 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 13:32:31 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 13:32:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:31 --> Config Class Initialized
+INFO - 2026-03-02 13:32:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:31 --> URI Class Initialized
+INFO - 2026-03-02 13:32:31 --> Router Class Initialized
+INFO - 2026-03-02 13:32:31 --> Output Class Initialized
+INFO - 2026-03-02 13:32:31 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:31 --> Input Class Initialized
+INFO - 2026-03-02 13:32:31 --> Language Class Initialized
+INFO - 2026-03-02 13:32:31 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:31 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:31 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:31 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:31 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:31 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:31 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:31 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:31 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:31 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:31 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:31 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:31 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:31 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:31 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:31 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:31 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:31 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:31 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:31 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:32:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:41 --> Config Class Initialized
+INFO - 2026-03-02 13:32:41 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:41 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:41 --> URI Class Initialized
+INFO - 2026-03-02 13:32:41 --> Router Class Initialized
+INFO - 2026-03-02 13:32:41 --> Output Class Initialized
+INFO - 2026-03-02 13:32:41 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:41 --> Input Class Initialized
+INFO - 2026-03-02 13:32:41 --> Language Class Initialized
+INFO - 2026-03-02 13:32:41 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:41 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:41 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:41 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:41 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:41 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:41 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:41 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:41 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:41 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:41 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:41 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:41 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:41 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:41 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:41 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:41 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:41 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:41 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:41 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:41 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 13:32:41 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:32:41 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 13:32:41 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 13:32:41 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 13:32:41 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:32:41 --> Final output sent to browser
+DEBUG - 2026-03-02 13:32:41 --> Total execution time: 0.1786
+ERROR - 2026-03-02 13:32:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:41 --> Config Class Initialized
+INFO - 2026-03-02 13:32:41 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:41 --> Config Class Initialized
+INFO - 2026-03-02 13:32:41 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 13:32:41 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:41 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:41 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:41 --> URI Class Initialized
+INFO - 2026-03-02 13:32:41 --> URI Class Initialized
+ERROR - 2026-03-02 13:32:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:32:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:41 --> Router Class Initialized
+INFO - 2026-03-02 13:32:41 --> Router Class Initialized
+INFO - 2026-03-02 13:32:41 --> Config Class Initialized
+INFO - 2026-03-02 13:32:41 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:41 --> Config Class Initialized
+INFO - 2026-03-02 13:32:41 --> Output Class Initialized
+INFO - 2026-03-02 13:32:41 --> Hooks Class Initialized
+INFO - 2026-03-02 13:32:41 --> Output Class Initialized
+INFO - 2026-03-02 13:32:41 --> Security Class Initialized
+INFO - 2026-03-02 13:32:41 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:41 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:41 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:32:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:41 --> Input Class Initialized
+INFO - 2026-03-02 13:32:41 --> URI Class Initialized
+INFO - 2026-03-02 13:32:41 --> Input Class Initialized
+INFO - 2026-03-02 13:32:41 --> URI Class Initialized
+INFO - 2026-03-02 13:32:41 --> Language Class Initialized
+INFO - 2026-03-02 13:32:41 --> Language Class Initialized
+INFO - 2026-03-02 13:32:41 --> Router Class Initialized
+INFO - 2026-03-02 13:32:41 --> Router Class Initialized
+ERROR - 2026-03-02 13:32:41 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 13:32:41 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 13:32:41 --> Output Class Initialized
+INFO - 2026-03-02 13:32:41 --> Output Class Initialized
+INFO - 2026-03-02 13:32:41 --> Security Class Initialized
+INFO - 2026-03-02 13:32:41 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 13:32:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:41 --> Input Class Initialized
+INFO - 2026-03-02 13:32:41 --> Input Class Initialized
+INFO - 2026-03-02 13:32:41 --> Language Class Initialized
+INFO - 2026-03-02 13:32:41 --> Language Class Initialized
+ERROR - 2026-03-02 13:32:41 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 13:32:41 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 13:32:41 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:32:41 --> Config Class Initialized
+INFO - 2026-03-02 13:32:41 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:32:41 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:32:41 --> URI Class Initialized
+INFO - 2026-03-02 13:32:41 --> Router Class Initialized
+INFO - 2026-03-02 13:32:41 --> Output Class Initialized
+INFO - 2026-03-02 13:32:41 --> Security Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:32:41 --> Input Class Initialized
+INFO - 2026-03-02 13:32:41 --> Language Class Initialized
+INFO - 2026-03-02 13:32:41 --> Loader Class Initialized
+INFO - 2026-03-02 13:32:41 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:32:41 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:32:41 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:32:41 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:32:41 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:32:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:32:41 --> Encryption Class Initialized
+INFO - 2026-03-02 13:32:41 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:32:41 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:32:41 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:32:41 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:32:41 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:41 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:32:41 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:32:41 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:32:41 --> Model "User_model" initialized
+INFO - 2026-03-02 13:32:41 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:32:41 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:32:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:32:41 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:32:41 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:32:41 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:32:41 --> Database Driver Class Initialized
+ERROR - 2026-03-02 13:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:35:13 --> Config Class Initialized
+INFO - 2026-03-02 13:35:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:35:13 --> URI Class Initialized
+INFO - 2026-03-02 13:35:13 --> Router Class Initialized
+INFO - 2026-03-02 13:35:13 --> Output Class Initialized
+INFO - 2026-03-02 13:35:13 --> Security Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:35:13 --> Input Class Initialized
+INFO - 2026-03-02 13:35:13 --> Language Class Initialized
+INFO - 2026-03-02 13:35:13 --> Loader Class Initialized
+INFO - 2026-03-02 13:35:13 --> Helper loaded: url_helper
+INFO - 2026-03-02 13:35:13 --> Helper loaded: form_helper
+INFO - 2026-03-02 13:35:13 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 13:35:13 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 13:35:13 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 13:35:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 13:35:13 --> Encryption Class Initialized
+INFO - 2026-03-02 13:35:13 --> Model "PatientModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "AuthModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "BedsModel" initialized
+INFO - 2026-03-02 13:35:13 --> Database Forge Class Initialized
+INFO - 2026-03-02 13:35:13 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 13:35:13 --> Model "DeathModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 13:35:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:35:13 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 13:35:13 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 13:35:13 --> Model "ReportModel" initialized
+INFO - 2026-03-02 13:35:13 --> Model "User_model" initialized
+INFO - 2026-03-02 13:35:13 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 13:35:13 --> Controller Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 13:35:13 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 13:35:13 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 13:35:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 13:35:13 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 13:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 13:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 13:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 13:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 13:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 13:35:13 --> Final output sent to browser
+DEBUG - 2026-03-02 13:35:13 --> Total execution time: 0.1517
+ERROR - 2026-03-02 13:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 13:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:35:13 --> Config Class Initialized
+INFO - 2026-03-02 13:35:13 --> Hooks Class Initialized
+INFO - 2026-03-02 13:35:13 --> Config Class Initialized
+INFO - 2026-03-02 13:35:13 --> Hooks Class Initialized
+ERROR - 2026-03-02 13:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 13:35:13 --> UTF-8 Support Enabled
+ERROR - 2026-03-02 13:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 13:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:35:13 --> Config Class Initialized
+INFO - 2026-03-02 13:35:13 --> Hooks Class Initialized
+INFO - 2026-03-02 13:35:13 --> URI Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:35:13 --> Config Class Initialized
+INFO - 2026-03-02 13:35:13 --> Hooks Class Initialized
+INFO - 2026-03-02 13:35:13 --> URI Class Initialized
+INFO - 2026-03-02 13:35:13 --> Router Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:35:13 --> Router Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 13:35:13 --> Output Class Initialized
+INFO - 2026-03-02 13:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 13:35:13 --> URI Class Initialized
+INFO - 2026-03-02 13:35:13 --> URI Class Initialized
+INFO - 2026-03-02 13:35:13 --> Output Class Initialized
+INFO - 2026-03-02 13:35:13 --> Security Class Initialized
+INFO - 2026-03-02 13:35:13 --> Router Class Initialized
+INFO - 2026-03-02 13:35:13 --> Security Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:35:13 --> Router Class Initialized
+INFO - 2026-03-02 13:35:13 --> Input Class Initialized
+INFO - 2026-03-02 13:35:13 --> Output Class Initialized
+INFO - 2026-03-02 13:35:13 --> Language Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:35:13 --> Input Class Initialized
+INFO - 2026-03-02 13:35:13 --> Output Class Initialized
+INFO - 2026-03-02 13:35:13 --> Security Class Initialized
+INFO - 2026-03-02 13:35:13 --> Language Class Initialized
+ERROR - 2026-03-02 13:35:13 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 13:35:13 --> Security Class Initialized
+DEBUG - 2026-03-02 13:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:35:13 --> Input Class Initialized
+ERROR - 2026-03-02 13:35:13 --> 404 Page Not Found: Img/undraw_profile_2.svg
+DEBUG - 2026-03-02 13:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 13:35:13 --> Language Class Initialized
+INFO - 2026-03-02 13:35:13 --> Input Class Initialized
+INFO - 2026-03-02 13:35:13 --> Language Class Initialized
+ERROR - 2026-03-02 13:35:13 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 13:35:13 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:21:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:21:51 --> Config Class Initialized
+INFO - 2026-03-02 14:21:51 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:21:51 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:21:51 --> URI Class Initialized
+INFO - 2026-03-02 14:21:51 --> Router Class Initialized
+INFO - 2026-03-02 14:21:51 --> Output Class Initialized
+INFO - 2026-03-02 14:21:51 --> Security Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:21:51 --> Input Class Initialized
+INFO - 2026-03-02 14:21:51 --> Language Class Initialized
+INFO - 2026-03-02 14:21:51 --> Loader Class Initialized
+INFO - 2026-03-02 14:21:51 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:21:51 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:21:51 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:21:51 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:21:51 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:21:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:21:51 --> Encryption Class Initialized
+INFO - 2026-03-02 14:21:51 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:21:51 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:21:51 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:21:51 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:21:51 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:21:51 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:21:51 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:21:51 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "User_model" initialized
+INFO - 2026-03-02 14:21:51 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:21:51 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:21:51 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:21:51 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:21:51 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:21:51 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:21:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:21:51 --> Config Class Initialized
+INFO - 2026-03-02 14:21:51 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:21:51 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:21:51 --> URI Class Initialized
+INFO - 2026-03-02 14:21:51 --> Router Class Initialized
+INFO - 2026-03-02 14:21:51 --> Output Class Initialized
+INFO - 2026-03-02 14:21:51 --> Security Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:21:51 --> Input Class Initialized
+INFO - 2026-03-02 14:21:51 --> Language Class Initialized
+INFO - 2026-03-02 14:21:51 --> Loader Class Initialized
+INFO - 2026-03-02 14:21:51 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:21:51 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:21:51 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:21:51 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:21:51 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:21:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:21:51 --> Encryption Class Initialized
+INFO - 2026-03-02 14:21:51 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:21:51 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:21:51 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:21:51 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:21:51 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:21:51 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:21:51 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:21:51 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:21:51 --> Model "User_model" initialized
+INFO - 2026-03-02 14:21:51 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:21:51 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:21:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:21:51 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:21:51 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:21:51 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:21:51 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 14:21:51 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 14:21:51 --> Final output sent to browser
+DEBUG - 2026-03-02 14:21:51 --> Total execution time: 0.2476
+ERROR - 2026-03-02 14:21:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:21:55 --> Config Class Initialized
+INFO - 2026-03-02 14:21:55 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:21:55 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:21:55 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:21:55 --> URI Class Initialized
+INFO - 2026-03-02 14:21:55 --> Router Class Initialized
+INFO - 2026-03-02 14:21:55 --> Output Class Initialized
+INFO - 2026-03-02 14:21:55 --> Security Class Initialized
+DEBUG - 2026-03-02 14:21:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:21:55 --> Input Class Initialized
+INFO - 2026-03-02 14:21:55 --> Language Class Initialized
+INFO - 2026-03-02 14:21:55 --> Loader Class Initialized
+INFO - 2026-03-02 14:21:55 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:21:55 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:21:56 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:21:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:21:56 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:21:56 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:21:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:21:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:21:56 --> Encryption Class Initialized
+INFO - 2026-03-02 14:21:56 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:21:56 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:21:56 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:21:56 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:21:56 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:21:56 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:21:56 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:21:56 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:21:56 --> Model "User_model" initialized
+INFO - 2026-03-02 14:21:56 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:21:56 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:21:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:21:56 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:21:56 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:21:56 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:21:56 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 14:21:56 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 14:21:56 --> Helper loaded: email_helper
+ERROR - 2026-03-02 14:21:56 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 14:21:57 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 14:21:57 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 14:21:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:21:57 --> Config Class Initialized
+INFO - 2026-03-02 14:21:57 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:21:57 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:21:57 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:21:57 --> URI Class Initialized
+INFO - 2026-03-02 14:21:57 --> Router Class Initialized
+INFO - 2026-03-02 14:21:57 --> Output Class Initialized
+INFO - 2026-03-02 14:21:57 --> Security Class Initialized
+DEBUG - 2026-03-02 14:21:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:21:57 --> Input Class Initialized
+INFO - 2026-03-02 14:21:57 --> Language Class Initialized
+INFO - 2026-03-02 14:21:57 --> Loader Class Initialized
+INFO - 2026-03-02 14:21:57 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:21:57 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:21:57 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:21:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:21:57 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:21:57 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:21:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:21:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:21:57 --> Encryption Class Initialized
+INFO - 2026-03-02 14:21:57 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:21:57 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:21:57 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:21:57 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:21:57 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:21:57 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:21:57 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:21:57 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:21:57 --> Model "User_model" initialized
+INFO - 2026-03-02 14:21:57 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:21:57 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:21:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:21:57 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:21:57 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:21:57 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:21:57 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 14:21:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:21:57 --> Config Class Initialized
+INFO - 2026-03-02 14:21:57 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:21:57 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:21:57 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:21:57 --> URI Class Initialized
+INFO - 2026-03-02 14:21:57 --> Router Class Initialized
+INFO - 2026-03-02 14:21:57 --> Output Class Initialized
+INFO - 2026-03-02 14:21:57 --> Security Class Initialized
+DEBUG - 2026-03-02 14:21:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:21:57 --> Input Class Initialized
+INFO - 2026-03-02 14:21:57 --> Language Class Initialized
+ERROR - 2026-03-02 14:21:57 --> 404 Page Not Found: PatientRegistration/allpatientList
+ERROR - 2026-03-02 14:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:10 --> Config Class Initialized
+INFO - 2026-03-02 14:22:10 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:10 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:10 --> URI Class Initialized
+INFO - 2026-03-02 14:22:10 --> Router Class Initialized
+INFO - 2026-03-02 14:22:10 --> Output Class Initialized
+INFO - 2026-03-02 14:22:10 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:10 --> Input Class Initialized
+INFO - 2026-03-02 14:22:10 --> Language Class Initialized
+INFO - 2026-03-02 14:22:10 --> Loader Class Initialized
+INFO - 2026-03-02 14:22:10 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:22:10 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:22:10 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:22:10 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:22:10 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:22:10 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:22:10 --> Encryption Class Initialized
+INFO - 2026-03-02 14:22:10 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:22:10 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:22:10 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:22:10 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:22:10 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:22:10 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:22:10 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:22:10 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:22:10 --> Model "User_model" initialized
+INFO - 2026-03-02 14:22:10 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:22:10 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:22:10 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:22:10 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:22:10 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:22:10 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:22:10 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:22:10 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:22:10 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:22:10 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:22:10 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:22:10 --> Final output sent to browser
+DEBUG - 2026-03-02 14:22:10 --> Total execution time: 0.1938
+ERROR - 2026-03-02 14:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:10 --> Config Class Initialized
+INFO - 2026-03-02 14:22:10 --> Hooks Class Initialized
+ERROR - 2026-03-02 14:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:22:10 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:10 --> Config Class Initialized
+INFO - 2026-03-02 14:22:10 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:10 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:10 --> Config Class Initialized
+INFO - 2026-03-02 14:22:10 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:10 --> Config Class Initialized
+INFO - 2026-03-02 14:22:10 --> URI Class Initialized
+INFO - 2026-03-02 14:22:10 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:10 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:10 --> Router Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:10 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:10 --> URI Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:10 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:10 --> Output Class Initialized
+INFO - 2026-03-02 14:22:10 --> URI Class Initialized
+INFO - 2026-03-02 14:22:10 --> URI Class Initialized
+INFO - 2026-03-02 14:22:10 --> Router Class Initialized
+INFO - 2026-03-02 14:22:10 --> Router Class Initialized
+INFO - 2026-03-02 14:22:10 --> Security Class Initialized
+INFO - 2026-03-02 14:22:10 --> Router Class Initialized
+INFO - 2026-03-02 14:22:10 --> Output Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:10 --> Input Class Initialized
+INFO - 2026-03-02 14:22:10 --> Output Class Initialized
+INFO - 2026-03-02 14:22:10 --> Output Class Initialized
+INFO - 2026-03-02 14:22:10 --> Security Class Initialized
+INFO - 2026-03-02 14:22:10 --> Language Class Initialized
+INFO - 2026-03-02 14:22:10 --> Security Class Initialized
+INFO - 2026-03-02 14:22:10 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:10 --> Input Class Initialized
+ERROR - 2026-03-02 14:22:10 --> 404 Page Not Found: Img/undraw_profile_1.svg
+DEBUG - 2026-03-02 14:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:10 --> Input Class Initialized
+INFO - 2026-03-02 14:22:10 --> Language Class Initialized
+DEBUG - 2026-03-02 14:22:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:10 --> Input Class Initialized
+INFO - 2026-03-02 14:22:10 --> Language Class Initialized
+INFO - 2026-03-02 14:22:10 --> Language Class Initialized
+ERROR - 2026-03-02 14:22:10 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:22:10 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:22:10 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:22:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:38 --> Config Class Initialized
+INFO - 2026-03-02 14:22:38 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:38 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:38 --> URI Class Initialized
+INFO - 2026-03-02 14:22:38 --> Router Class Initialized
+INFO - 2026-03-02 14:22:38 --> Output Class Initialized
+INFO - 2026-03-02 14:22:38 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:38 --> Input Class Initialized
+INFO - 2026-03-02 14:22:38 --> Language Class Initialized
+INFO - 2026-03-02 14:22:38 --> Loader Class Initialized
+INFO - 2026-03-02 14:22:38 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:22:38 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:22:38 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:22:38 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:22:38 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:22:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:22:38 --> Encryption Class Initialized
+INFO - 2026-03-02 14:22:38 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:22:38 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:22:38 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:22:38 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:22:38 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:22:38 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:22:38 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:22:38 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:22:38 --> Model "User_model" initialized
+INFO - 2026-03-02 14:22:38 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:22:38 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:22:38 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:22:38 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:22:38 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:22:38 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:22:38 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:22:38 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:22:38 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:22:38 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:22:38 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:22:38 --> Final output sent to browser
+DEBUG - 2026-03-02 14:22:38 --> Total execution time: 0.1209
+ERROR - 2026-03-02 14:22:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:22:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:38 --> Config Class Initialized
+INFO - 2026-03-02 14:22:38 --> Config Class Initialized
+INFO - 2026-03-02 14:22:38 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:38 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:22:38 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:38 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:38 --> Utf8 Class Initialized
+ERROR - 2026-03-02 14:22:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:38 --> URI Class Initialized
+INFO - 2026-03-02 14:22:38 --> URI Class Initialized
+ERROR - 2026-03-02 14:22:38 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:38 --> Router Class Initialized
+INFO - 2026-03-02 14:22:38 --> Config Class Initialized
+INFO - 2026-03-02 14:22:38 --> Router Class Initialized
+INFO - 2026-03-02 14:22:38 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:38 --> Config Class Initialized
+INFO - 2026-03-02 14:22:38 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:38 --> Output Class Initialized
+INFO - 2026-03-02 14:22:38 --> Output Class Initialized
+INFO - 2026-03-02 14:22:38 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:38 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:38 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:38 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:38 --> Input Class Initialized
+INFO - 2026-03-02 14:22:38 --> URI Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:38 --> URI Class Initialized
+INFO - 2026-03-02 14:22:38 --> Input Class Initialized
+INFO - 2026-03-02 14:22:38 --> Language Class Initialized
+INFO - 2026-03-02 14:22:38 --> Language Class Initialized
+INFO - 2026-03-02 14:22:38 --> Router Class Initialized
+INFO - 2026-03-02 14:22:38 --> Router Class Initialized
+ERROR - 2026-03-02 14:22:38 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:22:38 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 14:22:38 --> Output Class Initialized
+INFO - 2026-03-02 14:22:38 --> Output Class Initialized
+INFO - 2026-03-02 14:22:38 --> Security Class Initialized
+INFO - 2026-03-02 14:22:38 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:22:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:38 --> Input Class Initialized
+INFO - 2026-03-02 14:22:38 --> Input Class Initialized
+INFO - 2026-03-02 14:22:38 --> Language Class Initialized
+INFO - 2026-03-02 14:22:38 --> Language Class Initialized
+ERROR - 2026-03-02 14:22:38 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:22:38 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:22:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:42 --> Config Class Initialized
+INFO - 2026-03-02 14:22:42 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:42 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:42 --> URI Class Initialized
+INFO - 2026-03-02 14:22:42 --> Router Class Initialized
+INFO - 2026-03-02 14:22:42 --> Output Class Initialized
+INFO - 2026-03-02 14:22:42 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:42 --> Input Class Initialized
+INFO - 2026-03-02 14:22:42 --> Language Class Initialized
+INFO - 2026-03-02 14:22:42 --> Loader Class Initialized
+INFO - 2026-03-02 14:22:42 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:22:42 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:22:42 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:22:42 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:22:42 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:22:42 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:22:42 --> Encryption Class Initialized
+INFO - 2026-03-02 14:22:42 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:22:42 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:22:42 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:22:42 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:22:42 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:22:42 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:22:42 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:22:42 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:22:42 --> Model "User_model" initialized
+INFO - 2026-03-02 14:22:42 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:22:42 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:22:42 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:22:42 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:22:42 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:22:42 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:22:42 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:22:42 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:22:42 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:22:42 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:22:42 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:22:42 --> Final output sent to browser
+DEBUG - 2026-03-02 14:22:42 --> Total execution time: 0.1899
+ERROR - 2026-03-02 14:22:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:22:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:42 --> Config Class Initialized
+INFO - 2026-03-02 14:22:42 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:42 --> Config Class Initialized
+INFO - 2026-03-02 14:22:42 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:42 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:42 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:42 --> URI Class Initialized
+INFO - 2026-03-02 14:22:42 --> URI Class Initialized
+ERROR - 2026-03-02 14:22:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:42 --> Router Class Initialized
+ERROR - 2026-03-02 14:22:42 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:42 --> Router Class Initialized
+INFO - 2026-03-02 14:22:42 --> Output Class Initialized
+INFO - 2026-03-02 14:22:42 --> Config Class Initialized
+INFO - 2026-03-02 14:22:42 --> Config Class Initialized
+INFO - 2026-03-02 14:22:42 --> Output Class Initialized
+INFO - 2026-03-02 14:22:42 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:42 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:42 --> Security Class Initialized
+INFO - 2026-03-02 14:22:42 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:42 --> Input Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:22:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:42 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:42 --> Input Class Initialized
+INFO - 2026-03-02 14:22:42 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:42 --> Language Class Initialized
+INFO - 2026-03-02 14:22:42 --> Language Class Initialized
+INFO - 2026-03-02 14:22:42 --> URI Class Initialized
+INFO - 2026-03-02 14:22:42 --> URI Class Initialized
+ERROR - 2026-03-02 14:22:42 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:22:42 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:22:42 --> Router Class Initialized
+INFO - 2026-03-02 14:22:42 --> Router Class Initialized
+INFO - 2026-03-02 14:22:42 --> Output Class Initialized
+INFO - 2026-03-02 14:22:42 --> Output Class Initialized
+INFO - 2026-03-02 14:22:42 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:42 --> Security Class Initialized
+INFO - 2026-03-02 14:22:42 --> Input Class Initialized
+INFO - 2026-03-02 14:22:42 --> Language Class Initialized
+DEBUG - 2026-03-02 14:22:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:42 --> Input Class Initialized
+INFO - 2026-03-02 14:22:42 --> Language Class Initialized
+ERROR - 2026-03-02 14:22:42 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:22:42 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:22:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:50 --> Config Class Initialized
+INFO - 2026-03-02 14:22:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:50 --> URI Class Initialized
+INFO - 2026-03-02 14:22:50 --> Router Class Initialized
+INFO - 2026-03-02 14:22:50 --> Output Class Initialized
+INFO - 2026-03-02 14:22:50 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:50 --> Input Class Initialized
+INFO - 2026-03-02 14:22:50 --> Language Class Initialized
+INFO - 2026-03-02 14:22:50 --> Loader Class Initialized
+INFO - 2026-03-02 14:22:50 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:22:50 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:22:50 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:22:50 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:22:50 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:22:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:22:50 --> Encryption Class Initialized
+INFO - 2026-03-02 14:22:50 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:22:50 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:22:50 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:22:50 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:22:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:22:50 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:22:50 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:22:50 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:22:50 --> Model "User_model" initialized
+INFO - 2026-03-02 14:22:50 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:22:50 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:22:50 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:22:50 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:22:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:22:50 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:22:50 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:22:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:22:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:22:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:22:50 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:22:50 --> Final output sent to browser
+DEBUG - 2026-03-02 14:22:50 --> Total execution time: 0.1765
+ERROR - 2026-03-02 14:22:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:22:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:50 --> Config Class Initialized
+INFO - 2026-03-02 14:22:50 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:50 --> Config Class Initialized
+INFO - 2026-03-02 14:22:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:50 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:50 --> URI Class Initialized
+INFO - 2026-03-02 14:22:50 --> URI Class Initialized
+INFO - 2026-03-02 14:22:50 --> Router Class Initialized
+ERROR - 2026-03-02 14:22:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:50 --> Router Class Initialized
+INFO - 2026-03-02 14:22:50 --> Output Class Initialized
+ERROR - 2026-03-02 14:22:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:22:50 --> Output Class Initialized
+INFO - 2026-03-02 14:22:50 --> Config Class Initialized
+INFO - 2026-03-02 14:22:50 --> Hooks Class Initialized
+INFO - 2026-03-02 14:22:50 --> Security Class Initialized
+INFO - 2026-03-02 14:22:50 --> Config Class Initialized
+INFO - 2026-03-02 14:22:50 --> Security Class Initialized
+INFO - 2026-03-02 14:22:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:50 --> Input Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:22:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:22:50 --> Language Class Initialized
+INFO - 2026-03-02 14:22:50 --> Input Class Initialized
+INFO - 2026-03-02 14:22:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:50 --> Language Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> UTF-8 Support Enabled
+ERROR - 2026-03-02 14:22:50 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 14:22:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:22:50 --> URI Class Initialized
+ERROR - 2026-03-02 14:22:50 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:22:50 --> URI Class Initialized
+INFO - 2026-03-02 14:22:50 --> Router Class Initialized
+INFO - 2026-03-02 14:22:50 --> Router Class Initialized
+INFO - 2026-03-02 14:22:50 --> Output Class Initialized
+INFO - 2026-03-02 14:22:50 --> Output Class Initialized
+INFO - 2026-03-02 14:22:50 --> Security Class Initialized
+INFO - 2026-03-02 14:22:50 --> Security Class Initialized
+DEBUG - 2026-03-02 14:22:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:22:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:22:50 --> Input Class Initialized
+INFO - 2026-03-02 14:22:50 --> Input Class Initialized
+INFO - 2026-03-02 14:22:50 --> Language Class Initialized
+INFO - 2026-03-02 14:22:50 --> Language Class Initialized
+ERROR - 2026-03-02 14:22:50 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:22:50 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:23:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:23:29 --> Config Class Initialized
+INFO - 2026-03-02 14:23:29 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:23:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:23:29 --> URI Class Initialized
+INFO - 2026-03-02 14:23:29 --> Router Class Initialized
+INFO - 2026-03-02 14:23:29 --> Output Class Initialized
+INFO - 2026-03-02 14:23:29 --> Security Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:23:29 --> Input Class Initialized
+INFO - 2026-03-02 14:23:29 --> Language Class Initialized
+INFO - 2026-03-02 14:23:29 --> Loader Class Initialized
+INFO - 2026-03-02 14:23:29 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:23:29 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:23:29 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:23:29 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:23:29 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:23:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:23:29 --> Encryption Class Initialized
+INFO - 2026-03-02 14:23:29 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:23:29 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:23:29 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:23:29 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:23:29 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:23:29 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:23:29 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:23:29 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:23:29 --> Model "User_model" initialized
+INFO - 2026-03-02 14:23:29 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:23:29 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:23:29 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:23:29 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:23:29 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:23:29 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:23:29 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:23:29 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:23:29 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:23:29 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:23:29 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:23:29 --> Final output sent to browser
+DEBUG - 2026-03-02 14:23:29 --> Total execution time: 0.1951
+ERROR - 2026-03-02 14:23:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:23:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:23:29 --> Config Class Initialized
+INFO - 2026-03-02 14:23:29 --> Config Class Initialized
+INFO - 2026-03-02 14:23:29 --> Hooks Class Initialized
+INFO - 2026-03-02 14:23:29 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:23:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:23:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:23:29 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:23:29 --> URI Class Initialized
+ERROR - 2026-03-02 14:23:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:23:29 --> URI Class Initialized
+ERROR - 2026-03-02 14:23:29 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:23:29 --> Router Class Initialized
+INFO - 2026-03-02 14:23:29 --> Router Class Initialized
+INFO - 2026-03-02 14:23:29 --> Config Class Initialized
+INFO - 2026-03-02 14:23:29 --> Hooks Class Initialized
+INFO - 2026-03-02 14:23:29 --> Config Class Initialized
+INFO - 2026-03-02 14:23:29 --> Hooks Class Initialized
+INFO - 2026-03-02 14:23:29 --> Output Class Initialized
+INFO - 2026-03-02 14:23:29 --> Output Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:23:29 --> Security Class Initialized
+INFO - 2026-03-02 14:23:29 --> Security Class Initialized
+INFO - 2026-03-02 14:23:29 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:23:29 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:23:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:23:29 --> URI Class Initialized
+INFO - 2026-03-02 14:23:29 --> Input Class Initialized
+INFO - 2026-03-02 14:23:29 --> Input Class Initialized
+INFO - 2026-03-02 14:23:29 --> URI Class Initialized
+INFO - 2026-03-02 14:23:29 --> Language Class Initialized
+INFO - 2026-03-02 14:23:29 --> Language Class Initialized
+INFO - 2026-03-02 14:23:29 --> Router Class Initialized
+INFO - 2026-03-02 14:23:29 --> Router Class Initialized
+ERROR - 2026-03-02 14:23:29 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:23:29 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 14:23:29 --> Output Class Initialized
+INFO - 2026-03-02 14:23:29 --> Output Class Initialized
+INFO - 2026-03-02 14:23:29 --> Security Class Initialized
+INFO - 2026-03-02 14:23:29 --> Security Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:23:29 --> Input Class Initialized
+DEBUG - 2026-03-02 14:23:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:23:29 --> Language Class Initialized
+INFO - 2026-03-02 14:23:29 --> Input Class Initialized
+INFO - 2026-03-02 14:23:29 --> Language Class Initialized
+ERROR - 2026-03-02 14:23:29 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:23:29 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:23:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:23:53 --> Config Class Initialized
+INFO - 2026-03-02 14:23:53 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:23:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:23:53 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:23:53 --> URI Class Initialized
+INFO - 2026-03-02 14:23:53 --> Router Class Initialized
+INFO - 2026-03-02 14:23:53 --> Output Class Initialized
+INFO - 2026-03-02 14:23:53 --> Security Class Initialized
+DEBUG - 2026-03-02 14:23:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:23:53 --> Input Class Initialized
+INFO - 2026-03-02 14:23:53 --> Language Class Initialized
+INFO - 2026-03-02 14:23:53 --> Loader Class Initialized
+INFO - 2026-03-02 14:23:53 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:23:53 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:23:53 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:23:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:23:53 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:23:53 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:23:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:23:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:23:53 --> Encryption Class Initialized
+INFO - 2026-03-02 14:23:54 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:23:54 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:23:54 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:23:54 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:23:54 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:23:54 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:23:54 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:23:54 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:23:54 --> Model "User_model" initialized
+INFO - 2026-03-02 14:23:54 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:23:54 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:23:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:23:54 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:23:54 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:23:54 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:23:54 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:23:54 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:23:54 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:23:54 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:23:54 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:23:54 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:23:54 --> Final output sent to browser
+DEBUG - 2026-03-02 14:23:54 --> Total execution time: 0.2251
+ERROR - 2026-03-02 14:23:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:23:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:23:54 --> Config Class Initialized
+INFO - 2026-03-02 14:23:54 --> Config Class Initialized
+INFO - 2026-03-02 14:23:54 --> Hooks Class Initialized
+INFO - 2026-03-02 14:23:54 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:23:54 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:23:54 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:23:54 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:23:54 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:23:54 --> URI Class Initialized
+INFO - 2026-03-02 14:23:54 --> URI Class Initialized
+ERROR - 2026-03-02 14:23:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:23:54 --> Router Class Initialized
+ERROR - 2026-03-02 14:23:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:23:54 --> Router Class Initialized
+INFO - 2026-03-02 14:23:54 --> Output Class Initialized
+INFO - 2026-03-02 14:23:54 --> Config Class Initialized
+INFO - 2026-03-02 14:23:54 --> Hooks Class Initialized
+INFO - 2026-03-02 14:23:54 --> Config Class Initialized
+INFO - 2026-03-02 14:23:54 --> Output Class Initialized
+INFO - 2026-03-02 14:23:54 --> Hooks Class Initialized
+INFO - 2026-03-02 14:23:54 --> Security Class Initialized
+INFO - 2026-03-02 14:23:54 --> Security Class Initialized
+DEBUG - 2026-03-02 14:23:54 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:23:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:23:54 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:23:54 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:23:54 --> Input Class Initialized
+INFO - 2026-03-02 14:23:54 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:23:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:23:54 --> Input Class Initialized
+INFO - 2026-03-02 14:23:54 --> Language Class Initialized
+INFO - 2026-03-02 14:23:54 --> Language Class Initialized
+INFO - 2026-03-02 14:23:54 --> URI Class Initialized
+INFO - 2026-03-02 14:23:54 --> URI Class Initialized
+ERROR - 2026-03-02 14:23:54 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:23:54 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:23:54 --> Router Class Initialized
+INFO - 2026-03-02 14:23:54 --> Router Class Initialized
+INFO - 2026-03-02 14:23:54 --> Output Class Initialized
+INFO - 2026-03-02 14:23:54 --> Output Class Initialized
+INFO - 2026-03-02 14:23:54 --> Security Class Initialized
+INFO - 2026-03-02 14:23:54 --> Security Class Initialized
+DEBUG - 2026-03-02 14:23:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:23:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:23:54 --> Input Class Initialized
+INFO - 2026-03-02 14:23:54 --> Input Class Initialized
+INFO - 2026-03-02 14:23:54 --> Language Class Initialized
+INFO - 2026-03-02 14:23:54 --> Language Class Initialized
+ERROR - 2026-03-02 14:23:54 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:23:54 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:24:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:00 --> Config Class Initialized
+INFO - 2026-03-02 14:24:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:00 --> URI Class Initialized
+INFO - 2026-03-02 14:24:00 --> Router Class Initialized
+INFO - 2026-03-02 14:24:00 --> Output Class Initialized
+INFO - 2026-03-02 14:24:00 --> Security Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:00 --> Input Class Initialized
+INFO - 2026-03-02 14:24:00 --> Language Class Initialized
+INFO - 2026-03-02 14:24:00 --> Loader Class Initialized
+INFO - 2026-03-02 14:24:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:24:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:24:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:24:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:24:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:24:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:24:00 --> Encryption Class Initialized
+INFO - 2026-03-02 14:24:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:24:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:24:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:24:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:24:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:24:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:24:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:24:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:24:00 --> Model "User_model" initialized
+INFO - 2026-03-02 14:24:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:24:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:24:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:24:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:24:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:24:00 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:24:00 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:24:00 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:24:00 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:24:00 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:24:00 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:24:00 --> Final output sent to browser
+DEBUG - 2026-03-02 14:24:00 --> Total execution time: 0.1827
+ERROR - 2026-03-02 14:24:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:24:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:00 --> Config Class Initialized
+INFO - 2026-03-02 14:24:00 --> Config Class Initialized
+INFO - 2026-03-02 14:24:00 --> Hooks Class Initialized
+INFO - 2026-03-02 14:24:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:24:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:00 --> URI Class Initialized
+INFO - 2026-03-02 14:24:00 --> URI Class Initialized
+INFO - 2026-03-02 14:24:00 --> Router Class Initialized
+INFO - 2026-03-02 14:24:00 --> Router Class Initialized
+ERROR - 2026-03-02 14:24:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:00 --> Output Class Initialized
+ERROR - 2026-03-02 14:24:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:00 --> Output Class Initialized
+INFO - 2026-03-02 14:24:00 --> Security Class Initialized
+INFO - 2026-03-02 14:24:00 --> Config Class Initialized
+INFO - 2026-03-02 14:24:00 --> Security Class Initialized
+INFO - 2026-03-02 14:24:00 --> Hooks Class Initialized
+INFO - 2026-03-02 14:24:00 --> Config Class Initialized
+INFO - 2026-03-02 14:24:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:24:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:00 --> Input Class Initialized
+INFO - 2026-03-02 14:24:00 --> Input Class Initialized
+INFO - 2026-03-02 14:24:00 --> Language Class Initialized
+INFO - 2026-03-02 14:24:00 --> Language Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:00 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:00 --> Utf8 Class Initialized
+ERROR - 2026-03-02 14:24:00 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:24:00 --> URI Class Initialized
+ERROR - 2026-03-02 14:24:00 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 14:24:00 --> URI Class Initialized
+INFO - 2026-03-02 14:24:00 --> Router Class Initialized
+INFO - 2026-03-02 14:24:00 --> Router Class Initialized
+INFO - 2026-03-02 14:24:00 --> Output Class Initialized
+INFO - 2026-03-02 14:24:00 --> Output Class Initialized
+INFO - 2026-03-02 14:24:00 --> Security Class Initialized
+INFO - 2026-03-02 14:24:00 --> Security Class Initialized
+DEBUG - 2026-03-02 14:24:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:24:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:00 --> Input Class Initialized
+INFO - 2026-03-02 14:24:00 --> Input Class Initialized
+INFO - 2026-03-02 14:24:00 --> Language Class Initialized
+INFO - 2026-03-02 14:24:00 --> Language Class Initialized
+ERROR - 2026-03-02 14:24:00 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:24:00 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:24:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:31 --> Config Class Initialized
+INFO - 2026-03-02 14:24:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:31 --> URI Class Initialized
+INFO - 2026-03-02 14:24:31 --> Router Class Initialized
+INFO - 2026-03-02 14:24:31 --> Output Class Initialized
+INFO - 2026-03-02 14:24:31 --> Security Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:31 --> Input Class Initialized
+INFO - 2026-03-02 14:24:31 --> Language Class Initialized
+INFO - 2026-03-02 14:24:31 --> Loader Class Initialized
+INFO - 2026-03-02 14:24:31 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:24:31 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:24:31 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:24:31 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:24:31 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:24:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:24:31 --> Encryption Class Initialized
+INFO - 2026-03-02 14:24:31 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:24:31 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:24:31 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:24:31 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:24:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:24:31 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:24:31 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:24:31 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:24:31 --> Model "User_model" initialized
+INFO - 2026-03-02 14:24:31 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:24:31 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:24:31 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:24:31 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:24:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:24:31 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:24:31 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:24:31 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:24:31 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:24:31 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:24:31 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:24:31 --> Final output sent to browser
+DEBUG - 2026-03-02 14:24:31 --> Total execution time: 0.2158
+ERROR - 2026-03-02 14:24:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:24:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:31 --> Config Class Initialized
+INFO - 2026-03-02 14:24:31 --> Hooks Class Initialized
+INFO - 2026-03-02 14:24:31 --> Config Class Initialized
+INFO - 2026-03-02 14:24:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:31 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:31 --> URI Class Initialized
+INFO - 2026-03-02 14:24:31 --> URI Class Initialized
+INFO - 2026-03-02 14:24:31 --> Router Class Initialized
+INFO - 2026-03-02 14:24:31 --> Router Class Initialized
+INFO - 2026-03-02 14:24:31 --> Output Class Initialized
+INFO - 2026-03-02 14:24:31 --> Output Class Initialized
+INFO - 2026-03-02 14:24:31 --> Security Class Initialized
+INFO - 2026-03-02 14:24:31 --> Security Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:31 --> Input Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:31 --> Input Class Initialized
+INFO - 2026-03-02 14:24:31 --> Language Class Initialized
+INFO - 2026-03-02 14:24:31 --> Language Class Initialized
+ERROR - 2026-03-02 14:24:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:24:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:24:31 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:24:31 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:24:31 --> Config Class Initialized
+INFO - 2026-03-02 14:24:31 --> Hooks Class Initialized
+INFO - 2026-03-02 14:24:31 --> Config Class Initialized
+INFO - 2026-03-02 14:24:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:31 --> URI Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:31 --> Router Class Initialized
+INFO - 2026-03-02 14:24:31 --> URI Class Initialized
+INFO - 2026-03-02 14:24:31 --> Output Class Initialized
+INFO - 2026-03-02 14:24:31 --> Router Class Initialized
+INFO - 2026-03-02 14:24:31 --> Security Class Initialized
+INFO - 2026-03-02 14:24:31 --> Output Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:31 --> Input Class Initialized
+INFO - 2026-03-02 14:24:31 --> Security Class Initialized
+INFO - 2026-03-02 14:24:31 --> Language Class Initialized
+DEBUG - 2026-03-02 14:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:31 --> Input Class Initialized
+INFO - 2026-03-02 14:24:31 --> Language Class Initialized
+ERROR - 2026-03-02 14:24:31 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:24:31 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:24:47 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:47 --> Config Class Initialized
+INFO - 2026-03-02 14:24:47 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:24:47 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:47 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:47 --> URI Class Initialized
+INFO - 2026-03-02 14:24:47 --> Router Class Initialized
+INFO - 2026-03-02 14:24:47 --> Output Class Initialized
+INFO - 2026-03-02 14:24:47 --> Security Class Initialized
+DEBUG - 2026-03-02 14:24:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:47 --> Input Class Initialized
+INFO - 2026-03-02 14:24:47 --> Language Class Initialized
+INFO - 2026-03-02 14:24:47 --> Loader Class Initialized
+INFO - 2026-03-02 14:24:47 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:24:47 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:24:47 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:24:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:24:47 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:24:47 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:24:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:24:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:24:47 --> Encryption Class Initialized
+INFO - 2026-03-02 14:24:47 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:24:47 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:24:47 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:24:47 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:24:47 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:24:47 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:24:47 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:24:47 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:24:47 --> Model "User_model" initialized
+INFO - 2026-03-02 14:24:47 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:24:47 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:24:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:24:47 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:24:47 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:24:47 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:24:47 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:24:47 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:24:47 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:24:47 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:24:47 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:24:47 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:24:47 --> Final output sent to browser
+DEBUG - 2026-03-02 14:24:47 --> Total execution time: 0.2052
+ERROR - 2026-03-02 14:24:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:48 --> Config Class Initialized
+INFO - 2026-03-02 14:24:48 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:24:48 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:48 --> URI Class Initialized
+ERROR - 2026-03-02 14:24:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:48 --> Router Class Initialized
+INFO - 2026-03-02 14:24:48 --> Config Class Initialized
+INFO - 2026-03-02 14:24:48 --> Hooks Class Initialized
+INFO - 2026-03-02 14:24:48 --> Output Class Initialized
+INFO - 2026-03-02 14:24:48 --> Security Class Initialized
+ERROR - 2026-03-02 14:24:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 14:24:48 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:24:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:48 --> Utf8 Class Initialized
+ERROR - 2026-03-02 14:24:48 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:24:48 --> Input Class Initialized
+INFO - 2026-03-02 14:24:48 --> Config Class Initialized
+INFO - 2026-03-02 14:24:48 --> Hooks Class Initialized
+INFO - 2026-03-02 14:24:48 --> URI Class Initialized
+INFO - 2026-03-02 14:24:48 --> Language Class Initialized
+INFO - 2026-03-02 14:24:48 --> Config Class Initialized
+INFO - 2026-03-02 14:24:48 --> Router Class Initialized
+INFO - 2026-03-02 14:24:48 --> Hooks Class Initialized
+ERROR - 2026-03-02 14:24:48 --> 404 Page Not Found: Img/undraw_profile_1.svg
+DEBUG - 2026-03-02 14:24:48 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:48 --> Output Class Initialized
+INFO - 2026-03-02 14:24:48 --> URI Class Initialized
+DEBUG - 2026-03-02 14:24:48 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:24:48 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:24:48 --> Security Class Initialized
+INFO - 2026-03-02 14:24:48 --> Router Class Initialized
+INFO - 2026-03-02 14:24:48 --> URI Class Initialized
+DEBUG - 2026-03-02 14:24:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:48 --> Input Class Initialized
+INFO - 2026-03-02 14:24:48 --> Output Class Initialized
+INFO - 2026-03-02 14:24:48 --> Router Class Initialized
+INFO - 2026-03-02 14:24:48 --> Language Class Initialized
+INFO - 2026-03-02 14:24:48 --> Security Class Initialized
+ERROR - 2026-03-02 14:24:48 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 14:24:48 --> Output Class Initialized
+DEBUG - 2026-03-02 14:24:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:48 --> Input Class Initialized
+INFO - 2026-03-02 14:24:48 --> Security Class Initialized
+INFO - 2026-03-02 14:24:48 --> Language Class Initialized
+DEBUG - 2026-03-02 14:24:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:24:48 --> Input Class Initialized
+ERROR - 2026-03-02 14:24:48 --> 404 Page Not Found: Img/undraw_profile_3.svg
+INFO - 2026-03-02 14:24:48 --> Language Class Initialized
+ERROR - 2026-03-02 14:24:48 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:26:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:26:06 --> Config Class Initialized
+INFO - 2026-03-02 14:26:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:26:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:06 --> URI Class Initialized
+INFO - 2026-03-02 14:26:06 --> Router Class Initialized
+INFO - 2026-03-02 14:26:06 --> Output Class Initialized
+INFO - 2026-03-02 14:26:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:26:06 --> Input Class Initialized
+INFO - 2026-03-02 14:26:06 --> Language Class Initialized
+INFO - 2026-03-02 14:26:06 --> Loader Class Initialized
+INFO - 2026-03-02 14:26:06 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:26:06 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:26:06 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:26:06 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:26:06 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:26:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:26:06 --> Encryption Class Initialized
+INFO - 2026-03-02 14:26:06 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:26:06 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:26:06 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:26:06 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:26:06 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:26:06 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:26:06 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:26:06 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:26:06 --> Model "User_model" initialized
+INFO - 2026-03-02 14:26:06 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:26:06 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:26:06 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:26:06 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:26:06 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:26:06 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:26:06 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:26:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:26:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:26:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:26:06 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:26:06 --> Final output sent to browser
+DEBUG - 2026-03-02 14:26:06 --> Total execution time: 0.1957
+ERROR - 2026-03-02 14:26:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:26:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:26:06 --> Config Class Initialized
+INFO - 2026-03-02 14:26:06 --> Config Class Initialized
+INFO - 2026-03-02 14:26:06 --> Hooks Class Initialized
+INFO - 2026-03-02 14:26:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:26:06 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:26:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:06 --> URI Class Initialized
+INFO - 2026-03-02 14:26:06 --> URI Class Initialized
+INFO - 2026-03-02 14:26:06 --> Router Class Initialized
+INFO - 2026-03-02 14:26:06 --> Router Class Initialized
+INFO - 2026-03-02 14:26:06 --> Output Class Initialized
+INFO - 2026-03-02 14:26:06 --> Output Class Initialized
+INFO - 2026-03-02 14:26:06 --> Security Class Initialized
+INFO - 2026-03-02 14:26:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:26:06 --> Input Class Initialized
+ERROR - 2026-03-02 14:26:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 14:26:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:26:06 --> Input Class Initialized
+ERROR - 2026-03-02 14:26:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:26:06 --> Language Class Initialized
+INFO - 2026-03-02 14:26:06 --> Language Class Initialized
+INFO - 2026-03-02 14:26:06 --> Config Class Initialized
+ERROR - 2026-03-02 14:26:06 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:26:06 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 14:26:06 --> Hooks Class Initialized
+INFO - 2026-03-02 14:26:06 --> Config Class Initialized
+INFO - 2026-03-02 14:26:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:26:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:26:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:06 --> URI Class Initialized
+INFO - 2026-03-02 14:26:06 --> URI Class Initialized
+INFO - 2026-03-02 14:26:06 --> Router Class Initialized
+INFO - 2026-03-02 14:26:06 --> Router Class Initialized
+INFO - 2026-03-02 14:26:06 --> Output Class Initialized
+INFO - 2026-03-02 14:26:06 --> Output Class Initialized
+INFO - 2026-03-02 14:26:06 --> Security Class Initialized
+INFO - 2026-03-02 14:26:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:26:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:26:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:26:06 --> Input Class Initialized
+INFO - 2026-03-02 14:26:06 --> Input Class Initialized
+INFO - 2026-03-02 14:26:06 --> Language Class Initialized
+INFO - 2026-03-02 14:26:06 --> Language Class Initialized
+ERROR - 2026-03-02 14:26:06 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:26:06 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:26:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:26:19 --> Config Class Initialized
+INFO - 2026-03-02 14:26:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:26:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:26:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:19 --> URI Class Initialized
+INFO - 2026-03-02 14:26:19 --> Router Class Initialized
+INFO - 2026-03-02 14:26:19 --> Output Class Initialized
+INFO - 2026-03-02 14:26:19 --> Security Class Initialized
+DEBUG - 2026-03-02 14:26:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:26:19 --> Input Class Initialized
+INFO - 2026-03-02 14:26:19 --> Language Class Initialized
+INFO - 2026-03-02 14:26:19 --> Loader Class Initialized
+INFO - 2026-03-02 14:26:19 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:26:19 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:26:19 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:26:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:26:19 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:26:19 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:26:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:26:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:26:19 --> Encryption Class Initialized
+INFO - 2026-03-02 14:26:19 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:26:19 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:26:19 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:26:19 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:26:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:26:19 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:26:19 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:26:19 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:26:19 --> Model "User_model" initialized
+INFO - 2026-03-02 14:26:19 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:26:19 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:26:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:26:19 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:26:19 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:26:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:26:19 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:26:19 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:26:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:26:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:26:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:26:19 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:26:19 --> Final output sent to browser
+DEBUG - 2026-03-02 14:26:19 --> Total execution time: 0.1018
+ERROR - 2026-03-02 14:26:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:26:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:26:19 --> Config Class Initialized
+INFO - 2026-03-02 14:26:19 --> Config Class Initialized
+INFO - 2026-03-02 14:26:19 --> Hooks Class Initialized
+INFO - 2026-03-02 14:26:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:26:19 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:26:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:26:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:19 --> URI Class Initialized
+INFO - 2026-03-02 14:26:19 --> URI Class Initialized
+INFO - 2026-03-02 14:26:19 --> Router Class Initialized
+INFO - 2026-03-02 14:26:19 --> Router Class Initialized
+INFO - 2026-03-02 14:26:19 --> Output Class Initialized
+INFO - 2026-03-02 14:26:19 --> Output Class Initialized
+INFO - 2026-03-02 14:26:19 --> Security Class Initialized
+INFO - 2026-03-02 14:26:19 --> Security Class Initialized
+ERROR - 2026-03-02 14:26:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:26:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 14:26:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:26:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:26:19 --> Input Class Initialized
+INFO - 2026-03-02 14:26:19 --> Input Class Initialized
+INFO - 2026-03-02 14:26:19 --> Config Class Initialized
+INFO - 2026-03-02 14:26:19 --> Config Class Initialized
+INFO - 2026-03-02 14:26:19 --> Language Class Initialized
+INFO - 2026-03-02 14:26:19 --> Hooks Class Initialized
+INFO - 2026-03-02 14:26:19 --> Language Class Initialized
+INFO - 2026-03-02 14:26:19 --> Hooks Class Initialized
+ERROR - 2026-03-02 14:26:19 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:26:19 --> 404 Page Not Found: Img/undraw_profile_1.svg
+DEBUG - 2026-03-02 14:26:19 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:26:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:26:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:26:19 --> URI Class Initialized
+INFO - 2026-03-02 14:26:19 --> URI Class Initialized
+INFO - 2026-03-02 14:26:19 --> Router Class Initialized
+INFO - 2026-03-02 14:26:19 --> Router Class Initialized
+INFO - 2026-03-02 14:26:19 --> Output Class Initialized
+INFO - 2026-03-02 14:26:19 --> Output Class Initialized
+INFO - 2026-03-02 14:26:19 --> Security Class Initialized
+INFO - 2026-03-02 14:26:19 --> Security Class Initialized
+DEBUG - 2026-03-02 14:26:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:26:19 --> Input Class Initialized
+DEBUG - 2026-03-02 14:26:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:26:19 --> Language Class Initialized
+INFO - 2026-03-02 14:26:19 --> Input Class Initialized
+INFO - 2026-03-02 14:26:19 --> Language Class Initialized
+ERROR - 2026-03-02 14:26:19 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:26:19 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:27:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:27:03 --> Config Class Initialized
+INFO - 2026-03-02 14:27:03 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:27:03 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:27:03 --> URI Class Initialized
+INFO - 2026-03-02 14:27:03 --> Router Class Initialized
+INFO - 2026-03-02 14:27:03 --> Output Class Initialized
+INFO - 2026-03-02 14:27:03 --> Security Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:27:03 --> Input Class Initialized
+INFO - 2026-03-02 14:27:03 --> Language Class Initialized
+INFO - 2026-03-02 14:27:03 --> Loader Class Initialized
+INFO - 2026-03-02 14:27:03 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:27:03 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:27:03 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:27:03 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:27:03 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:27:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:27:03 --> Encryption Class Initialized
+INFO - 2026-03-02 14:27:03 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:27:03 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:27:03 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:27:03 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:27:03 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:27:03 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:27:03 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:27:03 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:27:03 --> Model "User_model" initialized
+INFO - 2026-03-02 14:27:03 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:27:03 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:27:03 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:27:03 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:27:03 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:27:03 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:27:03 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:27:03 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:27:03 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:27:03 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:27:03 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:27:03 --> Final output sent to browser
+DEBUG - 2026-03-02 14:27:03 --> Total execution time: 0.1662
+ERROR - 2026-03-02 14:27:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:27:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:27:03 --> Config Class Initialized
+INFO - 2026-03-02 14:27:03 --> Config Class Initialized
+INFO - 2026-03-02 14:27:03 --> Hooks Class Initialized
+INFO - 2026-03-02 14:27:03 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:27:03 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:27:03 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:27:03 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:27:03 --> URI Class Initialized
+INFO - 2026-03-02 14:27:03 --> URI Class Initialized
+INFO - 2026-03-02 14:27:03 --> Router Class Initialized
+INFO - 2026-03-02 14:27:03 --> Router Class Initialized
+ERROR - 2026-03-02 14:27:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:27:03 --> Output Class Initialized
+INFO - 2026-03-02 14:27:03 --> Output Class Initialized
+ERROR - 2026-03-02 14:27:03 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:27:03 --> Security Class Initialized
+INFO - 2026-03-02 14:27:03 --> Security Class Initialized
+INFO - 2026-03-02 14:27:03 --> Config Class Initialized
+INFO - 2026-03-02 14:27:03 --> Hooks Class Initialized
+INFO - 2026-03-02 14:27:03 --> Config Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:27:03 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:27:03 --> Input Class Initialized
+INFO - 2026-03-02 14:27:03 --> Input Class Initialized
+INFO - 2026-03-02 14:27:03 --> Language Class Initialized
+INFO - 2026-03-02 14:27:03 --> Language Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:27:03 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> UTF-8 Support Enabled
+ERROR - 2026-03-02 14:27:03 --> 404 Page Not Found: Img/undraw_profile_2.svg
+INFO - 2026-03-02 14:27:03 --> Utf8 Class Initialized
+ERROR - 2026-03-02 14:27:03 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:27:03 --> URI Class Initialized
+INFO - 2026-03-02 14:27:03 --> URI Class Initialized
+INFO - 2026-03-02 14:27:03 --> Router Class Initialized
+INFO - 2026-03-02 14:27:03 --> Router Class Initialized
+INFO - 2026-03-02 14:27:03 --> Output Class Initialized
+INFO - 2026-03-02 14:27:03 --> Output Class Initialized
+INFO - 2026-03-02 14:27:03 --> Security Class Initialized
+INFO - 2026-03-02 14:27:03 --> Security Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:27:03 --> Input Class Initialized
+DEBUG - 2026-03-02 14:27:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:27:03 --> Language Class Initialized
+INFO - 2026-03-02 14:27:03 --> Input Class Initialized
+INFO - 2026-03-02 14:27:03 --> Language Class Initialized
+ERROR - 2026-03-02 14:27:03 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:27:03 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:28:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:14 --> Config Class Initialized
+INFO - 2026-03-02 14:28:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:14 --> URI Class Initialized
+INFO - 2026-03-02 14:28:14 --> Router Class Initialized
+INFO - 2026-03-02 14:28:14 --> Output Class Initialized
+INFO - 2026-03-02 14:28:14 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:14 --> Input Class Initialized
+INFO - 2026-03-02 14:28:14 --> Language Class Initialized
+INFO - 2026-03-02 14:28:14 --> Loader Class Initialized
+INFO - 2026-03-02 14:28:14 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:28:14 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:28:14 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:28:14 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:28:14 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:28:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:28:14 --> Encryption Class Initialized
+INFO - 2026-03-02 14:28:14 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:28:14 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:28:14 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:28:14 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:28:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:14 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:28:14 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:28:14 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:28:14 --> Model "User_model" initialized
+INFO - 2026-03-02 14:28:14 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:28:14 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:28:14 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:28:14 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:28:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:14 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:28:14 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:28:14 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:28:14 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:28:14 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:28:14 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:28:14 --> Final output sent to browser
+DEBUG - 2026-03-02 14:28:14 --> Total execution time: 0.1895
+ERROR - 2026-03-02 14:28:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:28:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:14 --> Config Class Initialized
+INFO - 2026-03-02 14:28:14 --> Config Class Initialized
+INFO - 2026-03-02 14:28:14 --> Hooks Class Initialized
+INFO - 2026-03-02 14:28:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:14 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:14 --> URI Class Initialized
+INFO - 2026-03-02 14:28:14 --> URI Class Initialized
+INFO - 2026-03-02 14:28:14 --> Router Class Initialized
+INFO - 2026-03-02 14:28:14 --> Router Class Initialized
+INFO - 2026-03-02 14:28:14 --> Output Class Initialized
+INFO - 2026-03-02 14:28:14 --> Output Class Initialized
+INFO - 2026-03-02 14:28:14 --> Security Class Initialized
+INFO - 2026-03-02 14:28:14 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:28:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:14 --> Input Class Initialized
+INFO - 2026-03-02 14:28:14 --> Input Class Initialized
+INFO - 2026-03-02 14:28:14 --> Language Class Initialized
+INFO - 2026-03-02 14:28:14 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:14 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:28:14 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:28:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:28:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:14 --> Config Class Initialized
+INFO - 2026-03-02 14:28:14 --> Hooks Class Initialized
+INFO - 2026-03-02 14:28:14 --> Config Class Initialized
+INFO - 2026-03-02 14:28:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:14 --> URI Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:14 --> Router Class Initialized
+INFO - 2026-03-02 14:28:14 --> URI Class Initialized
+INFO - 2026-03-02 14:28:14 --> Output Class Initialized
+INFO - 2026-03-02 14:28:14 --> Router Class Initialized
+INFO - 2026-03-02 14:28:14 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:14 --> Input Class Initialized
+INFO - 2026-03-02 14:28:14 --> Output Class Initialized
+INFO - 2026-03-02 14:28:14 --> Language Class Initialized
+INFO - 2026-03-02 14:28:14 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2026-03-02 14:28:14 --> 404 Page Not Found: Img/undraw_profile_3.svg
+INFO - 2026-03-02 14:28:14 --> Input Class Initialized
+INFO - 2026-03-02 14:28:14 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:14 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:28:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:23 --> Config Class Initialized
+INFO - 2026-03-02 14:28:23 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:23 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:23 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:23 --> URI Class Initialized
+INFO - 2026-03-02 14:28:23 --> Router Class Initialized
+INFO - 2026-03-02 14:28:23 --> Output Class Initialized
+INFO - 2026-03-02 14:28:23 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:23 --> Input Class Initialized
+INFO - 2026-03-02 14:28:23 --> Language Class Initialized
+INFO - 2026-03-02 14:28:23 --> Loader Class Initialized
+INFO - 2026-03-02 14:28:23 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:28:23 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:28:23 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:28:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:28:23 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:28:23 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:28:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:28:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:28:23 --> Encryption Class Initialized
+INFO - 2026-03-02 14:28:23 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:28:23 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:28:23 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:28:23 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:28:23 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:28:23 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:28:23 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:28:23 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:28:23 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:28:23 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:28:23 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:28:23 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:24 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:28:24 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:28:24 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:28:24 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:28:24 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:28:24 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:28:24 --> Model "User_model" initialized
+INFO - 2026-03-02 14:28:24 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:28:24 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:28:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:28:24 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:28:24 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:28:24 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:24 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:28:24 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:28:24 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:28:24 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:28:24 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:28:24 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:28:24 --> Final output sent to browser
+DEBUG - 2026-03-02 14:28:24 --> Total execution time: 0.1030
+ERROR - 2026-03-02 14:28:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:28:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:24 --> Config Class Initialized
+INFO - 2026-03-02 14:28:24 --> Config Class Initialized
+INFO - 2026-03-02 14:28:24 --> Hooks Class Initialized
+INFO - 2026-03-02 14:28:24 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:24 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:28:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:24 --> URI Class Initialized
+INFO - 2026-03-02 14:28:24 --> URI Class Initialized
+INFO - 2026-03-02 14:28:24 --> Router Class Initialized
+INFO - 2026-03-02 14:28:24 --> Router Class Initialized
+INFO - 2026-03-02 14:28:24 --> Output Class Initialized
+INFO - 2026-03-02 14:28:24 --> Output Class Initialized
+INFO - 2026-03-02 14:28:24 --> Security Class Initialized
+INFO - 2026-03-02 14:28:24 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:24 --> Input Class Initialized
+DEBUG - 2026-03-02 14:28:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:24 --> Input Class Initialized
+INFO - 2026-03-02 14:28:24 --> Language Class Initialized
+INFO - 2026-03-02 14:28:24 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:24 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:28:24 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:28:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:24 --> Config Class Initialized
+INFO - 2026-03-02 14:28:24 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:24 --> URI Class Initialized
+INFO - 2026-03-02 14:28:24 --> Router Class Initialized
+INFO - 2026-03-02 14:28:24 --> Output Class Initialized
+INFO - 2026-03-02 14:28:24 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:24 --> Input Class Initialized
+INFO - 2026-03-02 14:28:24 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:24 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:28:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:24 --> Config Class Initialized
+INFO - 2026-03-02 14:28:24 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:24 --> URI Class Initialized
+INFO - 2026-03-02 14:28:24 --> Router Class Initialized
+INFO - 2026-03-02 14:28:24 --> Output Class Initialized
+INFO - 2026-03-02 14:28:24 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:24 --> Input Class Initialized
+INFO - 2026-03-02 14:28:24 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:24 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:28:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:27 --> Config Class Initialized
+INFO - 2026-03-02 14:28:27 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:27 --> URI Class Initialized
+INFO - 2026-03-02 14:28:27 --> Router Class Initialized
+INFO - 2026-03-02 14:28:27 --> Output Class Initialized
+INFO - 2026-03-02 14:28:27 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:27 --> Input Class Initialized
+INFO - 2026-03-02 14:28:27 --> Language Class Initialized
+INFO - 2026-03-02 14:28:27 --> Loader Class Initialized
+INFO - 2026-03-02 14:28:27 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:28:27 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:28:27 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:28:27 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:28:27 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:28:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:28:27 --> Encryption Class Initialized
+INFO - 2026-03-02 14:28:27 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:28:27 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:28:27 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:28:27 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:28:27 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:27 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:28:27 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:28:27 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:28:27 --> Model "User_model" initialized
+INFO - 2026-03-02 14:28:27 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:28:27 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:28:27 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:28:27 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:28:27 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:27 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:28:27 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:28:27 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:28:27 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:28:27 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:28:27 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:28:27 --> Final output sent to browser
+DEBUG - 2026-03-02 14:28:27 --> Total execution time: 0.1650
+ERROR - 2026-03-02 14:28:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:28:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:27 --> Config Class Initialized
+INFO - 2026-03-02 14:28:27 --> Config Class Initialized
+INFO - 2026-03-02 14:28:27 --> Hooks Class Initialized
+INFO - 2026-03-02 14:28:27 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:28:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:27 --> URI Class Initialized
+INFO - 2026-03-02 14:28:27 --> URI Class Initialized
+INFO - 2026-03-02 14:28:27 --> Router Class Initialized
+INFO - 2026-03-02 14:28:27 --> Router Class Initialized
+INFO - 2026-03-02 14:28:27 --> Output Class Initialized
+INFO - 2026-03-02 14:28:27 --> Output Class Initialized
+INFO - 2026-03-02 14:28:27 --> Security Class Initialized
+INFO - 2026-03-02 14:28:27 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:28:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:27 --> Input Class Initialized
+INFO - 2026-03-02 14:28:27 --> Input Class Initialized
+INFO - 2026-03-02 14:28:27 --> Language Class Initialized
+INFO - 2026-03-02 14:28:27 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:27 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:28:27 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:28:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:28:27 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:27 --> Config Class Initialized
+INFO - 2026-03-02 14:28:27 --> Config Class Initialized
+INFO - 2026-03-02 14:28:27 --> Hooks Class Initialized
+INFO - 2026-03-02 14:28:27 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:28:27 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:27 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:27 --> URI Class Initialized
+INFO - 2026-03-02 14:28:27 --> URI Class Initialized
+INFO - 2026-03-02 14:28:27 --> Router Class Initialized
+INFO - 2026-03-02 14:28:27 --> Router Class Initialized
+INFO - 2026-03-02 14:28:27 --> Output Class Initialized
+INFO - 2026-03-02 14:28:27 --> Output Class Initialized
+INFO - 2026-03-02 14:28:27 --> Security Class Initialized
+INFO - 2026-03-02 14:28:27 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:28:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:27 --> Input Class Initialized
+INFO - 2026-03-02 14:28:27 --> Input Class Initialized
+INFO - 2026-03-02 14:28:27 --> Language Class Initialized
+INFO - 2026-03-02 14:28:27 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:27 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:28:27 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:28:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:50 --> Config Class Initialized
+INFO - 2026-03-02 14:28:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:50 --> URI Class Initialized
+INFO - 2026-03-02 14:28:50 --> Router Class Initialized
+INFO - 2026-03-02 14:28:50 --> Output Class Initialized
+INFO - 2026-03-02 14:28:50 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:50 --> Input Class Initialized
+INFO - 2026-03-02 14:28:50 --> Language Class Initialized
+INFO - 2026-03-02 14:28:50 --> Loader Class Initialized
+INFO - 2026-03-02 14:28:50 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:28:50 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:28:50 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:28:50 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:28:50 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:28:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:28:50 --> Encryption Class Initialized
+INFO - 2026-03-02 14:28:50 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:28:50 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:28:50 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:28:50 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:28:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:50 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:28:50 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:28:50 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "User_model" initialized
+INFO - 2026-03-02 14:28:50 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:28:50 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:28:50 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:28:50 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:28:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:50 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:28:50 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:28:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:28:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:28:50 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:28:50 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:28:50 --> Final output sent to browser
+DEBUG - 2026-03-02 14:28:50 --> Total execution time: 0.2214
+ERROR - 2026-03-02 14:28:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:28:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:50 --> Config Class Initialized
+INFO - 2026-03-02 14:28:50 --> Config Class Initialized
+INFO - 2026-03-02 14:28:50 --> Hooks Class Initialized
+INFO - 2026-03-02 14:28:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:50 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:50 --> URI Class Initialized
+INFO - 2026-03-02 14:28:50 --> URI Class Initialized
+INFO - 2026-03-02 14:28:50 --> Router Class Initialized
+INFO - 2026-03-02 14:28:50 --> Router Class Initialized
+INFO - 2026-03-02 14:28:50 --> Output Class Initialized
+INFO - 2026-03-02 14:28:50 --> Security Class Initialized
+INFO - 2026-03-02 14:28:50 --> Output Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:50 --> Security Class Initialized
+INFO - 2026-03-02 14:28:50 --> Input Class Initialized
+INFO - 2026-03-02 14:28:50 --> Language Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:50 --> Input Class Initialized
+ERROR - 2026-03-02 14:28:50 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:28:50 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:50 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:28:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:28:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:50 --> Config Class Initialized
+INFO - 2026-03-02 14:28:50 --> Hooks Class Initialized
+INFO - 2026-03-02 14:28:50 --> Config Class Initialized
+INFO - 2026-03-02 14:28:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:28:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:50 --> URI Class Initialized
+INFO - 2026-03-02 14:28:50 --> URI Class Initialized
+INFO - 2026-03-02 14:28:50 --> Router Class Initialized
+INFO - 2026-03-02 14:28:50 --> Router Class Initialized
+INFO - 2026-03-02 14:28:50 --> Output Class Initialized
+INFO - 2026-03-02 14:28:50 --> Output Class Initialized
+INFO - 2026-03-02 14:28:50 --> Security Class Initialized
+INFO - 2026-03-02 14:28:50 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:28:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:50 --> Input Class Initialized
+INFO - 2026-03-02 14:28:50 --> Input Class Initialized
+INFO - 2026-03-02 14:28:50 --> Language Class Initialized
+INFO - 2026-03-02 14:28:50 --> Language Class Initialized
+ERROR - 2026-03-02 14:28:50 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:28:50 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:28:50 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:28:50 --> Config Class Initialized
+INFO - 2026-03-02 14:28:50 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:28:50 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:28:50 --> URI Class Initialized
+INFO - 2026-03-02 14:28:50 --> Router Class Initialized
+INFO - 2026-03-02 14:28:50 --> Output Class Initialized
+INFO - 2026-03-02 14:28:50 --> Security Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:28:50 --> Input Class Initialized
+INFO - 2026-03-02 14:28:50 --> Language Class Initialized
+INFO - 2026-03-02 14:28:50 --> Loader Class Initialized
+INFO - 2026-03-02 14:28:50 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:28:50 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:28:50 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:28:50 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:28:50 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:28:50 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:28:50 --> Encryption Class Initialized
+INFO - 2026-03-02 14:28:50 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:28:50 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:28:50 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:28:50 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:28:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:50 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:28:50 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:28:50 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:28:50 --> Model "User_model" initialized
+INFO - 2026-03-02 14:28:50 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:28:50 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:28:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:28:50 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:28:50 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:28:50 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:28:50 --> Database Driver Class Initialized
+ERROR - 2026-03-02 14:29:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:29:06 --> Config Class Initialized
+INFO - 2026-03-02 14:29:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:06 --> URI Class Initialized
+INFO - 2026-03-02 14:29:06 --> Router Class Initialized
+INFO - 2026-03-02 14:29:06 --> Output Class Initialized
+INFO - 2026-03-02 14:29:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:06 --> Input Class Initialized
+INFO - 2026-03-02 14:29:06 --> Language Class Initialized
+INFO - 2026-03-02 14:29:06 --> Loader Class Initialized
+INFO - 2026-03-02 14:29:06 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:29:06 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:29:06 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:29:06 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:29:06 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:29:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:29:06 --> Encryption Class Initialized
+INFO - 2026-03-02 14:29:06 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:29:06 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:29:06 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:29:06 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:29:06 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:29:06 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:29:06 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:29:06 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:29:06 --> Model "User_model" initialized
+INFO - 2026-03-02 14:29:06 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:29:06 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:29:06 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:29:06 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:29:06 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:29:06 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:29:06 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:29:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:29:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:29:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:29:06 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:29:06 --> Final output sent to browser
+DEBUG - 2026-03-02 14:29:06 --> Total execution time: 0.1979
+ERROR - 2026-03-02 14:29:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:29:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:29:06 --> Config Class Initialized
+INFO - 2026-03-02 14:29:06 --> Hooks Class Initialized
+INFO - 2026-03-02 14:29:06 --> Config Class Initialized
+INFO - 2026-03-02 14:29:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:06 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:06 --> URI Class Initialized
+INFO - 2026-03-02 14:29:06 --> URI Class Initialized
+INFO - 2026-03-02 14:29:06 --> Router Class Initialized
+INFO - 2026-03-02 14:29:06 --> Router Class Initialized
+INFO - 2026-03-02 14:29:06 --> Output Class Initialized
+INFO - 2026-03-02 14:29:06 --> Output Class Initialized
+INFO - 2026-03-02 14:29:06 --> Security Class Initialized
+INFO - 2026-03-02 14:29:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:06 --> Input Class Initialized
+INFO - 2026-03-02 14:29:06 --> Input Class Initialized
+INFO - 2026-03-02 14:29:06 --> Language Class Initialized
+INFO - 2026-03-02 14:29:06 --> Language Class Initialized
+ERROR - 2026-03-02 14:29:06 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:29:06 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:29:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:29:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:29:06 --> Config Class Initialized
+INFO - 2026-03-02 14:29:06 --> Config Class Initialized
+INFO - 2026-03-02 14:29:06 --> Hooks Class Initialized
+INFO - 2026-03-02 14:29:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:29:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:06 --> URI Class Initialized
+INFO - 2026-03-02 14:29:06 --> URI Class Initialized
+INFO - 2026-03-02 14:29:06 --> Router Class Initialized
+INFO - 2026-03-02 14:29:06 --> Router Class Initialized
+INFO - 2026-03-02 14:29:06 --> Output Class Initialized
+INFO - 2026-03-02 14:29:06 --> Output Class Initialized
+INFO - 2026-03-02 14:29:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:06 --> Security Class Initialized
+INFO - 2026-03-02 14:29:06 --> Input Class Initialized
+INFO - 2026-03-02 14:29:06 --> Language Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:06 --> Input Class Initialized
+INFO - 2026-03-02 14:29:06 --> Language Class Initialized
+ERROR - 2026-03-02 14:29:06 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:29:06 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:29:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:29:06 --> Config Class Initialized
+INFO - 2026-03-02 14:29:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:06 --> URI Class Initialized
+INFO - 2026-03-02 14:29:06 --> Router Class Initialized
+INFO - 2026-03-02 14:29:06 --> Output Class Initialized
+INFO - 2026-03-02 14:29:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:06 --> Input Class Initialized
+INFO - 2026-03-02 14:29:06 --> Language Class Initialized
+ERROR - 2026-03-02 14:29:06 --> 404 Page Not Found: Libraries/getPRList
+ERROR - 2026-03-02 14:29:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:29:45 --> Config Class Initialized
+INFO - 2026-03-02 14:29:45 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:45 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:45 --> URI Class Initialized
+INFO - 2026-03-02 14:29:45 --> Router Class Initialized
+INFO - 2026-03-02 14:29:45 --> Output Class Initialized
+INFO - 2026-03-02 14:29:45 --> Security Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:45 --> Input Class Initialized
+INFO - 2026-03-02 14:29:45 --> Language Class Initialized
+INFO - 2026-03-02 14:29:45 --> Loader Class Initialized
+INFO - 2026-03-02 14:29:45 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:29:45 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:29:45 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:29:45 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:29:45 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:29:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:29:45 --> Encryption Class Initialized
+INFO - 2026-03-02 14:29:45 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:29:45 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:29:45 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:29:45 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:29:45 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:29:45 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:29:45 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:29:45 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:29:45 --> Model "User_model" initialized
+INFO - 2026-03-02 14:29:45 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:29:45 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:29:45 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:29:45 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:29:45 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:29:45 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:29:45 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:29:45 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:29:45 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:29:45 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:29:45 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:29:45 --> Final output sent to browser
+DEBUG - 2026-03-02 14:29:45 --> Total execution time: 0.1652
+ERROR - 2026-03-02 14:29:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:29:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:29:45 --> Config Class Initialized
+INFO - 2026-03-02 14:29:45 --> Hooks Class Initialized
+INFO - 2026-03-02 14:29:45 --> Config Class Initialized
+INFO - 2026-03-02 14:29:45 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:45 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:45 --> URI Class Initialized
+INFO - 2026-03-02 14:29:45 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:45 --> URI Class Initialized
+INFO - 2026-03-02 14:29:45 --> Router Class Initialized
+INFO - 2026-03-02 14:29:45 --> Router Class Initialized
+INFO - 2026-03-02 14:29:45 --> Output Class Initialized
+INFO - 2026-03-02 14:29:45 --> Output Class Initialized
+INFO - 2026-03-02 14:29:45 --> Security Class Initialized
+INFO - 2026-03-02 14:29:45 --> Security Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:45 --> Input Class Initialized
+INFO - 2026-03-02 14:29:45 --> Language Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:45 --> Input Class Initialized
+INFO - 2026-03-02 14:29:45 --> Language Class Initialized
+ERROR - 2026-03-02 14:29:45 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:29:45 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:29:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:29:45 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:29:45 --> Config Class Initialized
+INFO - 2026-03-02 14:29:45 --> Hooks Class Initialized
+INFO - 2026-03-02 14:29:45 --> Config Class Initialized
+INFO - 2026-03-02 14:29:45 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:29:45 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:45 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:45 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:45 --> URI Class Initialized
+INFO - 2026-03-02 14:29:45 --> URI Class Initialized
+INFO - 2026-03-02 14:29:45 --> Router Class Initialized
+INFO - 2026-03-02 14:29:45 --> Router Class Initialized
+INFO - 2026-03-02 14:29:45 --> Output Class Initialized
+INFO - 2026-03-02 14:29:45 --> Output Class Initialized
+INFO - 2026-03-02 14:29:45 --> Security Class Initialized
+INFO - 2026-03-02 14:29:45 --> Security Class Initialized
+DEBUG - 2026-03-02 14:29:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:29:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:45 --> Input Class Initialized
+INFO - 2026-03-02 14:29:45 --> Input Class Initialized
+INFO - 2026-03-02 14:29:45 --> Language Class Initialized
+INFO - 2026-03-02 14:29:45 --> Language Class Initialized
+ERROR - 2026-03-02 14:29:45 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:29:45 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:29:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:29:46 --> Config Class Initialized
+INFO - 2026-03-02 14:29:46 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:29:46 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:29:46 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:29:46 --> URI Class Initialized
+INFO - 2026-03-02 14:29:46 --> Router Class Initialized
+INFO - 2026-03-02 14:29:46 --> Output Class Initialized
+INFO - 2026-03-02 14:29:46 --> Security Class Initialized
+DEBUG - 2026-03-02 14:29:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:29:46 --> Input Class Initialized
+INFO - 2026-03-02 14:29:46 --> Language Class Initialized
+ERROR - 2026-03-02 14:29:46 --> 404 Page Not Found: Libraries/getPRList
+ERROR - 2026-03-02 14:34:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:08 --> Config Class Initialized
+INFO - 2026-03-02 14:34:08 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:08 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:08 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:08 --> URI Class Initialized
+INFO - 2026-03-02 14:34:09 --> Router Class Initialized
+INFO - 2026-03-02 14:34:09 --> Output Class Initialized
+INFO - 2026-03-02 14:34:09 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:09 --> Input Class Initialized
+INFO - 2026-03-02 14:34:09 --> Language Class Initialized
+INFO - 2026-03-02 14:34:09 --> Loader Class Initialized
+INFO - 2026-03-02 14:34:09 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:34:09 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:34:09 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:34:09 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:34:09 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:34:09 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:34:09 --> Encryption Class Initialized
+INFO - 2026-03-02 14:34:09 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:34:09 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:34:09 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:34:09 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:34:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:09 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:34:09 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:34:09 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:34:09 --> Model "User_model" initialized
+INFO - 2026-03-02 14:34:09 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:34:09 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:34:09 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:34:09 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:34:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:09 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:34:09 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:34:09 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:34:09 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:34:09 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:34:09 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:34:09 --> Final output sent to browser
+DEBUG - 2026-03-02 14:34:09 --> Total execution time: 0.2211
+ERROR - 2026-03-02 14:34:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:34:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:09 --> Config Class Initialized
+INFO - 2026-03-02 14:34:09 --> Hooks Class Initialized
+INFO - 2026-03-02 14:34:09 --> Config Class Initialized
+INFO - 2026-03-02 14:34:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:09 --> URI Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:09 --> Router Class Initialized
+INFO - 2026-03-02 14:34:09 --> URI Class Initialized
+INFO - 2026-03-02 14:34:09 --> Output Class Initialized
+INFO - 2026-03-02 14:34:09 --> Router Class Initialized
+INFO - 2026-03-02 14:34:09 --> Security Class Initialized
+INFO - 2026-03-02 14:34:09 --> Output Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:09 --> Input Class Initialized
+INFO - 2026-03-02 14:34:09 --> Security Class Initialized
+INFO - 2026-03-02 14:34:09 --> Language Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:09 --> Input Class Initialized
+ERROR - 2026-03-02 14:34:09 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:34:09 --> Language Class Initialized
+ERROR - 2026-03-02 14:34:09 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:34:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:34:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:09 --> Config Class Initialized
+INFO - 2026-03-02 14:34:09 --> Config Class Initialized
+INFO - 2026-03-02 14:34:09 --> Hooks Class Initialized
+INFO - 2026-03-02 14:34:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:34:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:09 --> URI Class Initialized
+INFO - 2026-03-02 14:34:09 --> URI Class Initialized
+INFO - 2026-03-02 14:34:09 --> Router Class Initialized
+INFO - 2026-03-02 14:34:09 --> Router Class Initialized
+INFO - 2026-03-02 14:34:09 --> Output Class Initialized
+INFO - 2026-03-02 14:34:09 --> Output Class Initialized
+INFO - 2026-03-02 14:34:09 --> Security Class Initialized
+INFO - 2026-03-02 14:34:09 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:34:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:09 --> Input Class Initialized
+INFO - 2026-03-02 14:34:09 --> Input Class Initialized
+INFO - 2026-03-02 14:34:09 --> Language Class Initialized
+INFO - 2026-03-02 14:34:09 --> Language Class Initialized
+ERROR - 2026-03-02 14:34:09 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:34:09 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:34:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:09 --> Config Class Initialized
+INFO - 2026-03-02 14:34:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:09 --> URI Class Initialized
+INFO - 2026-03-02 14:34:09 --> Router Class Initialized
+INFO - 2026-03-02 14:34:09 --> Output Class Initialized
+INFO - 2026-03-02 14:34:09 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:09 --> Input Class Initialized
+INFO - 2026-03-02 14:34:09 --> Language Class Initialized
+ERROR - 2026-03-02 14:34:09 --> 404 Page Not Found: Libraries/getPRList
+ERROR - 2026-03-02 14:34:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:31 --> Config Class Initialized
+INFO - 2026-03-02 14:34:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:31 --> URI Class Initialized
+INFO - 2026-03-02 14:34:31 --> Router Class Initialized
+INFO - 2026-03-02 14:34:31 --> Output Class Initialized
+INFO - 2026-03-02 14:34:31 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:31 --> Input Class Initialized
+INFO - 2026-03-02 14:34:31 --> Language Class Initialized
+INFO - 2026-03-02 14:34:31 --> Loader Class Initialized
+INFO - 2026-03-02 14:34:31 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:34:31 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:34:31 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:34:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:34:31 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:34:31 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:34:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:34:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:34:31 --> Encryption Class Initialized
+INFO - 2026-03-02 14:34:31 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:34:31 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:34:31 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:34:31 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:34:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:31 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:34:31 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:34:31 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:34:31 --> Model "User_model" initialized
+INFO - 2026-03-02 14:34:31 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:34:31 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:34:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:34:31 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:34:31 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:34:32 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:32 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:34:32 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:34:32 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:34:32 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:34:32 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:34:32 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:34:32 --> Final output sent to browser
+DEBUG - 2026-03-02 14:34:32 --> Total execution time: 0.2044
+ERROR - 2026-03-02 14:34:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:32 --> Config Class Initialized
+ERROR - 2026-03-02 14:34:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:32 --> Hooks Class Initialized
+INFO - 2026-03-02 14:34:32 --> Config Class Initialized
+INFO - 2026-03-02 14:34:32 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:32 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:32 --> URI Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:32 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:32 --> Router Class Initialized
+INFO - 2026-03-02 14:34:32 --> URI Class Initialized
+INFO - 2026-03-02 14:34:32 --> Output Class Initialized
+INFO - 2026-03-02 14:34:32 --> Router Class Initialized
+INFO - 2026-03-02 14:34:32 --> Security Class Initialized
+INFO - 2026-03-02 14:34:32 --> Output Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:32 --> Input Class Initialized
+INFO - 2026-03-02 14:34:32 --> Security Class Initialized
+INFO - 2026-03-02 14:34:32 --> Language Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:32 --> Input Class Initialized
+ERROR - 2026-03-02 14:34:32 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:34:32 --> Language Class Initialized
+ERROR - 2026-03-02 14:34:32 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:34:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:34:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:32 --> Config Class Initialized
+INFO - 2026-03-02 14:34:32 --> Hooks Class Initialized
+INFO - 2026-03-02 14:34:32 --> Config Class Initialized
+INFO - 2026-03-02 14:34:32 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:32 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:32 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:32 --> URI Class Initialized
+INFO - 2026-03-02 14:34:32 --> URI Class Initialized
+INFO - 2026-03-02 14:34:32 --> Router Class Initialized
+INFO - 2026-03-02 14:34:32 --> Router Class Initialized
+INFO - 2026-03-02 14:34:32 --> Output Class Initialized
+INFO - 2026-03-02 14:34:32 --> Output Class Initialized
+INFO - 2026-03-02 14:34:32 --> Security Class Initialized
+INFO - 2026-03-02 14:34:32 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:32 --> Input Class Initialized
+INFO - 2026-03-02 14:34:32 --> Language Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:32 --> Input Class Initialized
+INFO - 2026-03-02 14:34:32 --> Language Class Initialized
+ERROR - 2026-03-02 14:34:32 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:34:32 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:34:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:32 --> Config Class Initialized
+INFO - 2026-03-02 14:34:32 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:32 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:32 --> URI Class Initialized
+INFO - 2026-03-02 14:34:32 --> Router Class Initialized
+INFO - 2026-03-02 14:34:32 --> Output Class Initialized
+INFO - 2026-03-02 14:34:32 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:32 --> Input Class Initialized
+INFO - 2026-03-02 14:34:32 --> Language Class Initialized
+INFO - 2026-03-02 14:34:32 --> Loader Class Initialized
+INFO - 2026-03-02 14:34:32 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:34:32 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:34:32 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:34:32 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:34:32 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:34:32 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:34:32 --> Encryption Class Initialized
+INFO - 2026-03-02 14:34:32 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:34:32 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:34:32 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:34:32 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:34:32 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:32 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:34:32 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:34:32 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:34:32 --> Model "User_model" initialized
+INFO - 2026-03-02 14:34:32 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:34:32 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:34:32 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:34:32 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:34:32 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:34:32 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:32 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:34:32 --> Database Driver Class Initialized
+ERROR - 2026-03-02 14:34:32 --> Severity: error --> Exception: Call to undefined method LibraryModel::getPRList() C:\xampp\htdocs\pms\application\controllers\PurchaseRequest.php 68
+ERROR - 2026-03-02 14:34:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:58 --> Config Class Initialized
+INFO - 2026-03-02 14:34:58 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:58 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:58 --> URI Class Initialized
+INFO - 2026-03-02 14:34:58 --> Router Class Initialized
+INFO - 2026-03-02 14:34:58 --> Output Class Initialized
+INFO - 2026-03-02 14:34:58 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:58 --> Input Class Initialized
+INFO - 2026-03-02 14:34:58 --> Language Class Initialized
+INFO - 2026-03-02 14:34:58 --> Loader Class Initialized
+INFO - 2026-03-02 14:34:58 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:34:58 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:34:58 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:34:58 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:34:58 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:34:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:34:58 --> Encryption Class Initialized
+INFO - 2026-03-02 14:34:58 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:34:58 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:34:58 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:34:58 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:34:58 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:58 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:34:58 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:34:58 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:34:58 --> Model "User_model" initialized
+INFO - 2026-03-02 14:34:58 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:34:58 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:34:58 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:34:58 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:34:58 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:58 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:34:58 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:34:58 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:34:58 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:34:58 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:34:58 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:34:58 --> Final output sent to browser
+DEBUG - 2026-03-02 14:34:58 --> Total execution time: 0.2471
+ERROR - 2026-03-02 14:34:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:34:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:58 --> Config Class Initialized
+INFO - 2026-03-02 14:34:58 --> Config Class Initialized
+INFO - 2026-03-02 14:34:58 --> Hooks Class Initialized
+INFO - 2026-03-02 14:34:58 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:34:58 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:58 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:58 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:58 --> URI Class Initialized
+INFO - 2026-03-02 14:34:58 --> URI Class Initialized
+INFO - 2026-03-02 14:34:58 --> Router Class Initialized
+INFO - 2026-03-02 14:34:58 --> Router Class Initialized
+INFO - 2026-03-02 14:34:58 --> Output Class Initialized
+INFO - 2026-03-02 14:34:58 --> Output Class Initialized
+INFO - 2026-03-02 14:34:58 --> Security Class Initialized
+INFO - 2026-03-02 14:34:58 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:34:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:58 --> Input Class Initialized
+INFO - 2026-03-02 14:34:58 --> Input Class Initialized
+INFO - 2026-03-02 14:34:58 --> Language Class Initialized
+INFO - 2026-03-02 14:34:58 --> Language Class Initialized
+ERROR - 2026-03-02 14:34:58 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:34:58 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:34:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:34:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:58 --> Config Class Initialized
+INFO - 2026-03-02 14:34:58 --> Hooks Class Initialized
+INFO - 2026-03-02 14:34:58 --> Config Class Initialized
+INFO - 2026-03-02 14:34:58 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:58 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:58 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:58 --> URI Class Initialized
+INFO - 2026-03-02 14:34:58 --> URI Class Initialized
+INFO - 2026-03-02 14:34:58 --> Router Class Initialized
+INFO - 2026-03-02 14:34:58 --> Router Class Initialized
+INFO - 2026-03-02 14:34:58 --> Output Class Initialized
+INFO - 2026-03-02 14:34:58 --> Output Class Initialized
+INFO - 2026-03-02 14:34:58 --> Security Class Initialized
+INFO - 2026-03-02 14:34:58 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:34:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:58 --> Input Class Initialized
+INFO - 2026-03-02 14:34:58 --> Input Class Initialized
+INFO - 2026-03-02 14:34:58 --> Language Class Initialized
+INFO - 2026-03-02 14:34:58 --> Language Class Initialized
+ERROR - 2026-03-02 14:34:58 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:34:58 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:34:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:34:59 --> Config Class Initialized
+INFO - 2026-03-02 14:34:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:34:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:34:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:34:59 --> URI Class Initialized
+INFO - 2026-03-02 14:34:59 --> Router Class Initialized
+INFO - 2026-03-02 14:34:59 --> Output Class Initialized
+INFO - 2026-03-02 14:34:59 --> Security Class Initialized
+DEBUG - 2026-03-02 14:34:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:34:59 --> Input Class Initialized
+INFO - 2026-03-02 14:34:59 --> Language Class Initialized
+INFO - 2026-03-02 14:34:59 --> Loader Class Initialized
+INFO - 2026-03-02 14:34:59 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:34:59 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:34:59 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:34:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:34:59 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:34:59 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:34:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:34:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:34:59 --> Encryption Class Initialized
+INFO - 2026-03-02 14:34:59 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:34:59 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:34:59 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:34:59 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:34:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:59 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:34:59 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:34:59 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:34:59 --> Model "User_model" initialized
+INFO - 2026-03-02 14:34:59 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:34:59 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:34:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:34:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:34:59 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:34:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:34:59 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:34:59 --> Severity: error --> Exception: Unknown column 't1.pr_id' in 'field list' C:\xampp\htdocs\pms\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-03-02 14:35:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:35:31 --> Config Class Initialized
+INFO - 2026-03-02 14:35:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:35:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:35:31 --> URI Class Initialized
+INFO - 2026-03-02 14:35:31 --> Router Class Initialized
+INFO - 2026-03-02 14:35:31 --> Output Class Initialized
+INFO - 2026-03-02 14:35:31 --> Security Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:35:31 --> Input Class Initialized
+INFO - 2026-03-02 14:35:31 --> Language Class Initialized
+INFO - 2026-03-02 14:35:31 --> Loader Class Initialized
+INFO - 2026-03-02 14:35:31 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:35:31 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:35:31 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:35:31 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:35:31 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:35:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:35:31 --> Encryption Class Initialized
+INFO - 2026-03-02 14:35:31 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:35:31 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:35:31 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:35:31 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:35:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:35:31 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:35:31 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:35:31 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "User_model" initialized
+INFO - 2026-03-02 14:35:31 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:35:31 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:35:31 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:35:31 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:35:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:35:31 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:35:31 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:35:31 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:35:31 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:35:31 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:35:31 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:35:31 --> Final output sent to browser
+DEBUG - 2026-03-02 14:35:31 --> Total execution time: 0.1431
+ERROR - 2026-03-02 14:35:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:35:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:35:31 --> Config Class Initialized
+INFO - 2026-03-02 14:35:31 --> Config Class Initialized
+INFO - 2026-03-02 14:35:31 --> Hooks Class Initialized
+INFO - 2026-03-02 14:35:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:35:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:35:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:35:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:35:31 --> URI Class Initialized
+INFO - 2026-03-02 14:35:31 --> URI Class Initialized
+INFO - 2026-03-02 14:35:31 --> Router Class Initialized
+INFO - 2026-03-02 14:35:31 --> Router Class Initialized
+INFO - 2026-03-02 14:35:31 --> Output Class Initialized
+INFO - 2026-03-02 14:35:31 --> Output Class Initialized
+INFO - 2026-03-02 14:35:31 --> Security Class Initialized
+INFO - 2026-03-02 14:35:31 --> Security Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:35:31 --> Input Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:35:31 --> Input Class Initialized
+INFO - 2026-03-02 14:35:31 --> Language Class Initialized
+INFO - 2026-03-02 14:35:31 --> Language Class Initialized
+ERROR - 2026-03-02 14:35:31 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:35:31 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:35:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:35:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:35:31 --> Config Class Initialized
+INFO - 2026-03-02 14:35:31 --> Hooks Class Initialized
+INFO - 2026-03-02 14:35:31 --> Config Class Initialized
+INFO - 2026-03-02 14:35:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:35:31 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:35:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:35:31 --> URI Class Initialized
+INFO - 2026-03-02 14:35:31 --> URI Class Initialized
+INFO - 2026-03-02 14:35:31 --> Router Class Initialized
+INFO - 2026-03-02 14:35:31 --> Router Class Initialized
+INFO - 2026-03-02 14:35:31 --> Output Class Initialized
+INFO - 2026-03-02 14:35:31 --> Output Class Initialized
+INFO - 2026-03-02 14:35:31 --> Security Class Initialized
+INFO - 2026-03-02 14:35:31 --> Security Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:35:31 --> Input Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:35:31 --> Language Class Initialized
+INFO - 2026-03-02 14:35:31 --> Input Class Initialized
+INFO - 2026-03-02 14:35:31 --> Language Class Initialized
+ERROR - 2026-03-02 14:35:31 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:35:31 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:35:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:35:31 --> Config Class Initialized
+INFO - 2026-03-02 14:35:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:35:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:35:31 --> URI Class Initialized
+INFO - 2026-03-02 14:35:31 --> Router Class Initialized
+INFO - 2026-03-02 14:35:31 --> Output Class Initialized
+INFO - 2026-03-02 14:35:31 --> Security Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:35:31 --> Input Class Initialized
+INFO - 2026-03-02 14:35:31 --> Language Class Initialized
+INFO - 2026-03-02 14:35:31 --> Loader Class Initialized
+INFO - 2026-03-02 14:35:31 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:35:31 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:35:31 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:35:31 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:35:31 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:35:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:35:31 --> Encryption Class Initialized
+INFO - 2026-03-02 14:35:31 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:35:31 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:35:31 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:35:31 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:35:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:35:31 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:35:31 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:35:31 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:35:31 --> Model "User_model" initialized
+INFO - 2026-03-02 14:35:31 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:35:31 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:35:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:35:31 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:35:31 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:35:31 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:35:31 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:35:31 --> Severity: error --> Exception: Unknown column 't1.pr_id' in 'field list' C:\xampp\htdocs\pms\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-03-02 14:40:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:30 --> Config Class Initialized
+INFO - 2026-03-02 14:40:30 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:30 --> URI Class Initialized
+INFO - 2026-03-02 14:40:30 --> Router Class Initialized
+INFO - 2026-03-02 14:40:30 --> Output Class Initialized
+INFO - 2026-03-02 14:40:30 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:30 --> Input Class Initialized
+INFO - 2026-03-02 14:40:30 --> Language Class Initialized
+INFO - 2026-03-02 14:40:30 --> Loader Class Initialized
+INFO - 2026-03-02 14:40:30 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:40:30 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:40:30 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:40:30 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:40:30 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:40:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:40:30 --> Encryption Class Initialized
+INFO - 2026-03-02 14:40:30 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:40:30 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:40:30 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:40:30 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:40:30 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:40:30 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:40:30 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:40:30 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "User_model" initialized
+INFO - 2026-03-02 14:40:30 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:40:30 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:40:30 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:40:30 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:40:30 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:40:30 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:40:30 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:40:30 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:40:30 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:40:30 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:40:30 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:40:30 --> Final output sent to browser
+DEBUG - 2026-03-02 14:40:30 --> Total execution time: 0.2181
+ERROR - 2026-03-02 14:40:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:40:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:30 --> Config Class Initialized
+INFO - 2026-03-02 14:40:30 --> Config Class Initialized
+INFO - 2026-03-02 14:40:30 --> Hooks Class Initialized
+INFO - 2026-03-02 14:40:30 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:40:30 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:30 --> URI Class Initialized
+INFO - 2026-03-02 14:40:30 --> URI Class Initialized
+INFO - 2026-03-02 14:40:30 --> Router Class Initialized
+INFO - 2026-03-02 14:40:30 --> Router Class Initialized
+INFO - 2026-03-02 14:40:30 --> Output Class Initialized
+INFO - 2026-03-02 14:40:30 --> Output Class Initialized
+INFO - 2026-03-02 14:40:30 --> Security Class Initialized
+INFO - 2026-03-02 14:40:30 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:40:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:30 --> Input Class Initialized
+INFO - 2026-03-02 14:40:30 --> Input Class Initialized
+INFO - 2026-03-02 14:40:30 --> Language Class Initialized
+INFO - 2026-03-02 14:40:30 --> Language Class Initialized
+ERROR - 2026-03-02 14:40:30 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:40:30 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:40:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:40:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:30 --> Config Class Initialized
+INFO - 2026-03-02 14:40:30 --> Hooks Class Initialized
+INFO - 2026-03-02 14:40:30 --> Config Class Initialized
+INFO - 2026-03-02 14:40:30 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:40:30 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:30 --> URI Class Initialized
+INFO - 2026-03-02 14:40:30 --> URI Class Initialized
+INFO - 2026-03-02 14:40:30 --> Router Class Initialized
+INFO - 2026-03-02 14:40:30 --> Router Class Initialized
+INFO - 2026-03-02 14:40:30 --> Output Class Initialized
+INFO - 2026-03-02 14:40:30 --> Output Class Initialized
+INFO - 2026-03-02 14:40:30 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:30 --> Security Class Initialized
+INFO - 2026-03-02 14:40:30 --> Input Class Initialized
+INFO - 2026-03-02 14:40:30 --> Language Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:30 --> Input Class Initialized
+INFO - 2026-03-02 14:40:30 --> Language Class Initialized
+ERROR - 2026-03-02 14:40:30 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:40:30 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:40:30 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:30 --> Config Class Initialized
+INFO - 2026-03-02 14:40:30 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:30 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:30 --> URI Class Initialized
+INFO - 2026-03-02 14:40:30 --> Router Class Initialized
+INFO - 2026-03-02 14:40:30 --> Output Class Initialized
+INFO - 2026-03-02 14:40:30 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:30 --> Input Class Initialized
+INFO - 2026-03-02 14:40:30 --> Language Class Initialized
+INFO - 2026-03-02 14:40:30 --> Loader Class Initialized
+INFO - 2026-03-02 14:40:30 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:40:30 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:40:30 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:40:30 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:40:30 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:40:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:40:30 --> Encryption Class Initialized
+INFO - 2026-03-02 14:40:30 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:40:30 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:40:30 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:40:30 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:40:30 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:40:30 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:40:30 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:40:30 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:40:30 --> Model "User_model" initialized
+INFO - 2026-03-02 14:40:30 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:40:30 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:40:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:40:30 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:40:30 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:40:30 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:40:30 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:40:30 --> Severity: error --> Exception: Column 'archived' in where clause is ambiguous C:\xampp\htdocs\pms\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-03-02 14:40:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:53 --> Config Class Initialized
+INFO - 2026-03-02 14:40:53 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:53 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:53 --> URI Class Initialized
+INFO - 2026-03-02 14:40:53 --> Router Class Initialized
+INFO - 2026-03-02 14:40:53 --> Output Class Initialized
+INFO - 2026-03-02 14:40:53 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:53 --> Input Class Initialized
+INFO - 2026-03-02 14:40:53 --> Language Class Initialized
+INFO - 2026-03-02 14:40:53 --> Loader Class Initialized
+INFO - 2026-03-02 14:40:53 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:40:53 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:40:53 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:40:53 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:40:53 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:40:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:40:53 --> Encryption Class Initialized
+INFO - 2026-03-02 14:40:53 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:40:53 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:40:53 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:40:53 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:40:53 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:40:53 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:40:53 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:40:53 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "User_model" initialized
+INFO - 2026-03-02 14:40:53 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:40:53 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:40:53 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:40:53 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:40:53 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:40:53 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:40:53 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:40:53 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:40:53 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:40:53 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:40:53 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:40:53 --> Final output sent to browser
+DEBUG - 2026-03-02 14:40:53 --> Total execution time: 0.1687
+ERROR - 2026-03-02 14:40:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:40:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:53 --> Config Class Initialized
+INFO - 2026-03-02 14:40:53 --> Hooks Class Initialized
+INFO - 2026-03-02 14:40:53 --> Config Class Initialized
+INFO - 2026-03-02 14:40:53 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:53 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:53 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:53 --> URI Class Initialized
+INFO - 2026-03-02 14:40:53 --> URI Class Initialized
+INFO - 2026-03-02 14:40:53 --> Router Class Initialized
+INFO - 2026-03-02 14:40:53 --> Router Class Initialized
+INFO - 2026-03-02 14:40:53 --> Output Class Initialized
+INFO - 2026-03-02 14:40:53 --> Output Class Initialized
+INFO - 2026-03-02 14:40:53 --> Security Class Initialized
+INFO - 2026-03-02 14:40:53 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:53 --> Input Class Initialized
+INFO - 2026-03-02 14:40:53 --> Language Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:53 --> Input Class Initialized
+INFO - 2026-03-02 14:40:53 --> Language Class Initialized
+ERROR - 2026-03-02 14:40:53 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:40:53 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:40:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:53 --> Config Class Initialized
+INFO - 2026-03-02 14:40:53 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:53 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:53 --> URI Class Initialized
+ERROR - 2026-03-02 14:40:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:53 --> Router Class Initialized
+INFO - 2026-03-02 14:40:53 --> Config Class Initialized
+INFO - 2026-03-02 14:40:53 --> Output Class Initialized
+INFO - 2026-03-02 14:40:53 --> Hooks Class Initialized
+INFO - 2026-03-02 14:40:53 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:40:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:53 --> Input Class Initialized
+INFO - 2026-03-02 14:40:53 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:53 --> Language Class Initialized
+INFO - 2026-03-02 14:40:53 --> URI Class Initialized
+ERROR - 2026-03-02 14:40:53 --> 404 Page Not Found: Img/undraw_profile.svg
+INFO - 2026-03-02 14:40:53 --> Router Class Initialized
+INFO - 2026-03-02 14:40:53 --> Output Class Initialized
+INFO - 2026-03-02 14:40:53 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:53 --> Input Class Initialized
+INFO - 2026-03-02 14:40:53 --> Language Class Initialized
+ERROR - 2026-03-02 14:40:53 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:40:53 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:40:53 --> Config Class Initialized
+INFO - 2026-03-02 14:40:53 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:40:53 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:40:53 --> URI Class Initialized
+INFO - 2026-03-02 14:40:53 --> Router Class Initialized
+INFO - 2026-03-02 14:40:53 --> Output Class Initialized
+INFO - 2026-03-02 14:40:53 --> Security Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:40:53 --> Input Class Initialized
+INFO - 2026-03-02 14:40:53 --> Language Class Initialized
+INFO - 2026-03-02 14:40:53 --> Loader Class Initialized
+INFO - 2026-03-02 14:40:53 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:40:53 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:40:53 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:40:53 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:40:53 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:40:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:40:53 --> Encryption Class Initialized
+INFO - 2026-03-02 14:40:53 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:40:53 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:40:53 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:40:53 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:40:53 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:40:53 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:40:53 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:40:53 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:40:53 --> Model "User_model" initialized
+INFO - 2026-03-02 14:40:53 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:40:53 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:40:53 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:40:53 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:40:53 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:40:53 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:40:53 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:40:53 --> Severity: error --> Exception: Unknown column 't3.office_id' in 'on clause' C:\xampp\htdocs\pms\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2026-03-02 14:41:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:41:20 --> Config Class Initialized
+INFO - 2026-03-02 14:41:20 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:41:20 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:41:20 --> URI Class Initialized
+INFO - 2026-03-02 14:41:20 --> Router Class Initialized
+INFO - 2026-03-02 14:41:20 --> Output Class Initialized
+INFO - 2026-03-02 14:41:20 --> Security Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:41:20 --> Input Class Initialized
+INFO - 2026-03-02 14:41:20 --> Language Class Initialized
+INFO - 2026-03-02 14:41:20 --> Loader Class Initialized
+INFO - 2026-03-02 14:41:20 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:41:20 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:41:20 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:41:20 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:41:20 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:41:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:41:20 --> Encryption Class Initialized
+INFO - 2026-03-02 14:41:20 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:41:20 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:41:20 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:41:20 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:41:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:41:20 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:41:20 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:41:20 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:41:20 --> Model "User_model" initialized
+INFO - 2026-03-02 14:41:20 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:41:20 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:41:20 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:41:20 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:41:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:41:20 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:41:20 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:41:20 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:41:20 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:41:20 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:41:20 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:41:20 --> Final output sent to browser
+DEBUG - 2026-03-02 14:41:20 --> Total execution time: 0.2360
+ERROR - 2026-03-02 14:41:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:41:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:41:20 --> Config Class Initialized
+INFO - 2026-03-02 14:41:20 --> Config Class Initialized
+INFO - 2026-03-02 14:41:20 --> Hooks Class Initialized
+INFO - 2026-03-02 14:41:20 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:41:20 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:41:20 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:41:20 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:41:20 --> URI Class Initialized
+INFO - 2026-03-02 14:41:20 --> URI Class Initialized
+INFO - 2026-03-02 14:41:20 --> Router Class Initialized
+INFO - 2026-03-02 14:41:20 --> Router Class Initialized
+INFO - 2026-03-02 14:41:20 --> Output Class Initialized
+INFO - 2026-03-02 14:41:20 --> Output Class Initialized
+INFO - 2026-03-02 14:41:20 --> Security Class Initialized
+INFO - 2026-03-02 14:41:20 --> Security Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:41:20 --> Input Class Initialized
+INFO - 2026-03-02 14:41:20 --> Language Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:41:20 --> Input Class Initialized
+INFO - 2026-03-02 14:41:20 --> Language Class Initialized
+ERROR - 2026-03-02 14:41:20 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:41:20 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:41:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:41:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:41:20 --> Config Class Initialized
+INFO - 2026-03-02 14:41:20 --> Hooks Class Initialized
+INFO - 2026-03-02 14:41:20 --> Config Class Initialized
+INFO - 2026-03-02 14:41:20 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:41:20 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:41:20 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:41:20 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:41:20 --> URI Class Initialized
+INFO - 2026-03-02 14:41:20 --> URI Class Initialized
+INFO - 2026-03-02 14:41:20 --> Router Class Initialized
+INFO - 2026-03-02 14:41:20 --> Router Class Initialized
+INFO - 2026-03-02 14:41:20 --> Output Class Initialized
+INFO - 2026-03-02 14:41:20 --> Output Class Initialized
+INFO - 2026-03-02 14:41:20 --> Security Class Initialized
+INFO - 2026-03-02 14:41:20 --> Security Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:41:20 --> Input Class Initialized
+INFO - 2026-03-02 14:41:20 --> Language Class Initialized
+DEBUG - 2026-03-02 14:41:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:41:20 --> Input Class Initialized
+INFO - 2026-03-02 14:41:20 --> Language Class Initialized
+ERROR - 2026-03-02 14:41:20 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:41:20 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:41:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:41:21 --> Config Class Initialized
+INFO - 2026-03-02 14:41:21 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:41:21 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:41:21 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:41:21 --> URI Class Initialized
+INFO - 2026-03-02 14:41:21 --> Router Class Initialized
+INFO - 2026-03-02 14:41:21 --> Output Class Initialized
+INFO - 2026-03-02 14:41:21 --> Security Class Initialized
+DEBUG - 2026-03-02 14:41:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:41:21 --> Input Class Initialized
+INFO - 2026-03-02 14:41:21 --> Language Class Initialized
+INFO - 2026-03-02 14:41:21 --> Loader Class Initialized
+INFO - 2026-03-02 14:41:21 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:41:21 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:41:21 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:41:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:41:21 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:41:21 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:41:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:41:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:41:21 --> Encryption Class Initialized
+INFO - 2026-03-02 14:41:21 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:41:21 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:41:21 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:41:21 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:41:21 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:41:21 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:41:21 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:41:21 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:41:21 --> Model "User_model" initialized
+INFO - 2026-03-02 14:41:21 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:41:21 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:41:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:41:21 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:41:21 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:41:21 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:41:21 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:42:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:13 --> Config Class Initialized
+INFO - 2026-03-02 14:42:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:13 --> URI Class Initialized
+INFO - 2026-03-02 14:42:13 --> Router Class Initialized
+INFO - 2026-03-02 14:42:13 --> Output Class Initialized
+INFO - 2026-03-02 14:42:13 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:13 --> Input Class Initialized
+INFO - 2026-03-02 14:42:13 --> Language Class Initialized
+INFO - 2026-03-02 14:42:13 --> Loader Class Initialized
+INFO - 2026-03-02 14:42:13 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:42:13 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:42:13 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:42:13 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:42:13 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:42:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:42:13 --> Encryption Class Initialized
+INFO - 2026-03-02 14:42:13 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:42:13 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:42:13 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:42:13 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:42:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:42:13 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:42:13 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:42:13 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:42:13 --> Model "User_model" initialized
+INFO - 2026-03-02 14:42:13 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:42:13 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:42:13 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:42:13 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:42:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:42:13 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:42:13 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:42:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:42:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:42:13 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:42:13 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:42:13 --> Final output sent to browser
+DEBUG - 2026-03-02 14:42:13 --> Total execution time: 0.1272
+ERROR - 2026-03-02 14:42:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:42:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:13 --> Config Class Initialized
+INFO - 2026-03-02 14:42:13 --> Config Class Initialized
+INFO - 2026-03-02 14:42:13 --> Hooks Class Initialized
+INFO - 2026-03-02 14:42:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:13 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:13 --> URI Class Initialized
+INFO - 2026-03-02 14:42:13 --> URI Class Initialized
+INFO - 2026-03-02 14:42:13 --> Router Class Initialized
+INFO - 2026-03-02 14:42:13 --> Router Class Initialized
+INFO - 2026-03-02 14:42:13 --> Output Class Initialized
+INFO - 2026-03-02 14:42:13 --> Output Class Initialized
+INFO - 2026-03-02 14:42:13 --> Security Class Initialized
+INFO - 2026-03-02 14:42:13 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:42:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:13 --> Input Class Initialized
+INFO - 2026-03-02 14:42:13 --> Input Class Initialized
+INFO - 2026-03-02 14:42:13 --> Language Class Initialized
+INFO - 2026-03-02 14:42:13 --> Language Class Initialized
+ERROR - 2026-03-02 14:42:13 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:42:13 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:42:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:42:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:13 --> Config Class Initialized
+INFO - 2026-03-02 14:42:13 --> Config Class Initialized
+INFO - 2026-03-02 14:42:13 --> Hooks Class Initialized
+INFO - 2026-03-02 14:42:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:42:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:13 --> URI Class Initialized
+INFO - 2026-03-02 14:42:13 --> URI Class Initialized
+INFO - 2026-03-02 14:42:13 --> Router Class Initialized
+INFO - 2026-03-02 14:42:13 --> Router Class Initialized
+INFO - 2026-03-02 14:42:13 --> Output Class Initialized
+INFO - 2026-03-02 14:42:13 --> Output Class Initialized
+INFO - 2026-03-02 14:42:13 --> Security Class Initialized
+INFO - 2026-03-02 14:42:13 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:42:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:13 --> Input Class Initialized
+INFO - 2026-03-02 14:42:13 --> Input Class Initialized
+INFO - 2026-03-02 14:42:13 --> Language Class Initialized
+INFO - 2026-03-02 14:42:13 --> Language Class Initialized
+ERROR - 2026-03-02 14:42:13 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:42:13 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:42:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:14 --> Config Class Initialized
+INFO - 2026-03-02 14:42:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:42:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:14 --> URI Class Initialized
+INFO - 2026-03-02 14:42:14 --> Router Class Initialized
+INFO - 2026-03-02 14:42:14 --> Output Class Initialized
+INFO - 2026-03-02 14:42:14 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:14 --> Input Class Initialized
+INFO - 2026-03-02 14:42:14 --> Language Class Initialized
+INFO - 2026-03-02 14:42:14 --> Loader Class Initialized
+INFO - 2026-03-02 14:42:14 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:42:14 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:42:14 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:42:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:42:14 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:42:14 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:42:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:42:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:42:14 --> Encryption Class Initialized
+INFO - 2026-03-02 14:42:14 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:42:14 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:42:14 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:42:14 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:42:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:42:14 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:42:14 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:42:14 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:42:14 --> Model "User_model" initialized
+INFO - 2026-03-02 14:42:14 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:42:14 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:42:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:42:14 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:42:14 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:42:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:42:14 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:42:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:25 --> Config Class Initialized
+INFO - 2026-03-02 14:42:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:25 --> URI Class Initialized
+INFO - 2026-03-02 14:42:25 --> Router Class Initialized
+INFO - 2026-03-02 14:42:25 --> Output Class Initialized
+INFO - 2026-03-02 14:42:25 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:25 --> Input Class Initialized
+INFO - 2026-03-02 14:42:25 --> Language Class Initialized
+INFO - 2026-03-02 14:42:25 --> Loader Class Initialized
+INFO - 2026-03-02 14:42:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:42:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:42:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:42:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:42:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:42:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:42:25 --> Encryption Class Initialized
+INFO - 2026-03-02 14:42:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:42:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:42:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:42:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:42:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:42:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:42:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:42:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "User_model" initialized
+INFO - 2026-03-02 14:42:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:42:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:42:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:42:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:42:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:42:25 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:42:25 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:42:25 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:42:25 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:42:25 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:42:25 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:42:25 --> Final output sent to browser
+DEBUG - 2026-03-02 14:42:25 --> Total execution time: 0.1808
+ERROR - 2026-03-02 14:42:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:42:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:25 --> Config Class Initialized
+INFO - 2026-03-02 14:42:25 --> Config Class Initialized
+INFO - 2026-03-02 14:42:25 --> Hooks Class Initialized
+INFO - 2026-03-02 14:42:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:25 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:25 --> URI Class Initialized
+INFO - 2026-03-02 14:42:25 --> URI Class Initialized
+INFO - 2026-03-02 14:42:25 --> Router Class Initialized
+INFO - 2026-03-02 14:42:25 --> Router Class Initialized
+INFO - 2026-03-02 14:42:25 --> Output Class Initialized
+INFO - 2026-03-02 14:42:25 --> Output Class Initialized
+INFO - 2026-03-02 14:42:25 --> Security Class Initialized
+INFO - 2026-03-02 14:42:25 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:25 --> Input Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:25 --> Input Class Initialized
+INFO - 2026-03-02 14:42:25 --> Language Class Initialized
+INFO - 2026-03-02 14:42:25 --> Language Class Initialized
+ERROR - 2026-03-02 14:42:25 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:42:25 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:42:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:25 --> Config Class Initialized
+INFO - 2026-03-02 14:42:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:25 --> Utf8 Class Initialized
+ERROR - 2026-03-02 14:42:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:25 --> URI Class Initialized
+INFO - 2026-03-02 14:42:25 --> Router Class Initialized
+INFO - 2026-03-02 14:42:25 --> Config Class Initialized
+INFO - 2026-03-02 14:42:25 --> Hooks Class Initialized
+INFO - 2026-03-02 14:42:25 --> Output Class Initialized
+INFO - 2026-03-02 14:42:25 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:25 --> Input Class Initialized
+INFO - 2026-03-02 14:42:25 --> Language Class Initialized
+ERROR - 2026-03-02 14:42:25 --> 404 Page Not Found: Img/undraw_profile_3.svg
+DEBUG - 2026-03-02 14:42:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:25 --> URI Class Initialized
+INFO - 2026-03-02 14:42:25 --> Router Class Initialized
+INFO - 2026-03-02 14:42:25 --> Output Class Initialized
+INFO - 2026-03-02 14:42:25 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:25 --> Input Class Initialized
+INFO - 2026-03-02 14:42:25 --> Language Class Initialized
+ERROR - 2026-03-02 14:42:25 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:42:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:42:25 --> Config Class Initialized
+INFO - 2026-03-02 14:42:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:42:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:42:25 --> URI Class Initialized
+INFO - 2026-03-02 14:42:25 --> Router Class Initialized
+INFO - 2026-03-02 14:42:25 --> Output Class Initialized
+INFO - 2026-03-02 14:42:25 --> Security Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:42:25 --> Input Class Initialized
+INFO - 2026-03-02 14:42:25 --> Language Class Initialized
+INFO - 2026-03-02 14:42:25 --> Loader Class Initialized
+INFO - 2026-03-02 14:42:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:42:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:42:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:42:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:42:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:42:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:42:25 --> Encryption Class Initialized
+INFO - 2026-03-02 14:42:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:42:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:42:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:42:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:42:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:42:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:42:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:42:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:42:25 --> Model "User_model" initialized
+INFO - 2026-03-02 14:42:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:42:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:42:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:42:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:42:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:42:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:42:25 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:43:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:43:06 --> Config Class Initialized
+INFO - 2026-03-02 14:43:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:06 --> URI Class Initialized
+INFO - 2026-03-02 14:43:06 --> Router Class Initialized
+INFO - 2026-03-02 14:43:06 --> Output Class Initialized
+INFO - 2026-03-02 14:43:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:06 --> Input Class Initialized
+INFO - 2026-03-02 14:43:06 --> Language Class Initialized
+INFO - 2026-03-02 14:43:06 --> Loader Class Initialized
+INFO - 2026-03-02 14:43:06 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:43:06 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:43:06 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:43:06 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:43:06 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:43:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:43:06 --> Encryption Class Initialized
+INFO - 2026-03-02 14:43:06 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:43:06 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:43:06 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:43:06 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:43:06 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:43:06 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:43:06 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:43:06 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:43:06 --> Model "User_model" initialized
+INFO - 2026-03-02 14:43:06 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:43:06 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:43:06 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:43:06 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:43:06 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:43:06 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:43:06 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:43:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:43:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:43:06 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:43:06 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:43:06 --> Final output sent to browser
+DEBUG - 2026-03-02 14:43:06 --> Total execution time: 0.1953
+ERROR - 2026-03-02 14:43:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:43:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:43:06 --> Config Class Initialized
+INFO - 2026-03-02 14:43:06 --> Hooks Class Initialized
+INFO - 2026-03-02 14:43:06 --> Config Class Initialized
+INFO - 2026-03-02 14:43:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:06 --> URI Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:06 --> Router Class Initialized
+INFO - 2026-03-02 14:43:06 --> URI Class Initialized
+INFO - 2026-03-02 14:43:06 --> Router Class Initialized
+INFO - 2026-03-02 14:43:06 --> Output Class Initialized
+INFO - 2026-03-02 14:43:06 --> Security Class Initialized
+INFO - 2026-03-02 14:43:06 --> Output Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:06 --> Security Class Initialized
+INFO - 2026-03-02 14:43:06 --> Input Class Initialized
+INFO - 2026-03-02 14:43:06 --> Language Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:06 --> Input Class Initialized
+ERROR - 2026-03-02 14:43:06 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 14:43:06 --> Language Class Initialized
+ERROR - 2026-03-02 14:43:06 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:43:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:43:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:43:06 --> Config Class Initialized
+INFO - 2026-03-02 14:43:06 --> Config Class Initialized
+INFO - 2026-03-02 14:43:06 --> Hooks Class Initialized
+INFO - 2026-03-02 14:43:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:43:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:06 --> URI Class Initialized
+INFO - 2026-03-02 14:43:06 --> URI Class Initialized
+INFO - 2026-03-02 14:43:06 --> Router Class Initialized
+INFO - 2026-03-02 14:43:06 --> Router Class Initialized
+INFO - 2026-03-02 14:43:06 --> Output Class Initialized
+INFO - 2026-03-02 14:43:06 --> Output Class Initialized
+INFO - 2026-03-02 14:43:06 --> Security Class Initialized
+INFO - 2026-03-02 14:43:06 --> Security Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:06 --> Input Class Initialized
+DEBUG - 2026-03-02 14:43:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:06 --> Input Class Initialized
+INFO - 2026-03-02 14:43:06 --> Language Class Initialized
+INFO - 2026-03-02 14:43:06 --> Language Class Initialized
+ERROR - 2026-03-02 14:43:06 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:43:06 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:43:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:43:36 --> Config Class Initialized
+INFO - 2026-03-02 14:43:36 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:36 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:36 --> URI Class Initialized
+INFO - 2026-03-02 14:43:36 --> Router Class Initialized
+INFO - 2026-03-02 14:43:36 --> Output Class Initialized
+INFO - 2026-03-02 14:43:36 --> Security Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:36 --> Input Class Initialized
+INFO - 2026-03-02 14:43:36 --> Language Class Initialized
+INFO - 2026-03-02 14:43:36 --> Loader Class Initialized
+INFO - 2026-03-02 14:43:36 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:43:36 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:43:36 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:43:36 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:43:36 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:43:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:43:36 --> Encryption Class Initialized
+INFO - 2026-03-02 14:43:36 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:43:36 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:43:36 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:43:36 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:43:36 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:43:36 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:43:36 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:43:36 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:43:36 --> Model "User_model" initialized
+INFO - 2026-03-02 14:43:36 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:43:36 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:43:36 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:43:36 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:43:36 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:43:36 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:43:36 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:43:36 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:43:36 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:43:36 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:43:36 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:43:36 --> Final output sent to browser
+DEBUG - 2026-03-02 14:43:36 --> Total execution time: 0.1624
+ERROR - 2026-03-02 14:43:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:43:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:43:36 --> Config Class Initialized
+INFO - 2026-03-02 14:43:36 --> Config Class Initialized
+INFO - 2026-03-02 14:43:36 --> Hooks Class Initialized
+INFO - 2026-03-02 14:43:36 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:43:36 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:36 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:36 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:36 --> URI Class Initialized
+INFO - 2026-03-02 14:43:36 --> URI Class Initialized
+INFO - 2026-03-02 14:43:36 --> Router Class Initialized
+INFO - 2026-03-02 14:43:36 --> Router Class Initialized
+INFO - 2026-03-02 14:43:36 --> Output Class Initialized
+INFO - 2026-03-02 14:43:36 --> Output Class Initialized
+INFO - 2026-03-02 14:43:36 --> Security Class Initialized
+INFO - 2026-03-02 14:43:36 --> Security Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:36 --> Input Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:36 --> Language Class Initialized
+INFO - 2026-03-02 14:43:36 --> Input Class Initialized
+INFO - 2026-03-02 14:43:36 --> Language Class Initialized
+ERROR - 2026-03-02 14:43:36 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:43:36 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:43:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:43:36 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:43:36 --> Config Class Initialized
+INFO - 2026-03-02 14:43:36 --> Hooks Class Initialized
+INFO - 2026-03-02 14:43:36 --> Config Class Initialized
+INFO - 2026-03-02 14:43:36 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:36 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:43:36 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:36 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:36 --> URI Class Initialized
+INFO - 2026-03-02 14:43:36 --> URI Class Initialized
+INFO - 2026-03-02 14:43:36 --> Router Class Initialized
+INFO - 2026-03-02 14:43:36 --> Router Class Initialized
+INFO - 2026-03-02 14:43:36 --> Output Class Initialized
+INFO - 2026-03-02 14:43:36 --> Security Class Initialized
+INFO - 2026-03-02 14:43:37 --> Output Class Initialized
+DEBUG - 2026-03-02 14:43:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:37 --> Input Class Initialized
+INFO - 2026-03-02 14:43:37 --> Security Class Initialized
+INFO - 2026-03-02 14:43:37 --> Language Class Initialized
+DEBUG - 2026-03-02 14:43:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:37 --> Input Class Initialized
+ERROR - 2026-03-02 14:43:37 --> 404 Page Not Found: Img/undraw_profile_3.svg
+INFO - 2026-03-02 14:43:37 --> Language Class Initialized
+ERROR - 2026-03-02 14:43:37 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:43:37 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:43:37 --> Config Class Initialized
+INFO - 2026-03-02 14:43:37 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:43:37 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:43:37 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:43:37 --> URI Class Initialized
+INFO - 2026-03-02 14:43:37 --> Router Class Initialized
+INFO - 2026-03-02 14:43:37 --> Output Class Initialized
+INFO - 2026-03-02 14:43:37 --> Security Class Initialized
+DEBUG - 2026-03-02 14:43:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:43:37 --> Input Class Initialized
+INFO - 2026-03-02 14:43:37 --> Language Class Initialized
+INFO - 2026-03-02 14:43:37 --> Loader Class Initialized
+INFO - 2026-03-02 14:43:37 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:43:37 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:43:37 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:43:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:43:37 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:43:37 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:43:37 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:43:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:43:37 --> Encryption Class Initialized
+INFO - 2026-03-02 14:43:37 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:43:37 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:43:37 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:43:37 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:43:37 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:43:37 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:43:37 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:43:37 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:43:37 --> Model "User_model" initialized
+INFO - 2026-03-02 14:43:37 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:43:37 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:43:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:43:37 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:43:37 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:43:37 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:43:37 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:44:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:11 --> Config Class Initialized
+INFO - 2026-03-02 14:44:11 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:11 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:11 --> URI Class Initialized
+INFO - 2026-03-02 14:44:11 --> Router Class Initialized
+INFO - 2026-03-02 14:44:11 --> Output Class Initialized
+INFO - 2026-03-02 14:44:11 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:11 --> Input Class Initialized
+INFO - 2026-03-02 14:44:11 --> Language Class Initialized
+INFO - 2026-03-02 14:44:11 --> Loader Class Initialized
+INFO - 2026-03-02 14:44:11 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:44:11 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:44:11 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:44:11 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:44:11 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:44:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:44:11 --> Encryption Class Initialized
+INFO - 2026-03-02 14:44:11 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:44:11 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:44:11 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:44:11 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:44:11 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:44:11 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:44:11 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:44:11 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "User_model" initialized
+INFO - 2026-03-02 14:44:11 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:44:11 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:44:11 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:44:11 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:44:11 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:44:11 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:44:11 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:44:11 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:44:11 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:44:11 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:44:11 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:44:11 --> Final output sent to browser
+DEBUG - 2026-03-02 14:44:11 --> Total execution time: 0.1390
+ERROR - 2026-03-02 14:44:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:44:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:11 --> Config Class Initialized
+INFO - 2026-03-02 14:44:11 --> Hooks Class Initialized
+INFO - 2026-03-02 14:44:11 --> Config Class Initialized
+INFO - 2026-03-02 14:44:11 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:11 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:11 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:11 --> URI Class Initialized
+INFO - 2026-03-02 14:44:11 --> URI Class Initialized
+INFO - 2026-03-02 14:44:11 --> Router Class Initialized
+INFO - 2026-03-02 14:44:11 --> Router Class Initialized
+INFO - 2026-03-02 14:44:11 --> Output Class Initialized
+INFO - 2026-03-02 14:44:11 --> Output Class Initialized
+INFO - 2026-03-02 14:44:11 --> Security Class Initialized
+INFO - 2026-03-02 14:44:11 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:11 --> Input Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:11 --> Language Class Initialized
+INFO - 2026-03-02 14:44:11 --> Input Class Initialized
+INFO - 2026-03-02 14:44:11 --> Language Class Initialized
+ERROR - 2026-03-02 14:44:11 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:44:11 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:44:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:11 --> Config Class Initialized
+INFO - 2026-03-02 14:44:11 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:11 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:11 --> URI Class Initialized
+ERROR - 2026-03-02 14:44:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:11 --> Router Class Initialized
+INFO - 2026-03-02 14:44:11 --> Config Class Initialized
+INFO - 2026-03-02 14:44:11 --> Output Class Initialized
+INFO - 2026-03-02 14:44:11 --> Hooks Class Initialized
+INFO - 2026-03-02 14:44:11 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:44:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:11 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:11 --> Input Class Initialized
+INFO - 2026-03-02 14:44:11 --> URI Class Initialized
+INFO - 2026-03-02 14:44:11 --> Language Class Initialized
+INFO - 2026-03-02 14:44:11 --> Router Class Initialized
+ERROR - 2026-03-02 14:44:11 --> 404 Page Not Found: Img/undraw_profile_3.svg
+INFO - 2026-03-02 14:44:11 --> Output Class Initialized
+INFO - 2026-03-02 14:44:11 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:11 --> Input Class Initialized
+INFO - 2026-03-02 14:44:11 --> Language Class Initialized
+ERROR - 2026-03-02 14:44:11 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:44:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:11 --> Config Class Initialized
+INFO - 2026-03-02 14:44:11 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:11 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:11 --> URI Class Initialized
+INFO - 2026-03-02 14:44:11 --> Router Class Initialized
+INFO - 2026-03-02 14:44:11 --> Output Class Initialized
+INFO - 2026-03-02 14:44:11 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:11 --> Input Class Initialized
+INFO - 2026-03-02 14:44:11 --> Language Class Initialized
+INFO - 2026-03-02 14:44:11 --> Loader Class Initialized
+INFO - 2026-03-02 14:44:11 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:44:11 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:44:11 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:44:11 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:44:11 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:44:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:44:11 --> Encryption Class Initialized
+INFO - 2026-03-02 14:44:11 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:44:11 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:44:11 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:44:11 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:44:11 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:44:11 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:44:11 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:44:11 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:44:11 --> Model "User_model" initialized
+INFO - 2026-03-02 14:44:11 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:44:11 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:44:11 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:44:11 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:44:11 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:44:11 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:44:11 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:44:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:44 --> Config Class Initialized
+INFO - 2026-03-02 14:44:44 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:44 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:44 --> URI Class Initialized
+INFO - 2026-03-02 14:44:44 --> Router Class Initialized
+INFO - 2026-03-02 14:44:44 --> Output Class Initialized
+INFO - 2026-03-02 14:44:44 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:44 --> Input Class Initialized
+INFO - 2026-03-02 14:44:44 --> Language Class Initialized
+INFO - 2026-03-02 14:44:44 --> Loader Class Initialized
+INFO - 2026-03-02 14:44:44 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:44:44 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:44:44 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:44:44 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:44:44 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:44:44 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:44:44 --> Encryption Class Initialized
+INFO - 2026-03-02 14:44:44 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:44:44 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:44:44 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:44:44 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:44:44 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:44:44 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:44:44 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:44:44 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "User_model" initialized
+INFO - 2026-03-02 14:44:44 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:44:44 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:44:44 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:44:44 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:44:44 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:44:44 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:44:44 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:44:44 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:44:44 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:44:44 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:44:44 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:44:44 --> Final output sent to browser
+DEBUG - 2026-03-02 14:44:44 --> Total execution time: 0.1956
+ERROR - 2026-03-02 14:44:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:44:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:44 --> Config Class Initialized
+INFO - 2026-03-02 14:44:44 --> Config Class Initialized
+INFO - 2026-03-02 14:44:44 --> Hooks Class Initialized
+INFO - 2026-03-02 14:44:44 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:44:44 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:44 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:44 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:44 --> URI Class Initialized
+INFO - 2026-03-02 14:44:44 --> URI Class Initialized
+INFO - 2026-03-02 14:44:44 --> Router Class Initialized
+INFO - 2026-03-02 14:44:44 --> Router Class Initialized
+INFO - 2026-03-02 14:44:44 --> Output Class Initialized
+INFO - 2026-03-02 14:44:44 --> Output Class Initialized
+INFO - 2026-03-02 14:44:44 --> Security Class Initialized
+INFO - 2026-03-02 14:44:44 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:44 --> Input Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:44 --> Input Class Initialized
+INFO - 2026-03-02 14:44:44 --> Language Class Initialized
+INFO - 2026-03-02 14:44:44 --> Language Class Initialized
+ERROR - 2026-03-02 14:44:44 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:44:44 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:44:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:44 --> Config Class Initialized
+INFO - 2026-03-02 14:44:44 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:44 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:44 --> URI Class Initialized
+ERROR - 2026-03-02 14:44:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:44 --> Router Class Initialized
+INFO - 2026-03-02 14:44:44 --> Config Class Initialized
+INFO - 2026-03-02 14:44:44 --> Output Class Initialized
+INFO - 2026-03-02 14:44:44 --> Hooks Class Initialized
+INFO - 2026-03-02 14:44:44 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:44 --> Input Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:44 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:44 --> Language Class Initialized
+INFO - 2026-03-02 14:44:44 --> URI Class Initialized
+ERROR - 2026-03-02 14:44:44 --> 404 Page Not Found: Img/undraw_profile_3.svg
+INFO - 2026-03-02 14:44:44 --> Router Class Initialized
+INFO - 2026-03-02 14:44:44 --> Output Class Initialized
+INFO - 2026-03-02 14:44:44 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:44 --> Input Class Initialized
+INFO - 2026-03-02 14:44:44 --> Language Class Initialized
+ERROR - 2026-03-02 14:44:44 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:44:44 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:44:44 --> Config Class Initialized
+INFO - 2026-03-02 14:44:44 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:44:44 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:44:44 --> URI Class Initialized
+INFO - 2026-03-02 14:44:44 --> Router Class Initialized
+INFO - 2026-03-02 14:44:44 --> Output Class Initialized
+INFO - 2026-03-02 14:44:44 --> Security Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:44:44 --> Input Class Initialized
+INFO - 2026-03-02 14:44:44 --> Language Class Initialized
+INFO - 2026-03-02 14:44:44 --> Loader Class Initialized
+INFO - 2026-03-02 14:44:44 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:44:44 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:44:44 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:44:44 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:44:44 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:44:44 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:44:44 --> Encryption Class Initialized
+INFO - 2026-03-02 14:44:44 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:44:44 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:44:44 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:44:44 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:44:44 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:44:44 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:44:44 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:44:44 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:44:44 --> Model "User_model" initialized
+INFO - 2026-03-02 14:44:44 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:44:44 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:44:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:44:44 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:44:44 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:44:44 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:44:44 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:48:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:48:28 --> Config Class Initialized
+INFO - 2026-03-02 14:48:28 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:48:28 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:48:28 --> URI Class Initialized
+INFO - 2026-03-02 14:48:28 --> Router Class Initialized
+INFO - 2026-03-02 14:48:28 --> Output Class Initialized
+INFO - 2026-03-02 14:48:28 --> Security Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:48:28 --> Input Class Initialized
+INFO - 2026-03-02 14:48:28 --> Language Class Initialized
+INFO - 2026-03-02 14:48:28 --> Loader Class Initialized
+INFO - 2026-03-02 14:48:28 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:48:28 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:48:28 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:48:28 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:48:28 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:48:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:48:28 --> Encryption Class Initialized
+INFO - 2026-03-02 14:48:28 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:48:28 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:48:28 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:48:28 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:48:28 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:48:28 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:48:28 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:48:28 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "User_model" initialized
+INFO - 2026-03-02 14:48:28 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:48:28 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:48:28 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:48:28 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:48:28 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:48:28 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:48:28 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:48:28 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:48:28 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:48:28 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:48:28 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:48:28 --> Final output sent to browser
+DEBUG - 2026-03-02 14:48:28 --> Total execution time: 0.1296
+ERROR - 2026-03-02 14:48:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:48:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:48:28 --> Config Class Initialized
+INFO - 2026-03-02 14:48:28 --> Config Class Initialized
+INFO - 2026-03-02 14:48:28 --> Hooks Class Initialized
+INFO - 2026-03-02 14:48:28 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 14:48:28 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:48:28 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:48:28 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:48:28 --> URI Class Initialized
+INFO - 2026-03-02 14:48:28 --> URI Class Initialized
+INFO - 2026-03-02 14:48:28 --> Router Class Initialized
+INFO - 2026-03-02 14:48:28 --> Router Class Initialized
+INFO - 2026-03-02 14:48:28 --> Output Class Initialized
+INFO - 2026-03-02 14:48:28 --> Output Class Initialized
+INFO - 2026-03-02 14:48:28 --> Security Class Initialized
+INFO - 2026-03-02 14:48:28 --> Security Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 14:48:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:48:28 --> Input Class Initialized
+INFO - 2026-03-02 14:48:28 --> Input Class Initialized
+INFO - 2026-03-02 14:48:28 --> Language Class Initialized
+INFO - 2026-03-02 14:48:28 --> Language Class Initialized
+ERROR - 2026-03-02 14:48:28 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:48:28 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:48:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:48:28 --> Config Class Initialized
+INFO - 2026-03-02 14:48:28 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:48:28 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:48:28 --> URI Class Initialized
+INFO - 2026-03-02 14:48:28 --> Router Class Initialized
+ERROR - 2026-03-02 14:48:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:48:28 --> Output Class Initialized
+INFO - 2026-03-02 14:48:28 --> Config Class Initialized
+INFO - 2026-03-02 14:48:28 --> Hooks Class Initialized
+INFO - 2026-03-02 14:48:28 --> Security Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:48:28 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:48:28 --> Input Class Initialized
+INFO - 2026-03-02 14:48:28 --> URI Class Initialized
+INFO - 2026-03-02 14:48:28 --> Language Class Initialized
+INFO - 2026-03-02 14:48:28 --> Router Class Initialized
+ERROR - 2026-03-02 14:48:28 --> 404 Page Not Found: Img/undraw_profile_3.svg
+INFO - 2026-03-02 14:48:28 --> Output Class Initialized
+INFO - 2026-03-02 14:48:28 --> Security Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:48:28 --> Input Class Initialized
+INFO - 2026-03-02 14:48:28 --> Language Class Initialized
+ERROR - 2026-03-02 14:48:28 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:48:28 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:48:28 --> Config Class Initialized
+INFO - 2026-03-02 14:48:28 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:48:28 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:48:28 --> URI Class Initialized
+INFO - 2026-03-02 14:48:28 --> Router Class Initialized
+INFO - 2026-03-02 14:48:28 --> Output Class Initialized
+INFO - 2026-03-02 14:48:28 --> Security Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:48:28 --> Input Class Initialized
+INFO - 2026-03-02 14:48:28 --> Language Class Initialized
+INFO - 2026-03-02 14:48:28 --> Loader Class Initialized
+INFO - 2026-03-02 14:48:28 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:48:28 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:48:28 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:48:28 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:48:28 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:48:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:48:28 --> Encryption Class Initialized
+INFO - 2026-03-02 14:48:28 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:48:28 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:48:28 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:48:28 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:48:28 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:48:28 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:48:28 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:48:28 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:48:28 --> Model "User_model" initialized
+INFO - 2026-03-02 14:48:28 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:48:28 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:48:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:48:28 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:48:28 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:48:28 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:48:28 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 14:57:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:57:19 --> Config Class Initialized
+INFO - 2026-03-02 14:57:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:57:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:57:19 --> URI Class Initialized
+INFO - 2026-03-02 14:57:19 --> Router Class Initialized
+INFO - 2026-03-02 14:57:19 --> Output Class Initialized
+INFO - 2026-03-02 14:57:19 --> Security Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:57:19 --> Input Class Initialized
+INFO - 2026-03-02 14:57:19 --> Language Class Initialized
+INFO - 2026-03-02 14:57:19 --> Loader Class Initialized
+INFO - 2026-03-02 14:57:19 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:57:19 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:57:19 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:57:19 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:57:19 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:57:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:57:19 --> Encryption Class Initialized
+INFO - 2026-03-02 14:57:19 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:57:19 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:57:19 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:57:19 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:57:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:57:19 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:57:19 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:57:19 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "User_model" initialized
+INFO - 2026-03-02 14:57:19 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:57:19 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:57:19 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:57:19 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:57:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:57:19 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 14:57:19 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 14:57:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 14:57:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 14:57:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 14:57:19 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 14:57:19 --> Final output sent to browser
+DEBUG - 2026-03-02 14:57:19 --> Total execution time: 0.1983
+ERROR - 2026-03-02 14:57:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:57:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:57:19 --> Config Class Initialized
+INFO - 2026-03-02 14:57:19 --> Hooks Class Initialized
+INFO - 2026-03-02 14:57:19 --> Config Class Initialized
+INFO - 2026-03-02 14:57:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:57:19 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:57:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:57:19 --> URI Class Initialized
+INFO - 2026-03-02 14:57:19 --> URI Class Initialized
+INFO - 2026-03-02 14:57:19 --> Router Class Initialized
+INFO - 2026-03-02 14:57:19 --> Router Class Initialized
+INFO - 2026-03-02 14:57:19 --> Output Class Initialized
+INFO - 2026-03-02 14:57:19 --> Security Class Initialized
+INFO - 2026-03-02 14:57:19 --> Output Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:57:19 --> Security Class Initialized
+INFO - 2026-03-02 14:57:19 --> Input Class Initialized
+INFO - 2026-03-02 14:57:19 --> Language Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:57:19 --> Input Class Initialized
+INFO - 2026-03-02 14:57:19 --> Language Class Initialized
+ERROR - 2026-03-02 14:57:19 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 14:57:19 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 14:57:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 14:57:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:57:19 --> Config Class Initialized
+INFO - 2026-03-02 14:57:19 --> Hooks Class Initialized
+INFO - 2026-03-02 14:57:19 --> Config Class Initialized
+INFO - 2026-03-02 14:57:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:57:19 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:57:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:57:19 --> URI Class Initialized
+INFO - 2026-03-02 14:57:19 --> URI Class Initialized
+INFO - 2026-03-02 14:57:19 --> Router Class Initialized
+INFO - 2026-03-02 14:57:19 --> Router Class Initialized
+INFO - 2026-03-02 14:57:19 --> Output Class Initialized
+INFO - 2026-03-02 14:57:19 --> Output Class Initialized
+INFO - 2026-03-02 14:57:19 --> Security Class Initialized
+INFO - 2026-03-02 14:57:19 --> Security Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:57:19 --> Input Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:57:19 --> Input Class Initialized
+INFO - 2026-03-02 14:57:19 --> Language Class Initialized
+INFO - 2026-03-02 14:57:19 --> Language Class Initialized
+ERROR - 2026-03-02 14:57:19 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 14:57:19 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 14:57:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 14:57:19 --> Config Class Initialized
+INFO - 2026-03-02 14:57:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 14:57:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 14:57:19 --> URI Class Initialized
+INFO - 2026-03-02 14:57:19 --> Router Class Initialized
+INFO - 2026-03-02 14:57:19 --> Output Class Initialized
+INFO - 2026-03-02 14:57:19 --> Security Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 14:57:19 --> Input Class Initialized
+INFO - 2026-03-02 14:57:19 --> Language Class Initialized
+INFO - 2026-03-02 14:57:19 --> Loader Class Initialized
+INFO - 2026-03-02 14:57:19 --> Helper loaded: url_helper
+INFO - 2026-03-02 14:57:19 --> Helper loaded: form_helper
+INFO - 2026-03-02 14:57:19 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 14:57:19 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 14:57:19 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 14:57:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 14:57:19 --> Encryption Class Initialized
+INFO - 2026-03-02 14:57:19 --> Model "PatientModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "AuthModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "BedsModel" initialized
+INFO - 2026-03-02 14:57:19 --> Database Forge Class Initialized
+INFO - 2026-03-02 14:57:19 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 14:57:19 --> Model "DeathModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 14:57:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:57:19 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 14:57:19 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 14:57:19 --> Model "ReportModel" initialized
+INFO - 2026-03-02 14:57:19 --> Model "User_model" initialized
+INFO - 2026-03-02 14:57:19 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 14:57:19 --> Controller Class Initialized
+DEBUG - 2026-03-02 14:57:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 14:57:19 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 14:57:19 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 14:57:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 14:57:19 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 15:18:31 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:18:31 --> Config Class Initialized
+INFO - 2026-03-02 15:18:31 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:18:31 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:18:31 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:18:31 --> URI Class Initialized
+INFO - 2026-03-02 15:18:31 --> Router Class Initialized
+INFO - 2026-03-02 15:18:31 --> Output Class Initialized
+INFO - 2026-03-02 15:18:31 --> Security Class Initialized
+DEBUG - 2026-03-02 15:18:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:18:31 --> Input Class Initialized
+INFO - 2026-03-02 15:18:31 --> Language Class Initialized
+ERROR - 2026-03-02 15:18:31 --> 404 Page Not Found: Libraries/procurementSettings
+ERROR - 2026-03-02 15:19:06 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:06 --> Config Class Initialized
+INFO - 2026-03-02 15:19:06 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:06 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:06 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:06 --> URI Class Initialized
+INFO - 2026-03-02 15:19:06 --> Router Class Initialized
+INFO - 2026-03-02 15:19:06 --> Output Class Initialized
+INFO - 2026-03-02 15:19:06 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:06 --> Input Class Initialized
+INFO - 2026-03-02 15:19:06 --> Language Class Initialized
+INFO - 2026-03-02 15:19:06 --> Loader Class Initialized
+INFO - 2026-03-02 15:19:06 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:19:06 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:19:06 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:19:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:19:06 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:19:06 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:19:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:19:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:19:06 --> Encryption Class Initialized
+INFO - 2026-03-02 15:19:06 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:19:06 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:19:06 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:19:06 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:19:06 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:19:06 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:19:06 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:19:06 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:19:06 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:19:06 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:19:06 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:19:06 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:07 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:19:07 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:19:07 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "User_model" initialized
+INFO - 2026-03-02 15:19:07 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:19:07 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:19:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:19:07 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:19:07 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:19:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:07 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 15:19:07 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:07 --> Config Class Initialized
+INFO - 2026-03-02 15:19:07 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:07 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:07 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:07 --> URI Class Initialized
+INFO - 2026-03-02 15:19:07 --> Router Class Initialized
+INFO - 2026-03-02 15:19:07 --> Output Class Initialized
+INFO - 2026-03-02 15:19:07 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:07 --> Input Class Initialized
+INFO - 2026-03-02 15:19:07 --> Language Class Initialized
+INFO - 2026-03-02 15:19:07 --> Loader Class Initialized
+INFO - 2026-03-02 15:19:07 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:19:07 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:19:07 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:19:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:19:07 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:19:07 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:19:07 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:19:07 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:19:07 --> Encryption Class Initialized
+INFO - 2026-03-02 15:19:07 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:19:07 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:19:07 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:19:07 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:19:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:07 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:19:07 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:19:07 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:19:07 --> Model "User_model" initialized
+INFO - 2026-03-02 15:19:07 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:19:07 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:19:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:19:07 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:19:07 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:19:07 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:07 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 15:19:07 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 15:19:07 --> Final output sent to browser
+DEBUG - 2026-03-02 15:19:07 --> Total execution time: 0.1727
+ERROR - 2026-03-02 15:19:11 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:11 --> Config Class Initialized
+INFO - 2026-03-02 15:19:11 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:11 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:11 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:11 --> URI Class Initialized
+INFO - 2026-03-02 15:19:11 --> Router Class Initialized
+INFO - 2026-03-02 15:19:11 --> Output Class Initialized
+INFO - 2026-03-02 15:19:11 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:11 --> Input Class Initialized
+INFO - 2026-03-02 15:19:11 --> Language Class Initialized
+INFO - 2026-03-02 15:19:11 --> Loader Class Initialized
+INFO - 2026-03-02 15:19:11 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:19:11 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:19:11 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:19:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:19:11 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:19:11 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:19:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:19:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:19:11 --> Encryption Class Initialized
+INFO - 2026-03-02 15:19:11 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:19:11 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:19:11 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:19:11 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:19:11 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:11 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:19:11 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:19:11 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:19:11 --> Model "User_model" initialized
+INFO - 2026-03-02 15:19:11 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:19:11 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:19:11 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:19:11 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:19:11 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:19:11 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:11 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 15:19:11 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 15:19:11 --> Helper loaded: email_helper
+ERROR - 2026-03-02 15:19:11 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 15:19:12 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 15:19:12 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 15:19:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:12 --> Config Class Initialized
+INFO - 2026-03-02 15:19:12 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:12 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:12 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:12 --> URI Class Initialized
+INFO - 2026-03-02 15:19:12 --> Router Class Initialized
+INFO - 2026-03-02 15:19:12 --> Output Class Initialized
+INFO - 2026-03-02 15:19:12 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:12 --> Input Class Initialized
+INFO - 2026-03-02 15:19:12 --> Language Class Initialized
+INFO - 2026-03-02 15:19:12 --> Loader Class Initialized
+INFO - 2026-03-02 15:19:12 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:19:12 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:19:12 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:19:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:19:12 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:19:12 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:19:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:19:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:19:12 --> Encryption Class Initialized
+INFO - 2026-03-02 15:19:12 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:19:12 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:19:12 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:19:12 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:19:12 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:12 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:19:12 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:19:12 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:19:12 --> Model "User_model" initialized
+INFO - 2026-03-02 15:19:12 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:19:12 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:19:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:19:12 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:19:12 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:19:12 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:12 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 15:19:12 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:12 --> Config Class Initialized
+INFO - 2026-03-02 15:19:12 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:12 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:12 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:12 --> URI Class Initialized
+INFO - 2026-03-02 15:19:12 --> Router Class Initialized
+INFO - 2026-03-02 15:19:12 --> Output Class Initialized
+INFO - 2026-03-02 15:19:12 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:12 --> Input Class Initialized
+INFO - 2026-03-02 15:19:12 --> Language Class Initialized
+ERROR - 2026-03-02 15:19:12 --> 404 Page Not Found: PatientRegistration/allpatientList
+ERROR - 2026-03-02 15:19:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:22 --> Config Class Initialized
+INFO - 2026-03-02 15:19:22 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:22 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:22 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:22 --> URI Class Initialized
+INFO - 2026-03-02 15:19:22 --> Router Class Initialized
+INFO - 2026-03-02 15:19:22 --> Output Class Initialized
+INFO - 2026-03-02 15:19:22 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:22 --> Input Class Initialized
+INFO - 2026-03-02 15:19:22 --> Language Class Initialized
+INFO - 2026-03-02 15:19:22 --> Loader Class Initialized
+INFO - 2026-03-02 15:19:22 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:19:22 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:19:22 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:19:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:19:22 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:19:22 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:19:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:19:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:19:22 --> Encryption Class Initialized
+INFO - 2026-03-02 15:19:22 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:19:22 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:19:22 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:19:22 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:19:22 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:19:22 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:19:22 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:19:22 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:19:22 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:19:22 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:19:22 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:19:22 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:23 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:19:23 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:19:23 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "User_model" initialized
+INFO - 2026-03-02 15:19:23 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:19:23 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:19:23 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:19:23 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:19:23 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:23 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 15:19:23 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 15:19:23 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 15:19:23 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 15:19:23 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 15:19:23 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 15:19:23 --> Final output sent to browser
+DEBUG - 2026-03-02 15:19:23 --> Total execution time: 0.1941
+ERROR - 2026-03-02 15:19:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 15:19:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:23 --> Config Class Initialized
+INFO - 2026-03-02 15:19:23 --> Hooks Class Initialized
+INFO - 2026-03-02 15:19:23 --> Config Class Initialized
+INFO - 2026-03-02 15:19:23 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:23 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:23 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:23 --> URI Class Initialized
+INFO - 2026-03-02 15:19:23 --> URI Class Initialized
+INFO - 2026-03-02 15:19:23 --> Router Class Initialized
+INFO - 2026-03-02 15:19:23 --> Router Class Initialized
+INFO - 2026-03-02 15:19:23 --> Output Class Initialized
+INFO - 2026-03-02 15:19:23 --> Output Class Initialized
+INFO - 2026-03-02 15:19:23 --> Security Class Initialized
+INFO - 2026-03-02 15:19:23 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:23 --> Input Class Initialized
+INFO - 2026-03-02 15:19:23 --> Language Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:23 --> Input Class Initialized
+INFO - 2026-03-02 15:19:23 --> Language Class Initialized
+ERROR - 2026-03-02 15:19:23 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 15:19:23 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 15:19:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 15:19:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:23 --> Config Class Initialized
+INFO - 2026-03-02 15:19:23 --> Hooks Class Initialized
+INFO - 2026-03-02 15:19:23 --> Config Class Initialized
+INFO - 2026-03-02 15:19:23 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 15:19:23 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:23 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:23 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:23 --> URI Class Initialized
+INFO - 2026-03-02 15:19:23 --> URI Class Initialized
+INFO - 2026-03-02 15:19:23 --> Router Class Initialized
+INFO - 2026-03-02 15:19:23 --> Router Class Initialized
+INFO - 2026-03-02 15:19:23 --> Output Class Initialized
+INFO - 2026-03-02 15:19:23 --> Output Class Initialized
+INFO - 2026-03-02 15:19:23 --> Security Class Initialized
+INFO - 2026-03-02 15:19:23 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 15:19:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:23 --> Input Class Initialized
+INFO - 2026-03-02 15:19:23 --> Input Class Initialized
+INFO - 2026-03-02 15:19:23 --> Language Class Initialized
+INFO - 2026-03-02 15:19:23 --> Language Class Initialized
+ERROR - 2026-03-02 15:19:23 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 15:19:23 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 15:19:23 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:19:23 --> Config Class Initialized
+INFO - 2026-03-02 15:19:23 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:19:23 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:19:23 --> URI Class Initialized
+INFO - 2026-03-02 15:19:23 --> Router Class Initialized
+INFO - 2026-03-02 15:19:23 --> Output Class Initialized
+INFO - 2026-03-02 15:19:23 --> Security Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:19:23 --> Input Class Initialized
+INFO - 2026-03-02 15:19:23 --> Language Class Initialized
+INFO - 2026-03-02 15:19:23 --> Loader Class Initialized
+INFO - 2026-03-02 15:19:23 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:19:23 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:19:23 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:19:23 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:19:23 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:19:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:19:23 --> Encryption Class Initialized
+INFO - 2026-03-02 15:19:23 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:19:23 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:19:23 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:19:23 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:19:23 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:23 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:19:23 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:19:23 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:19:23 --> Model "User_model" initialized
+INFO - 2026-03-02 15:19:23 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:19:23 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:19:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:19:23 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:19:23 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:19:23 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:19:23 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 15:20:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:20:08 --> Config Class Initialized
+INFO - 2026-03-02 15:20:08 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:20:08 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:20:08 --> URI Class Initialized
+INFO - 2026-03-02 15:20:08 --> Router Class Initialized
+INFO - 2026-03-02 15:20:08 --> Output Class Initialized
+INFO - 2026-03-02 15:20:08 --> Security Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:20:08 --> Input Class Initialized
+INFO - 2026-03-02 15:20:08 --> Language Class Initialized
+INFO - 2026-03-02 15:20:08 --> Loader Class Initialized
+INFO - 2026-03-02 15:20:08 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:20:08 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:20:08 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:20:08 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:20:08 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:20:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:20:08 --> Encryption Class Initialized
+INFO - 2026-03-02 15:20:08 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:20:08 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:20:08 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:20:08 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:20:08 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:20:08 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:20:08 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:20:08 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "User_model" initialized
+INFO - 2026-03-02 15:20:08 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:20:08 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:20:08 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:20:08 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:20:08 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:20:08 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 15:20:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:20:08 --> Config Class Initialized
+INFO - 2026-03-02 15:20:08 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:20:08 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:20:08 --> URI Class Initialized
+INFO - 2026-03-02 15:20:08 --> Router Class Initialized
+INFO - 2026-03-02 15:20:08 --> Output Class Initialized
+INFO - 2026-03-02 15:20:08 --> Security Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:20:08 --> Input Class Initialized
+INFO - 2026-03-02 15:20:08 --> Language Class Initialized
+INFO - 2026-03-02 15:20:08 --> Loader Class Initialized
+INFO - 2026-03-02 15:20:08 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:20:08 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:20:08 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:20:08 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:20:08 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:20:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:20:08 --> Encryption Class Initialized
+INFO - 2026-03-02 15:20:08 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:20:08 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:20:08 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:20:08 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:20:08 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:20:08 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:20:08 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:20:08 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:20:08 --> Model "User_model" initialized
+INFO - 2026-03-02 15:20:08 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:20:08 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:20:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:20:08 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:20:08 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:20:08 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:20:08 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 15:20:08 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 15:20:08 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 15:20:08 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 15:20:08 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 15:20:08 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 15:20:08 --> Final output sent to browser
+DEBUG - 2026-03-02 15:20:08 --> Total execution time: 0.1901
+ERROR - 2026-03-02 15:20:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:20:09 --> Config Class Initialized
+INFO - 2026-03-02 15:20:09 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:20:09 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:20:09 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:20:09 --> URI Class Initialized
+INFO - 2026-03-02 15:20:09 --> Router Class Initialized
+INFO - 2026-03-02 15:20:09 --> Output Class Initialized
+INFO - 2026-03-02 15:20:09 --> Security Class Initialized
+DEBUG - 2026-03-02 15:20:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:20:09 --> Input Class Initialized
+INFO - 2026-03-02 15:20:09 --> Language Class Initialized
+INFO - 2026-03-02 15:20:09 --> Loader Class Initialized
+INFO - 2026-03-02 15:20:09 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:20:09 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:20:09 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:20:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:20:09 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:20:09 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:20:09 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:20:09 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:20:09 --> Encryption Class Initialized
+INFO - 2026-03-02 15:20:09 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:20:09 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:20:09 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:20:09 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:20:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:20:09 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:20:09 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:20:09 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:20:09 --> Model "User_model" initialized
+INFO - 2026-03-02 15:20:09 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:20:09 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:20:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:20:09 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:20:09 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:20:09 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:20:09 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 15:21:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:46 --> Config Class Initialized
+INFO - 2026-03-02 15:21:46 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:46 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:46 --> URI Class Initialized
+INFO - 2026-03-02 15:21:46 --> Router Class Initialized
+INFO - 2026-03-02 15:21:46 --> Output Class Initialized
+INFO - 2026-03-02 15:21:46 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:46 --> Input Class Initialized
+INFO - 2026-03-02 15:21:46 --> Language Class Initialized
+INFO - 2026-03-02 15:21:46 --> Loader Class Initialized
+INFO - 2026-03-02 15:21:46 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:21:46 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:21:46 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:21:46 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:21:46 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:21:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:21:46 --> Encryption Class Initialized
+INFO - 2026-03-02 15:21:46 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:21:46 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:21:46 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:21:46 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:21:46 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:46 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:21:46 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:21:46 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "User_model" initialized
+INFO - 2026-03-02 15:21:46 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:21:46 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:21:46 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:21:46 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:21:46 --> Database Driver Class Initialized
+ERROR - 2026-03-02 15:21:46 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:46 --> Config Class Initialized
+INFO - 2026-03-02 15:21:46 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:46 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:46 --> URI Class Initialized
+INFO - 2026-03-02 15:21:46 --> Router Class Initialized
+INFO - 2026-03-02 15:21:46 --> Output Class Initialized
+INFO - 2026-03-02 15:21:46 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:46 --> Input Class Initialized
+INFO - 2026-03-02 15:21:46 --> Language Class Initialized
+INFO - 2026-03-02 15:21:46 --> Loader Class Initialized
+INFO - 2026-03-02 15:21:46 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:21:46 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:21:46 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:21:46 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:21:46 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:21:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:21:46 --> Encryption Class Initialized
+INFO - 2026-03-02 15:21:46 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:21:46 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:21:46 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:21:46 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:21:46 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:46 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:21:46 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:21:46 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:21:46 --> Model "User_model" initialized
+INFO - 2026-03-02 15:21:46 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:21:46 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:21:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:21:46 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:21:46 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:21:46 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:46 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 15:21:46 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 15:21:46 --> Final output sent to browser
+DEBUG - 2026-03-02 15:21:46 --> Total execution time: 0.2347
+ERROR - 2026-03-02 15:21:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:54 --> Config Class Initialized
+INFO - 2026-03-02 15:21:54 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:54 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:54 --> URI Class Initialized
+INFO - 2026-03-02 15:21:54 --> Router Class Initialized
+INFO - 2026-03-02 15:21:54 --> Output Class Initialized
+INFO - 2026-03-02 15:21:54 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:54 --> Input Class Initialized
+INFO - 2026-03-02 15:21:54 --> Language Class Initialized
+INFO - 2026-03-02 15:21:54 --> Loader Class Initialized
+INFO - 2026-03-02 15:21:54 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:21:54 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:21:54 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:21:54 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:21:54 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:21:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:21:54 --> Encryption Class Initialized
+INFO - 2026-03-02 15:21:54 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:21:54 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:21:54 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:21:54 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:54 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "User_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:21:54 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:21:54 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:21:54 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:21:54 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:54 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 15:21:54 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 15:21:54 --> Helper loaded: email_helper
+ERROR - 2026-03-02 15:21:54 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 15:21:54 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 15:21:54 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 15:21:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:54 --> Config Class Initialized
+INFO - 2026-03-02 15:21:54 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:54 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:54 --> URI Class Initialized
+INFO - 2026-03-02 15:21:54 --> Router Class Initialized
+INFO - 2026-03-02 15:21:54 --> Output Class Initialized
+INFO - 2026-03-02 15:21:54 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:54 --> Input Class Initialized
+INFO - 2026-03-02 15:21:54 --> Language Class Initialized
+INFO - 2026-03-02 15:21:54 --> Loader Class Initialized
+INFO - 2026-03-02 15:21:54 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:21:54 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:21:54 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:21:54 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:21:54 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:21:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:21:54 --> Encryption Class Initialized
+INFO - 2026-03-02 15:21:54 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:21:54 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:21:54 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:21:54 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:54 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "User_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:21:54 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:21:54 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:21:54 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:21:54 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:54 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 15:21:54 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:54 --> Config Class Initialized
+INFO - 2026-03-02 15:21:54 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:54 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:54 --> URI Class Initialized
+INFO - 2026-03-02 15:21:54 --> Router Class Initialized
+INFO - 2026-03-02 15:21:54 --> Output Class Initialized
+INFO - 2026-03-02 15:21:54 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:54 --> Input Class Initialized
+INFO - 2026-03-02 15:21:54 --> Language Class Initialized
+INFO - 2026-03-02 15:21:54 --> Loader Class Initialized
+INFO - 2026-03-02 15:21:54 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:21:54 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:21:54 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:21:54 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:21:54 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:21:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:21:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:21:54 --> Encryption Class Initialized
+INFO - 2026-03-02 15:21:54 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:21:54 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:21:54 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:21:54 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:21:54 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:55 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:21:55 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:21:55 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "User_model" initialized
+INFO - 2026-03-02 15:21:55 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:21:55 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:21:55 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:21:55 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:21:55 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:55 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 15:21:55 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 15:21:55 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 15:21:55 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 15:21:55 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 15:21:55 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 15:21:55 --> Final output sent to browser
+DEBUG - 2026-03-02 15:21:55 --> Total execution time: 0.2176
+ERROR - 2026-03-02 15:21:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 15:21:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:55 --> Config Class Initialized
+INFO - 2026-03-02 15:21:55 --> Config Class Initialized
+INFO - 2026-03-02 15:21:55 --> Hooks Class Initialized
+INFO - 2026-03-02 15:21:55 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 15:21:55 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:55 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:55 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:55 --> URI Class Initialized
+INFO - 2026-03-02 15:21:55 --> URI Class Initialized
+INFO - 2026-03-02 15:21:55 --> Router Class Initialized
+INFO - 2026-03-02 15:21:55 --> Router Class Initialized
+INFO - 2026-03-02 15:21:55 --> Output Class Initialized
+INFO - 2026-03-02 15:21:55 --> Output Class Initialized
+INFO - 2026-03-02 15:21:55 --> Security Class Initialized
+INFO - 2026-03-02 15:21:55 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:55 --> Input Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:55 --> Input Class Initialized
+INFO - 2026-03-02 15:21:55 --> Language Class Initialized
+INFO - 2026-03-02 15:21:55 --> Language Class Initialized
+ERROR - 2026-03-02 15:21:55 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 15:21:55 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 15:21:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:55 --> Config Class Initialized
+INFO - 2026-03-02 15:21:55 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:55 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:55 --> URI Class Initialized
+INFO - 2026-03-02 15:21:55 --> Router Class Initialized
+INFO - 2026-03-02 15:21:55 --> Output Class Initialized
+INFO - 2026-03-02 15:21:55 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:55 --> Input Class Initialized
+INFO - 2026-03-02 15:21:55 --> Language Class Initialized
+ERROR - 2026-03-02 15:21:55 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 15:21:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:55 --> Config Class Initialized
+INFO - 2026-03-02 15:21:55 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:55 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:55 --> URI Class Initialized
+INFO - 2026-03-02 15:21:55 --> Router Class Initialized
+INFO - 2026-03-02 15:21:55 --> Output Class Initialized
+INFO - 2026-03-02 15:21:55 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:55 --> Input Class Initialized
+INFO - 2026-03-02 15:21:55 --> Language Class Initialized
+ERROR - 2026-03-02 15:21:55 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 15:21:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:21:55 --> Config Class Initialized
+INFO - 2026-03-02 15:21:55 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:21:55 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:21:55 --> URI Class Initialized
+INFO - 2026-03-02 15:21:55 --> Router Class Initialized
+INFO - 2026-03-02 15:21:55 --> Output Class Initialized
+INFO - 2026-03-02 15:21:55 --> Security Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:21:55 --> Input Class Initialized
+INFO - 2026-03-02 15:21:55 --> Language Class Initialized
+INFO - 2026-03-02 15:21:55 --> Loader Class Initialized
+INFO - 2026-03-02 15:21:55 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:21:55 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:21:55 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:21:55 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:21:55 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:21:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:21:55 --> Encryption Class Initialized
+INFO - 2026-03-02 15:21:55 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:21:55 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:21:55 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:21:55 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:21:55 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:55 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:21:55 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:21:55 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:21:55 --> Model "User_model" initialized
+INFO - 2026-03-02 15:21:55 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:21:55 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:21:55 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:21:55 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:21:55 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:21:55 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:21:55 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 15:32:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:14 --> Config Class Initialized
+INFO - 2026-03-02 15:32:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:14 --> URI Class Initialized
+INFO - 2026-03-02 15:32:14 --> Router Class Initialized
+INFO - 2026-03-02 15:32:14 --> Output Class Initialized
+INFO - 2026-03-02 15:32:14 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:14 --> Input Class Initialized
+INFO - 2026-03-02 15:32:14 --> Language Class Initialized
+INFO - 2026-03-02 15:32:14 --> Loader Class Initialized
+INFO - 2026-03-02 15:32:14 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:32:14 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:32:14 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:32:14 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:32:14 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:32:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:32:14 --> Encryption Class Initialized
+INFO - 2026-03-02 15:32:14 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:32:14 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:32:14 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:32:14 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:32:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:14 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:32:14 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:32:14 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:32:14 --> Model "User_model" initialized
+INFO - 2026-03-02 15:32:14 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:32:14 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:32:14 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:32:14 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:32:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:14 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 15:32:14 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/listview.php
+INFO - 2026-03-02 15:32:14 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_add.php
+INFO - 2026-03-02 15:32:14 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_update.php
+INFO - 2026-03-02 15:32:14 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 15:32:14 --> Final output sent to browser
+DEBUG - 2026-03-02 15:32:14 --> Total execution time: 0.2756
+ERROR - 2026-03-02 15:32:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 15:32:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:14 --> Config Class Initialized
+INFO - 2026-03-02 15:32:14 --> Config Class Initialized
+INFO - 2026-03-02 15:32:14 --> Hooks Class Initialized
+INFO - 2026-03-02 15:32:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 15:32:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:14 --> URI Class Initialized
+INFO - 2026-03-02 15:32:14 --> URI Class Initialized
+INFO - 2026-03-02 15:32:14 --> Router Class Initialized
+INFO - 2026-03-02 15:32:14 --> Router Class Initialized
+INFO - 2026-03-02 15:32:14 --> Output Class Initialized
+INFO - 2026-03-02 15:32:14 --> Output Class Initialized
+ERROR - 2026-03-02 15:32:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 15:32:14 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:14 --> Security Class Initialized
+INFO - 2026-03-02 15:32:14 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:14 --> Config Class Initialized
+INFO - 2026-03-02 15:32:14 --> Input Class Initialized
+INFO - 2026-03-02 15:32:14 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:14 --> Config Class Initialized
+INFO - 2026-03-02 15:32:14 --> Input Class Initialized
+INFO - 2026-03-02 15:32:14 --> Hooks Class Initialized
+INFO - 2026-03-02 15:32:14 --> Language Class Initialized
+INFO - 2026-03-02 15:32:14 --> Language Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 15:32:14 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:14 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:14 --> Utf8 Class Initialized
+ERROR - 2026-03-02 15:32:14 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 15:32:14 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 15:32:14 --> URI Class Initialized
+INFO - 2026-03-02 15:32:14 --> URI Class Initialized
+INFO - 2026-03-02 15:32:14 --> Router Class Initialized
+INFO - 2026-03-02 15:32:14 --> Router Class Initialized
+INFO - 2026-03-02 15:32:14 --> Output Class Initialized
+INFO - 2026-03-02 15:32:14 --> Output Class Initialized
+INFO - 2026-03-02 15:32:14 --> Security Class Initialized
+INFO - 2026-03-02 15:32:14 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 15:32:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:14 --> Input Class Initialized
+INFO - 2026-03-02 15:32:14 --> Input Class Initialized
+INFO - 2026-03-02 15:32:14 --> Language Class Initialized
+INFO - 2026-03-02 15:32:14 --> Language Class Initialized
+ERROR - 2026-03-02 15:32:14 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 15:32:14 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 15:32:15 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:15 --> Config Class Initialized
+INFO - 2026-03-02 15:32:15 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:15 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:15 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:15 --> URI Class Initialized
+INFO - 2026-03-02 15:32:15 --> Router Class Initialized
+INFO - 2026-03-02 15:32:15 --> Output Class Initialized
+INFO - 2026-03-02 15:32:15 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:15 --> Input Class Initialized
+INFO - 2026-03-02 15:32:15 --> Language Class Initialized
+INFO - 2026-03-02 15:32:15 --> Loader Class Initialized
+INFO - 2026-03-02 15:32:15 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:32:15 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:32:15 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:32:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:32:15 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:32:15 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:32:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:32:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:32:15 --> Encryption Class Initialized
+INFO - 2026-03-02 15:32:15 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:32:15 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:32:15 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:32:15 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:32:15 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:15 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:32:15 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:32:15 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:32:15 --> Model "User_model" initialized
+INFO - 2026-03-02 15:32:15 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:32:15 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:32:15 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:32:15 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:32:15 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:32:15 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:15 --> Database Driver Class Initialized
+ERROR - 2026-03-02 15:32:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:17 --> Config Class Initialized
+INFO - 2026-03-02 15:32:17 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:17 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:17 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:17 --> URI Class Initialized
+INFO - 2026-03-02 15:32:17 --> Router Class Initialized
+INFO - 2026-03-02 15:32:17 --> Output Class Initialized
+INFO - 2026-03-02 15:32:17 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:17 --> Input Class Initialized
+INFO - 2026-03-02 15:32:17 --> Language Class Initialized
+ERROR - 2026-03-02 15:32:17 --> 404 Page Not Found: Libraries/procurementSettings
+ERROR - 2026-03-02 15:32:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:19 --> Config Class Initialized
+INFO - 2026-03-02 15:32:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:19 --> URI Class Initialized
+INFO - 2026-03-02 15:32:19 --> Router Class Initialized
+INFO - 2026-03-02 15:32:19 --> Output Class Initialized
+INFO - 2026-03-02 15:32:19 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:19 --> Input Class Initialized
+INFO - 2026-03-02 15:32:19 --> Language Class Initialized
+INFO - 2026-03-02 15:32:19 --> Loader Class Initialized
+INFO - 2026-03-02 15:32:19 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:32:19 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:32:19 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:32:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:32:19 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:32:19 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:32:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:32:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:32:19 --> Encryption Class Initialized
+INFO - 2026-03-02 15:32:19 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:32:19 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:32:19 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:32:19 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:32:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:19 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:32:19 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:32:19 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:32:19 --> Model "User_model" initialized
+INFO - 2026-03-02 15:32:19 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:32:19 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:32:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:32:19 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:32:19 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:32:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:19 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 15:32:19 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/listview.php
+INFO - 2026-03-02 15:32:19 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_add.php
+INFO - 2026-03-02 15:32:19 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_update.php
+INFO - 2026-03-02 15:32:19 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 15:32:19 --> Final output sent to browser
+DEBUG - 2026-03-02 15:32:19 --> Total execution time: 0.1769
+ERROR - 2026-03-02 15:32:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:19 --> Config Class Initialized
+INFO - 2026-03-02 15:32:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:19 --> URI Class Initialized
+INFO - 2026-03-02 15:32:19 --> Router Class Initialized
+INFO - 2026-03-02 15:32:19 --> Output Class Initialized
+INFO - 2026-03-02 15:32:19 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:19 --> Input Class Initialized
+INFO - 2026-03-02 15:32:19 --> Language Class Initialized
+INFO - 2026-03-02 15:32:19 --> Loader Class Initialized
+INFO - 2026-03-02 15:32:19 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:32:19 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:32:19 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:32:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:32:20 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:32:20 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:32:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:32:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:32:20 --> Encryption Class Initialized
+INFO - 2026-03-02 15:32:20 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:32:20 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:32:20 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:32:20 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:32:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:20 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:32:20 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:32:20 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:32:20 --> Model "User_model" initialized
+INFO - 2026-03-02 15:32:20 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:32:20 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:32:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:32:20 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:32:20 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:32:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:20 --> Database Driver Class Initialized
+ERROR - 2026-03-02 15:32:22 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:22 --> Config Class Initialized
+INFO - 2026-03-02 15:32:22 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:22 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:22 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:22 --> URI Class Initialized
+INFO - 2026-03-02 15:32:22 --> Router Class Initialized
+INFO - 2026-03-02 15:32:22 --> Output Class Initialized
+INFO - 2026-03-02 15:32:22 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:22 --> Input Class Initialized
+INFO - 2026-03-02 15:32:22 --> Language Class Initialized
+ERROR - 2026-03-02 15:32:22 --> 404 Page Not Found: Libraries/availableStock
+ERROR - 2026-03-02 15:32:24 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:24 --> Config Class Initialized
+INFO - 2026-03-02 15:32:24 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:24 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:24 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:24 --> URI Class Initialized
+INFO - 2026-03-02 15:32:24 --> Router Class Initialized
+INFO - 2026-03-02 15:32:24 --> Output Class Initialized
+INFO - 2026-03-02 15:32:24 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:24 --> Input Class Initialized
+INFO - 2026-03-02 15:32:24 --> Language Class Initialized
+INFO - 2026-03-02 15:32:24 --> Loader Class Initialized
+INFO - 2026-03-02 15:32:24 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:32:24 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:32:24 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:32:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:32:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:32:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:32:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:32:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:32:25 --> Encryption Class Initialized
+INFO - 2026-03-02 15:32:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:32:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:32:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:32:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:32:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:32:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:32:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "User_model" initialized
+INFO - 2026-03-02 15:32:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:32:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:32:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:32:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:32:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:32:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:25 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 15:32:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/listview.php
+INFO - 2026-03-02 15:32:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_add.php
+INFO - 2026-03-02 15:32:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_update.php
+INFO - 2026-03-02 15:32:25 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 15:32:25 --> Final output sent to browser
+DEBUG - 2026-03-02 15:32:25 --> Total execution time: 0.1805
+ERROR - 2026-03-02 15:32:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:32:25 --> Config Class Initialized
+INFO - 2026-03-02 15:32:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:32:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:32:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:32:25 --> URI Class Initialized
+INFO - 2026-03-02 15:32:25 --> Router Class Initialized
+INFO - 2026-03-02 15:32:25 --> Output Class Initialized
+INFO - 2026-03-02 15:32:25 --> Security Class Initialized
+DEBUG - 2026-03-02 15:32:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:32:25 --> Input Class Initialized
+INFO - 2026-03-02 15:32:25 --> Language Class Initialized
+INFO - 2026-03-02 15:32:25 --> Loader Class Initialized
+INFO - 2026-03-02 15:32:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:32:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:32:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:32:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:32:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:32:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:32:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:32:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:32:25 --> Encryption Class Initialized
+INFO - 2026-03-02 15:32:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:32:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:32:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:32:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:32:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:32:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:32:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:32:25 --> Model "User_model" initialized
+INFO - 2026-03-02 15:32:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:32:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:32:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:32:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:32:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:32:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:32:25 --> Database Driver Class Initialized
+ERROR - 2026-03-02 15:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:35:13 --> Config Class Initialized
+INFO - 2026-03-02 15:35:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:35:13 --> URI Class Initialized
+INFO - 2026-03-02 15:35:13 --> Router Class Initialized
+INFO - 2026-03-02 15:35:13 --> Output Class Initialized
+INFO - 2026-03-02 15:35:13 --> Security Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:35:13 --> Input Class Initialized
+INFO - 2026-03-02 15:35:13 --> Language Class Initialized
+INFO - 2026-03-02 15:35:13 --> Loader Class Initialized
+INFO - 2026-03-02 15:35:13 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:35:13 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:35:13 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:35:13 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:35:13 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:35:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:35:13 --> Encryption Class Initialized
+INFO - 2026-03-02 15:35:13 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:35:13 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:35:13 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:35:13 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:35:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:35:13 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:35:13 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:35:13 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "User_model" initialized
+INFO - 2026-03-02 15:35:13 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:35:13 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:35:13 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:35:13 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:35:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 15:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/listview.php
+INFO - 2026-03-02 15:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_add.php
+INFO - 2026-03-02 15:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/attachment/modal_update.php
+INFO - 2026-03-02 15:35:13 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 15:35:13 --> Final output sent to browser
+DEBUG - 2026-03-02 15:35:13 --> Total execution time: 0.2213
+ERROR - 2026-03-02 15:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 15:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:35:13 --> Config Class Initialized
+INFO - 2026-03-02 15:35:13 --> Hooks Class Initialized
+INFO - 2026-03-02 15:35:13 --> Config Class Initialized
+INFO - 2026-03-02 15:35:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:35:13 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:35:13 --> URI Class Initialized
+INFO - 2026-03-02 15:35:13 --> URI Class Initialized
+INFO - 2026-03-02 15:35:13 --> Router Class Initialized
+INFO - 2026-03-02 15:35:13 --> Router Class Initialized
+ERROR - 2026-03-02 15:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 15:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:35:13 --> Output Class Initialized
+INFO - 2026-03-02 15:35:13 --> Output Class Initialized
+INFO - 2026-03-02 15:35:13 --> Config Class Initialized
+INFO - 2026-03-02 15:35:13 --> Config Class Initialized
+INFO - 2026-03-02 15:35:13 --> Hooks Class Initialized
+INFO - 2026-03-02 15:35:13 --> Security Class Initialized
+INFO - 2026-03-02 15:35:13 --> Hooks Class Initialized
+INFO - 2026-03-02 15:35:13 --> Security Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:35:13 --> Input Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:35:13 --> Input Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:35:13 --> Language Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:35:13 --> Language Class Initialized
+INFO - 2026-03-02 15:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:35:13 --> URI Class Initialized
+INFO - 2026-03-02 15:35:13 --> URI Class Initialized
+ERROR - 2026-03-02 15:35:13 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 15:35:13 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 15:35:13 --> Router Class Initialized
+INFO - 2026-03-02 15:35:13 --> Router Class Initialized
+INFO - 2026-03-02 15:35:13 --> Output Class Initialized
+INFO - 2026-03-02 15:35:13 --> Output Class Initialized
+INFO - 2026-03-02 15:35:13 --> Security Class Initialized
+INFO - 2026-03-02 15:35:13 --> Security Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 15:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:35:13 --> Input Class Initialized
+INFO - 2026-03-02 15:35:13 --> Input Class Initialized
+INFO - 2026-03-02 15:35:13 --> Language Class Initialized
+INFO - 2026-03-02 15:35:13 --> Language Class Initialized
+ERROR - 2026-03-02 15:35:13 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 15:35:13 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 15:35:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:35:13 --> Config Class Initialized
+INFO - 2026-03-02 15:35:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:35:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:35:13 --> URI Class Initialized
+INFO - 2026-03-02 15:35:13 --> Router Class Initialized
+INFO - 2026-03-02 15:35:13 --> Output Class Initialized
+INFO - 2026-03-02 15:35:13 --> Security Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:35:13 --> Input Class Initialized
+INFO - 2026-03-02 15:35:13 --> Language Class Initialized
+INFO - 2026-03-02 15:35:13 --> Loader Class Initialized
+INFO - 2026-03-02 15:35:13 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:35:13 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:35:13 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:35:13 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:35:13 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:35:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:35:13 --> Encryption Class Initialized
+INFO - 2026-03-02 15:35:13 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:35:13 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:35:13 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:35:13 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:35:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:35:13 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:35:13 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:35:13 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:35:13 --> Model "User_model" initialized
+INFO - 2026-03-02 15:35:13 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:35:13 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:35:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:35:13 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:35:13 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:35:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:35:13 --> Database Driver Class Initialized
+ERROR - 2026-03-02 15:58:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:58:25 --> Config Class Initialized
+INFO - 2026-03-02 15:58:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:58:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:58:25 --> URI Class Initialized
+INFO - 2026-03-02 15:58:25 --> Router Class Initialized
+INFO - 2026-03-02 15:58:25 --> Output Class Initialized
+INFO - 2026-03-02 15:58:25 --> Security Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:58:25 --> Input Class Initialized
+INFO - 2026-03-02 15:58:25 --> Language Class Initialized
+INFO - 2026-03-02 15:58:25 --> Loader Class Initialized
+INFO - 2026-03-02 15:58:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:58:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:58:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:58:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:58:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:58:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:58:25 --> Encryption Class Initialized
+INFO - 2026-03-02 15:58:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:58:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:58:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:58:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:58:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:58:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:58:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:58:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "User_model" initialized
+INFO - 2026-03-02 15:58:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:58:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:58:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:58:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:58:25 --> Database Driver Class Initialized
+ERROR - 2026-03-02 15:58:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 15:58:25 --> Config Class Initialized
+INFO - 2026-03-02 15:58:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 15:58:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 15:58:25 --> URI Class Initialized
+INFO - 2026-03-02 15:58:25 --> Router Class Initialized
+INFO - 2026-03-02 15:58:25 --> Output Class Initialized
+INFO - 2026-03-02 15:58:25 --> Security Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 15:58:25 --> Input Class Initialized
+INFO - 2026-03-02 15:58:25 --> Language Class Initialized
+INFO - 2026-03-02 15:58:25 --> Loader Class Initialized
+INFO - 2026-03-02 15:58:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 15:58:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 15:58:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 15:58:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 15:58:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 15:58:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 15:58:25 --> Encryption Class Initialized
+INFO - 2026-03-02 15:58:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 15:58:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 15:58:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 15:58:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 15:58:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:58:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 15:58:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 15:58:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 15:58:25 --> Model "User_model" initialized
+INFO - 2026-03-02 15:58:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 15:58:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 15:58:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 15:58:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 15:58:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 15:58:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 15:58:25 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 15:58:25 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 15:58:25 --> Final output sent to browser
+DEBUG - 2026-03-02 15:58:25 --> Total execution time: 0.1974
+ERROR - 2026-03-02 16:00:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:25 --> Config Class Initialized
+INFO - 2026-03-02 16:00:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:00:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:25 --> URI Class Initialized
+INFO - 2026-03-02 16:00:25 --> Router Class Initialized
+INFO - 2026-03-02 16:00:25 --> Output Class Initialized
+INFO - 2026-03-02 16:00:25 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:25 --> Input Class Initialized
+INFO - 2026-03-02 16:00:25 --> Language Class Initialized
+INFO - 2026-03-02 16:00:25 --> Loader Class Initialized
+INFO - 2026-03-02 16:00:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:00:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:00:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:00:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:00:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:00:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:00:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:00:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:00:25 --> Encryption Class Initialized
+INFO - 2026-03-02 16:00:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:00:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:00:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:00:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:00:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:00:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:00:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:00:25 --> Model "User_model" initialized
+INFO - 2026-03-02 16:00:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:00:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:00:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:00:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:00:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:00:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:25 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 16:00:25 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 16:00:25 --> Helper loaded: email_helper
+ERROR - 2026-03-02 16:00:25 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 16:00:26 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 16:00:26 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 16:00:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:26 --> Config Class Initialized
+INFO - 2026-03-02 16:00:26 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:26 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:26 --> URI Class Initialized
+INFO - 2026-03-02 16:00:26 --> Router Class Initialized
+INFO - 2026-03-02 16:00:26 --> Output Class Initialized
+INFO - 2026-03-02 16:00:26 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:26 --> Input Class Initialized
+INFO - 2026-03-02 16:00:26 --> Language Class Initialized
+INFO - 2026-03-02 16:00:26 --> Loader Class Initialized
+INFO - 2026-03-02 16:00:26 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:00:26 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:00:26 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:00:26 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:00:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:00:26 --> Encryption Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "User_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:00:26 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:00:26 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:26 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 16:00:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:26 --> Config Class Initialized
+INFO - 2026-03-02 16:00:26 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:26 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:26 --> URI Class Initialized
+INFO - 2026-03-02 16:00:26 --> Router Class Initialized
+INFO - 2026-03-02 16:00:26 --> Output Class Initialized
+INFO - 2026-03-02 16:00:26 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:26 --> Input Class Initialized
+INFO - 2026-03-02 16:00:26 --> Language Class Initialized
+INFO - 2026-03-02 16:00:26 --> Loader Class Initialized
+INFO - 2026-03-02 16:00:26 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:00:26 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:00:26 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:00:26 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:00:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:00:26 --> Encryption Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "User_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:00:26 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:00:26 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 16:00:26 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:00:26 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 16:00:26 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 16:00:26 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 16:00:26 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:00:26 --> Final output sent to browser
+DEBUG - 2026-03-02 16:00:26 --> Total execution time: 0.1504
+ERROR - 2026-03-02 16:00:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:00:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:26 --> Config Class Initialized
+INFO - 2026-03-02 16:00:26 --> Config Class Initialized
+INFO - 2026-03-02 16:00:26 --> Hooks Class Initialized
+INFO - 2026-03-02 16:00:26 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:00:26 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:26 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:26 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:26 --> URI Class Initialized
+INFO - 2026-03-02 16:00:26 --> URI Class Initialized
+ERROR - 2026-03-02 16:00:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:00:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:26 --> Router Class Initialized
+INFO - 2026-03-02 16:00:26 --> Router Class Initialized
+INFO - 2026-03-02 16:00:26 --> Config Class Initialized
+INFO - 2026-03-02 16:00:26 --> Hooks Class Initialized
+INFO - 2026-03-02 16:00:26 --> Output Class Initialized
+INFO - 2026-03-02 16:00:26 --> Config Class Initialized
+INFO - 2026-03-02 16:00:26 --> Output Class Initialized
+INFO - 2026-03-02 16:00:26 --> Hooks Class Initialized
+INFO - 2026-03-02 16:00:26 --> Security Class Initialized
+INFO - 2026-03-02 16:00:26 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:26 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:26 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:00:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:26 --> URI Class Initialized
+INFO - 2026-03-02 16:00:26 --> Input Class Initialized
+INFO - 2026-03-02 16:00:26 --> Input Class Initialized
+INFO - 2026-03-02 16:00:26 --> URI Class Initialized
+INFO - 2026-03-02 16:00:26 --> Language Class Initialized
+INFO - 2026-03-02 16:00:26 --> Language Class Initialized
+INFO - 2026-03-02 16:00:26 --> Router Class Initialized
+INFO - 2026-03-02 16:00:26 --> Router Class Initialized
+ERROR - 2026-03-02 16:00:26 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 16:00:26 --> 404 Page Not Found: Img/undraw_profile_1.svg
+INFO - 2026-03-02 16:00:26 --> Output Class Initialized
+INFO - 2026-03-02 16:00:26 --> Output Class Initialized
+INFO - 2026-03-02 16:00:26 --> Security Class Initialized
+INFO - 2026-03-02 16:00:26 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:00:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:26 --> Input Class Initialized
+INFO - 2026-03-02 16:00:26 --> Input Class Initialized
+INFO - 2026-03-02 16:00:26 --> Language Class Initialized
+INFO - 2026-03-02 16:00:26 --> Language Class Initialized
+ERROR - 2026-03-02 16:00:26 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 16:00:26 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 16:00:26 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:26 --> Config Class Initialized
+INFO - 2026-03-02 16:00:26 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:26 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:26 --> URI Class Initialized
+INFO - 2026-03-02 16:00:26 --> Router Class Initialized
+INFO - 2026-03-02 16:00:26 --> Output Class Initialized
+INFO - 2026-03-02 16:00:26 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:26 --> Input Class Initialized
+INFO - 2026-03-02 16:00:26 --> Language Class Initialized
+INFO - 2026-03-02 16:00:26 --> Loader Class Initialized
+INFO - 2026-03-02 16:00:26 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:00:26 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:00:26 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:00:26 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:00:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:00:26 --> Encryption Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:00:26 --> Model "User_model" initialized
+INFO - 2026-03-02 16:00:26 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:00:26 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:00:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:00:26 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:00:26 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:00:26 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:26 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 16:00:32 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:32 --> Config Class Initialized
+INFO - 2026-03-02 16:00:32 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:00:32 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:32 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:32 --> URI Class Initialized
+INFO - 2026-03-02 16:00:32 --> Router Class Initialized
+INFO - 2026-03-02 16:00:32 --> Output Class Initialized
+INFO - 2026-03-02 16:00:32 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:32 --> Input Class Initialized
+INFO - 2026-03-02 16:00:32 --> Language Class Initialized
+ERROR - 2026-03-02 16:00:32 --> 404 Page Not Found: Libraries/procurementSettings
+ERROR - 2026-03-02 16:00:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:34 --> Config Class Initialized
+INFO - 2026-03-02 16:00:34 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:34 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:34 --> URI Class Initialized
+INFO - 2026-03-02 16:00:34 --> Router Class Initialized
+INFO - 2026-03-02 16:00:34 --> Output Class Initialized
+INFO - 2026-03-02 16:00:34 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:34 --> Input Class Initialized
+INFO - 2026-03-02 16:00:34 --> Language Class Initialized
+INFO - 2026-03-02 16:00:34 --> Loader Class Initialized
+INFO - 2026-03-02 16:00:34 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:00:34 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:00:34 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:00:34 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:00:34 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:00:34 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:00:34 --> Encryption Class Initialized
+INFO - 2026-03-02 16:00:34 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:00:34 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:00:34 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:00:34 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:00:34 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:34 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:00:34 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:00:34 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "User_model" initialized
+INFO - 2026-03-02 16:00:34 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:00:34 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:00:34 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:00:34 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:00:34 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:34 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 16:00:34 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:00:34 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 16:00:34 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 16:00:34 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 16:00:34 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:00:34 --> Final output sent to browser
+DEBUG - 2026-03-02 16:00:34 --> Total execution time: 0.1361
+ERROR - 2026-03-02 16:00:34 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:00:34 --> Config Class Initialized
+INFO - 2026-03-02 16:00:34 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:00:34 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:00:34 --> URI Class Initialized
+INFO - 2026-03-02 16:00:34 --> Router Class Initialized
+INFO - 2026-03-02 16:00:34 --> Output Class Initialized
+INFO - 2026-03-02 16:00:34 --> Security Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:00:34 --> Input Class Initialized
+INFO - 2026-03-02 16:00:34 --> Language Class Initialized
+INFO - 2026-03-02 16:00:34 --> Loader Class Initialized
+INFO - 2026-03-02 16:00:34 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:00:34 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:00:34 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:00:34 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:00:34 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:00:34 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:00:34 --> Encryption Class Initialized
+INFO - 2026-03-02 16:00:34 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:00:34 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:00:34 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:00:34 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:00:34 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:34 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:00:34 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:00:34 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:00:34 --> Model "User_model" initialized
+INFO - 2026-03-02 16:00:34 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:00:34 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:00:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:00:34 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:00:34 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:00:34 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:00:34 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 16:30:49 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:30:49 --> Config Class Initialized
+INFO - 2026-03-02 16:30:49 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:30:49 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:49 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:49 --> URI Class Initialized
+INFO - 2026-03-02 16:30:49 --> Router Class Initialized
+INFO - 2026-03-02 16:30:49 --> Output Class Initialized
+INFO - 2026-03-02 16:30:49 --> Security Class Initialized
+DEBUG - 2026-03-02 16:30:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:49 --> Input Class Initialized
+INFO - 2026-03-02 16:30:49 --> Language Class Initialized
+INFO - 2026-03-02 16:30:49 --> Loader Class Initialized
+INFO - 2026-03-02 16:30:49 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:30:49 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:30:49 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:30:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:30:49 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:30:49 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:30:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:30:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:30:49 --> Encryption Class Initialized
+INFO - 2026-03-02 16:30:49 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:30:49 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:30:49 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:30:49 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:30:49 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:49 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:30:49 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:30:49 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:30:49 --> Model "User_model" initialized
+INFO - 2026-03-02 16:30:49 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:30:49 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:30:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:30:49 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:30:49 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:30:49 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:49 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 16:30:49 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 16:30:49 --> Final output sent to browser
+DEBUG - 2026-03-02 16:30:49 --> Total execution time: 0.1915
+ERROR - 2026-03-02 16:30:55 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:30:55 --> Config Class Initialized
+INFO - 2026-03-02 16:30:55 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:30:55 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:55 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:55 --> URI Class Initialized
+INFO - 2026-03-02 16:30:55 --> Router Class Initialized
+INFO - 2026-03-02 16:30:55 --> Output Class Initialized
+INFO - 2026-03-02 16:30:55 --> Security Class Initialized
+DEBUG - 2026-03-02 16:30:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:55 --> Input Class Initialized
+INFO - 2026-03-02 16:30:55 --> Language Class Initialized
+INFO - 2026-03-02 16:30:55 --> Loader Class Initialized
+INFO - 2026-03-02 16:30:55 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:30:55 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:30:55 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:30:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:30:55 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:30:55 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:30:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:30:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:30:55 --> Encryption Class Initialized
+INFO - 2026-03-02 16:30:55 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:30:55 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:30:55 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:30:55 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:30:55 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:55 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:30:55 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:30:55 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:30:55 --> Model "User_model" initialized
+INFO - 2026-03-02 16:30:55 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:30:55 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:30:55 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:30:55 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:30:55 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:30:55 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:55 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 16:30:55 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 16:30:56 --> Helper loaded: email_helper
+ERROR - 2026-03-02 16:30:56 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 16:30:58 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 16:30:58 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 16:30:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:30:58 --> Config Class Initialized
+INFO - 2026-03-02 16:30:58 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:58 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:58 --> URI Class Initialized
+INFO - 2026-03-02 16:30:58 --> Router Class Initialized
+INFO - 2026-03-02 16:30:58 --> Output Class Initialized
+INFO - 2026-03-02 16:30:58 --> Security Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:58 --> Input Class Initialized
+INFO - 2026-03-02 16:30:58 --> Language Class Initialized
+INFO - 2026-03-02 16:30:58 --> Loader Class Initialized
+INFO - 2026-03-02 16:30:58 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:30:58 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:30:58 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:30:58 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:30:58 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:30:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:30:58 --> Encryption Class Initialized
+INFO - 2026-03-02 16:30:58 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:30:58 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:30:58 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:30:58 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:30:58 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:58 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:30:58 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:30:58 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "User_model" initialized
+INFO - 2026-03-02 16:30:58 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:30:58 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:30:58 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:30:58 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:30:58 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:58 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 16:30:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:30:58 --> Config Class Initialized
+INFO - 2026-03-02 16:30:58 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:58 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:58 --> URI Class Initialized
+INFO - 2026-03-02 16:30:58 --> Router Class Initialized
+INFO - 2026-03-02 16:30:58 --> Output Class Initialized
+INFO - 2026-03-02 16:30:58 --> Security Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:58 --> Input Class Initialized
+INFO - 2026-03-02 16:30:58 --> Language Class Initialized
+INFO - 2026-03-02 16:30:58 --> Loader Class Initialized
+INFO - 2026-03-02 16:30:58 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:30:58 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:30:58 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:30:58 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:30:58 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:30:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:30:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:30:58 --> Encryption Class Initialized
+INFO - 2026-03-02 16:30:58 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:30:58 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:30:59 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:30:59 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:30:59 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:30:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:59 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:30:59 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:30:59 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "User_model" initialized
+INFO - 2026-03-02 16:30:59 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:30:59 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:30:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:30:59 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:30:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:59 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 16:30:59 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:30:59 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 16:30:59 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 16:30:59 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 16:30:59 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:30:59 --> Final output sent to browser
+DEBUG - 2026-03-02 16:30:59 --> Total execution time: 0.1109
+ERROR - 2026-03-02 16:30:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:30:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:30:59 --> Config Class Initialized
+INFO - 2026-03-02 16:30:59 --> Hooks Class Initialized
+INFO - 2026-03-02 16:30:59 --> Config Class Initialized
+INFO - 2026-03-02 16:30:59 --> Hooks Class Initialized
+ERROR - 2026-03-02 16:30:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 16:30:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:59 --> Config Class Initialized
+INFO - 2026-03-02 16:30:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:59 --> URI Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:59 --> URI Class Initialized
+INFO - 2026-03-02 16:30:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:59 --> Router Class Initialized
+INFO - 2026-03-02 16:30:59 --> URI Class Initialized
+INFO - 2026-03-02 16:30:59 --> Output Class Initialized
+INFO - 2026-03-02 16:30:59 --> Router Class Initialized
+INFO - 2026-03-02 16:30:59 --> Security Class Initialized
+INFO - 2026-03-02 16:30:59 --> Router Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:59 --> Output Class Initialized
+INFO - 2026-03-02 16:30:59 --> Input Class Initialized
+INFO - 2026-03-02 16:30:59 --> Output Class Initialized
+INFO - 2026-03-02 16:30:59 --> Language Class Initialized
+INFO - 2026-03-02 16:30:59 --> Security Class Initialized
+INFO - 2026-03-02 16:30:59 --> Security Class Initialized
+ERROR - 2026-03-02 16:30:59 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 16:30:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 16:30:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:59 --> Input Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:59 --> Input Class Initialized
+INFO - 2026-03-02 16:30:59 --> Language Class Initialized
+INFO - 2026-03-02 16:30:59 --> Language Class Initialized
+INFO - 2026-03-02 16:30:59 --> Config Class Initialized
+INFO - 2026-03-02 16:30:59 --> Hooks Class Initialized
+ERROR - 2026-03-02 16:30:59 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 16:30:59 --> 404 Page Not Found: Img/undraw_profile_2.svg
+DEBUG - 2026-03-02 16:30:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:59 --> URI Class Initialized
+INFO - 2026-03-02 16:30:59 --> Router Class Initialized
+INFO - 2026-03-02 16:30:59 --> Output Class Initialized
+INFO - 2026-03-02 16:30:59 --> Security Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:59 --> Input Class Initialized
+INFO - 2026-03-02 16:30:59 --> Language Class Initialized
+ERROR - 2026-03-02 16:30:59 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 16:30:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:30:59 --> Config Class Initialized
+INFO - 2026-03-02 16:30:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:30:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:30:59 --> URI Class Initialized
+INFO - 2026-03-02 16:30:59 --> Router Class Initialized
+INFO - 2026-03-02 16:30:59 --> Output Class Initialized
+INFO - 2026-03-02 16:30:59 --> Security Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:30:59 --> Input Class Initialized
+INFO - 2026-03-02 16:30:59 --> Language Class Initialized
+INFO - 2026-03-02 16:30:59 --> Loader Class Initialized
+INFO - 2026-03-02 16:30:59 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:30:59 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:30:59 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:30:59 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:30:59 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:30:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:30:59 --> Encryption Class Initialized
+INFO - 2026-03-02 16:30:59 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:30:59 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:30:59 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:30:59 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:30:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:59 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:30:59 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:30:59 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:30:59 --> Model "User_model" initialized
+INFO - 2026-03-02 16:30:59 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:30:59 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:30:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:30:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:30:59 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:30:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:30:59 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 16:31:04 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:04 --> Config Class Initialized
+INFO - 2026-03-02 16:31:04 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:04 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:04 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:04 --> URI Class Initialized
+INFO - 2026-03-02 16:31:04 --> Router Class Initialized
+INFO - 2026-03-02 16:31:04 --> Output Class Initialized
+INFO - 2026-03-02 16:31:04 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:04 --> Input Class Initialized
+INFO - 2026-03-02 16:31:04 --> Language Class Initialized
+ERROR - 2026-03-02 16:31:04 --> 404 Page Not Found: Libraries/procurementSettings
+ERROR - 2026-03-02 16:31:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:16 --> Config Class Initialized
+INFO - 2026-03-02 16:31:16 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:16 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:16 --> URI Class Initialized
+INFO - 2026-03-02 16:31:16 --> Router Class Initialized
+INFO - 2026-03-02 16:31:16 --> Output Class Initialized
+INFO - 2026-03-02 16:31:16 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:16 --> Input Class Initialized
+INFO - 2026-03-02 16:31:16 --> Language Class Initialized
+INFO - 2026-03-02 16:31:16 --> Loader Class Initialized
+INFO - 2026-03-02 16:31:16 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:31:16 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:31:16 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:31:16 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:31:16 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:31:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:31:16 --> Encryption Class Initialized
+INFO - 2026-03-02 16:31:16 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:31:16 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:31:16 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:31:16 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:31:16 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:16 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:31:16 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:31:16 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "User_model" initialized
+INFO - 2026-03-02 16:31:16 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:31:16 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:31:16 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:31:16 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:31:16 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:16 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 16:31:16 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:31:16 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 16:31:16 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 16:31:16 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 16:31:16 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:31:16 --> Final output sent to browser
+DEBUG - 2026-03-02 16:31:16 --> Total execution time: 0.1979
+ERROR - 2026-03-02 16:31:16 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:16 --> Config Class Initialized
+INFO - 2026-03-02 16:31:16 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:16 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:16 --> URI Class Initialized
+INFO - 2026-03-02 16:31:16 --> Router Class Initialized
+INFO - 2026-03-02 16:31:16 --> Output Class Initialized
+INFO - 2026-03-02 16:31:16 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:16 --> Input Class Initialized
+INFO - 2026-03-02 16:31:16 --> Language Class Initialized
+INFO - 2026-03-02 16:31:16 --> Loader Class Initialized
+INFO - 2026-03-02 16:31:16 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:31:16 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:31:16 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:31:16 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:31:16 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:31:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:31:16 --> Encryption Class Initialized
+INFO - 2026-03-02 16:31:16 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:31:16 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:31:16 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:31:16 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:31:16 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:16 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:31:16 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:31:16 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:31:16 --> Model "User_model" initialized
+INFO - 2026-03-02 16:31:16 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:31:16 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:31:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:31:16 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:31:16 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:31:16 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:16 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 16:31:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:17 --> Config Class Initialized
+INFO - 2026-03-02 16:31:17 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:17 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:17 --> URI Class Initialized
+INFO - 2026-03-02 16:31:17 --> Router Class Initialized
+INFO - 2026-03-02 16:31:17 --> Output Class Initialized
+INFO - 2026-03-02 16:31:17 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:17 --> Input Class Initialized
+INFO - 2026-03-02 16:31:17 --> Language Class Initialized
+INFO - 2026-03-02 16:31:17 --> Loader Class Initialized
+INFO - 2026-03-02 16:31:17 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:31:17 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:31:17 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:31:17 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:31:17 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:31:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:31:17 --> Encryption Class Initialized
+INFO - 2026-03-02 16:31:17 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:31:17 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:31:17 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:31:17 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:31:17 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:17 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:31:17 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:31:17 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:31:17 --> Model "User_model" initialized
+INFO - 2026-03-02 16:31:17 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:31:17 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:31:17 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:31:17 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:31:17 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:17 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 16:31:17 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:31:17 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 16:31:17 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 16:31:17 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 16:31:17 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:31:17 --> Final output sent to browser
+DEBUG - 2026-03-02 16:31:17 --> Total execution time: 0.4453
+ERROR - 2026-03-02 16:31:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:31:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:17 --> Config Class Initialized
+INFO - 2026-03-02 16:31:17 --> Hooks Class Initialized
+INFO - 2026-03-02 16:31:17 --> Config Class Initialized
+INFO - 2026-03-02 16:31:17 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:17 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:17 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:17 --> URI Class Initialized
+INFO - 2026-03-02 16:31:17 --> URI Class Initialized
+INFO - 2026-03-02 16:31:17 --> Router Class Initialized
+INFO - 2026-03-02 16:31:17 --> Router Class Initialized
+INFO - 2026-03-02 16:31:17 --> Output Class Initialized
+INFO - 2026-03-02 16:31:17 --> Output Class Initialized
+INFO - 2026-03-02 16:31:17 --> Security Class Initialized
+INFO - 2026-03-02 16:31:17 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:17 --> Input Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:17 --> Language Class Initialized
+INFO - 2026-03-02 16:31:17 --> Input Class Initialized
+INFO - 2026-03-02 16:31:17 --> Language Class Initialized
+ERROR - 2026-03-02 16:31:17 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 16:31:17 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 16:31:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:31:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:17 --> Config Class Initialized
+INFO - 2026-03-02 16:31:17 --> Config Class Initialized
+INFO - 2026-03-02 16:31:17 --> Hooks Class Initialized
+INFO - 2026-03-02 16:31:17 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:31:17 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:17 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:17 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:17 --> URI Class Initialized
+INFO - 2026-03-02 16:31:17 --> URI Class Initialized
+INFO - 2026-03-02 16:31:17 --> Router Class Initialized
+INFO - 2026-03-02 16:31:17 --> Router Class Initialized
+INFO - 2026-03-02 16:31:17 --> Output Class Initialized
+INFO - 2026-03-02 16:31:17 --> Output Class Initialized
+INFO - 2026-03-02 16:31:17 --> Security Class Initialized
+INFO - 2026-03-02 16:31:17 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:31:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:17 --> Input Class Initialized
+INFO - 2026-03-02 16:31:17 --> Input Class Initialized
+INFO - 2026-03-02 16:31:17 --> Language Class Initialized
+INFO - 2026-03-02 16:31:17 --> Language Class Initialized
+ERROR - 2026-03-02 16:31:17 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 16:31:17 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 16:31:17 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:17 --> Config Class Initialized
+INFO - 2026-03-02 16:31:17 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:17 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:17 --> URI Class Initialized
+INFO - 2026-03-02 16:31:17 --> Router Class Initialized
+INFO - 2026-03-02 16:31:17 --> Output Class Initialized
+INFO - 2026-03-02 16:31:17 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:17 --> Input Class Initialized
+INFO - 2026-03-02 16:31:17 --> Language Class Initialized
+INFO - 2026-03-02 16:31:17 --> Loader Class Initialized
+INFO - 2026-03-02 16:31:17 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:31:17 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:31:18 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:31:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:31:18 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:31:18 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:31:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:31:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:31:18 --> Encryption Class Initialized
+INFO - 2026-03-02 16:31:18 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:31:18 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:31:18 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:31:18 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:31:18 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:18 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:31:18 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:31:18 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:31:18 --> Model "User_model" initialized
+INFO - 2026-03-02 16:31:18 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:31:18 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:31:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:31:18 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:31:18 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:31:18 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:18 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 16:31:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:21 --> Config Class Initialized
+INFO - 2026-03-02 16:31:21 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:21 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:21 --> URI Class Initialized
+INFO - 2026-03-02 16:31:21 --> Router Class Initialized
+INFO - 2026-03-02 16:31:21 --> Output Class Initialized
+INFO - 2026-03-02 16:31:21 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:21 --> Input Class Initialized
+INFO - 2026-03-02 16:31:21 --> Language Class Initialized
+INFO - 2026-03-02 16:31:21 --> Loader Class Initialized
+INFO - 2026-03-02 16:31:21 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:31:21 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:31:21 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:31:21 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:31:21 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:31:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:31:21 --> Encryption Class Initialized
+INFO - 2026-03-02 16:31:21 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:31:21 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:31:21 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:31:21 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:31:21 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:21 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:31:21 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:31:21 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "User_model" initialized
+INFO - 2026-03-02 16:31:21 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:31:21 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:31:21 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:31:21 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:31:21 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:21 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:31:21 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 16:31:21 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 16:31:21 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 16:31:21 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:31:21 --> Final output sent to browser
+DEBUG - 2026-03-02 16:31:21 --> Total execution time: 0.2096
+ERROR - 2026-03-02 16:31:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:31:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:21 --> Config Class Initialized
+INFO - 2026-03-02 16:31:21 --> Config Class Initialized
+INFO - 2026-03-02 16:31:21 --> Hooks Class Initialized
+INFO - 2026-03-02 16:31:21 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:21 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:21 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:21 --> URI Class Initialized
+INFO - 2026-03-02 16:31:21 --> URI Class Initialized
+INFO - 2026-03-02 16:31:21 --> Router Class Initialized
+INFO - 2026-03-02 16:31:21 --> Router Class Initialized
+INFO - 2026-03-02 16:31:21 --> Output Class Initialized
+INFO - 2026-03-02 16:31:21 --> Output Class Initialized
+ERROR - 2026-03-02 16:31:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:21 --> Security Class Initialized
+ERROR - 2026-03-02 16:31:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:21 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:21 --> Input Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:21 --> Config Class Initialized
+INFO - 2026-03-02 16:31:21 --> Input Class Initialized
+INFO - 2026-03-02 16:31:21 --> Language Class Initialized
+INFO - 2026-03-02 16:31:21 --> Config Class Initialized
+INFO - 2026-03-02 16:31:21 --> Hooks Class Initialized
+INFO - 2026-03-02 16:31:21 --> Hooks Class Initialized
+INFO - 2026-03-02 16:31:21 --> Language Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> UTF-8 Support Enabled
+ERROR - 2026-03-02 16:31:21 --> 404 Page Not Found: Libraries/img
+DEBUG - 2026-03-02 16:31:21 --> UTF-8 Support Enabled
+ERROR - 2026-03-02 16:31:21 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 16:31:21 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:21 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:21 --> URI Class Initialized
+INFO - 2026-03-02 16:31:21 --> URI Class Initialized
+INFO - 2026-03-02 16:31:21 --> Router Class Initialized
+INFO - 2026-03-02 16:31:21 --> Router Class Initialized
+INFO - 2026-03-02 16:31:21 --> Output Class Initialized
+INFO - 2026-03-02 16:31:21 --> Output Class Initialized
+INFO - 2026-03-02 16:31:21 --> Security Class Initialized
+INFO - 2026-03-02 16:31:21 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:21 --> Input Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:21 --> Input Class Initialized
+INFO - 2026-03-02 16:31:21 --> Language Class Initialized
+INFO - 2026-03-02 16:31:21 --> Language Class Initialized
+ERROR - 2026-03-02 16:31:21 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:31:21 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:31:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:31:21 --> Config Class Initialized
+INFO - 2026-03-02 16:31:21 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:31:21 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:31:21 --> URI Class Initialized
+INFO - 2026-03-02 16:31:21 --> Router Class Initialized
+INFO - 2026-03-02 16:31:21 --> Output Class Initialized
+INFO - 2026-03-02 16:31:21 --> Security Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:31:21 --> Input Class Initialized
+INFO - 2026-03-02 16:31:21 --> Language Class Initialized
+INFO - 2026-03-02 16:31:21 --> Loader Class Initialized
+INFO - 2026-03-02 16:31:21 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:31:21 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:31:21 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:31:21 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:31:21 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:31:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:31:21 --> Encryption Class Initialized
+INFO - 2026-03-02 16:31:21 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:31:21 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:31:21 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:31:21 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:31:21 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:21 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:31:21 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:31:21 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:31:21 --> Model "User_model" initialized
+INFO - 2026-03-02 16:31:21 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:31:21 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:31:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:31:21 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:31:21 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:31:21 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:31:21 --> Database Driver Class Initialized
+ERROR - 2026-03-02 16:53:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:13 --> Config Class Initialized
+INFO - 2026-03-02 16:53:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:13 --> URI Class Initialized
+INFO - 2026-03-02 16:53:13 --> Router Class Initialized
+INFO - 2026-03-02 16:53:13 --> Output Class Initialized
+INFO - 2026-03-02 16:53:13 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:13 --> Input Class Initialized
+INFO - 2026-03-02 16:53:13 --> Language Class Initialized
+INFO - 2026-03-02 16:53:13 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:13 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:13 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:13 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:13 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:13 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:13 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:13 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:13 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:13 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:13 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:13 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:13 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:13 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:13 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:13 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:13 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:13 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:13 --> Database Driver Class Initialized
+ERROR - 2026-03-02 16:53:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:13 --> Config Class Initialized
+INFO - 2026-03-02 16:53:13 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:13 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:13 --> URI Class Initialized
+INFO - 2026-03-02 16:53:13 --> Router Class Initialized
+INFO - 2026-03-02 16:53:13 --> Output Class Initialized
+INFO - 2026-03-02 16:53:13 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:13 --> Input Class Initialized
+INFO - 2026-03-02 16:53:13 --> Language Class Initialized
+INFO - 2026-03-02 16:53:13 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:13 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:13 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:13 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:13 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:13 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:13 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:13 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:13 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:13 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:13 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:13 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:13 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:13 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:13 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:13 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:13 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:13 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:14 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:14 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:14 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:14 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 16:53:14 --> File loaded: C:\xampp\htdocs\pms\application\views\login.php
+INFO - 2026-03-02 16:53:14 --> Final output sent to browser
+DEBUG - 2026-03-02 16:53:14 --> Total execution time: 0.2650
+ERROR - 2026-03-02 16:53:18 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:18 --> Config Class Initialized
+INFO - 2026-03-02 16:53:18 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:18 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:18 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:18 --> URI Class Initialized
+INFO - 2026-03-02 16:53:18 --> Router Class Initialized
+INFO - 2026-03-02 16:53:18 --> Output Class Initialized
+INFO - 2026-03-02 16:53:18 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:18 --> Input Class Initialized
+INFO - 2026-03-02 16:53:18 --> Language Class Initialized
+INFO - 2026-03-02 16:53:18 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:18 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:18 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:18 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:18 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:18 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:18 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:18 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:18 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:18 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:18 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:18 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:18 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:18 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:18 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:18 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:18 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:18 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:18 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:19 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:19 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:19 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:19 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:19 --> Helper loaded: captcha_helper
+INFO - 2026-03-02 16:53:19 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2026-03-02 16:53:19 --> Helper loaded: email_helper
+ERROR - 2026-03-02 16:53:19 --> Severity: 8192 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated C:\xampp\htdocs\pms\system\core\Input.php 572
+ERROR - 2026-03-02 16:53:19 --> Severity: Warning --> Undefined property: stdClass::$doctor_id C:\xampp\htdocs\pms\application\controllers\User.php 186
+ERROR - 2026-03-02 16:53:19 --> Severity: Warning --> Undefined property: stdClass::$ui C:\xampp\htdocs\pms\application\controllers\User.php 187
+ERROR - 2026-03-02 16:53:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:19 --> Config Class Initialized
+INFO - 2026-03-02 16:53:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:19 --> URI Class Initialized
+INFO - 2026-03-02 16:53:19 --> Router Class Initialized
+INFO - 2026-03-02 16:53:19 --> Output Class Initialized
+INFO - 2026-03-02 16:53:19 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:19 --> Input Class Initialized
+INFO - 2026-03-02 16:53:19 --> Language Class Initialized
+INFO - 2026-03-02 16:53:19 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:19 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:19 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:19 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:19 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:19 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:19 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:19 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:19 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:19 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:19 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:19 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:19 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:19 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:19 --> Helper loaded: captcha_helper
+ERROR - 2026-03-02 16:53:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:19 --> Config Class Initialized
+INFO - 2026-03-02 16:53:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:19 --> URI Class Initialized
+INFO - 2026-03-02 16:53:19 --> Router Class Initialized
+INFO - 2026-03-02 16:53:19 --> Output Class Initialized
+INFO - 2026-03-02 16:53:19 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:19 --> Input Class Initialized
+INFO - 2026-03-02 16:53:19 --> Language Class Initialized
+INFO - 2026-03-02 16:53:19 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:19 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:19 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:19 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:19 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:19 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:19 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:19 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:19 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:19 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:19 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:19 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:19 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:19 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:19 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:19 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:19 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:19 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:19 --> Model "PurchaseRequestModel" initialized
+INFO - 2026-03-02 16:53:19 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:53:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/listview.php
+INFO - 2026-03-02 16:53:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_add.php
+INFO - 2026-03-02 16:53:19 --> File loaded: C:\xampp\htdocs\pms\application\views\purchaseRequest/modal_update.php
+INFO - 2026-03-02 16:53:19 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:53:19 --> Final output sent to browser
+DEBUG - 2026-03-02 16:53:19 --> Total execution time: 0.1532
+ERROR - 2026-03-02 16:53:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:53:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:19 --> Config Class Initialized
+INFO - 2026-03-02 16:53:19 --> Config Class Initialized
+INFO - 2026-03-02 16:53:19 --> Hooks Class Initialized
+INFO - 2026-03-02 16:53:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:19 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:19 --> URI Class Initialized
+INFO - 2026-03-02 16:53:19 --> URI Class Initialized
+INFO - 2026-03-02 16:53:19 --> Router Class Initialized
+INFO - 2026-03-02 16:53:19 --> Router Class Initialized
+INFO - 2026-03-02 16:53:19 --> Output Class Initialized
+INFO - 2026-03-02 16:53:19 --> Output Class Initialized
+INFO - 2026-03-02 16:53:19 --> Security Class Initialized
+INFO - 2026-03-02 16:53:19 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:19 --> Input Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:19 --> Language Class Initialized
+INFO - 2026-03-02 16:53:19 --> Input Class Initialized
+INFO - 2026-03-02 16:53:19 --> Language Class Initialized
+ERROR - 2026-03-02 16:53:19 --> 404 Page Not Found: Img/undraw_profile_2.svg
+ERROR - 2026-03-02 16:53:19 --> 404 Page Not Found: Img/undraw_profile_1.svg
+ERROR - 2026-03-02 16:53:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:53:19 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:19 --> Config Class Initialized
+INFO - 2026-03-02 16:53:19 --> Config Class Initialized
+INFO - 2026-03-02 16:53:19 --> Hooks Class Initialized
+INFO - 2026-03-02 16:53:19 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:19 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:19 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:19 --> URI Class Initialized
+INFO - 2026-03-02 16:53:19 --> URI Class Initialized
+INFO - 2026-03-02 16:53:19 --> Router Class Initialized
+INFO - 2026-03-02 16:53:19 --> Router Class Initialized
+INFO - 2026-03-02 16:53:19 --> Output Class Initialized
+INFO - 2026-03-02 16:53:19 --> Output Class Initialized
+INFO - 2026-03-02 16:53:19 --> Security Class Initialized
+INFO - 2026-03-02 16:53:19 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:20 --> Input Class Initialized
+INFO - 2026-03-02 16:53:20 --> Input Class Initialized
+INFO - 2026-03-02 16:53:20 --> Language Class Initialized
+INFO - 2026-03-02 16:53:20 --> Language Class Initialized
+ERROR - 2026-03-02 16:53:20 --> 404 Page Not Found: Img/undraw_profile_3.svg
+ERROR - 2026-03-02 16:53:20 --> 404 Page Not Found: Img/undraw_profile.svg
+ERROR - 2026-03-02 16:53:20 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:20 --> Config Class Initialized
+INFO - 2026-03-02 16:53:20 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:20 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:20 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:20 --> URI Class Initialized
+INFO - 2026-03-02 16:53:20 --> Router Class Initialized
+INFO - 2026-03-02 16:53:20 --> Output Class Initialized
+INFO - 2026-03-02 16:53:20 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:20 --> Input Class Initialized
+INFO - 2026-03-02 16:53:20 --> Language Class Initialized
+INFO - 2026-03-02 16:53:20 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:20 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:20 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:20 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:20 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:20 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:20 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:20 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:20 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:20 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:20 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:20 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:20 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:20 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:20 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:20 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:20 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:20 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:20 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:20 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:20 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:20 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:20 --> Model "PurchaseRequestModel" initialized
+ERROR - 2026-03-02 16:53:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:25 --> Config Class Initialized
+INFO - 2026-03-02 16:53:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:25 --> URI Class Initialized
+INFO - 2026-03-02 16:53:25 --> Router Class Initialized
+INFO - 2026-03-02 16:53:25 --> Output Class Initialized
+INFO - 2026-03-02 16:53:25 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:25 --> Input Class Initialized
+INFO - 2026-03-02 16:53:25 --> Language Class Initialized
+INFO - 2026-03-02 16:53:25 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:25 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:25 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:53:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 16:53:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 16:53:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 16:53:25 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:53:25 --> Final output sent to browser
+DEBUG - 2026-03-02 16:53:25 --> Total execution time: 0.1352
+ERROR - 2026-03-02 16:53:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:53:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:25 --> Config Class Initialized
+INFO - 2026-03-02 16:53:25 --> Config Class Initialized
+INFO - 2026-03-02 16:53:25 --> Hooks Class Initialized
+INFO - 2026-03-02 16:53:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:53:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:25 --> URI Class Initialized
+INFO - 2026-03-02 16:53:25 --> URI Class Initialized
+INFO - 2026-03-02 16:53:25 --> Router Class Initialized
+INFO - 2026-03-02 16:53:25 --> Router Class Initialized
+INFO - 2026-03-02 16:53:25 --> Output Class Initialized
+INFO - 2026-03-02 16:53:25 --> Output Class Initialized
+INFO - 2026-03-02 16:53:25 --> Security Class Initialized
+ERROR - 2026-03-02 16:53:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:25 --> Security Class Initialized
+ERROR - 2026-03-02 16:53:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 16:53:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:53:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:25 --> Input Class Initialized
+INFO - 2026-03-02 16:53:25 --> Input Class Initialized
+INFO - 2026-03-02 16:53:25 --> Config Class Initialized
+INFO - 2026-03-02 16:53:25 --> Config Class Initialized
+INFO - 2026-03-02 16:53:25 --> Language Class Initialized
+INFO - 2026-03-02 16:53:25 --> Hooks Class Initialized
+INFO - 2026-03-02 16:53:25 --> Hooks Class Initialized
+INFO - 2026-03-02 16:53:25 --> Language Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> UTF-8 Support Enabled
+ERROR - 2026-03-02 16:53:25 --> 404 Page Not Found: Libraries/img
+DEBUG - 2026-03-02 16:53:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:25 --> Utf8 Class Initialized
+ERROR - 2026-03-02 16:53:25 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 16:53:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:25 --> URI Class Initialized
+INFO - 2026-03-02 16:53:25 --> URI Class Initialized
+INFO - 2026-03-02 16:53:25 --> Router Class Initialized
+INFO - 2026-03-02 16:53:25 --> Router Class Initialized
+INFO - 2026-03-02 16:53:25 --> Output Class Initialized
+INFO - 2026-03-02 16:53:25 --> Output Class Initialized
+INFO - 2026-03-02 16:53:25 --> Security Class Initialized
+INFO - 2026-03-02 16:53:25 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:25 --> Input Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:25 --> Input Class Initialized
+INFO - 2026-03-02 16:53:25 --> Language Class Initialized
+INFO - 2026-03-02 16:53:25 --> Language Class Initialized
+ERROR - 2026-03-02 16:53:25 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:53:25 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:53:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:25 --> Config Class Initialized
+INFO - 2026-03-02 16:53:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:25 --> URI Class Initialized
+INFO - 2026-03-02 16:53:25 --> Router Class Initialized
+INFO - 2026-03-02 16:53:25 --> Output Class Initialized
+INFO - 2026-03-02 16:53:25 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:25 --> Input Class Initialized
+INFO - 2026-03-02 16:53:25 --> Language Class Initialized
+INFO - 2026-03-02 16:53:25 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:25 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:25 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:25 --> Database Driver Class Initialized
+ERROR - 2026-03-02 16:53:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:43 --> Config Class Initialized
+INFO - 2026-03-02 16:53:43 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:43 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:43 --> URI Class Initialized
+INFO - 2026-03-02 16:53:43 --> Router Class Initialized
+INFO - 2026-03-02 16:53:43 --> Output Class Initialized
+INFO - 2026-03-02 16:53:43 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:43 --> Input Class Initialized
+INFO - 2026-03-02 16:53:43 --> Language Class Initialized
+INFO - 2026-03-02 16:53:43 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:43 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:43 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:43 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:43 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:43 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:43 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:43 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:43 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:43 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:43 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:43 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:43 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:43 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:43 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:43 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:43 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:43 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:43 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:43 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:43 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:43 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:53:43 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 16:53:43 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 16:53:43 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 16:53:43 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:53:43 --> Final output sent to browser
+DEBUG - 2026-03-02 16:53:43 --> Total execution time: 0.1897
+ERROR - 2026-03-02 16:53:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:53:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:43 --> Config Class Initialized
+INFO - 2026-03-02 16:53:43 --> Config Class Initialized
+INFO - 2026-03-02 16:53:43 --> Hooks Class Initialized
+INFO - 2026-03-02 16:53:43 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:53:43 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:43 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:43 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:43 --> URI Class Initialized
+INFO - 2026-03-02 16:53:43 --> URI Class Initialized
+INFO - 2026-03-02 16:53:43 --> Router Class Initialized
+INFO - 2026-03-02 16:53:43 --> Router Class Initialized
+INFO - 2026-03-02 16:53:43 --> Output Class Initialized
+INFO - 2026-03-02 16:53:43 --> Output Class Initialized
+INFO - 2026-03-02 16:53:43 --> Security Class Initialized
+INFO - 2026-03-02 16:53:43 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:53:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:43 --> Input Class Initialized
+ERROR - 2026-03-02 16:53:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:53:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:43 --> Input Class Initialized
+INFO - 2026-03-02 16:53:43 --> Language Class Initialized
+INFO - 2026-03-02 16:53:43 --> Language Class Initialized
+INFO - 2026-03-02 16:53:43 --> Config Class Initialized
+INFO - 2026-03-02 16:53:43 --> Config Class Initialized
+INFO - 2026-03-02 16:53:43 --> Hooks Class Initialized
+INFO - 2026-03-02 16:53:43 --> Hooks Class Initialized
+ERROR - 2026-03-02 16:53:43 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:53:43 --> 404 Page Not Found: Libraries/img
+DEBUG - 2026-03-02 16:53:43 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:53:43 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:43 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:43 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:43 --> URI Class Initialized
+INFO - 2026-03-02 16:53:43 --> URI Class Initialized
+INFO - 2026-03-02 16:53:43 --> Router Class Initialized
+INFO - 2026-03-02 16:53:43 --> Router Class Initialized
+INFO - 2026-03-02 16:53:43 --> Output Class Initialized
+INFO - 2026-03-02 16:53:43 --> Output Class Initialized
+INFO - 2026-03-02 16:53:43 --> Security Class Initialized
+INFO - 2026-03-02 16:53:43 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:53:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:43 --> Input Class Initialized
+INFO - 2026-03-02 16:53:43 --> Input Class Initialized
+INFO - 2026-03-02 16:53:43 --> Language Class Initialized
+INFO - 2026-03-02 16:53:43 --> Language Class Initialized
+ERROR - 2026-03-02 16:53:43 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:53:43 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:53:43 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:43 --> Config Class Initialized
+INFO - 2026-03-02 16:53:43 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:43 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:43 --> URI Class Initialized
+INFO - 2026-03-02 16:53:43 --> Router Class Initialized
+INFO - 2026-03-02 16:53:43 --> Output Class Initialized
+INFO - 2026-03-02 16:53:43 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:43 --> Input Class Initialized
+INFO - 2026-03-02 16:53:43 --> Language Class Initialized
+INFO - 2026-03-02 16:53:43 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:43 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:43 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:43 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:43 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:43 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:43 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:43 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:43 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:43 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:43 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:43 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:43 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:43 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:43 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:43 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:43 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:43 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:43 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:43 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:44 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:44 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:44 --> Database Driver Class Initialized
+ERROR - 2026-03-02 16:53:56 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:56 --> Config Class Initialized
+INFO - 2026-03-02 16:53:56 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:56 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:56 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:56 --> URI Class Initialized
+INFO - 2026-03-02 16:53:56 --> Router Class Initialized
+INFO - 2026-03-02 16:53:56 --> Output Class Initialized
+INFO - 2026-03-02 16:53:56 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:56 --> Input Class Initialized
+INFO - 2026-03-02 16:53:56 --> Language Class Initialized
+ERROR - 2026-03-02 16:53:56 --> 404 Page Not Found: Libraries/availableStock
+ERROR - 2026-03-02 16:53:57 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:57 --> Config Class Initialized
+INFO - 2026-03-02 16:53:57 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:57 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:57 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:57 --> URI Class Initialized
+INFO - 2026-03-02 16:53:57 --> Router Class Initialized
+INFO - 2026-03-02 16:53:57 --> Output Class Initialized
+INFO - 2026-03-02 16:53:57 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:57 --> Input Class Initialized
+INFO - 2026-03-02 16:53:57 --> Language Class Initialized
+INFO - 2026-03-02 16:53:57 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:57 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:57 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:57 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:57 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:57 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:57 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:58 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:58 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:58 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:58 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:58 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:58 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:58 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:58 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:58 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:58 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:58 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:58 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:58 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:58 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:58 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:53:58 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 16:53:58 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 16:53:58 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 16:53:58 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:53:58 --> Final output sent to browser
+DEBUG - 2026-03-02 16:53:58 --> Total execution time: 0.2012
+ERROR - 2026-03-02 16:53:58 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:53:58 --> Config Class Initialized
+INFO - 2026-03-02 16:53:58 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:53:58 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:53:58 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:53:58 --> URI Class Initialized
+INFO - 2026-03-02 16:53:58 --> Router Class Initialized
+INFO - 2026-03-02 16:53:58 --> Output Class Initialized
+INFO - 2026-03-02 16:53:58 --> Security Class Initialized
+DEBUG - 2026-03-02 16:53:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:53:58 --> Input Class Initialized
+INFO - 2026-03-02 16:53:58 --> Language Class Initialized
+INFO - 2026-03-02 16:53:58 --> Loader Class Initialized
+INFO - 2026-03-02 16:53:58 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:53:58 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:53:58 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:53:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:53:58 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:53:58 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:53:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:53:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:53:58 --> Encryption Class Initialized
+INFO - 2026-03-02 16:53:58 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:53:58 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:53:58 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:53:58 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:53:58 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:58 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:53:58 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:53:58 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:53:58 --> Model "User_model" initialized
+INFO - 2026-03-02 16:53:58 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:53:58 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:53:58 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:53:58 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:53:58 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:53:58 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:53:58 --> Database Driver Class Initialized
+ERROR - 2026-03-02 16:54:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:00 --> Config Class Initialized
+INFO - 2026-03-02 16:54:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:00 --> URI Class Initialized
+INFO - 2026-03-02 16:54:00 --> Router Class Initialized
+INFO - 2026-03-02 16:54:00 --> Output Class Initialized
+INFO - 2026-03-02 16:54:00 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:00 --> Input Class Initialized
+INFO - 2026-03-02 16:54:00 --> Language Class Initialized
+INFO - 2026-03-02 16:54:00 --> Loader Class Initialized
+INFO - 2026-03-02 16:54:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:54:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:54:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:54:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:54:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:54:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:54:00 --> Encryption Class Initialized
+INFO - 2026-03-02 16:54:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:54:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:54:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:54:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:54:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:54:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:54:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "User_model" initialized
+INFO - 2026-03-02 16:54:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:54:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:54:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:54:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:54:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:00 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:54:00 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 16:54:00 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 16:54:00 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 16:54:00 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:54:00 --> Final output sent to browser
+DEBUG - 2026-03-02 16:54:00 --> Total execution time: 0.0828
+ERROR - 2026-03-02 16:54:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:00 --> Config Class Initialized
+INFO - 2026-03-02 16:54:00 --> Hooks Class Initialized
+INFO - 2026-03-02 16:54:00 --> Config Class Initialized
+INFO - 2026-03-02 16:54:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:00 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:00 --> URI Class Initialized
+INFO - 2026-03-02 16:54:00 --> URI Class Initialized
+INFO - 2026-03-02 16:54:00 --> Router Class Initialized
+INFO - 2026-03-02 16:54:00 --> Router Class Initialized
+INFO - 2026-03-02 16:54:00 --> Output Class Initialized
+INFO - 2026-03-02 16:54:00 --> Output Class Initialized
+INFO - 2026-03-02 16:54:00 --> Security Class Initialized
+INFO - 2026-03-02 16:54:00 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:00 --> Input Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:00 --> Input Class Initialized
+INFO - 2026-03-02 16:54:00 --> Language Class Initialized
+INFO - 2026-03-02 16:54:00 --> Language Class Initialized
+ERROR - 2026-03-02 16:54:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:00 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:00 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 16:54:00 --> Config Class Initialized
+INFO - 2026-03-02 16:54:00 --> Hooks Class Initialized
+INFO - 2026-03-02 16:54:00 --> Config Class Initialized
+INFO - 2026-03-02 16:54:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:54:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:00 --> URI Class Initialized
+INFO - 2026-03-02 16:54:00 --> URI Class Initialized
+INFO - 2026-03-02 16:54:00 --> Router Class Initialized
+INFO - 2026-03-02 16:54:00 --> Router Class Initialized
+INFO - 2026-03-02 16:54:00 --> Output Class Initialized
+INFO - 2026-03-02 16:54:00 --> Output Class Initialized
+INFO - 2026-03-02 16:54:00 --> Security Class Initialized
+INFO - 2026-03-02 16:54:00 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:54:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:00 --> Input Class Initialized
+INFO - 2026-03-02 16:54:00 --> Input Class Initialized
+INFO - 2026-03-02 16:54:00 --> Language Class Initialized
+INFO - 2026-03-02 16:54:00 --> Language Class Initialized
+ERROR - 2026-03-02 16:54:00 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:00 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:00 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:00 --> Config Class Initialized
+INFO - 2026-03-02 16:54:00 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:00 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:00 --> URI Class Initialized
+INFO - 2026-03-02 16:54:00 --> Router Class Initialized
+INFO - 2026-03-02 16:54:00 --> Output Class Initialized
+INFO - 2026-03-02 16:54:00 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:00 --> Input Class Initialized
+INFO - 2026-03-02 16:54:00 --> Language Class Initialized
+INFO - 2026-03-02 16:54:00 --> Loader Class Initialized
+INFO - 2026-03-02 16:54:00 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:54:00 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:54:00 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:54:00 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:54:00 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:54:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:54:00 --> Encryption Class Initialized
+INFO - 2026-03-02 16:54:00 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:54:00 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:54:00 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:54:00 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:54:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:00 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:54:00 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:54:00 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:54:00 --> Model "User_model" initialized
+INFO - 2026-03-02 16:54:00 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:54:00 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:54:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:54:00 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:54:00 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:54:00 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:00 --> Database Driver Class Initialized
+ERROR - 2026-03-02 16:54:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:25 --> Config Class Initialized
+INFO - 2026-03-02 16:54:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:25 --> URI Class Initialized
+INFO - 2026-03-02 16:54:25 --> Router Class Initialized
+INFO - 2026-03-02 16:54:25 --> Output Class Initialized
+INFO - 2026-03-02 16:54:25 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:25 --> Input Class Initialized
+INFO - 2026-03-02 16:54:25 --> Language Class Initialized
+INFO - 2026-03-02 16:54:25 --> Loader Class Initialized
+INFO - 2026-03-02 16:54:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:54:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:54:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:54:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:54:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:54:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:54:25 --> Encryption Class Initialized
+INFO - 2026-03-02 16:54:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:54:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:54:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:54:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:54:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:54:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:54:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "User_model" initialized
+INFO - 2026-03-02 16:54:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:54:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:54:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:54:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:54:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:25 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:54:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/listview.php
+INFO - 2026-03-02 16:54:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 16:54:25 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 16:54:25 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:54:25 --> Final output sent to browser
+DEBUG - 2026-03-02 16:54:25 --> Total execution time: 0.2355
+ERROR - 2026-03-02 16:54:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:25 --> Config Class Initialized
+INFO - 2026-03-02 16:54:25 --> Hooks Class Initialized
+INFO - 2026-03-02 16:54:25 --> Config Class Initialized
+INFO - 2026-03-02 16:54:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:54:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:25 --> URI Class Initialized
+INFO - 2026-03-02 16:54:25 --> URI Class Initialized
+INFO - 2026-03-02 16:54:25 --> Router Class Initialized
+INFO - 2026-03-02 16:54:25 --> Router Class Initialized
+INFO - 2026-03-02 16:54:25 --> Output Class Initialized
+INFO - 2026-03-02 16:54:25 --> Output Class Initialized
+INFO - 2026-03-02 16:54:25 --> Security Class Initialized
+INFO - 2026-03-02 16:54:25 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:25 --> Input Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:25 --> Input Class Initialized
+INFO - 2026-03-02 16:54:25 --> Language Class Initialized
+INFO - 2026-03-02 16:54:25 --> Language Class Initialized
+ERROR - 2026-03-02 16:54:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:25 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:25 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 16:54:25 --> Config Class Initialized
+INFO - 2026-03-02 16:54:25 --> Config Class Initialized
+INFO - 2026-03-02 16:54:25 --> Hooks Class Initialized
+INFO - 2026-03-02 16:54:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:25 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:25 --> URI Class Initialized
+INFO - 2026-03-02 16:54:25 --> URI Class Initialized
+INFO - 2026-03-02 16:54:25 --> Router Class Initialized
+INFO - 2026-03-02 16:54:25 --> Router Class Initialized
+INFO - 2026-03-02 16:54:25 --> Output Class Initialized
+INFO - 2026-03-02 16:54:25 --> Output Class Initialized
+INFO - 2026-03-02 16:54:25 --> Security Class Initialized
+INFO - 2026-03-02 16:54:25 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-02 16:54:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:25 --> Input Class Initialized
+INFO - 2026-03-02 16:54:25 --> Input Class Initialized
+INFO - 2026-03-02 16:54:25 --> Language Class Initialized
+INFO - 2026-03-02 16:54:25 --> Language Class Initialized
+ERROR - 2026-03-02 16:54:25 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:25 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:25 --> Config Class Initialized
+INFO - 2026-03-02 16:54:25 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:25 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:25 --> URI Class Initialized
+INFO - 2026-03-02 16:54:25 --> Router Class Initialized
+INFO - 2026-03-02 16:54:25 --> Output Class Initialized
+INFO - 2026-03-02 16:54:25 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:25 --> Input Class Initialized
+INFO - 2026-03-02 16:54:25 --> Language Class Initialized
+INFO - 2026-03-02 16:54:25 --> Loader Class Initialized
+INFO - 2026-03-02 16:54:25 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:54:25 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:54:25 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:54:25 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:54:25 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:54:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:54:25 --> Encryption Class Initialized
+INFO - 2026-03-02 16:54:25 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:54:25 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:54:25 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:54:25 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:54:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:25 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:54:25 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:54:25 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:54:25 --> Model "User_model" initialized
+INFO - 2026-03-02 16:54:25 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:54:25 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:54:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:54:25 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:54:25 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:54:25 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:25 --> Database Driver Class Initialized
+ERROR - 2026-03-02 16:54:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:51 --> Config Class Initialized
+INFO - 2026-03-02 16:54:51 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:51 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:51 --> URI Class Initialized
+INFO - 2026-03-02 16:54:51 --> Router Class Initialized
+INFO - 2026-03-02 16:54:51 --> Output Class Initialized
+INFO - 2026-03-02 16:54:51 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:51 --> Input Class Initialized
+INFO - 2026-03-02 16:54:51 --> Language Class Initialized
+INFO - 2026-03-02 16:54:51 --> Loader Class Initialized
+INFO - 2026-03-02 16:54:51 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:54:51 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:54:51 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:54:51 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:54:51 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:54:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:54:51 --> Encryption Class Initialized
+INFO - 2026-03-02 16:54:51 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:54:51 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:54:51 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:54:51 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:54:51 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:51 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:54:51 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:54:51 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:54:51 --> Model "User_model" initialized
+INFO - 2026-03-02 16:54:51 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:54:51 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:54:51 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:54:51 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:54:51 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:51 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:54:51 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/procurementSettings/listview.php
+INFO - 2026-03-02 16:54:51 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_add.php
+INFO - 2026-03-02 16:54:51 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/mode/modal_update.php
+INFO - 2026-03-02 16:54:51 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:54:51 --> Final output sent to browser
+DEBUG - 2026-03-02 16:54:51 --> Total execution time: 0.2455
+ERROR - 2026-03-02 16:54:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:51 --> Config Class Initialized
+INFO - 2026-03-02 16:54:51 --> Config Class Initialized
+INFO - 2026-03-02 16:54:51 --> Hooks Class Initialized
+INFO - 2026-03-02 16:54:51 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:51 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:51 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:51 --> URI Class Initialized
+INFO - 2026-03-02 16:54:51 --> URI Class Initialized
+INFO - 2026-03-02 16:54:51 --> Router Class Initialized
+INFO - 2026-03-02 16:54:51 --> Router Class Initialized
+INFO - 2026-03-02 16:54:51 --> Output Class Initialized
+INFO - 2026-03-02 16:54:51 --> Output Class Initialized
+INFO - 2026-03-02 16:54:51 --> Security Class Initialized
+INFO - 2026-03-02 16:54:51 --> Security Class Initialized
+ERROR - 2026-03-02 16:54:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 16:54:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:51 --> Input Class Initialized
+ERROR - 2026-03-02 16:54:51 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+DEBUG - 2026-03-02 16:54:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:51 --> Language Class Initialized
+INFO - 2026-03-02 16:54:51 --> Input Class Initialized
+INFO - 2026-03-02 16:54:51 --> Config Class Initialized
+INFO - 2026-03-02 16:54:51 --> Hooks Class Initialized
+INFO - 2026-03-02 16:54:51 --> Language Class Initialized
+INFO - 2026-03-02 16:54:51 --> Config Class Initialized
+INFO - 2026-03-02 16:54:51 --> Hooks Class Initialized
+ERROR - 2026-03-02 16:54:51 --> 404 Page Not Found: Libraries/img
+DEBUG - 2026-03-02 16:54:51 --> UTF-8 Support Enabled
+ERROR - 2026-03-02 16:54:51 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 16:54:51 --> Utf8 Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:51 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:51 --> URI Class Initialized
+INFO - 2026-03-02 16:54:51 --> URI Class Initialized
+INFO - 2026-03-02 16:54:51 --> Router Class Initialized
+INFO - 2026-03-02 16:54:51 --> Router Class Initialized
+INFO - 2026-03-02 16:54:51 --> Output Class Initialized
+INFO - 2026-03-02 16:54:51 --> Output Class Initialized
+INFO - 2026-03-02 16:54:51 --> Security Class Initialized
+INFO - 2026-03-02 16:54:51 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:51 --> Input Class Initialized
+INFO - 2026-03-02 16:54:51 --> Language Class Initialized
+DEBUG - 2026-03-02 16:54:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:51 --> Input Class Initialized
+INFO - 2026-03-02 16:54:51 --> Language Class Initialized
+ERROR - 2026-03-02 16:54:51 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:51 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:52 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:52 --> Config Class Initialized
+INFO - 2026-03-02 16:54:52 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:52 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:52 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:52 --> URI Class Initialized
+INFO - 2026-03-02 16:54:52 --> Router Class Initialized
+INFO - 2026-03-02 16:54:52 --> Output Class Initialized
+INFO - 2026-03-02 16:54:52 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:52 --> Input Class Initialized
+INFO - 2026-03-02 16:54:52 --> Language Class Initialized
+INFO - 2026-03-02 16:54:52 --> Loader Class Initialized
+INFO - 2026-03-02 16:54:52 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:54:52 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:54:52 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:54:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:54:52 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:54:52 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:54:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:54:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:54:52 --> Encryption Class Initialized
+INFO - 2026-03-02 16:54:52 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:54:52 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:54:52 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:54:52 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:54:52 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:52 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:54:52 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:54:52 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:54:52 --> Model "User_model" initialized
+INFO - 2026-03-02 16:54:52 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:54:52 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:54:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:54:52 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:54:52 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:54:52 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:52 --> Database Driver Class Initialized
+ERROR - 2026-03-02 16:54:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:59 --> Config Class Initialized
+INFO - 2026-03-02 16:54:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:59 --> URI Class Initialized
+INFO - 2026-03-02 16:54:59 --> Router Class Initialized
+INFO - 2026-03-02 16:54:59 --> Output Class Initialized
+INFO - 2026-03-02 16:54:59 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:59 --> Input Class Initialized
+INFO - 2026-03-02 16:54:59 --> Language Class Initialized
+INFO - 2026-03-02 16:54:59 --> Loader Class Initialized
+INFO - 2026-03-02 16:54:59 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:54:59 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:54:59 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:54:59 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:54:59 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:54:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:54:59 --> Encryption Class Initialized
+INFO - 2026-03-02 16:54:59 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:54:59 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:54:59 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:54:59 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:54:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:59 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:54:59 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:54:59 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "User_model" initialized
+INFO - 2026-03-02 16:54:59 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:54:59 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:54:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:54:59 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:54:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:59 --> File loaded: C:\xampp\htdocs\pms\application\views\header.php
+INFO - 2026-03-02 16:54:59 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/procurementSettings/listview.php
+INFO - 2026-03-02 16:54:59 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/procurementSettings/modal_add.php
+INFO - 2026-03-02 16:54:59 --> File loaded: C:\xampp\htdocs\pms\application\views\libraries/procurementSettings/modal_update.php
+INFO - 2026-03-02 16:54:59 --> File loaded: C:\xampp\htdocs\pms\application\views\footer.php
+INFO - 2026-03-02 16:54:59 --> Final output sent to browser
+DEBUG - 2026-03-02 16:54:59 --> Total execution time: 0.0863
+ERROR - 2026-03-02 16:54:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:59 --> Config Class Initialized
+INFO - 2026-03-02 16:54:59 --> Config Class Initialized
+INFO - 2026-03-02 16:54:59 --> Hooks Class Initialized
+INFO - 2026-03-02 16:54:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:54:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:59 --> URI Class Initialized
+INFO - 2026-03-02 16:54:59 --> URI Class Initialized
+INFO - 2026-03-02 16:54:59 --> Router Class Initialized
+INFO - 2026-03-02 16:54:59 --> Router Class Initialized
+INFO - 2026-03-02 16:54:59 --> Output Class Initialized
+INFO - 2026-03-02 16:54:59 --> Output Class Initialized
+INFO - 2026-03-02 16:54:59 --> Security Class Initialized
+INFO - 2026-03-02 16:54:59 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:59 --> Input Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:59 --> Input Class Initialized
+INFO - 2026-03-02 16:54:59 --> Language Class Initialized
+INFO - 2026-03-02 16:54:59 --> Language Class Initialized
+ERROR - 2026-03-02 16:54:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+ERROR - 2026-03-02 16:54:59 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:59 --> 404 Page Not Found: Libraries/img
+INFO - 2026-03-02 16:54:59 --> Config Class Initialized
+INFO - 2026-03-02 16:54:59 --> Config Class Initialized
+INFO - 2026-03-02 16:54:59 --> Hooks Class Initialized
+INFO - 2026-03-02 16:54:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> UTF-8 Support Enabled
+DEBUG - 2026-03-02 16:54:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:59 --> URI Class Initialized
+INFO - 2026-03-02 16:54:59 --> URI Class Initialized
+INFO - 2026-03-02 16:54:59 --> Router Class Initialized
+INFO - 2026-03-02 16:54:59 --> Router Class Initialized
+INFO - 2026-03-02 16:54:59 --> Output Class Initialized
+INFO - 2026-03-02 16:54:59 --> Output Class Initialized
+INFO - 2026-03-02 16:54:59 --> Security Class Initialized
+INFO - 2026-03-02 16:54:59 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:59 --> Input Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:59 --> Input Class Initialized
+INFO - 2026-03-02 16:54:59 --> Language Class Initialized
+INFO - 2026-03-02 16:54:59 --> Language Class Initialized
+ERROR - 2026-03-02 16:54:59 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:59 --> 404 Page Not Found: Libraries/img
+ERROR - 2026-03-02 16:54:59 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2026-03-02 16:54:59 --> Config Class Initialized
+INFO - 2026-03-02 16:54:59 --> Hooks Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> UTF-8 Support Enabled
+INFO - 2026-03-02 16:54:59 --> Utf8 Class Initialized
+INFO - 2026-03-02 16:54:59 --> URI Class Initialized
+INFO - 2026-03-02 16:54:59 --> Router Class Initialized
+INFO - 2026-03-02 16:54:59 --> Output Class Initialized
+INFO - 2026-03-02 16:54:59 --> Security Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-02 16:54:59 --> Input Class Initialized
+INFO - 2026-03-02 16:54:59 --> Language Class Initialized
+INFO - 2026-03-02 16:54:59 --> Loader Class Initialized
+INFO - 2026-03-02 16:54:59 --> Helper loaded: url_helper
+INFO - 2026-03-02 16:54:59 --> Helper loaded: form_helper
+INFO - 2026-03-02 16:54:59 --> Database Driver Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2026-03-02 16:54:59 --> Session: Class initialized using 'files' driver.
+INFO - 2026-03-02 16:54:59 --> Form Validation Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2026-03-02 16:54:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2026-03-02 16:54:59 --> Encryption Class Initialized
+INFO - 2026-03-02 16:54:59 --> Model "PatientModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "AppointmentModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "AuthModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "BedsModel" initialized
+INFO - 2026-03-02 16:54:59 --> Database Forge Class Initialized
+INFO - 2026-03-02 16:54:59 --> Model "ClinicalNotes_model" initialized
+INFO - 2026-03-02 16:54:59 --> Model "DeathModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "DoctorsModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "DocumentModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "HospitalProfileModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "ImmunizationModel" initialized
+INFO - 2026-03-02 16:54:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:54:59 --> Model "LibraryModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "MedicalRecords_model" initialized
+INFO - 2026-03-02 16:54:59 --> Model "MedicationModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "NotificationModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "PatientNotes_model" initialized
+INFO - 2026-03-02 16:54:59 --> Model "ReportModel" initialized
+INFO - 2026-03-02 16:54:59 --> Model "User_model" initialized
+INFO - 2026-03-02 16:54:59 --> Model "VitalsModel" initialized
+INFO - 2026-03-02 16:54:59 --> Controller Class Initialized
+DEBUG - 2026-03-02 16:54:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2026-03-02 16:54:59 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2026-03-02 16:54:59 --> Config file loaded: C:\xampp\htdocs\pms\application\config/aauth.php
+INFO - 2026-03-02 16:54:59 --> Database Driver Class Initialized
+INFO - 2026-03-02 16:55:00 --> Database Driver Class Initialized

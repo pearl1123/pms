@@ -22,6 +22,13 @@
                         <input type="text" class="form-control" name="unit_code" id="unitCode" required>
                     </div>
 
+                    <div class="form-group">
+                        <label for="unitDescription">
+                            Unit Description
+                        </label>
+                        <input type="text" class="form-control" name="unit_description" id="unitDescription">
+                    </div>
+
                 </div>
 
                 <div class="modal-footer">

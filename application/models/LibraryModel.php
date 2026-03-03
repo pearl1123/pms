@@ -202,22 +202,33 @@ class LibraryModel extends CI_Model
 
     // GET UNIT LIST
     // =========================================================================================================================================
-    public function getUnitList($start, $length)
+    public function getUnitList($start, $length, $search = '', $orderColumn = 'unit_code', $orderDir = 'asc')
     {
-        // Get total count separately
         $this->db->from('lib_unit u');
         $this->db->where('u.archived', 0);
         $total = $this->db->count_all_results();
 
-        // Get paginated results
-        $this->db->select('u.unit_id, u.unit_code, u2.fullname');
+        $this->db->select('u.unit_id, u.unit_code, u.unit_description, u2.fullname');
         $this->db->from('lib_unit u');
         $this->db->join('aauth_users u2', 'u2.id = u.created_by', 'left');
         $this->db->where('u.archived', 0);
+
+        if (!empty($search)) {
+            $this->db->group_start();
+            $this->db->like('u.unit_code', $search);
+            $this->db->or_like('u.unit_description', $search);
+            $this->db->or_like('u2.fullname', $search);
+            $this->db->group_end();
+        }
+
+        $filteredCount = $this->db->count_all_results('', false);
+
+        $this->db->order_by($orderColumn, $orderDir);
         $this->db->limit($length, $start);
+
         $results = $this->db->get()->result();
 
-        return array($results, $total);
+        return [$results, ['total' => $total, 'filtered' => $filteredCount]];
     }
 
     // SAVE UNIT

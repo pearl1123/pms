@@ -116,7 +116,7 @@
                 "emptyTable": "No Results"
             },
             columns: [
-                { data: 'stock_id',         name: 'stock_id' },
+                { data: 'id',               name: 'id' },
                 { data: 'item_description', name: 'item_description' },
                 { data: 'unit_code',        name: 'unit_code' },
                 { data: 'stock_onhand',     name: 'stock_onhand' },
@@ -134,7 +134,7 @@
                 tblStock.row($(this).parents().prev('tr')).data() :
                 tblStock.row($(this).parents('tr')).data();
 
-            $('#stockID').val(data.stock_id);
+            $('#stockID').val(data.id);
             $('#stockItem_update').val(data.item_id);
             $('#stockUnit_update').val(data.unit_id);
             $('#stockOnhand_update').val(data.stock_onhand);

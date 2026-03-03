@@ -837,20 +837,22 @@ class Libraries extends CI_Controller
     //VALIDATE UNIT
     //Validated input for unwanted entries; Set security checks
     // =========================================================================================================================================
-
     protected function validateUnit($selector)
     {
         if ($selector == 'createUnit') {
-
             $config = array(
                 array(
                     'field' => 'unit_code',
                     'label' => 'Unit Code',
                     'rules' => 'required|trim|max_length[100]'
+                ),
+                array(
+                    'field' => 'unit_description',
+                    'label' => 'Unit Description',
+                    'rules' => 'trim|max_length[255]'
                 )
             );
         } else if ($selector == 'updateUnit') {
-
             $config = array(
                 array(
                     'field' => 'unit_id',
@@ -861,6 +863,11 @@ class Libraries extends CI_Controller
                     'field' => 'unit_code',
                     'label' => 'Unit Code',
                     'rules' => 'required|trim|max_length[100]'
+                ),
+                array(
+                    'field' => 'unit_description',
+                    'label' => 'Unit Description',
+                    'rules' => 'trim|max_length[255]'
                 )
             );
         }
@@ -876,30 +883,37 @@ class Libraries extends CI_Controller
         $draw   = intval($this->input->get("draw"));
         $start  = intval($this->input->get("start"));
         $length = intval($this->input->get("length"));
+        $search = $this->input->get('search')['value'];
+        $order  = $this->input->get('order');
+        $columns = $this->input->get('columns');
+
+        $column_index = $order[0]['column'];
+        $column_name = $columns[$column_index]['name'];
+        $column_dir  = $order[0]['dir'];
 
         $l_model = new LibraryModel();
-        $results = $l_model->getUnitList($start, $length);
+        list($results, $totalFiltered) = $l_model->getUnitList($start, $length, $search, $column_name, $column_dir);
 
-        $data = array();
-
-        $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
+        $data = [];
+        $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i></button>';
 
-        foreach ($results[0] as $r) {
-            $data[] = array(
-                'id'           => $r->unit_id,
-                'unit_code'    => $r->unit_code,
-                'encoded_by'   => $r->fullname,
-                'actions'      => $btn_update . $btn_delete,
-            );
+        foreach ($results as $r) {
+            $data[] = [
+                'id'               => $r->unit_id,
+                'unit_code'        => $r->unit_code,
+                'unit_description' => $r->unit_description,
+                'encoded_by'       => $r->fullname,
+                'actions'          => $btn_update . $btn_delete,
+            ];
         }
 
-        echo json_encode(array(
-            "draw"            => $draw,
-            "recordsTotal"    => $results[1],
-            "recordsFiltered" => $results[1],
-            "data"            => $data,
-        ));
+        echo json_encode([
+            "draw" => $draw,
+            "recordsTotal" => $totalFiltered['total'],
+            "recordsFiltered" => $totalFiltered['filtered'],
+            "data" => $data
+        ]);
         exit();
     }
 
@@ -911,9 +925,10 @@ class Libraries extends CI_Controller
         $l_model = new LibraryModel();
 
         $unit_data = array(
-            'unit_code'    => $this->input->post('unit_code', TRUE),
-            'created_by'   => $this->session->userID,
-            'date_created' => date("Y-m-d H:i:s"),
+            'unit_code'        => $this->input->post('unit_code', TRUE),
+            'unit_description' => $this->input->post('unit_description', TRUE),
+            'created_by'       => $this->session->userID,
+            'date_created'     => date("Y-m-d H:i:s"),
         );
 
         $this->validateUnit('createUnit');
@@ -941,9 +956,10 @@ class Libraries extends CI_Controller
         $l_model = new LibraryModel();
 
         $unit_data = array(
-            'unit_code'     => $this->input->post('unit_code', TRUE),
-            'modified_by'   => $this->session->userID,
-            'date_modified' => date("Y-m-d H:i:s"),
+            'unit_code'        => $this->input->post('unit_code', TRUE),
+            'unit_description' => $this->input->post('unit_description', TRUE),
+            'modified_by'      => $this->session->userID,
+            'date_modified'    => date("Y-m-d H:i:s"),
         );
 
         $param = array('unit_id' => intval($_POST['unit_id']));
@@ -972,7 +988,7 @@ class Libraries extends CI_Controller
     {
         $l_model = new LibraryModel();
 
-        $stock_data = array(
+        $unit_data = array(
             'modified_by'   => $this->session->userID,
             'date_modified' => date("Y-m-d H:i:s"),
             'archived'      => 1,
@@ -980,8 +996,8 @@ class Libraries extends CI_Controller
 
         $param = array('unit_id' => intval($_POST['id']));
 
-        $this->security->xss_clean($stock_data);
-        $res = $l_model->updateStock($stock_data, $param);
+        $this->security->xss_clean($unit_data);
+        $res = $l_model->updateStock($unit_data, $param);
 
         if ($res > 0) {
             $this->session->set_flashdata('success', 'Successfully deleted unit record.');
@@ -1073,7 +1089,7 @@ class Libraries extends CI_Controller
 
         foreach ($results as $r) {
             $data[] = array(
-                'stock_id'     => $r->stock_id,
+                'id'     => $r->stock_id,
                 'item_description' => $r->item_description,
                 'unit_code'    => $r->unit_code,
                 'stock_onhand' => $r->stock_onhand,
@@ -1140,7 +1156,7 @@ class Libraries extends CI_Controller
             'date_modified' => date("Y-m-d H:i:s"),
         );
 
-        $param = array('stock_id' => intval($_POST['stock_id']));
+        $param = array('stock_id' => intval($_POST['id']));
 
         $this->validateStock('updateStock');
 
@@ -1166,23 +1182,45 @@ class Libraries extends CI_Controller
     {
         $l_model = new LibraryModel();
 
-        $stock_data = array(
+        $item_data = [
             'modified_by'   => $this->session->userID,
             'date_modified' => date("Y-m-d H:i:s"),
-            'archived'      => 1,
-        );
+            'archived'      => 1
+        ];
 
-        $param = array('stock_id' => intval($_POST['id']));
+        $param = ['stock_id' => $this->input->post('id', true)];
 
-        $this->security->xss_clean($stock_data);
-        $res = $l_model->updateStock($stock_data, $param);
+        $this->security->xss_clean($item_data);
+
+        $res = $l_model->updateStock($item_data, $param);
 
         if ($res > 0) {
-            $this->session->set_flashdata('success', 'Successfully deleted stock record.');
+            echo json_encode(['status' => 'success', 'message' => 'Successfully deleted stock record.']);
         } else {
-            $this->session->set_flashdata('fail', 'Failed to delete stock record.');
+            echo json_encode(['status' => 'fail', 'message' => 'Failed to delete stock record.']);
         }
-
-        redirect('Libraries/stock');
     }
+    // public function deleteStock()
+    // {
+    //     $l_model = new LibraryModel();
+
+    //     $stock_data = array(
+    //         'modified_by'   => $this->session->userID,
+    //         'date_modified' => date("Y-m-d H:i:s"),
+    //         'archived'      => 1,
+    //     );
+
+    //     $param = array('stock_id' => intval($_POST['id']));
+
+    //     $this->security->xss_clean($stock_data);
+    //     $res = $l_model->updateStock($stock_data, $param);
+
+    //     if ($res > 0) {
+    //         $this->session->set_flashdata('success', 'Successfully deleted stock record.');
+    //     } else {
+    //         $this->session->set_flashdata('fail', 'Failed to delete stock record.');
+    //     }
+
+    //     redirect('Libraries/stock');
+    // }
 }

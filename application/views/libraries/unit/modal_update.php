@@ -9,13 +9,12 @@
                 </button>
             </div>
 
-            <form action="<?php echo base_url("Libraries/updateUnit"); ?>" 
-                  method="post" 
-                  id="formUnitUpdate">
+            <form action="<?php echo base_url("Libraries/updateUnit"); ?>"
+                method="post"
+                id="formUnitUpdate">
 
                 <div class="modal-body">
 
-                    <!-- Hidden Unit ID -->
                     <input type="hidden" name="unit_id" id="unitID">
 
                     <div class="form-group">
@@ -23,6 +22,13 @@
                             Unit Code <span class="text-danger">*</span>
                         </label>
                         <input type="text" class="form-control" name="unit_code" id="unitCode_update" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="unitDescription_update">
+                            Unit Description
+                        </label>
+                        <input type="text" class="form-control" name="unit_description" id="unitDescription_update">
                     </div>
 
                 </div>

@@ -54,6 +54,7 @@
                         <tr>
                             <th>No.</th>
                             <th>Unit Code</th>
+                            <th>Unit Description</th>
                             <th>Encoded By</th>
                             <th>Action</th>
                         </tr>
@@ -62,6 +63,7 @@
                         <tr>
                             <th>No.</th>
                             <th>Unit Code</th>
+                            <th>Unit Description</th>
                             <th>Encoded By</th>
                             <th>Action</th>
                         </tr>
@@ -100,7 +102,7 @@
             'paging': true,
             "lengthMenu": [10, 15, 20],
             "ajax": {
-                url: "<?php echo base_url("Libraries/getUnitList/"); ?>",
+                url: "<?php echo base_url('Libraries/getUnitList/'); ?>",
                 type: 'GET',
                 error: function(xhr, error, thrown) {
                     console.log(xhr.responseText);
@@ -111,16 +113,17 @@
             "language": {
                 "emptyTable": "No Results"
             },
-            columns: [
-                { data: 'id',           name: 'unit_id' },
-                { data: 'unit_code',    name: 'unit_code' },
-                { data: 'encoded_by',   name: 'encoded_by' },
-                { data: 'actions',      name: 'actions', orderable: false }
+            "columns": [
+                { data: 'id', name: 'id' },
+                { data: 'unit_code', name: 'unit_code' },
+                { data: 'unit_description', name: 'unit_description' },
+                { data: 'encoded_by', name: 'encoded_by' },
+                { data: 'actions', name: 'actions', orderable: false }
             ],
-            'columnDefs': [
-                { 'targets': [0], 'visible': false, 'orderable': false }
+            "columnDefs": [
+                { targets: [0], visible: false }
             ],
-            order: [1, 'asc']
+            "order": [[1, 'asc']]
         });
 
         $('#unitBody').on('click', '#btnUpdate', function() {
@@ -130,6 +133,7 @@
 
             $('#unitID').val(data.id);
             $('#unitCode_update').val(data.unit_code);
+            $('#unitDescription_update').val(data.unit_description);
             $('#unitUpdateModal').modal('show');
         });
 
@@ -142,7 +146,7 @@
             Swal.fire({
                 title: 'Delete?',
                 html: "<span class='text-danger'><b>WARNING!</b></span> You will not be able to undo this action.",
-                type: 'warning',
+                icon: 'warning',
                 showCancelButton: true,
                 confirmButtonColor: '#3085d6',
                 cancelButtonColor: '#d33',
@@ -151,18 +155,16 @@
                 if (result.value) {
                     $.ajax({
                         url: "<?php echo base_url('Libraries/deleteUnit'); ?>",
-                        async: false,
                         type: "POST",
-                        datatype: "json",
                         data: { id: id },
                         success: function(data) {
                             Swal.fire({
                                 title: 'Success',
                                 html: "<span class='text-success'><b>SUCCESS!</b></span> Successfully deleted stock record.",
-                                type: 'success',
+                                icon: 'success',
                                 confirmButtonColor: '#3085d6',
                                 confirmButtonText: 'OK!'
-                            }).then(() => { location.reload(); });
+                            }).then(() => { tblUnit.ajax.reload(null, false); });
                         }
                     });
                 }

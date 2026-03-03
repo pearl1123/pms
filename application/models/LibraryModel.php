@@ -20,7 +20,7 @@ class LibraryModel extends CI_Model
 
         $this->db->select('l1.attachment_id, l1.attachment_name, t1.fullname');
         $this->db->where(array('archived' => 0));
-        if($length > 0) {
+        if ($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
@@ -39,7 +39,8 @@ class LibraryModel extends CI_Model
 
     // UPDATE ATTACHMENT
     // =========================================================================================================================================
-    public function updateAttachment($attachment_data, $param){
+    public function updateAttachment($attachment_data, $param)
+    {
         $this->db->update('lib_attachments', $attachment_data, $param);
         return $this->db->affected_rows();
     }
@@ -54,7 +55,7 @@ class LibraryModel extends CI_Model
 
         $this->db->select('l1.item_id, l1.item_description, t1.fullname');
         $this->db->where(array('archived' => 0));
-        if($length > 0) {
+        if ($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
@@ -73,7 +74,8 @@ class LibraryModel extends CI_Model
 
     // UPDATE ITEM
     // =========================================================================================================================================
-    public function updateItem($item_data, $param){
+    public function updateItem($item_data, $param)
+    {
         $this->db->update('lib_item', $item_data, $param);
         return $this->db->affected_rows();
     }
@@ -88,7 +90,7 @@ class LibraryModel extends CI_Model
 
         $this->db->select('l1.office_id, l1.office_desc, l1.office_abbr, t1.fullname');
         $this->db->where(array('archived' => 0));
-        if($length > 0) {
+        if ($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
@@ -107,7 +109,8 @@ class LibraryModel extends CI_Model
 
     // UPDATE OFFICE
     // =========================================================================================================================================
-    public function updateOffice($office_data, $param){
+    public function updateOffice($office_data, $param)
+    {
         $this->db->update('lib_office', $office_data, $param);
         return $this->db->affected_rows();
     }
@@ -127,28 +130,57 @@ class LibraryModel extends CI_Model
     public function getActiveUnits()
     {
         return $this->db->where('archived', 0)->get('lib_unit')->result();
-    } 
+    }
 
     // GET STOCK LIST
     // =========================================================================================================================================
-    public function getStockList($start, $length)
+    public function getStockList($start, $length, $search = '', $order_column = 's.stock_id', $order_dir = 'ASC')
     {
-        // Get total count separately
         $this->db->from('lib_stocks s');
         $this->db->where('s.archived', 0);
         $total = $this->db->count_all_results();
 
-        // Get paginated results
         $this->db->select('s.stock_id, s.item_id, s.unit_id, s.stock_onhand, i.item_description, u.unit_code, u2.fullname');
         $this->db->from('lib_stocks s');
         $this->db->join('lib_item i', 'i.item_id = s.item_id', 'left');
         $this->db->join('lib_unit u', 'u.unit_id = s.unit_id', 'left');
         $this->db->join('aauth_users u2', 'u2.id = s.created_by', 'left');
         $this->db->where('s.archived', 0);
+
+        if (!empty($search)) {
+            $this->db->group_start();
+            $this->db->like('i.item_description', $search);
+            $this->db->or_like('u.unit_code', $search);
+            $this->db->or_like('s.stock_onhand', $search);
+            $this->db->group_end();
+        }
+
+        $allowed_columns = ['s.stock_id', 'i.item_description', 'u.unit_code', 's.stock_onhand', 'u2.fullname'];
+        if (!in_array($order_column, $allowed_columns)) {
+            $order_column = 's.stock_id';
+        }
+        $order_dir = strtoupper($order_dir) === 'DESC' ? 'DESC' : 'ASC';
+        $this->db->order_by($order_column, $order_dir);
+
         $this->db->limit($length, $start);
+
         $results = $this->db->get()->result();
 
-        return array($results, $total);
+        $filtered_count = $total;
+        if (!empty($search)) {
+            $this->db->from('lib_stocks s');
+            $this->db->join('lib_item i', 'i.item_id = s.item_id', 'left');
+            $this->db->join('lib_unit u', 'u.unit_id = s.unit_id', 'left');
+            $this->db->where('s.archived', 0);
+            $this->db->group_start();
+            $this->db->like('i.item_description', $search);
+            $this->db->or_like('u.unit_code', $search);
+            $this->db->or_like('s.stock_onhand', $search);
+            $this->db->group_end();
+            $filtered_count = $this->db->count_all_results();
+        }
+
+        return [$results, $total, $filtered_count];
     }
 
     // SAVE STOCK
@@ -168,8 +200,45 @@ class LibraryModel extends CI_Model
         return $this->db->affected_rows();
     }
 
-   
-     // GET PROCUREMENT MODE LIST
+    // GET UNIT LIST
+    // =========================================================================================================================================
+    public function getUnitList($start, $length)
+    {
+        // Get total count separately
+        $this->db->from('lib_unit u');
+        $this->db->where('u.archived', 0);
+        $total = $this->db->count_all_results();
+
+        // Get paginated results
+        $this->db->select('u.unit_id, u.unit_code, u2.fullname');
+        $this->db->from('lib_unit u');
+        $this->db->join('aauth_users u2', 'u2.id = u.created_by', 'left');
+        $this->db->where('u.archived', 0);
+        $this->db->limit($length, $start);
+        $results = $this->db->get()->result();
+
+        return array($results, $total);
+    }
+
+    // SAVE UNIT
+    // =========================================================================================================================================
+    public function saveUnit($data)
+    {
+        $this->db->insert('lib_unit', $data);
+        return $this->db->insert_id();
+    }
+
+    // UPDATE UNIT
+    // =========================================================================================================================================
+    public function updateUnit($data, $param)
+    {
+        $this->db->where($param);
+        $this->db->update('lib_unit', $data);
+        return $this->db->affected_rows();
+    }
+
+
+    // GET PROCUREMENT MODE LIST
     // =========================================================================================================================================
     public function getModeList($start, $length)
     {
@@ -179,7 +248,7 @@ class LibraryModel extends CI_Model
 
         $this->db->select('l1.proc_id, l1.proc_code, l1.proc_name, t1.fullname');
         $this->db->where(array('archived' => 0));
-        if($length > 0) {
+        if ($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
@@ -198,7 +267,8 @@ class LibraryModel extends CI_Model
 
     // UPDATE PROCURMENT MODE
     // =========================================================================================================================================
-    public function updateMode($mode_data, $param){
+    public function updateMode($mode_data, $param)
+    {
         $this->db->update('lib_procurement_mode', $mode_data, $param);
         return $this->db->affected_rows();
     }

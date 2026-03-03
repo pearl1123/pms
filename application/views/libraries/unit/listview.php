@@ -1,9 +1,9 @@
 <div class="container-fluid">
 
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Stock</h1>
+        <h1 class="h3 mb-0 text-gray-800">Unit</h1>
         <button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" id="btnAdd">
-            <i class="fas fa-plus fa-sm text-white-50"></i> Add Stock</button>
+            <i class="fas fa-plus fa-sm text-white-50"></i> Add Unit</button>
     </div>
 
     <hr />
@@ -14,7 +14,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item">Libraries</li>
-            <li class="breadcrumb-item active" aria-current="page">Stock</li>
+            <li class="breadcrumb-item active" aria-current="page">Unit</li>
         </ol>
     </nav>
 
@@ -45,17 +45,15 @@
     ========================================================================================================================================= -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Stock Table</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Unit Table</h6>
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table table-bordered" id="tblStock" width="100%" cellspacing="0">
+                <table class="table table-bordered" id="tblUnit" width="100%" cellspacing="0">
                     <thead>
                         <tr>
                             <th>No.</th>
-                            <th>Item</th>
-                            <th>Unit</th>
-                            <th>Stock Onhand</th>
+                            <th>Unit Code</th>
                             <th>Encoded By</th>
                             <th>Action</th>
                         </tr>
@@ -63,14 +61,12 @@
                     <tfoot>
                         <tr>
                             <th>No.</th>
-                            <th>Item</th>
-                            <th>Unit</th>
-                            <th>Stock Onhand</th>
+                            <th>Unit Code</th>
                             <th>Encoded By</th>
                             <th>Action</th>
                         </tr>
                     </tfoot>
-                    <tbody id="stockBody">
+                    <tbody id="unitBody">
                     </tbody>
                 </table>
             </div>
@@ -96,7 +92,7 @@
 
 <script>
     function datatable() {
-        var tblStock = $('#tblStock').DataTable({
+        var tblUnit = $('#tblUnit').DataTable({
             "responsive": true,
             "autoWidth": false,
             'serverSide': true,
@@ -104,7 +100,7 @@
             'paging': true,
             "lengthMenu": [10, 15, 20],
             "ajax": {
-                url: "<?php echo base_url("Libraries/getStockList/"); ?>",
+                url: "<?php echo base_url("Libraries/getUnitList/"); ?>",
                 type: 'GET',
                 error: function(xhr, error, thrown) {
                     console.log(xhr.responseText);
@@ -116,12 +112,10 @@
                 "emptyTable": "No Results"
             },
             columns: [
-                { data: 'stock_id',         name: 'stock_id' },
-                { data: 'item_description', name: 'item_description' },
-                { data: 'unit_code',        name: 'unit_code' },
-                { data: 'stock_onhand',     name: 'stock_onhand' },
-                { data: 'fullname',         name: 'fullname' },
-                { data: 'actions',          name: 'actions', orderable: false }
+                { data: 'id',           name: 'unit_id' },
+                { data: 'unit_code',    name: 'unit_code' },
+                { data: 'encoded_by',   name: 'encoded_by' },
+                { data: 'actions',      name: 'actions', orderable: false }
             ],
             'columnDefs': [
                 { 'targets': [0], 'visible': false, 'orderable': false }
@@ -129,22 +123,20 @@
             order: [1, 'asc']
         });
 
-        $('#stockBody').on('click', '#btnUpdate', function() {
+        $('#unitBody').on('click', '#btnUpdate', function() {
             var data = ($(this).parents('tr').hasClass('child')) ?
-                tblStock.row($(this).parents().prev('tr')).data() :
-                tblStock.row($(this).parents('tr')).data();
+                tblUnit.row($(this).parents().prev('tr')).data() :
+                tblUnit.row($(this).parents('tr')).data();
 
-            $('#stockID').val(data.stock_id);
-            $('#stockItem_update').val(data.item_id);
-            $('#stockUnit_update').val(data.unit_id);
-            $('#stockOnhand_update').val(data.stock_onhand);
-            $('#stockUpdateModal').modal('show');
+            $('#unitID').val(data.id);
+            $('#unitCode_update').val(data.unit_code);
+            $('#unitUpdateModal').modal('show');
         });
 
-        $('#stockBody').on('click', '#btnDel', function() {
+        $('#unitBody').on('click', '#btnDel', function() {
             var data = ($(this).parents('tr').hasClass('child')) ?
-                tblStock.row($(this).parents().prev('tr')).data() :
-                tblStock.row($(this).parents('tr')).data();
+                tblUnit.row($(this).parents().prev('tr')).data() :
+                tblUnit.row($(this).parents('tr')).data();
             var id = data.id;
 
             Swal.fire({
@@ -158,7 +150,7 @@
             }).then((result) => {
                 if (result.value) {
                     $.ajax({
-                        url: "<?php echo base_url('Libraries/deleteStock'); ?>",
+                        url: "<?php echo base_url('Libraries/deleteUnit'); ?>",
                         async: false,
                         type: "POST",
                         datatype: "json",
@@ -182,7 +174,7 @@
         datatable();
 
         $('#btnAdd').on('click', function() {
-            $('#stockAddModal').modal("show");
+            $('#unitAddModal').modal("show");
         });
     });
 </script>

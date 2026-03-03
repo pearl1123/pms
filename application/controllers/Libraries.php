@@ -79,7 +79,7 @@ class Libraries extends CI_Controller
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
 
-        foreach($results[0] as $r){
+        foreach ($results[0] as $r) {
             $data[] = array(
                 'id' => $r->attachment_id,
                 'name' => $r->attachment_name,
@@ -102,8 +102,9 @@ class Libraries extends CI_Controller
     //VALIDATE ATTACHMENT
     //Validated input for unwanted entries; Set security checks
     // =========================================================================================================================================
-    protected function validateAttachment($selector){
-        if($selector == 'createAttachment') {
+    protected function validateAttachment($selector)
+    {
+        if ($selector == 'createAttachment') {
             $config = array(
                 array(
                     'field' => 'attachment_name',
@@ -111,7 +112,7 @@ class Libraries extends CI_Controller
                     'rules' => 'regex_match[/^[)\([\]\/\,:0-9a-zA-Z\-\.\s]+$/]|required',
                 )
             );
-        } else if($selector == 'updateAttachment') {
+        } else if ($selector == 'updateAttachment') {
             $config = array(
                 array(
                     'field'   => 'attachment_id',
@@ -132,7 +133,8 @@ class Libraries extends CI_Controller
     // SAVE ATTACHMENTS
     // Saves newly created attachment
     // =========================================================================================================================================
-    public function saveAttachment(){
+    public function saveAttachment()
+    {
         $l_model = new LibraryModel();
 
         $attachment_data = array(
@@ -160,7 +162,8 @@ class Libraries extends CI_Controller
     // UPDATE ATTACHMENTS
     // Updates existing attachment
     // =========================================================================================================================================
-    public function updateAttachment(){
+    public function updateAttachment()
+    {
         $l_model = new LibraryModel();
 
         $attachment_data = array(
@@ -173,7 +176,7 @@ class Libraries extends CI_Controller
 
         $this->validateAttachment('updateAttachment');
 
-        if($this->form_validation->run()){
+        if ($this->form_validation->run()) {
             $this->security->xss_clean($attachment_data);
             $res = $l_model->updateAttachment($attachment_data, $param);
             if ($res > 0) {
@@ -190,7 +193,8 @@ class Libraries extends CI_Controller
     // DELETE ATTACHMENTS
     // Deletes existing attachment
     // =========================================================================================================================================
-    public function deleteAttachment(){
+    public function deleteAttachment()
+    {
         $l_model = new LibraryModel();
 
         $attachment_data = array(
@@ -216,7 +220,7 @@ class Libraries extends CI_Controller
 
 
 
-    
+
     // ITEM LIST VIEW
     // Displays module for item; Library Module
     // =========================================================================================================================================
@@ -243,8 +247,9 @@ class Libraries extends CI_Controller
     //VALIDATE ITEM
     //Validated input for unwanted entries; Set security checks
     // =========================================================================================================================================
-    protected function validateItem($selector){
-        if($selector == 'createItem') {
+    protected function validateItem($selector)
+    {
+        if ($selector == 'createItem') {
             $config = array(
                 array(
                     'field' => 'item_description',
@@ -252,7 +257,7 @@ class Libraries extends CI_Controller
                     'rules' => 'regex_match[/^[)\([\]\/\,:0-9a-zA-Z\-\.\s]+$/]|required',
                 )
             );
-        } else if($selector == 'updateItem') {
+        } else if ($selector == 'updateItem') {
             $config = array(
                 array(
                     'field'   => 'item_id',
@@ -287,7 +292,7 @@ class Libraries extends CI_Controller
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
 
-        foreach($results[0] as $r){
+        foreach ($results[0] as $r) {
             $data[] = array(
                 'id' => $r->item_id,
                 'name' => $r->item_description,
@@ -310,7 +315,8 @@ class Libraries extends CI_Controller
     // SAVE ITEM
     // Saves newly created item
     // =========================================================================================================================================
-    public function saveItem(){
+    public function saveItem()
+    {
         $l_model = new LibraryModel();
 
         $item_data = array(
@@ -334,11 +340,12 @@ class Libraries extends CI_Controller
         }
         redirect('Libraries/item');
     }
-    
+
     // UPDATE ITEM
     // Updates existing item
     // =========================================================================================================================================
-    public function updateItem(){
+    public function updateItem()
+    {
         $l_model = new LibraryModel();
 
         $item_data = array(
@@ -351,7 +358,7 @@ class Libraries extends CI_Controller
 
         $this->validateItem('updateItem');
 
-        if($this->form_validation->run()){
+        if ($this->form_validation->run()) {
             $this->security->xss_clean($item_data);
             $res = $l_model->updateItem($item_data, $param);
             if ($res > 0) {
@@ -368,7 +375,8 @@ class Libraries extends CI_Controller
     // DELETE ITEM
     // Deletes existing item
     // =========================================================================================================================================
-    public function deleteItem(){
+    public function deleteItem()
+    {
         $l_model = new LibraryModel();
 
         $item_data = array(
@@ -389,7 +397,7 @@ class Libraries extends CI_Controller
 
         redirect('Libraries/item');
     }
-    
+
 
 
 
@@ -420,8 +428,9 @@ class Libraries extends CI_Controller
     //VALIDATE OFFICE
     //Validated input for unwanted entries; Set security checks
     // =========================================================================================================================================
-    protected function validateOffice($selector){
-        if($selector == 'createOffice') {
+    protected function validateOffice($selector)
+    {
+        if ($selector == 'createOffice') {
             $config = array(
                 array(
                     'field' => 'office_desc',
@@ -434,7 +443,7 @@ class Libraries extends CI_Controller
                     'rules' => 'regex_match[/^[)\([\]\/\,:0-9a-zA-Z\-\.\s]+$/]|required',
                 )
             );
-        } else if($selector == 'updateOffice') {
+        } else if ($selector == 'updateOffice') {
             $config = array(
                 array(
                     'field'   => 'office_id',
@@ -474,7 +483,7 @@ class Libraries extends CI_Controller
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
 
-        foreach($results[0] as $r){
+        foreach ($results[0] as $r) {
             $data[] = array(
                 'id' => $r->office_id,
                 'name' => $r->office_desc,
@@ -498,7 +507,8 @@ class Libraries extends CI_Controller
     // SAVE OFFICE
     // Saves newly created office
     // =========================================================================================================================================
-    public function saveOffice(){
+    public function saveOffice()
+    {
         $l_model = new LibraryModel();
 
         $office_data = array(
@@ -527,7 +537,8 @@ class Libraries extends CI_Controller
     // UPDATE OFFICE
     // Updates existing office
     // =========================================================================================================================================
-    public function updateOffice(){
+    public function updateOffice()
+    {
         $l_model = new LibraryModel();
 
         $office_data = array(
@@ -541,7 +552,7 @@ class Libraries extends CI_Controller
 
         $this->validateOffice('updateOffice');
 
-        if($this->form_validation->run()){
+        if ($this->form_validation->run()) {
             $this->security->xss_clean($office_data);
             $res = $l_model->updateOffice($office_data, $param);
             if ($res > 0) {
@@ -558,7 +569,8 @@ class Libraries extends CI_Controller
     // DELETE OFFICE
     // Deletes existing office
     // =========================================================================================================================================
-    public function deleteOffice(){
+    public function deleteOffice()
+    {
         $l_model = new LibraryModel();
 
         $office_data = array(
@@ -609,8 +621,9 @@ class Libraries extends CI_Controller
     //VALIDATE PROCUREMENT MODE
     //Validated input for unwanted entries; Set security checks
     // =========================================================================================================================================
-    protected function validateMode($selector){
-        if($selector == 'createMode') {
+    protected function validateMode($selector)
+    {
+        if ($selector == 'createMode') {
             $config = array(
                 array(
                     'field' => 'proc_code',
@@ -623,7 +636,7 @@ class Libraries extends CI_Controller
                     'rules' => 'regex_match[/^[)\([\]\/\,:0-9a-zA-Z\-\.\s]+$/]|required',
                 )
             );
-        } else if($selector == 'updateMode') {
+        } else if ($selector == 'updateMode') {
             $config = array(
                 array(
                     'field'   => 'proc_id',
@@ -663,7 +676,7 @@ class Libraries extends CI_Controller
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
 
-        foreach($results[0] as $r){
+        foreach ($results[0] as $r) {
             $data[] = array(
                 'id' => $r->proc_id,
                 'code' => $r->proc_code,
@@ -687,7 +700,8 @@ class Libraries extends CI_Controller
     // SAVE PROCURMENT MODE
     // Saves newly created procurement mode
     // =========================================================================================================================================
-    public function saveMode(){
+    public function saveMode()
+    {
         $l_model = new LibraryModel();
 
         $mode_data = array(
@@ -716,7 +730,8 @@ class Libraries extends CI_Controller
     // UPDATE PROCUREMENT MODE
     // Updates existing procurement mode
     // =========================================================================================================================================
-    public function updateMode(){
+    public function updateMode()
+    {
         $l_model = new LibraryModel();
 
         $mode_data = array(
@@ -730,7 +745,7 @@ class Libraries extends CI_Controller
 
         $this->validateMode('updateMode');
 
-        if($this->form_validation->run()){
+        if ($this->form_validation->run()) {
             $this->security->xss_clean($mode_data);
             $res = $l_model->updateMode($mode_data, $param);
             if ($res > 0) {
@@ -747,7 +762,8 @@ class Libraries extends CI_Controller
     // DELETE PROCUREMENT MODE
     // Deletes existing procurement mode
     // =========================================================================================================================================
-    public function deleteMode(){
+    public function deleteMode()
+    {
         $l_model = new LibraryModel();
 
         $mode_data = array(
@@ -791,6 +807,191 @@ class Libraries extends CI_Controller
         $this->load->view('libraries/procurementSettings/modal_update');
         $this->load->view('footer');
     }
+
+
+
+
+
+    // UNIT LIST VIEW
+    // Displays module for unit; Library Module
+    // =========================================================================================================================================
+    public function unit()
+    {
+        $data = array(
+            'csrf'      => $this->csrf(),
+            'csrf_ajax' => $this->csrf_ajax(),
+            'fullname'  => $this->session->fullname,
+        );
+
+        $data['notif']  = 1;
+        $data['config'] = 1;
+        $data['ondue']  = 1;
+
+        $this->load->view('header', $data);
+        $this->load->view('libraries/unit/listview');
+        $this->load->view('libraries/unit/modal_add');
+        $this->load->view('libraries/unit/modal_update');
+        $this->load->view('footer');
+    }
+
+    //VALIDATE UNIT
+    //Validated input for unwanted entries; Set security checks
+    // =========================================================================================================================================
+
+    protected function validateUnit($selector)
+    {
+        if ($selector == 'createUnit') {
+
+            $config = array(
+                array(
+                    'field' => 'unit_code',
+                    'label' => 'Unit Code',
+                    'rules' => 'required|trim|max_length[100]'
+                )
+            );
+        } else if ($selector == 'updateUnit') {
+
+            $config = array(
+                array(
+                    'field' => 'unit_id',
+                    'label' => 'Unit ID',
+                    'rules' => 'required|integer'
+                ),
+                array(
+                    'field' => 'unit_code',
+                    'label' => 'Unit Code',
+                    'rules' => 'required|trim|max_length[100]'
+                )
+            );
+        }
+
+        return $this->form_validation->set_rules($config);
+    }
+
+    // UNIT LIST VIEW
+    // Gets list of UNIT for data table
+    // =========================================================================================================================================
+    public function getUnitList()
+    {
+        $draw   = intval($this->input->get("draw"));
+        $start  = intval($this->input->get("start"));
+        $length = intval($this->input->get("length"));
+
+        $l_model = new LibraryModel();
+        $results = $l_model->getUnitList($start, $length);
+
+        $data = array();
+
+        $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
+        $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i></button>';
+
+        foreach ($results[0] as $r) {
+            $data[] = array(
+                'id'           => $r->unit_id,
+                'unit_code'    => $r->unit_code,
+                'encoded_by'   => $r->fullname,
+                'actions'      => $btn_update . $btn_delete,
+            );
+        }
+
+        echo json_encode(array(
+            "draw"            => $draw,
+            "recordsTotal"    => $results[1],
+            "recordsFiltered" => $results[1],
+            "data"            => $data,
+        ));
+        exit();
+    }
+
+    // SAVE UNIT
+    // Saves newly created unit
+    // =========================================================================================================================================
+    public function saveUnit()
+    {
+        $l_model = new LibraryModel();
+
+        $unit_data = array(
+            'unit_code'    => $this->input->post('unit_code', TRUE),
+            'created_by'   => $this->session->userID,
+            'date_created' => date("Y-m-d H:i:s"),
+        );
+
+        $this->validateUnit('createUnit');
+
+        if ($this->form_validation->run()) {
+            $this->security->xss_clean($unit_data);
+            $res = $l_model->saveUnit($unit_data);
+            if ($res > 0) {
+                $this->session->set_flashdata('success', 'Successfully created new unit record.');
+            } else {
+                $this->session->set_flashdata('fail', 'Failed to create new unit record.');
+            }
+        } else {
+            $this->session->set_flashdata('fail', validation_errors());
+        }
+
+        redirect('Libraries/unit');
+    }
+
+    // UPDATE UNIT
+    // Updates existing unit
+    // =========================================================================================================================================
+    public function updateUnit()
+    {
+        $l_model = new LibraryModel();
+
+        $unit_data = array(
+            'unit_code'     => $this->input->post('unit_code', TRUE),
+            'modified_by'   => $this->session->userID,
+            'date_modified' => date("Y-m-d H:i:s"),
+        );
+
+        $param = array('unit_id' => intval($_POST['unit_id']));
+
+        $this->validateUnit('updateUnit');
+
+        if ($this->form_validation->run()) {
+            $this->security->xss_clean($unit_data);
+            $res = $l_model->updateUnit($unit_data, $param);
+            if ($res > 0) {
+                $this->session->set_flashdata('success', 'Successfully updated unit record.');
+            } else {
+                $this->session->set_flashdata('fail', 'Failed to update unit record.');
+            }
+        } else {
+            $this->session->set_flashdata('fail', validation_errors());
+        }
+
+        redirect('Libraries/unit');
+    }
+
+    // DELETE ITEM
+    // Deletes existing item
+    // =========================================================================================================================================
+    public function deleteUnit()
+    {
+        $l_model = new LibraryModel();
+
+        $stock_data = array(
+            'modified_by'   => $this->session->userID,
+            'date_modified' => date("Y-m-d H:i:s"),
+            'archived'      => 1,
+        );
+
+        $param = array('unit_id' => intval($_POST['id']));
+
+        $this->security->xss_clean($stock_data);
+        $res = $l_model->updateStock($stock_data, $param);
+
+        if ($res > 0) {
+            $this->session->set_flashdata('success', 'Successfully deleted unit record.');
+        } else {
+            $this->session->set_flashdata('fail', 'Failed to delete unit record.');
+        }
+
+        redirect('Libraries/unit');
+    }
+
 
 
 
@@ -854,21 +1055,29 @@ class Libraries extends CI_Controller
         $start  = intval($this->input->get("start"));
         $length = intval($this->input->get("length"));
 
+        $search_value = $this->input->get('search')['value'] ?? '';
+
+        $order_column_index = $this->input->get('order')[0]['column'] ?? 0;
+        $order_dir          = $this->input->get('order')[0]['dir'] ?? 'asc';
+
+        $columns = ['s.stock_id', 'i.item_description', 'u.unit_code', 's.stock_onhand', 'u2.fullname'];
+        $order_column = $columns[$order_column_index] ?? 's.stock_id';
+
         $l_model = new LibraryModel();
-        $results = $l_model->getStockList($start, $length);
+        list($results, $total, $filtered) = $l_model->getStockList($start, $length, $search_value, $order_column, $order_dir);
 
         $data = array();
 
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i></button>';
 
-        foreach ($results[0] as $r) {
+        foreach ($results as $r) {
             $data[] = array(
-                'id'           => $r->stock_id,
-                'item'         => $r->item_description,
-                'unit'         => $r->unit_code,
+                'stock_id'     => $r->stock_id,
+                'item_description' => $r->item_description,
+                'unit_code'    => $r->unit_code,
                 'stock_onhand' => $r->stock_onhand,
-                'encoded_by'   => $r->fullname,
+                'fullname'     => $r->fullname,
                 'item_id'      => $r->item_id,
                 'unit_id'      => $r->unit_id,
                 'actions'      => $btn_update . $btn_delete,
@@ -877,8 +1086,8 @@ class Libraries extends CI_Controller
 
         echo json_encode(array(
             "draw"            => $draw,
-            "recordsTotal"    => $results[1],
-            "recordsFiltered" => $results[1],
+            "recordsTotal"    => $total,
+            "recordsFiltered" => $filtered,
             "data"            => $data,
         ));
         exit();
@@ -915,7 +1124,7 @@ class Libraries extends CI_Controller
 
         redirect('Libraries/stock');
     }
-    
+
     // UPDATE ITEM
     // Updates existing item
     // =========================================================================================================================================

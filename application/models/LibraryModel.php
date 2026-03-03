@@ -111,6 +111,63 @@ class LibraryModel extends CI_Model
         $this->db->update('lib_office', $office_data, $param);
         return $this->db->affected_rows();
     }
+
+
+
+
+    // GET ITEM STOCK
+    // =========================================================================================================================================
+    public function getActiveItems()
+    {
+        return $this->db->where('archived', 0)->get('lib_item')->result();
+    }
+
+    // GET UNIT STOCK
+    // =========================================================================================================================================   
+    public function getActiveUnits()
+    {
+        return $this->db->where('archived', 0)->get('lib_unit')->result();
+    } 
+
+    // GET STOCK LIST
+    // =========================================================================================================================================
+    public function getStockList($start, $length)
+    {
+        // Get total count separately
+        $this->db->from('lib_stocks s');
+        $this->db->where('s.archived', 0);
+        $total = $this->db->count_all_results();
+
+        // Get paginated results
+        $this->db->select('s.stock_id, s.item_id, s.unit_id, s.stock_onhand, i.item_description, u.unit_code, u2.fullname');
+        $this->db->from('lib_stocks s');
+        $this->db->join('lib_item i', 'i.item_id = s.item_id', 'left');
+        $this->db->join('lib_unit u', 'u.unit_id = s.unit_id', 'left');
+        $this->db->join('aauth_users u2', 'u2.id = s.created_by', 'left');
+        $this->db->where('s.archived', 0);
+        $this->db->limit($length, $start);
+        $results = $this->db->get()->result();
+
+        return array($results, $total);
+    }
+
+    // SAVE STOCK
+    // =========================================================================================================================================
+    public function saveStock($data)
+    {
+        $this->db->insert('lib_stocks', $data);
+        return $this->db->insert_id();
+    }
+
+    // UPDATE STOCK
+    // =========================================================================================================================================
+    public function updateStock($data, $param)
+    {
+        $this->db->where($param);
+        $this->db->update('lib_stocks', $data);
+        return $this->db->affected_rows();
+    }
+
    
      // GET PROCUREMENT MODE LIST
     // =========================================================================================================================================

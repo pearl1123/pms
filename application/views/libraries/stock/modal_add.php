@@ -13,25 +13,41 @@
                         <label for="stockItem">Item <span class="text-danger">*</span></label>
                         <select class="form-control" name="item_id" id="stockItem" required>
                             <option value="">-- Select Item --</option>
-                            <?php foreach($items as $item): ?>
-                                <option value="<?php echo $item->item_id; ?>"><?php echo $item->item_description; ?></option>
-                            <?php endforeach; ?>
+
+                            <optgroup label="Library Items">
+                                <?php foreach ($items as $item): ?>
+                                    <option value="lib_<?php echo $item->item_id; ?>">
+                                        <?php echo $item->item_description; ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
+
+                            <optgroup label="ISMS Items">
+                                <?php foreach ($isms_items as $item): ?>
+                                    <option value="isms_<?php echo $item->id; ?>">
+                                        <?php echo $item->name; ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
                         </select>
                     </div>
+
                     <div class="mb-3">
                         <label for="stockUnit">Unit <span class="text-danger">*</span></label>
                         <select class="form-control" name="unit_id" id="stockUnit" required>
                             <option value="">-- Select Unit --</option>
-                            <?php foreach($units as $unit): ?>
+                            <?php foreach ($units as $unit): ?>
                                 <option value="<?php echo $unit->unit_id; ?>"><?php echo $unit->unit_code; ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
+
                     <div class="mb-3">
                         <label for="stockOnhand">Stock Onhand <span class="text-danger">*</span></label>
                         <input type="number" class="form-control" name="stock_onhand" id="stockOnhand" min="0" required>
                     </div>
                 </div>
+
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                     <button class="btn btn-primary" type="submit">Submit</button>
@@ -40,3 +56,16 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $('#stockAddModal').on('shown.bs.modal', function() {
+            $('#stockItem').select2({
+                dropdownParent: $('#stockAddModal'),
+                width: '100%',
+                placeholder: "-- Select Item --",
+                allowClear: true
+            });
+        });
+    });
+</script>

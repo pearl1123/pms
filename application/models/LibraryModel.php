@@ -140,11 +140,20 @@ class LibraryModel extends CI_Model
         $this->db->where('s.archived', 0);
         $total = $this->db->count_all_results();
 
-        $this->db->select('s.stock_id, s.item_id, s.unit_id, s.stock_onhand, i.item_description, u.unit_code, u2.fullname');
+        $this->db->select('
+            s.stock_id, 
+            s.item_id, 
+            s.unit_id, 
+            s.stock_onhand, 
+            s.item_source,
+            u.unit_code, 
+            u2.fullname,
+            i.item_description
+        ');
         $this->db->from('lib_stocks s');
-        $this->db->join('lib_item i', 'i.item_id = s.item_id', 'left');
         $this->db->join('lib_unit u', 'u.unit_id = s.unit_id', 'left');
         $this->db->join('aauth_users u2', 'u2.id = s.created_by', 'left');
+        $this->db->join('lib_item i', 'i.item_id = s.item_id AND s.item_source = "library"', 'left');
         $this->db->where('s.archived', 0);
 
         if (!empty($search)) {
@@ -161,7 +170,6 @@ class LibraryModel extends CI_Model
         }
         $order_dir = strtoupper($order_dir) === 'DESC' ? 'DESC' : 'ASC';
         $this->db->order_by($order_column, $order_dir);
-
         $this->db->limit($length, $start);
 
         $results = $this->db->get()->result();

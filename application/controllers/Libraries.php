@@ -5,6 +5,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Libraries extends CI_Controller
 {
+    protected $isms_db;
+
     public function __construct()
     {
         parent::__construct();
@@ -12,6 +14,7 @@ class Libraries extends CI_Controller
         #load all that you need
         $this->load->library("aauth");
         $this->load->model('LibraryModel');
+        $this->isms_db = $this->load->database('isms', TRUE);
         if (!$this->session->logged_in) {
             $this->session->set_flashdata('fail', 'Session expired. Please Sign in');
             redirect('User/index');
@@ -1020,11 +1023,18 @@ class Libraries extends CI_Controller
     {
         $l_model = new LibraryModel();
 
+        $isms_items = $this->isms_db
+            ->select('id, name')
+            ->from('item_list')
+            ->get()
+            ->result();
+
         $data = array(
             'csrf'      => $this->csrf(),
             'csrf_ajax' => $this->csrf_ajax(),
             'fullname'  => $this->session->fullname,
             'items'     => $l_model->getActiveItems(),
+            'isms_items'  => $isms_items,
             'units'     => $l_model->getActiveUnits(),
         );
 
@@ -1046,14 +1056,14 @@ class Libraries extends CI_Controller
     {
         if ($selector == 'createStock') {
             $config = array(
-                array('field' => 'item_id',      'label' => 'Item',         'rules' => 'required|integer'),
+                array('field' => 'item_id',      'label' => 'Item',         'rules' => 'required'),
                 array('field' => 'unit_id',      'label' => 'Unit',         'rules' => 'required|integer'),
                 array('field' => 'stock_onhand', 'label' => 'Stock Onhand', 'rules' => 'required|integer'),
             );
         } else if ($selector == 'updateStock') {
             $config = array(
                 array('field' => 'stock_id',     'label' => 'Stock ID',     'rules' => 'required|integer'),
-                array('field' => 'item_id',      'label' => 'Item',         'rules' => 'required|integer'),
+                array('field' => 'item_id',      'label' => 'Item',         'rules' => 'required'),
                 array('field' => 'unit_id',      'label' => 'Unit',         'rules' => 'required|integer'),
                 array('field' => 'stock_onhand', 'label' => 'Stock Onhand', 'rules' => 'required|integer'),
             );
@@ -1076,36 +1086,52 @@ class Libraries extends CI_Controller
         $order_column_index = $this->input->get('order')[0]['column'] ?? 0;
         $order_dir          = $this->input->get('order')[0]['dir'] ?? 'asc';
 
-        $columns = ['s.stock_id', 'i.item_description', 'u.unit_code', 's.stock_onhand', 'u2.fullname'];
+        $columns = ['s.stock_id', 's.item_id', 'u.unit_code', 's.stock_onhand', 'u2.fullname'];
         $order_column = $columns[$order_column_index] ?? 's.stock_id';
 
         $l_model = new LibraryModel();
         list($results, $total, $filtered) = $l_model->getStockList($start, $length, $search_value, $order_column, $order_dir);
 
+        $isms_items = $this->isms_db
+            ->select('id, name')
+            ->from('item_list')
+            ->get()
+            ->result();
+        $isms_lookup = [];
+        foreach ($isms_items as $item) {
+            $isms_lookup[(int)$item->id] = $item->name;
+        }
+
         $data = array();
 
-        $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
+        $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i></button>';
 
         foreach ($results as $r) {
-            $data[] = array(
-                'id'     => $r->stock_id,
-                'item_description' => $r->item_description,
-                'unit_code'    => $r->unit_code,
-                'stock_onhand' => $r->stock_onhand,
-                'fullname'     => $r->fullname,
-                'item_id'      => $r->item_id,
-                'unit_id'      => $r->unit_id,
-                'actions'      => $btn_update . $btn_delete,
-            );
+            if ($r->item_source === 'isms') {
+                $desc = $isms_lookup[(int)$r->item_id] ?? '[Item not found]';
+            } else {
+                $desc = $r->item_description ?? '[No description]';
+            }
+
+            $data[] = [
+                'id'               => $r->stock_id,
+                'item_description' => $desc,
+                'unit_code'        => $r->unit_code,
+                'stock_onhand'     => $r->stock_onhand,
+                'fullname'         => $r->fullname,
+                'item_id'          => $r->item_id,
+                'unit_id'          => $r->unit_id,
+                'actions'          => $btn_update . $btn_delete,
+            ];
         }
 
-        echo json_encode(array(
+        echo json_encode([
             "draw"            => $draw,
             "recordsTotal"    => $total,
             "recordsFiltered" => $filtered,
             "data"            => $data,
-        ));
+        ]);
         exit();
     }
 
@@ -1116,13 +1142,27 @@ class Libraries extends CI_Controller
     {
         $l_model = new LibraryModel();
 
-        $stock_data = array(
-            'item_id'      => intval($_POST['item_id']),
-            'unit_id'      => intval($_POST['unit_id']),
-            'stock_onhand' => intval($_POST['stock_onhand']),
+        $raw_item_id = $this->input->post('item_id', true);
+
+        $item_source = 'unknown';
+        $item_id = 0;
+
+        if (strpos($raw_item_id, 'lib_') === 0) {
+            $item_source = 'library';
+            $item_id = intval(str_replace('lib_', '', $raw_item_id));
+        } else if (strpos($raw_item_id, 'isms_') === 0) {
+            $item_source = 'isms';
+            $item_id = intval(str_replace('isms_', '', $raw_item_id));
+        }
+
+        $stock_data = [
+            'item_id'      => $item_id,
+            'item_source'  => $item_source,
+            'unit_id'      => intval($this->input->post('unit_id', true)),
+            'stock_onhand' => intval($this->input->post('stock_onhand', true)),
             'created_by'   => $this->session->userID,
-            'date_created' => date("Y-m-d H:i:s"),
-        );
+            'date_created' => date("Y-m-d H:i:s")
+        ];
 
         $this->validateStock('createStock');
 
@@ -1200,27 +1240,4 @@ class Libraries extends CI_Controller
             echo json_encode(['status' => 'fail', 'message' => 'Failed to delete stock record.']);
         }
     }
-    // public function deleteStock()
-    // {
-    //     $l_model = new LibraryModel();
-
-    //     $stock_data = array(
-    //         'modified_by'   => $this->session->userID,
-    //         'date_modified' => date("Y-m-d H:i:s"),
-    //         'archived'      => 1,
-    //     );
-
-    //     $param = array('stock_id' => intval($_POST['id']));
-
-    //     $this->security->xss_clean($stock_data);
-    //     $res = $l_model->updateStock($stock_data, $param);
-
-    //     if ($res > 0) {
-    //         $this->session->set_flashdata('success', 'Successfully deleted stock record.');
-    //     } else {
-    //         $this->session->set_flashdata('fail', 'Failed to delete stock record.');
-    //     }
-
-    //     redirect('Libraries/stock');
-    // }
 }

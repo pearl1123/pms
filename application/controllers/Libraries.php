@@ -769,6 +769,29 @@ class Libraries extends CI_Controller
         redirect('Libraries/mode');
     }
 
+    // PROCUREMENT MODE LIST VIEW
+    // Displays module for mode; Library Module
+    // =========================================================================================================================================
+    public function procurementSettings()
+    {
+        $data = array(
+            'csrf' => $this->csrf(),
+            'csrf_ajax' => $this->csrf_ajax(),
+            'fullname' => $this->session->fullname
+        );
+
+        #notification placeholder for now need to configure this later
+        $data['notif'] = 1;
+        $data['config'] = 1;
+        $data['ondue'] = 1;
+
+        $this->load->view('header', $data);
+        $this->load->view('libraries/procurementSettings/listview');
+        $this->load->view('libraries/procurementSettings/modal_add');
+        $this->load->view('libraries/procurementSettings/modal_update');
+        $this->load->view('footer');
+    }
+
 
 
 

@@ -12,18 +12,42 @@
                     <input type="hidden" name="stock_id" id="stockID">
                     <div class="mb-3">
                         <label for="stockItem_update">Item <span class="text-danger">*</span></label>
-                        <select class="form-control" name="item_id" id="stockItem_update" required>
+
+                        <select name="item_id" id="update_item_id" class="form-control" required>
                             <option value="">-- Select Item --</option>
-                            <?php foreach($items as $item): ?>
-                                <option value="<?php echo $item->item_id; ?>"><?php echo $item->item_description; ?></option>
-                            <?php endforeach; ?>
+
+                            <optgroup label="Library Items">
+                                <?php foreach ($items as $item): ?>
+                                    <option value="lib_<?= $item->item_id ?>">
+                                        <?= $item->item_description ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
+
+                            <optgroup label="Dietary Items">
+                                <?php foreach ($isms_items as $item): ?>
+                                    <option value="diet_<?= $item->id ?>">
+                                        <?= $item->name ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
+
+                            <optgroup label="Pharmacy Items">
+                                <?php foreach ($pharmacy_items as $item): ?>
+                                    <option value="pharm_<?= $item->brand_id ?>">
+                                        <?= $item->brand_name ?>
+                                        (<?= $item->generic_name ?> - <?= $item->dosage_name ?>)
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
                         </select>
+
                     </div>
                     <div class="mb-3">
                         <label for="stockUnit_update">Unit <span class="text-danger">*</span></label>
                         <select class="form-control" name="unit_id" id="stockUnit_update" required>
                             <option value="">-- Select Unit --</option>
-                            <?php foreach($units as $unit): ?>
+                            <?php foreach ($units as $unit): ?>
                                 <option value="<?php echo $unit->unit_id; ?>"><?php echo $unit->unit_code; ?></option>
                             <?php endforeach; ?>
                         </select>

@@ -22,13 +22,24 @@
                                 <?php endforeach; ?>
                             </optgroup>
 
-                            <optgroup label="ISMS Items">
+                            <optgroup label="Dietary Items">
                                 <?php foreach ($isms_items as $item): ?>
-                                    <option value="isms_<?php echo $item->id; ?>">
+                                    <option value="diet_<?php echo $item->id; ?>">
                                         <?php echo $item->name; ?>
                                     </option>
                                 <?php endforeach; ?>
                             </optgroup>
+
+                            <optgroup label="Pharmacy Items">
+                                <?php foreach ($pharmacy_items as $item): ?>
+                                    <option value="pharm_<?php echo $item->brand_id; ?>">
+                                        <?php echo $item->brand_name; ?>
+                                        (<?php echo $item->generic_name; ?>
+                                        - <?php echo $item->dosage_name; ?>)
+                                    </option>
+                                <?php endforeach; ?>
+                            </optgroup>
+
                         </select>
                     </div>
 
@@ -56,16 +67,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    $(document).ready(function() {
-        $('#stockAddModal').on('shown.bs.modal', function() {
-            $('#stockItem').select2({
-                dropdownParent: $('#stockAddModal'),
-                width: '100%',
-                placeholder: "-- Select Item --",
-                allowClear: true
-            });
-        });
-    });
-</script>

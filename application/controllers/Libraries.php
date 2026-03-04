@@ -1029,12 +1029,29 @@ class Libraries extends CI_Controller
             ->get()
             ->result();
 
+        $pharmacy_items = $this->isms_db
+            ->select('
+                b.id as brand_id,
+                b.brand_name,
+                g.generic_name,
+                d.dosage_name
+            ')
+            ->from('pcsr_brand_info b')
+            ->join('pcsr_generic_info g', 'g.id = b.generic_id', 'left')
+            ->join('pcsr_dosage_form d', 'd.id = g.dosage_id', 'left')
+            ->where('b.delete_flag', 0)
+            ->where('g.delete_flag', 0)
+            ->where('d.delete_flag', 0)
+            ->get()
+            ->result();
+
         $data = array(
             'csrf'      => $this->csrf(),
             'csrf_ajax' => $this->csrf_ajax(),
             'fullname'  => $this->session->fullname,
             'items'     => $l_model->getActiveItems(),
             'isms_items'  => $isms_items,
+            'pharmacy_items' => $pharmacy_items,
             'units'     => $l_model->getActiveUnits(),
         );
 
@@ -1102,14 +1119,38 @@ class Libraries extends CI_Controller
             $isms_lookup[(int)$item->id] = $item->name;
         }
 
+        $pharmacy_items = $this->isms_db
+            ->select('
+                b.id as brand_id,
+                b.brand_name,
+                g.generic_name,
+                d.dosage_name
+            ')
+            ->from('pcsr_brand_info b')
+            ->join('pcsr_generic_info g', 'g.id = b.generic_id', 'left')
+            ->join('pcsr_dosage_form d', 'd.id = g.dosage_id', 'left')
+            ->where('b.delete_flag', 0)
+            ->where('g.delete_flag', 0)
+            ->where('d.delete_flag', 0)
+            ->get()
+            ->result();
+
+        $pharmacy_lookup = [];
+        foreach ($pharmacy_items as $p) {
+            $pharmacy_lookup[(int)$p->brand_id] =
+                $p->brand_name . ' (' . $p->generic_name . ' - ' . $p->dosage_name . ')';
+        }
+
         $data = array();
 
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i></button>';
 
         foreach ($results as $r) {
-            if ($r->item_source === 'isms') {
+            if ($r->item_source === 'diet') {
                 $desc = $isms_lookup[(int)$r->item_id] ?? '[Item not found]';
+            } else if ($r->item_source === 'pharmacy') {
+                $desc = $pharmacy_lookup[(int)$r->item_id] ?? '[Pharmacy item not found]';
             } else {
                 $desc = $r->item_description ?? '[No description]';
             }
@@ -1150,9 +1191,12 @@ class Libraries extends CI_Controller
         if (strpos($raw_item_id, 'lib_') === 0) {
             $item_source = 'library';
             $item_id = intval(str_replace('lib_', '', $raw_item_id));
-        } else if (strpos($raw_item_id, 'isms_') === 0) {
-            $item_source = 'isms';
-            $item_id = intval(str_replace('isms_', '', $raw_item_id));
+        } else if (strpos($raw_item_id, 'diet_') === 0) {
+            $item_source = 'diet';
+            $item_id = intval(str_replace('diet_', '', $raw_item_id));
+        } else if (strpos($raw_item_id, 'pharm_') === 0) {
+            $item_source = 'pharmacy';
+            $item_id = intval(str_replace('pharm_', '', $raw_item_id));
         }
 
         $stock_data = [
@@ -1188,21 +1232,39 @@ class Libraries extends CI_Controller
     {
         $l_model = new LibraryModel();
 
+        $raw_item_id = $this->input->post('item_id', true);
+
+        $item_source = 'unknown';
+        $item_id = 0;
+
+        if (strpos($raw_item_id, 'lib_') === 0) {
+            $item_source = 'library';
+            $item_id = intval(str_replace('lib_', '', $raw_item_id));
+        } else if (strpos($raw_item_id, 'diet_') === 0) {
+            $item_source = 'diet';
+            $item_id = intval(str_replace('diet_', '', $raw_item_id));
+        } else if (strpos($raw_item_id, 'pharm_') === 0) {
+            $item_source = 'pharmacy';
+            $item_id = intval(str_replace('pharm_', '', $raw_item_id));
+        }
+
         $stock_data = array(
-            'item_id'       => intval($_POST['item_id']),
-            'unit_id'       => intval($_POST['unit_id']),
-            'stock_onhand'  => intval($_POST['stock_onhand']),
+            'item_id'       => $item_id,
+            'item_source'   => $item_source,
+            'unit_id'       => intval($this->input->post('unit_id', true)),
+            'stock_onhand'  => intval($this->input->post('stock_onhand', true)),
             'modified_by'   => $this->session->userID,
             'date_modified' => date("Y-m-d H:i:s"),
         );
 
-        $param = array('stock_id' => intval($_POST['id']));
+        $param = array('stock_id' => intval($this->input->post('stock_id')));
 
         $this->validateStock('updateStock');
 
         if ($this->form_validation->run()) {
             $this->security->xss_clean($stock_data);
             $res = $l_model->updateStock($stock_data, $param);
+
             if ($res > 0) {
                 $this->session->set_flashdata('success', 'Successfully updated stock record.');
             } else {
@@ -1214,6 +1276,37 @@ class Libraries extends CI_Controller
 
         redirect('Libraries/stock');
     }
+
+    // public function updateStock()
+    // {
+    //     $l_model = new LibraryModel();
+
+    //     $stock_data = array(
+    //         'item_id'       => intval($_POST['item_id']),
+    //         'unit_id'       => intval($_POST['unit_id']),
+    //         'stock_onhand'  => intval($_POST['stock_onhand']),
+    //         'modified_by'   => $this->session->userID,
+    //         'date_modified' => date("Y-m-d H:i:s"),
+    //     );
+
+    //     $param = array('stock_id' => intval($_POST['id']));
+
+    //     $this->validateStock('updateStock');
+
+    //     if ($this->form_validation->run()) {
+    //         $this->security->xss_clean($stock_data);
+    //         $res = $l_model->updateStock($stock_data, $param);
+    //         if ($res > 0) {
+    //             $this->session->set_flashdata('success', 'Successfully updated stock record.');
+    //         } else {
+    //             $this->session->set_flashdata('fail', 'Failed to update stock record.');
+    //         }
+    //     } else {
+    //         $this->session->set_flashdata('fail', validation_errors());
+    //     }
+
+    //     redirect('Libraries/stock');
+    // }
 
     // DELETE ITEM
     // Deletes existing item

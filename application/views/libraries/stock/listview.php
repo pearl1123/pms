@@ -95,6 +95,8 @@
 <script src="<?php echo base_url('assets/frameworks/sbadmin/vendor/datatables/dataTables.bootstrap4.min.js'); ?>"></script>
 
 <script>
+    let pendingStockData = null;
+
     function datatable() {
         var tblStock = $('#tblStock').DataTable({
             "responsive": true,
@@ -116,16 +118,18 @@
                 "emptyTable": "No Results"
             },
             columns: [
-                { data: 'id',               name: 'id' },
+                { data: 'id', name: 'id' },
                 { data: 'item_description', name: 'item_description' },
-                { data: 'unit_code',        name: 'unit_code' },
-                { data: 'stock_onhand',     name: 'stock_onhand' },
-                { data: 'fullname',         name: 'fullname' },
-                { data: 'actions',          name: 'actions', orderable: false }
+                { data: 'unit_code', name: 'unit_code' },
+                { data: 'stock_onhand', name: 'stock_onhand' },
+                { data: 'fullname', name: 'fullname' },
+                { data: 'actions', name: 'actions', orderable: false }
             ],
-            'columnDefs': [
-                { 'targets': [0], 'visible': false, 'orderable': false }
-            ],
+            'columnDefs': [{
+                'targets': [0],
+                'visible': false,
+                'orderable': false
+            }],
             order: [1, 'asc']
         });
 
@@ -133,6 +137,8 @@
             var data = ($(this).parents('tr').hasClass('child')) ?
                 tblStock.row($(this).parents().prev('tr')).data() :
                 tblStock.row($(this).parents('tr')).data();
+
+            pendingStockData = data;
 
             $('#stockID').val(data.id);
             $('#stockItem_update').val(data.item_id);
@@ -162,7 +168,9 @@
                         async: false,
                         type: "POST",
                         datatype: "json",
-                        data: { id: id },
+                        data: {
+                            id: id
+                        },
                         success: function(data) {
                             Swal.fire({
                                 title: 'Success',
@@ -170,7 +178,9 @@
                                 type: 'success',
                                 confirmButtonColor: '#3085d6',
                                 confirmButtonText: 'OK!'
-                            }).then(() => { location.reload(); });
+                            }).then(() => {
+                                location.reload();
+                            });
                         }
                     });
                 }
@@ -184,5 +194,58 @@
         $('#btnAdd').on('click', function() {
             $('#stockAddModal').modal("show");
         });
+
+        $('#stockAddModal').on('shown.bs.modal', function() {
+            $('#stockItem').select2({
+                dropdownParent: $('#stockAddModal'),
+                width: '100%',
+                placeholder: "-- Select Item --",
+                allowClear: true
+            });
+        });
+
+        $('#stockUpdateModal').on('shown.bs.modal', function() {
+            if ($('#update_item_id').hasClass('select2-hidden-accessible')) {
+                $('#update_item_id').select2('destroy');
+            }
+
+            $('#update_item_id').select2({
+                dropdownParent: $('#stockUpdateModal'),
+                width: '100%',
+                placeholder: "-- Select Item --",
+                allowClear: true
+            });
+
+            if (pendingStockData) {
+                const itemId = pendingStockData.item_id;
+                const itemDesc = pendingStockData.item_description.trim().toLowerCase();
+
+                const matchingOption = $('#update_item_id option').filter(function() {
+                    const val = $(this).val();
+                    const text = $(this).text().trim().toLowerCase();
+                    
+                    if (val === 'pharm_' + itemId) return true;
+
+                    const idMatch = val === 'lib_' + itemId || val === 'diet_' + itemId;
+                    return idMatch && text === itemDesc;
+                });
+
+                if (matchingOption.length) {
+                    $('#update_item_id').val(matchingOption.val()).trigger('change');
+                }
+
+                $('#stockUnit_update').val(pendingStockData.unit_id);
+                $('#stockOnhand_update').val(pendingStockData.stock_onhand);
+
+                pendingStockData = null;
+            }
+        });
+
+        $('#stockUpdateModal').on('hidden.bs.modal', function() {
+            if ($('#update_item_id').hasClass('select2-hidden-accessible')) {
+                $('#update_item_id').select2('destroy');
+            }
+        });
+
     });
 </script>

@@ -88,6 +88,7 @@
                     'approved_by' => $r->approved_by,
                     'office_desc' => $r->office_desc,
                     'unit_code' => $r->unit_code,
+                    'date_created' => $r->date_created,
                     'encoded_by' => $r->fullname,
                     'actions' => $btn_update . $btn_delete
                 );
@@ -102,6 +103,183 @@
 
             echo json_encode($output);
             exit();
+        }
+
+        // GET PURCHASE REQUEST
+        // Gets purchase request by id
+        // =========================================================================================================================================
+        public function getPR() 
+        {
+            $pr_model = new PurchaseRequestModel();
+            $pr_id = $this->input->post('pr_id');
+
+            $res = $pr_model->getPurchaseRequestById($pr_id);
+
+            echo json_encode($res);
+            exit();
+        }
+
+        
+        //VALIDATE PR INPUT
+        //Validated input for unwanted entries; Set security checks
+        // =========================================================================================================================================
+        protected function validatePR($selector)
+        {
+            if ($selector == 'createPR') {
+                $config = array(
+                    array('field' => 'prStock',       'label' => 'Stock',        'rules' => 'required|integer'),
+                    array('field' => 'prNumber',      'label' => 'PR Number',    'rules' => 'required'),
+                    // array('field' => 'saiNumber',     'label' => 'SAI Number',   'rules' => 'required'),
+                    array('field' => 'prOffice',      'label' => 'Office',       'rules' => 'required|integer'),
+                    array('field' => 'prQuantity',    'label' => 'Quantity',     'rules' => 'required|integer'),
+                    array('field' => 'prUnitCost',    'label' => 'Unit Cost',    'rules' => 'required|numeric'),
+                    array('field' => 'prTotalCost',   'label' => 'Total Cost',   'rules' => 'required|numeric'),
+                    // array('field' => 'prRemarks',     'label' => 'Remarks',      'rules' => 'required'),
+                    array('field' => 'prRequestedBy', 'label' => 'Requested By', 'rules' => 'required'),
+                    array('field' => 'prDesignation', 'label' => 'Designation',  'rules' => 'required'),
+                );
+            }
+            else if ($selector == 'updatePR') {
+                $config = array(
+                    array('field' => 'prId',          'label' => 'PR ID',        'rules' => 'required|integer'),
+                    array('field' => 'prStock',       'label' => 'Stock',        'rules' => 'required|integer'),
+                    array('field' => 'prNumber',      'label' => 'PR Number',    'rules' => 'required'),
+                    // array('field' => 'saiNumber',     'label' => 'SAI Number',   'rules' => 'required'),
+                    array('field' => 'prOffice',      'label' => 'Office',       'rules' => 'required|integer'),
+                    array('field' => 'prQuantity',    'label' => 'Quantity',     'rules' => 'required|integer'),
+                    array('field' => 'prUnitCost',    'label' => 'Unit Cost',    'rules' => 'required|numeric'),
+                    array('field' => 'prTotalCost',   'label' => 'Total Cost',   'rules' => 'required|numeric'),
+                    // array('field' => 'prRemarks',     'label' => 'Remarks',      'rules' => 'required'),
+                    array('field' => 'prRequestedBy', 'label' => 'Requested By', 'rules' => 'required'),
+                    array('field' => 'prDesignation', 'label' => 'Designation',  'rules' => 'required'),
+                );
+            }
+
+            return $this->form_validation->set_rules($config);
+        }
+
+        // SAVE PURCHASE REQUEST
+        // Saves a new Purchase Request
+        // =========================================================================================================================================
+        public function savePR()
+        {
+            $l_model = new LibraryModel();
+            $pr_model = new PurchaseRequestModel();
+
+            $stock_id = $_POST['prStock'];
+            $stock = $l_model->getStockById($stock_id);
+
+            $pr_data = array(
+                'unit_id'       => isset($stock->unit_id) ? intval($stock->unit_id) : null,
+                'office_id'     => $_POST['prOffice'] ?? '',
+                'pr_no'         => $_POST['prNumber'] ?? '',
+                'date_1'        => !empty($_POST['prNumber'])  ? date("Y-m-d H:i:s") : null,
+                'sai_no'        => !empty($_POST['saiNumber']) ? intval($_POST['saiNumber']) : null,
+                'date_2'        => !empty($_POST['saiNumber']) ? date("Y-m-d H:i:s") : null,
+                'stock_id'      => $_POST['prStock'] ?? '',
+                'quantity'      => intval($_POST['prQuantity']) ?? intval(0),
+                'unit_cost'     => floatval($_POST['prUnitCost']) ?? intval(0),
+                // 'total_cost'    => intval($_POST['prQuantity']) * floatval($_POST['prUnitCost']),
+                'remarks'       => $_POST['prRemarks'] ?? '',
+                'requested_by'  => $_POST['prRequestedBy'] ?? '',
+                'designation'   => $_POST['prDesignation'] ?? '',
+                // 'run_date'      => null,
+                // 'approved_by'   => null,
+                'created_by'    => $this->session->userID,
+                'date_created'  => date("Y-m-d H:i:s"),
+                'archived'      => 0
+            );
+
+            $this->validatePR('createPR');
+
+            if ($this->form_validation->run()) {
+                $this->security->xss_clean($pr_data);
+                $res = $pr_model->savePurchaseRequest($pr_data);
+                if ($res > 0) {
+                    $this->session->set_flashdata('success', 'Successfully created new Purchase Request.');
+                } else {
+                    $this->session->set_flashdata('fail', 'Failed to create new Purchase Request.');
+                }
+            } else {
+                $this->session->set_flashdata('fail', validation_errors());
+            }
+
+            redirect('PurchaseRequest/index');
+        }
+
+        // UPDATE PURCHASE REQUEST
+        // Updates a Purchase Request
+        // =========================================================================================================================================
+        public function updatePR()
+        {
+            $l_model = new LibraryModel();
+            $pr_model = new PurchaseRequestModel();
+
+            $pr_id = $_POST['prId'];
+            $stock_id = $_POST['prStock'];
+            $stock = $l_model->getStockById($stock_id);
+
+            $pr_data = array(
+                'unit_id'       => isset($stock->unit_id) ? intval($stock->unit_id) : null,
+                'office_id'     => $_POST['prOffice'] ?? '',
+                // 'pr_no'         => $_POST['prNumber'] ?? '',
+                // 'date_1'        => !empty($_POST['prNumber']) ? date("Y-m-d H:i:s") : null,
+                // 'sai_no'        => !empty($_POST['saiNumber']) ? intval($_POST['saiNumber']) : NULL,
+                // 'date_2'        => !empty($_POST['saiNumber']) ? date("Y-m-d H:i:s") : null,
+                'stock_id'      => $_POST['prStock'] ?? '',
+                'quantity'      => intval($_POST['prQuantity']) ?? intval(0),
+                'unit_cost'     => floatval($_POST['prUnitCost']) ?? floatval(0),
+                // 'total_cost'    => intval($_POST['prQuantity']) * floatval($_POST['prUnitCost']),
+                'remarks'       => $_POST['prRemarks'] ?? '',
+                'requested_by'  => $_POST['prRequestedBy'] ?? '',
+                'designation'   => $_POST['prDesignation'] ?? '',
+                // 'run_date'      => null,
+                // 'approved_by'   => null,
+                'modified_by'    => $this->session->userID,
+                'date_modified'  => date("Y-m-d H:i:s")
+            );
+
+            $this->validatePR('updatePR');
+
+            if ($this->form_validation->run()) {
+                $this->security->xss_clean($pr_data);
+                $res = $pr_model->updatePurchaseRequest($pr_data, $pr_id);
+                if ($res > 0) {
+                    $this->session->set_flashdata('success', 'Successfully updated Purchase Request.');
+                } else {
+                    $this->session->set_flashdata('fail', 'Failed to update Purchase Request.');
+                }
+            } else {
+                $this->session->set_flashdata('fail', validation_errors());
+            }
+
+            redirect('PurchaseRequest/index');
+        }
+
+        // DELETE PURCHASE REQUEST
+        // Deletes a Purchase Request
+        // =========================================================================================================================================
+        public function deletePR()
+        {
+            $pr_model = new PurchaseRequestModel();
+
+            $pr_id = $_POST['pr_id'];
+
+            $pr_data = array(
+                'modified_by' => $this->session->userID,
+                'date_modified' => date("Y-m-d H:i:s"),
+                'archived' => 1
+            );
+
+            $this->security->xss_clean($pr_data);
+            $res = $pr_model->updatePurchaseRequest($pr_data, $pr_id);
+            if ($res > 0) {
+                $this->session->set_flashdata('success', 'Successfully deleted Purchase Request.');
+            } else {
+                $this->session->set_flashdata('fail', 'Failed to delete Purchase Request.');
+            }
+
+            redirect('PurchaseRequest/index');
         }
     }
 ?>

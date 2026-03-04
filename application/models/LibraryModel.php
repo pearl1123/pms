@@ -80,6 +80,14 @@ class LibraryModel extends CI_Model
         return $this->db->affected_rows();
     }
 
+    // GET OFFICE
+    // =========================================================================================================================================
+    public function getOfficeById($office_id)
+    {
+        $this->db->where('office_id', $office_id);
+        return $this->db->get('lib_office')->row();
+    }
+
     // GET OFFICE LIST
     // =========================================================================================================================================
     public function getOfficeList($start, $length)
@@ -130,6 +138,32 @@ class LibraryModel extends CI_Model
     public function getActiveUnits()
     {
         return $this->db->where('archived', 0)->get('lib_unit')->result();
+    }
+
+    // GET STOCK
+    // =========================================================================================================================================
+    public function getStockById($stock_id)
+    {
+        // return $this->db->where('stock_id', $stock_id)->get('lib_stocks')->row();
+        $this->db->select('
+            s.stock_id, 
+            s.item_id, 
+            s.unit_id, 
+            s.stock_onhand, 
+            s.item_source,
+            u.unit_code, 
+            u2.fullname,
+            i.item_description
+        ');
+        $this->db->from('lib_stocks s');
+        $this->db->join('lib_unit u', 'u.unit_id = s.unit_id', 'left');
+        $this->db->join('aauth_users u2', 'u2.id = s.created_by', 'left');
+        $this->db->join('lib_item i', 'i.item_id = s.item_id AND s.item_source = "library"', 'left');
+        $this->db->where('s.archived', 0);
+        $this->db->where('stock_id', $stock_id);
+        $query = $this->db->get();
+
+        return $query->row();
     }
 
     // GET STOCK LIST

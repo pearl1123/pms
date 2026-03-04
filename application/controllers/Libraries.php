@@ -469,6 +469,20 @@ class Libraries extends CI_Controller
         return $this->form_validation->set_rules($config);
     }
 
+    // GET OFFICE 
+    // Gets office by office id
+    // =========================================================================================================================================
+    public function getOfficeById()
+    {
+        $office_id = $this->input->post('office_id');
+
+        $l_model = new LibraryModel();
+        $office = $l_model->getOfficeById($office_id);
+        
+        echo json_encode($office);
+        exit();
+    }
+
     // OFFICE LIST VIEW
     // Gets list of offices for data table
     // =========================================================================================================================================
@@ -1087,6 +1101,74 @@ class Libraries extends CI_Controller
         }
 
         return $this->form_validation->set_rules($config);
+    }
+
+    // GET STOCK
+    // Gets a stock by id
+    // =========================================================================================================================================
+    public function getStockById()
+    {
+        $l_model = new LibraryModel();
+        $stock_id = $this->input->post('stock_id');
+
+        $stock = $l_model->getStockById($stock_id);
+
+        $isms_items = $this->isms_db
+            ->select('id, name')
+            ->from('item_list')
+            ->get()
+            ->result();
+        $isms_lookup = [];
+        foreach ($isms_items as $item) {
+            $isms_lookup[(int)$item->id] = $item->name;
+        }
+
+        $pharmacy_items = $this->isms_db
+            ->select('
+                b.id as brand_id,
+                b.brand_name,
+                g.generic_name,
+                d.dosage_name
+            ')
+            ->from('pcsr_brand_info b')
+            ->join('pcsr_generic_info g', 'g.id = b.generic_id', 'left')
+            ->join('pcsr_dosage_form d', 'd.id = g.dosage_id', 'left')
+            ->where('b.delete_flag', 0)
+            ->where('g.delete_flag', 0)
+            ->where('d.delete_flag', 0)
+            ->get()
+            ->result();
+
+        $pharmacy_lookup = [];
+        foreach ($pharmacy_items as $p) {
+            $pharmacy_lookup[(int)$p->brand_id] =
+                $p->brand_name . ' (' . $p->generic_name . ' - ' . $p->dosage_name . ')';
+        }
+
+        if ($stock) {
+            // Build the display text
+            if ($stock->item_source === 'diet') {
+                $desc = $isms_lookup[(int)$stock->item_id] ?? '[Item not found]';
+            } else if ($stock->item_source === 'pharmacy') {
+                $desc = $pharmacy_lookup[(int)$stock->item_id] ?? '[Pharmacy item not found]';
+            } else {
+                $desc = $stock->item_description ?? '[No description]';
+            }
+
+            echo json_encode([
+                'id' => $stock->stock_id,
+                'text' => $desc . " (" . $stock->unit_code . ") - On hand: " . $stock->stock_onhand,
+                'item_description' => $desc,
+                'unit_code'        => $stock->unit_code,
+                'stock_onhand'     => $stock->stock_onhand,
+                'fullname'         => $stock->fullname,
+                'item_id'          => $stock->item_id,
+                'unit_id'          => $stock->unit_id,
+            ]);
+        } else {
+            echo json_encode(null);
+        }
+        exit();
     }
 
     // ITEM LIST VIEW

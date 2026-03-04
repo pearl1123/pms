@@ -112,10 +112,22 @@
             },
             columns: [
                 { data: 'id', name: 'pr_id'},
-                { data: 'pr_id', name: 'pr_no'},
-                { data: 'sai_id', name: 'sai_no'},
-                { data: 'office', name: 'office_desc'},
-                { data: 'date', name: 'pr_date'},
+                { data: 'pr_no', name: 'pr_no'},
+                { data: 'sai_no', name: 'sai_no'},
+                { data: 'office_desc', name: 'office_desc'},
+                // { data: 'pr_date', name: 'pr_date'},
+                { data: 'date_created', name: 'date_created',
+                    render: function(data, type, row) {
+                        if (!data) return '';
+
+                        let date = new Date(data);
+                        return date.toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: '2-digit'
+                        });
+                    }
+                },
                 { data: 'encoded_by', name: 'encoded_by'},       
                 { data: 'actions', name: 'actions'},   
             ],
@@ -138,9 +150,34 @@
             var data = ($(this).parents('tr').hasClass('child') )
                             ? tblPR.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
                             : tblPR.row($(this).parents('tr')).data(); // otherwise get original data
-            $('#attachmentID').val(data.id);
-            $('#attachmentName_update').val(data.name);
-            $('#attachmentUpdateModal').modal('show');
+
+            const $prUpdateModal = $('#prUpdateModal');
+            $.ajax({
+                url: "<?php echo base_url('PurchaseRequest/getPR'); ?>",
+                type: "POST",
+                dataType: "json",
+                data: { pr_id : data.id },
+                success:function (res) {
+                    $prUpdateModal.find('#prId').val(res.pr_id || '');
+                    $prUpdateModal.find('#prNumber').val(res.pr_no || '');
+                    $prUpdateModal.find('#saiNumber').val(res.sai_no || '');
+                    $prUpdateModal.find('#prQuantity').val(res.quantity || '').trigger('input');
+                    $prUpdateModal.find('#prUnitCost').val(res.unit_cost || '').trigger('input');
+                    $prUpdateModal.find('#prRemarks').val(res.remarks || '');
+                    $prUpdateModal.find('#prRequestedBy').val(res.requested_by || '');
+                    $prUpdateModal.find('#prDesignation').val(res.designation || '');
+                    
+                    $.when(
+                        initOfficeSelect2($prUpdateModal, res.office_id),
+                        initStockSelect2($prUpdateModal, res.stock_id)
+                    ).done(function () {
+                        $prUpdateModal.modal('show');
+                    });
+                },
+                error: function (err) {
+                    console.error(err);
+                }
+            })
         });
 
         $('#prBody').on('click', '#btnDel', function () {
@@ -159,15 +196,15 @@
             }).then((result) => {
                 if (result.value) {
                     $.ajax({
-                        url: "<?php echo base_url('Libraries/deleteAttachment'); ?>",
+                        url: "<?php echo base_url('PurchaseRequest/deletePR'); ?>",
                         async: false,
                         type: "POST",
                         datatype: "json",
-                        data: {id:id},
+                        data: {pr_id:id},
                         success: function(data) {
                             Swal.fire({
                                 title: 'Success',
-                                html: "<span class = 'text-success'><b>SUCCESS!</b></span> Successfully deleted attachment record.",
+                                html: "<span class = 'text-success'><b>SUCCESS!</b></span> Successfully deleted Purchase Request.",
                                 type: 'success',
                                 confirmButtonColor: '#3085d6',
                                 confirmButtonText: 'OK!'
@@ -187,7 +224,223 @@
         datatable();
 
         $('#btnAdd').on('click', function(){    
-            $('#prAddModal').modal("show"); 
+            const $modal = $('#prAddModal');
+            const $form = $modal.find("form");
+            $form[0].reset();
+            $form.find('select').each(function() {
+                if ($(this).hasClass('select2-hidden-accessible')) {
+                    $(this).val(null).trigger('change'); // reset Select2 value
+                }
+            });
+
+            $.when(
+                initOfficeSelect2($modal),
+                initStockSelect2($modal)
+            ).done(function () {
+                $modal.modal("show");
+            })
+            
         });
     });
+
+    function initOfficeSelect2($modal, selectedId = null) {
+        const $select = $modal.find('#prOffice');
+
+        if ($select.hasClass('select2-hidden-accessible')) {
+            $select.select2('destroy');
+        }
+
+        let deferred = $.Deferred();
+
+        if (selectedId) {
+            $.post(
+                "<?php echo base_url('Libraries/getOfficeById'); ?>",
+                { office_id: selectedId },
+                function(data) {
+                    if (data) {
+                        $select.empty();
+                        const option = new Option(data.office_desc, data.office_id, true, true);
+                        $select.append(option);
+                    }
+                    setupSelect2();
+                    deferred.resolve();
+                },
+                'json'
+            );
+        } else {
+            setupSelect2();
+            deferred.resolve();
+        }
+
+        function setupSelect2() {
+            $select.select2({
+                dropdownParent: $modal,
+                placeholder: "Search office...",
+                width: '100%',
+                minimumInputLength: 0,
+                theme: 'bootstrap-4',
+                ajax: {
+                    url: "<?php echo base_url('Libraries/getOfficeList'); ?>",
+                    dataType: 'json',
+                    delay: 250,
+                    data: function (params) {
+                        return {
+                            search: { value: params.term || '' },
+                            start: 0,
+                            length: 10,
+                            draw: 1
+                        };
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: $.map(data.data, function (item) {
+                                return {
+                                    id: item.id,
+                                    text: item.name
+                                };
+                            })
+                        };
+                    }
+                }
+            });
+        }
+
+        return deferred.promise();
+    }
+
+    function initStockSelect2($modal, selectedId = null) {
+        const $select = $modal.find('#prStock');
+
+        if ($select.hasClass('select2-hidden-accessible')) {
+            $select.select2('destroy');
+        }
+
+        let deferred = $.Deferred();
+
+        if (selectedId) {
+            $.post(
+                "<?php echo base_url('Libraries/getStockById'); ?>",
+                { stock_id: selectedId },
+                function(data) {
+                    if (data) {
+                        $select.empty();
+                        const option = new Option(data.text, data.id, true, true);
+                        $select.append(option);
+                    }
+                    setupSelect2();
+                    deferred.resolve();
+                },
+                'json'
+            );
+        } else {
+            setupSelect2();
+            deferred.resolve();
+        }
+
+        function setupSelect2() {
+            $select.select2({
+                dropdownParent: $modal,
+                placeholder: "Search stock...",
+                width: '100%',
+                minimumInputLength: 0,
+                theme: 'bootstrap-4',
+                ajax: {
+                    url: "<?php echo base_url('Libraries/getStockList'); ?>",
+                    dataType: 'json',
+                    delay: 250,
+                    data: function (params) {
+                        return {
+                            search: { value: params.term || '' },
+                            start: 0,
+                            length: 10,
+                            draw: 1
+                        };
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: $.map(data.data, function (item) {
+                                return {
+                                    id: item.id,
+                                    text: item.item_description +
+                                        " (" + item.unit_code +
+                                        ") - On hand: " + item.stock_onhand
+                                };
+                            })
+                        };
+                    }
+                }
+            });
+        }
+
+        return deferred.promise();
+        
+    }
+
+
 </script>
+
+
+<style>
+    /* Main Select2 box */
+    .select2-container--bootstrap-4 .select2-selection {
+        height: 38px; /* match your input height */
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5; 
+        border: 1px solid #ced4da;
+        border-radius: 0.375rem;
+    }
+
+    /* Text inside main box */
+    .select2-container--bootstrap-4 .select2-selection__rendered {
+        line-height: 28px; /* vertically center text */
+    }
+
+    /* Arrow on the right */
+    .select2-container--bootstrap-4 .select2-selection__arrow {
+        height: 36px;
+        right: 10px;
+    }
+
+    /* The dropdown search box */
+    .select2-container--bootstrap-4 .select2-search--dropdown .select2-search__field {
+        height: 38px; /* match your inputs */
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border: 1px solid #ced4da;
+        /* border-radius: 0.375rem; */
+        width: 100%; /* make sure it fills dropdown */
+        box-sizing: border-box;
+    }
+    /* Dropdown search box focus */
+    .select2-container--bootstrap-4 .select2-search--dropdown .select2-search__field:focus {
+        border-color: #80bdff;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        outline: 0;
+    }
+    /* Dropdown options default */
+    .select2-container--bootstrap-4 .select2-results__option {
+        padding: 0.375rem 0.75rem; /* match Bootstrap input padding */
+        font-size: 1rem;
+        line-height: 1.5;
+        cursor: pointer;
+    }
+
+    /* Hover effect */
+    .select2-container--bootstrap-4 .select2-results__option--highlighted {
+        background-color: #f8f9fa; /* light gray like Bootstrap hover */
+        color: #212529; /* default text color */
+    }
+
+    /* Selected option */
+    .select2-container--bootstrap-4 .select2-results__option[aria-selected="true"] {
+        background-color: #e9ecef; /* slightly darker gray */
+        color: #212529;
+    }
+
+    /* Optional: smooth transition */
+    .select2-container--bootstrap-4 .select2-results__option {
+        transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    }
+</style>

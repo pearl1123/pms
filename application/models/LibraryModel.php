@@ -20,7 +20,7 @@ class LibraryModel extends CI_Model
 
         $this->db->select('l1.attachment_id, l1.attachment_name, t1.fullname');
         $this->db->where(array('archived' => 0));
-        if($length > 0) {
+        if ($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
@@ -39,7 +39,8 @@ class LibraryModel extends CI_Model
 
     // UPDATE ATTACHMENT
     // =========================================================================================================================================
-    public function updateAttachment($attachment_data, $param){
+    public function updateAttachment($attachment_data, $param)
+    {
         $this->db->update('lib_attachments', $attachment_data, $param);
         return $this->db->affected_rows();
     }
@@ -54,7 +55,7 @@ class LibraryModel extends CI_Model
 
         $this->db->select('l1.item_id, l1.item_description, t1.fullname');
         $this->db->where(array('archived' => 0));
-        if($length > 0) {
+        if ($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
@@ -73,7 +74,8 @@ class LibraryModel extends CI_Model
 
     // UPDATE ITEM
     // =========================================================================================================================================
-    public function updateItem($item_data, $param){
+    public function updateItem($item_data, $param)
+    {
         $this->db->update('lib_item', $item_data, $param);
         return $this->db->affected_rows();
     }
@@ -88,7 +90,7 @@ class LibraryModel extends CI_Model
 
         $this->db->select('l1.office_id, l1.office_desc, l1.office_abbr, t1.fullname');
         $this->db->where(array('archived' => 0));
-        if($length > 0) {
+        if ($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
@@ -107,12 +109,13 @@ class LibraryModel extends CI_Model
 
     // UPDATE OFFICE
     // =========================================================================================================================================
-    public function updateOffice($office_data, $param){
+    public function updateOffice($office_data, $param)
+    {
         $this->db->update('lib_office', $office_data, $param);
         return $this->db->affected_rows();
     }
-   
-     // GET PROCUREMENT MODE LIST
+
+    // GET PROCUREMENT MODE LIST
     // =========================================================================================================================================
     public function getModeList($start, $length)
     {
@@ -122,7 +125,7 @@ class LibraryModel extends CI_Model
 
         $this->db->select('l1.proc_id, l1.proc_code, l1.proc_name, t1.fullname');
         $this->db->where(array('archived' => 0));
-        if($length > 0) {
+        if ($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
@@ -141,14 +144,64 @@ class LibraryModel extends CI_Model
 
     // UPDATE PROCURMENT MODE
     // =========================================================================================================================================
-    public function updateMode($mode_data, $param){
+    public function updateMode($mode_data, $param)
+    {
         $this->db->update('lib_procurement_mode', $mode_data, $param);
         return $this->db->affected_rows();
     }
 
 
 
+    // GET SUPPLIER LIST (For DataTables)
+    // =========================================================================================================================================
+    public function getSupplierList($start, $length)
+    {
+        // 1. Count total active records
+        $this->db->select('l1.supplier_id');
+        $this->db->from('lib_supplier l1');
+        $this->db->where('l1.archived', 0);
+        $num = $this->db->get()->num_rows();
 
+        // 2. Fetch actual data
+        $this->db->select('
+        l1.supplier_id, 
+        l1.supplier_name, 
+        l1.supplier_address, 
+        l1.supplier_email,
+        l1.supplier_contact, 
+        l1.supplier_contact_person,
+        l1.modified_by,
+        l1.created_by,
+        l1.archived,
+        t1.fullname as encoded_by_name
+    ');
+        $this->db->from('lib_supplier l1');
+        $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
+        $this->db->where('l1.archived', 0);
+
+        if ($length > 0) {
+            $this->db->limit($length, $start);
+        }
+
+        $res = $this->db->get()->result();
+
+        return array($res, $num);
+    }
+    // SAVE SUPPLIER
+    // =========================================================================================================================================
+    public function saveSupplier($supplier_data)
+    {
+        $this->db->insert('lib_supplier', $supplier_data);
+        return $this->db->insert_id();
+    }
+
+    // UPDATE SUPPLIER
+    // =========================================================================================================================================
+    public function updateSupplier($supplier_data, $param)
+    {
+        $this->db->update('lib_supplier', $supplier_data, $param);
+        return $this->db->affected_rows();
+    }
 
 
 

@@ -12,7 +12,7 @@ class LibraryModel extends CI_Model
 
     // GET ATTACHMENT LIST
     // =========================================================================================================================================
-    public function getAttachmentList($start, $length)
+    public function getAttachmentListView($start, $length)
     {
         $this->db->select('l1.attachment_id');
         $this->db->where(array('archived' => 0));
@@ -27,6 +27,13 @@ class LibraryModel extends CI_Model
         $res = $this->db->get('lib_attachments l1')->result();
 
         return array($res, $num);
+    }
+
+    // GET PROCUREMENT MODE LIST
+    // =========================================================================================================================================
+    public function getAttachmentList()
+    {
+        
     }
 
     // SAVE ATTACHMENT
@@ -293,7 +300,7 @@ class LibraryModel extends CI_Model
 
     // GET PROCUREMENT MODE LIST
     // =========================================================================================================================================
-    public function getModeList($start, $length)
+    public function getModeListView($start, $length)
     {
         $this->db->select('l1.proc_id');
         $this->db->where(array('archived' => 0));
@@ -326,9 +333,35 @@ class LibraryModel extends CI_Model
         return $this->db->affected_rows();
     }
 
+    // GET PROCUREMENT SETTINGS LIST
+    // =========================================================================================================================================
+    public function getSettingsListView($start, $length)
+    {
+        $this->db->select('l1.proc_id');
+        $this->db->where(array('archived' => 0));
+        $num = $this->db->get('lib_procurement_mode l1')->num_rows();
 
+        $this->db->select('l1.proc_id, l1.proc_code, l1.proc_name, t1.fullname');
+        $this->db->where(array('archived' => 0));
+        if($length > 0) {
+            $this->db->limit($length, $start);
+        }
+        $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
+        $res = $this->db->get('lib_procurement_mode l1')->result();
 
+        return array($res, $num);
+    }
 
+    // GET PROCUREMENT SETTINGS UPDATE
+    // =========================================================================================================================================
+    public function getSettingsUpdateView($id)
+    {
+        $this->db->select('l1.attachment_id, l1.attachment_name');
+        $this->db->where(array('archived' => 0));
+        $res = $this->db->get('lib_attachments l1')->result();
+
+        return $res;
+    }
 
 
 

@@ -86,7 +86,6 @@
                         <a class="collapse-item" href="<?php echo base_url('libraries/office'); ?>"><i class="fas fa-fw fa-circle"></i> Office</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/mode'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Mode</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/supplier'); ?>"><i class="fas fa-fw fa-circle"></i> Supplier</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/stock'); ?>"><i class="fas fa-fw fa-circle"></i> Stock</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/unit'); ?>"><i class="fas fa-fw fa-circle"></i> Unit</a>
                     </div>
                 </div>
@@ -101,7 +100,7 @@
                 <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="<?php echo base_url('libraries/procurementSettings'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Settings</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/availableStock'); ?>"><i class="fas fa-fw fa-circle"></i> Available Stock</a>
+                        <a class="collapse-item" href="<?php echo base_url('libraries/stock'); ?>"><i class="fas fa-fw fa-circle"></i> Available Stock</a>
                     </div>
                 </div>
             </li>

@@ -38,6 +38,8 @@ class User extends CI_Controller
         return $this->config->item('ci_captcha');
     }
 
+    //LOGIN MODULE
+    // =========================================================================================================================================
     public function index()
     {
         if ($this->session->logged_in) {
@@ -202,6 +204,8 @@ class User extends CI_Controller
         }
     }
 
+    // REGISTRATION MODULE
+    // =========================================================================================================================================
     public function register()
     {
         if ($this->enable_captcha()) {
@@ -247,21 +251,24 @@ class User extends CI_Controller
         $this->load->view('register', $data);
     }
 
-    public function getWardsByOffice()
-    {
-        $office_id = $this->input->post('office_id');
 
-        if (!$office_id) {
-            echo json_encode([]);
-            return;
-        }
+    // public function getWardsByOffice()
+    // {
+    //     $office_id = $this->input->post('office_id');
 
-        $this->load->model('User_model');
-        $wards = $this->User_model->get_wards_by_office($office_id);
+    //     if (!$office_id) {
+    //         echo json_encode([]);
+    //         return;
+    //     }
 
-        echo json_encode($wards);
-    }
+    //     $this->load->model('User_model');
+    //     $wards = $this->User_model->get_wards_by_office($office_id);
 
+    //     echo json_encode($wards);
+    // }
+
+    // SAVE REGISTRATION
+    // =========================================================================================================================================
     public function saveRegistration()
     {
         log_message('debug', '=== REGISTRATION START ===');
@@ -360,6 +367,9 @@ class User extends CI_Controller
             redirect('User/register');
         }
     }
+
+    // USER PROFILE
+    // =========================================================================================================================================
     public function profile()
     {
         if (!$this->session->logged_in) {
@@ -374,6 +384,8 @@ class User extends CI_Controller
         $this->load->view('profile', $data);
     }
 
+    // UPDATE USER PROFILE
+    // =========================================================================================================================================
     public function update_profile()
     {
         if (!$this->session->logged_in) {
@@ -397,18 +409,24 @@ class User extends CI_Controller
         redirect('User/profile');
     }
 
+    //LOGOUT
+    // =========================================================================================================================================
     public function logout()
     {
         session_destroy();
         redirect('User/index');
     }
 
+    // LOGOUT SESSION
+    // =========================================================================================================================================
     public function logout_sess()
     {
         $this->session->set_flashdata('success_logout', 'Session expired!');
         $this->load->view('logout');
     }
 
+    // VERIFY EMAIL
+    // =========================================================================================================================================
     public function verify_email($token)
     {
         $aModel = new AuthModel();
@@ -435,31 +453,35 @@ class User extends CI_Controller
         redirect('User/index');
     }
 
+    //RESTRICT ACCESS
+    // =========================================================================================================================================
     public function restricted_access()
     {
         $this->load->view('errors/restricted_access');
     }
 
-    public function changeUIPreference()
-    {
-        if (!$this->session->logged_in) {
-            echo json_encode(['success' => false, 'message' => 'Not logged in']);
-            return;
-        }
-        $u_model = new User_model();
-        $newUI = $this->input->post('ui');
-        $user_id = $this->session->userID;
-        $updateData = array('ui' => $newUI);
+    // public function changeUIPreference()
+    // {
+    //     if (!$this->session->logged_in) {
+    //         echo json_encode(['success' => false, 'message' => 'Not logged in']);
+    //         return;
+    //     }
+    //     $u_model = new User_model();
+    //     $newUI = $this->input->post('ui');
+    //     $user_id = $this->session->userID;
+    //     $updateData = array('ui' => $newUI);
 
-        if ($u_model->edit($user_id, $updateData)) {
-            // Update session data
-            $this->session->set_userdata('ui', $newUI);
-            echo json_encode(['success' => true]);
-        } else {
-            echo json_encode(['success' => false, 'message' => 'Failed to update UI preference']);
-        }
-    }
+    //     if ($u_model->edit($user_id, $updateData)) {
+    //         // Update session data
+    //         $this->session->set_userdata('ui', $newUI);
+    //         echo json_encode(['success' => true]);
+    //     } else {
+    //         echo json_encode(['success' => false, 'message' => 'Failed to update UI preference']);
+    //     }
+    // }
 
+    // VALIDATE USER FULL NAME
+    // =========================================================================================================================================
     public function validateFullname()
     {
         $fullname = $this->input->post('fullname');
@@ -476,6 +498,8 @@ class User extends CI_Controller
         exit;
     }
 
+    //VALIDATE OFFICE
+    // =========================================================================================================================================
     public function validateOffice()
     {
         $office_id = $this->input->post('office_id');
@@ -494,6 +518,8 @@ class User extends CI_Controller
         exit;
     }
 
+    // VALIDATE PHONE NUMBER
+    // =========================================================================================================================================
     public function validatePhone()
     {
         $phone_number = $this->input->post('phone_number');
@@ -509,6 +535,8 @@ class User extends CI_Controller
         exit;
     }
 
+    // VALIDATE EMAIL
+    // =========================================================================================================================================
     public function validateEmail()
     {
         $email = $this->input->post('email');
@@ -524,22 +552,22 @@ class User extends CI_Controller
         exit;
     }
 
-    public function getNursesJSON()
-    {
-        $search = $this->input->get('search');
+    // public function getNursesJSON()
+    // {
+    //     $search = $this->input->get('search');
 
-        $this->db->select('u.id, u.fullname');
-        $this->db->from('aauth_users u');
-        $this->db->join('aauth_user_to_group ug', 'ug.user_id = u.id', 'inner');
-        $this->db->where('ug.group_id', 6); // nurses
+    //     $this->db->select('u.id, u.fullname');
+    //     $this->db->from('aauth_users u');
+    //     $this->db->join('aauth_user_to_group ug', 'ug.user_id = u.id', 'inner');
+    //     $this->db->where('ug.group_id', 6); // nurses
 
-        if ($search) {
-            $this->db->like('u.fullname', $search);
-        }
+    //     if ($search) {
+    //         $this->db->like('u.fullname', $search);
+    //     }
 
-        $this->db->order_by('u.fullname', 'ASC');
-        $query = $this->db->get();
+    //     $this->db->order_by('u.fullname', 'ASC');
+    //     $query = $this->db->get();
 
-        echo json_encode(['success' => true, 'data' => $query->result()]);
-    }
+    //     echo json_encode(['success' => true, 'data' => $query->result()]);
+    // }
 }

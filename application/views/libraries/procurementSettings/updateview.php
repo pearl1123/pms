@@ -1,9 +1,7 @@
 <div class="container-fluid">
 
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Procurement Settings</h1>
-        <button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" id="btnAdd">
-            <i class="fas fa-plus fa-sm text-white-50"></i> Add Procurement Setting</button>
+        <h1 class="h3 mb-0 text-gray-800">Update Procurement Settings</h1>
     </div>
 
     <hr/>
@@ -14,7 +12,8 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item">Configuration</li>
-            <li class="breadcrumb-item active" aria-current="page">Procurement Setting</li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url("Libraries/procurementSettings"); ?>">Procurement Setting</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Update Procurement Setting</li>
         </ol>
     </nav>
 
@@ -49,6 +48,7 @@
         </div>
         <div class="card-body">
             <div class="table-responsive">
+                
                 <table class="table table-bordered" id="tblMode" width="100%" cellspacing="0">
                     <thead>
                         <tr>
@@ -101,7 +101,7 @@
             'paging': true,
             "lengthMenu": [10, 15, 20],
             "ajax": {
-                url : "<?php echo base_url("Libraries/getSettingsList/"); ?>",
+                url : "<?php echo base_url("Libraries/getModeList/"); ?>",
                 type : 'GET'    
             },
             "language": {
@@ -129,51 +129,5 @@
             order: [1,'desc']
         });
 
-        $('#modeBody').on('click', '#btnDel', function () {
-            var data = ($(this).parents('tr').hasClass('child') )
-                        ? tblMode.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
-                        : tblMode.row($(this).parents('tr')).data(); // otherwise get original data
-            var id = data.id;
-            Swal.fire({
-                title: 'Delete?',
-                html: "<span class = 'text-danger'><b>WARNING!</b></span> You will not be able to undo this action.",
-                type: 'warning',
-                showCancelButton: true,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Yes, proceed!'
-            }).then((result) => {
-                if (result.value) {
-                    $.ajax({
-                        url: "<?php echo base_url('Libraries/deleteMode'); ?>",
-                        async: false,
-                        type: "POST",
-                        datatype: "json",
-                        data: {id:id},
-                        success: function(data) {
-                            Swal.fire({
-                                title: 'Success',
-                                html: "<span class = 'text-success'><b>SUCCESS!</b></span> Successfully deleted procurement mode record.",
-                                type: 'success',
-                                confirmButtonColor: '#3085d6',
-                                confirmButtonText: 'OK!'
-                            }).then((result) => {
-                                location.reload();
-                            });
-                        }
-                    });
-            
-                }
-            });
-        });
-
     }
-
-    $(document).ready(function() {
-        datatable();
-
-        $('#btnAdd').on('click', function(){    
-            $('#modeAddModal').modal("show"); 
-        });
-    });
 </script>

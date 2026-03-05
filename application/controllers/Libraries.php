@@ -75,7 +75,7 @@ class Libraries extends CI_Controller
         $length = intval($this->input->get("length"));
         $l_model = new LibraryModel();
 
-        $results = $l_model->getAttachmentList($start, $length);
+        $results = $l_model->getAttachmentListView($start, $length);
 
         $data = array();
 
@@ -686,7 +686,7 @@ class Libraries extends CI_Controller
         $length = intval($this->input->get("length"));
         $l_model = new LibraryModel();
 
-        $results = $l_model->getModeList($start, $length);
+        $results = $l_model->getModeListView($start, $length);
 
         $data = array();
 
@@ -802,17 +802,18 @@ class Libraries extends CI_Controller
         redirect('Libraries/mode');
     }
 
-    // PROCUREMENT MODE LIST VIEW
-    // Displays module for mode; Library Module
+    // PROCUREMENT SETTINGS VIEW
+    // Displays module for settings; Library Module
     // =========================================================================================================================================
     public function procurementSettings()
     {
+        $l_model = new LibraryModel();
         $data = array(
             'csrf' => $this->csrf(),
             'csrf_ajax' => $this->csrf_ajax(),
             'fullname' => $this->session->fullname
         );
-
+        
         #notification placeholder for now need to configure this later
         $data['notif'] = 1;
         $data['config'] = 1;
@@ -821,8 +822,111 @@ class Libraries extends CI_Controller
         $this->load->view('header', $data);
         $this->load->view('libraries/procurementSettings/listview');
         $this->load->view('libraries/procurementSettings/modal_add');
-        $this->load->view('libraries/procurementSettings/modal_update');
         $this->load->view('footer');
+    }
+
+    // PROCUREMENT SETTINGS LIST VIEW
+    // Gets list of procurement modes for data table
+    // =========================================================================================================================================
+    public function getSettingsList()
+    {
+        $draw = intval($this->input->get("draw"));
+        $start = intval($this->input->get("start"));
+        $length = intval($this->input->get("length"));
+        $l_model = new LibraryModel();
+
+        $results = $l_model->getSettingsListView($start, $length);
+
+        $data = array();
+
+        foreach($results[0] as $r){
+            $btn_update = '<a href="'.base_url("Libraries/updateProcurementSetting/") . $r->proc_id.'" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></a> ';
+            $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
+
+            $data[] = array(
+                'id' => $r->proc_id,
+                'code' => $r->proc_code,
+                'name' => $r->proc_name,
+                'encoded_by' => $r->fullname,
+                'actions' => $btn_update . $btn_delete
+            );
+        }
+
+        $output = array(
+            "draw" => $draw,
+            "recordsTotal" => $results[1],
+            "recordsFiltered" => $results[1],
+            "data" => $data
+        );
+
+        echo json_encode($output);
+        exit();
+    }
+
+    // VIEW UPDATE PROCUREMENT SETTING
+    // Display view for procurement setting update
+    // =========================================================================================================================================
+    public function updateProcurementSetting($id)
+    {
+        $l_model = new LibraryModel();
+
+        $attachment = $l_model->getSettingsUpdateView($id);
+        
+        $data = array(
+            'csrf' => $this->csrf(),
+            'csrf_ajax' => $this->csrf_ajax(),
+            'fullname' => $this->session->fullname,
+            'attachment' => $attachment
+        );
+
+        #notification placeholder for now need to configure this later
+        $data['notif'] = 1;
+        $data['config'] = 1;
+        $data['ondue'] = 1;
+
+        $this->load->view('header', $data);
+        $this->load->view('libraries/procurementSettings/updateview');
+        $this->load->view('footer');
+    }
+
+    // UPDATE PROCUREMENT MODE
+    // Updates existing procurement mode
+    // =========================================================================================================================================
+    public function updateSettings(){
+        $l_model = new LibraryModel();
+
+        foreach($_POST['attachments'] as $attach){
+            $mode_data = array(
+                'proc_code' => htmlentities($_POST['proc_code']),
+                'attachments' => $attach,
+                'modified_by' => $this->session->userID,
+                'date_modified' => date("Y-m-d H:i:s")
+            );
+
+            $param = array('proc_id' => htmlentities($_POST['proc_id']));
+
+            $res = $l_model->updateMode($mode_data, $param);
+            if ($res > 0) {
+                $this->session->set_flashdata('success', 'Successfully updated procurement mode record.');
+            } else {
+                $this->session->set_flashdata('fail', 'Failed to update procurement mode record.');
+            }
+        } 
+
+        // $this->validateMode('updateMode');
+
+        // if($this->form_validation->run()){
+        //     $this->security->xss_clean($mode_data);
+        //     $res = $l_model->updateMode($mode_data, $param);
+        //     if ($res > 0) {
+        //         $this->session->set_flashdata('success', 'Successfully updated procurement mode record.');
+        //     } else {
+        //         $this->session->set_flashdata('fail', 'Failed to update procurement mode record.');
+        //     }
+        // } else {
+        //     $this->session->set_flashdata('fail', validation_errors());
+        // }
+        redirect('Libraries/mode');
     }
 
 

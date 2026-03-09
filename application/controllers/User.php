@@ -191,13 +191,13 @@ class User extends CI_Controller
 
             // Redirect based on role
             if ($is_super_admin || $is_default || $is_nurse) {
-                redirect('PatientRegistration/allpatientList');
+                redirect('PurchaseRequest');
             } elseif ($is_patient) {
-                redirect('PatientDashboard/index');
+                redirect('PurchaseRequest');
             } elseif ($is_doctor) {
-                redirect('Doctor/doctor_listview');
+                redirect('PurchaseRequest');
             } elseif ($is_med_rec) {
-                redirect('MedicalRecords/medicalrecords_listview');
+                redirect('PurchaseRequest');
             } else {
                 redirect('User/index');
             }

@@ -17,6 +17,7 @@ class UserManagement extends CI_Controller
         $data = [
             'fullname' => $this->session->userdata('fullname'),
             'offices' => $this->User_Model->get_offices(),
+            'groups'   => $this->User_Model->get_groups(),
             'notif' => 1,
             'confi' => 1,
             'ondue' => 1
@@ -60,11 +61,12 @@ class UserManagement extends CI_Controller
         ]);
     }
 
-
     public function edit($id)
     {
         $data['user'] = $this->User_Model->get_user($id);
         $data['groups'] = $this->User_Model->get_groups();
+        $data['offices'] = $this->User_Model->get_offices();
+
         $this->load->view('user/UpdateUser', $data);
     }
 

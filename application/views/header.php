@@ -92,6 +92,12 @@
             </li>
 
             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('UserManagement'); ?>">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>User Management</span></a>
+            </li>
+
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages1"
                     aria-expanded="true" aria-controls="collapsePages1">
                     <i class="fas fa-fw fa-tools"></i>

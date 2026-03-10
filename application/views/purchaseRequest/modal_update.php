@@ -7,7 +7,7 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <form action="<?php echo base_url("PurchaseRequest/updatePR");?>" method="post" class="form-horizontal" id="formPRAdd">
+            <form action="<?php echo base_url("PurchaseRequest/updatePR"); ?>" method="post" class="form-horizontal" id="formPRAdd">
                 <div class="modal-body">
                     <input type="hidden" name="prId" id="prId">
                     <div class="row">
@@ -19,6 +19,12 @@
                             <label for="saiNumber">SAI Number</label>
                             <input type="text" class="form-control" name="saiNumber" id="saiNumber" inputmode="numeric" pattern="[0-9]*" readonly>
                         </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="proc_id">Procurement Mode <span class="text-danger">*</span></label>
+                        <select name="proc_id" id="proc_id" class="form-control select2" required>
+                            <option></option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="prOffice">Office <span class="text-danger">*</span></label>
@@ -69,25 +75,25 @@
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         const $prUpdateModal = $("#prUpdateModal");
 
-        $prUpdateModal.on('shown.bs.modal', function () {
+        $prUpdateModal.on('shown.bs.modal', function() {
             $(this).find('#prNumber').trigger('focus');
         });
 
         $prUpdateModal.off("input", "#prQuantity, #prUnitCost")
-        .on("input", "#prQuantity, #prUnitCost", function () {
-            const prQty   = $prUpdateModal.find("#prQuantity").val() || 0;
-            const prCost  = $prUpdateModal.find("#prUnitCost").val() || 0;
-            const prTotal = $prUpdateModal.find("#prTotalCost");
-            const total = prQty * prCost;
+            .on("input", "#prQuantity, #prUnitCost", function() {
+                const prQty = $prUpdateModal.find("#prQuantity").val() || 0;
+                const prCost = $prUpdateModal.find("#prUnitCost").val() || 0;
+                const prTotal = $prUpdateModal.find("#prTotalCost");
+                const total = prQty * prCost;
 
-            prTotal.val(total.toFixed(2));
-        })
+                prTotal.val(total.toFixed(2));
+            })
 
-        document.querySelectorAll('#prNumber, #saiNumber').forEach(function (el) {
-            el.addEventListener('input', function () {
+        document.querySelectorAll('#prNumber, #saiNumber').forEach(function(el) {
+            el.addEventListener('input', function() {
                 this.value = this.value.replace(/[^0-9]/g, '');
             });
         });

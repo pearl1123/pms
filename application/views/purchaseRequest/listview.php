@@ -6,7 +6,7 @@
             <i class="fas fa-plus fa-sm text-white-50"></i> Create Purchase Request</button>
     </div>
 
-    <hr/>
+    <hr />
 
     <!-- BREADCRUMBS
     ========================================================================================================================================= -->
@@ -19,7 +19,7 @@
 
     <!-- ALERTS
     ========================================================================================================================================= -->
-    <?php if ($this->session->flashdata('fail') <> null){ ?>
+    <?php if ($this->session->flashdata('fail') <> null) { ?>
         <div class="alert alert-danger">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <i class="fa fa-times" aria-hidden="true"></i>
@@ -29,10 +29,10 @@
             </span>
         </div>
     <?php } ?>
-    <?php if ($this->session->flashdata('success') <> null){ ?>
+    <?php if ($this->session->flashdata('success') <> null) { ?>
         <div class="alert alert-success">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <i class="fa fa-times" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
             </button>
             <span>
                 <?php echo $this->session->flashdata('success'); ?>
@@ -54,6 +54,7 @@
                             <th>No.</th>
                             <th>PR No.</th>
                             <th>SAI No.</th>
+                            <th>Procurement Mode</th>
                             <th>Department</th>
                             <th>Date</th>
                             <th>Encoded By</th>
@@ -65,6 +66,7 @@
                             <th>No.</th>
                             <th>PR No.</th>
                             <th>SAI No.</th>
+                            <th>Procurement Mode</th>
                             <th>Department</th>
                             <th>Date</th>
                             <th>Encoded By</th>
@@ -78,6 +80,7 @@
         </div>
     </div>
 
+    <?php $this->load->view('PurchaseRequest/modal_add'); ?>
 </div>
 
 <!-- CLOSING TAGS
@@ -86,6 +89,7 @@
 </div>
 </div>
 </body>
+
 </html>
 
 <!-- SCRIPTS
@@ -95,28 +99,47 @@
 <script src="<?php echo base_url('assets/frameworks/sbadmin/vendor/datatables/dataTables.bootstrap4.min.js'); ?>"></script>
 
 <script>
-    function datatable(){
+    var tblPR;
+
+    function datatable() {
         var tblPR = $('#tblPR').DataTable({
-            "responsive": true, 
+            "responsive": true,
             "autoWidth": false,
-            'serverSide': true,  
-            'processing':true,
+            'serverSide': true,
+            'processing': true,
             'paging': true,
             "lengthMenu": [10, 15, 20],
             "ajax": {
-                url : "<?php echo base_url("purchaserequest/getPRList/"); ?>",
-                type : 'GET'    
+                url: "<?php echo base_url("purchaserequest/getPRList/"); ?>",
+                type: 'GET'
             },
             "language": {
                 "emptyTable": "No Results"
             },
-            columns: [
-                { data: 'id', name: 'pr_id'},
-                { data: 'pr_no', name: 'pr_no'},
-                { data: 'sai_no', name: 'sai_no'},
-                { data: 'office_desc', name: 'office_desc'},
+            columns: [{
+                    data: 'id',
+                    name: 'pr_id'
+                },
+                {
+                    data: 'pr_no',
+                    name: 'pr_no'
+                },
+                {
+                    data: 'sai_no',
+                    name: 'sai_no'
+                },
+                {
+                    data: 'proc_name',
+                    name: 'proc_name'
+                },
+                {
+                    data: 'office_desc',
+                    name: 'office_desc'
+                },
                 // { data: 'pr_date', name: 'pr_date'},
-                { data: 'date_created', name: 'date_created',
+                {
+                    data: 'date_created',
+                    name: 'date_created',
                     render: function(data, type, row) {
                         if (!data) return '';
 
@@ -128,36 +151,44 @@
                         });
                     }
                 },
-                { data: 'encoded_by', name: 'encoded_by'},       
-                { data: 'actions', name: 'actions'},   
-            ],
-            'columnDefs': [
                 {
-                    'targets': [1,2,3],
+                    data: 'encoded_by',
+                    name: 'encoded_by'
+                },
+                {
+                    data: 'actions',
+                    name: 'actions'
+                },
+            ],
+            'columnDefs': [{
+                    'targets': [1, 2, 3],
                     'visible': true,
                     'orderable': true
                 },
-                {   
+                {
                     'targets': [0],
                     'visible': false,
                     'orderable': false
-                }        
+                }
             ],
-            order: [1,'desc']
+            order: [1, 'desc']
         });
 
-        $('#prBody').on('click', '#btnUpdate', function () {
-            var data = ($(this).parents('tr').hasClass('child') )
-                            ? tblPR.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
-                            : tblPR.row($(this).parents('tr')).data(); // otherwise get original data
+        $('#prBody').on('click', '#btnUpdate', function() {
+            var data = ($(this).parents('tr').hasClass('child')) ?
+                tblPR.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
+                :
+                tblPR.row($(this).parents('tr')).data(); // otherwise get original data
 
             const $prUpdateModal = $('#prUpdateModal');
             $.ajax({
                 url: "<?php echo base_url('PurchaseRequest/getPR'); ?>",
                 type: "POST",
                 dataType: "json",
-                data: { pr_id : data.id },
-                success:function (res) {
+                data: {
+                    pr_id: data.id
+                },
+                success: function(res) {
                     $prUpdateModal.find('#prId').val(res.pr_id || '');
                     $prUpdateModal.find('#prNumber').val(res.pr_no || '');
                     $prUpdateModal.find('#saiNumber').val(res.sai_no || '');
@@ -166,24 +197,26 @@
                     $prUpdateModal.find('#prRemarks').val(res.remarks || '');
                     $prUpdateModal.find('#prRequestedBy').val(res.requested_by || '');
                     $prUpdateModal.find('#prDesignation').val(res.designation || '');
-                    
+
                     $.when(
                         initOfficeSelect2($prUpdateModal, res.office_id),
-                        initStockSelect2($prUpdateModal, res.stock_id)
-                    ).done(function () {
+                        initStockSelect2($prUpdateModal, res.stock_id),
+                        initProcurementModeSelect2($prUpdateModal, res.stock_id),
+                    ).done(function() {
                         $prUpdateModal.modal('show');
                     });
                 },
-                error: function (err) {
+                error: function(err) {
                     console.error(err);
                 }
             })
         });
 
-        $('#prBody').on('click', '#btnDel', function () {
-            var data = ($(this).parents('tr').hasClass('child') )
-                        ? tblPR.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
-                        : tblPR.row($(this).parents('tr')).data(); // otherwise get original data
+        $('#prBody').on('click', '#btnDel', function() {
+            var data = ($(this).parents('tr').hasClass('child')) ?
+                tblPR.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
+                :
+                tblPR.row($(this).parents('tr')).data(); // otherwise get original data
             var id = data.id;
             Swal.fire({
                 title: 'Delete?',
@@ -200,7 +233,9 @@
                         async: false,
                         type: "POST",
                         datatype: "json",
-                        data: {pr_id:id},
+                        data: {
+                            pr_id: id
+                        },
                         success: function(data) {
                             Swal.fire({
                                 title: 'Success',
@@ -213,34 +248,63 @@
                             });
                         }
                     });
-            
+
                 }
             });
         });
 
+        $('#tblPR').on('click', '#btnAttachment', function() {
+
+            var pr_id = $(this).data('prid'); // read from button
+
+            const $modal = $('#prAttachmentModal');
+
+            $modal.find('form')[0].reset();
+            $modal.find('#pr_id').val(pr_id);
+
+            $modal.modal('show');
+
+        });
+
+    }
+
+    function initAttachmentSelect2($modal) {
+        return $modal.find('#prAttachment').select2({
+            dropdownParent: $modal, // Important inside modal
+            width: '100%',
+            placeholder: "-- Select Attachment --",
+            allowClear: true
+        });
     }
 
     $(document).ready(function() {
+
         datatable();
 
-        $('#btnAdd').on('click', function(){    
+        $('#btnAdd').on('click', function() {
             const $modal = $('#prAddModal');
             const $form = $modal.find("form");
-            $form[0].reset();
+
+            if ($form.length > 0 && $form[0]) {
+                $form[0].reset();
+            }
+
             $form.find('select').each(function() {
                 if ($(this).hasClass('select2-hidden-accessible')) {
-                    $(this).val(null).trigger('change'); // reset Select2 value
+                    $(this).val(null).trigger('change');
                 }
             });
 
             $.when(
                 initOfficeSelect2($modal),
-                initStockSelect2($modal)
-            ).done(function () {
+                initStockSelect2($modal),
+                initAttachmentSelect2($modal),
+                initProcurementModeSelect2($modal)
+            ).done(function() {
                 $modal.modal("show");
-            })
-            
+            });
         });
+
     });
 
     function initOfficeSelect2($modal, selectedId = null) {
@@ -254,8 +318,9 @@
 
         if (selectedId) {
             $.post(
-                "<?php echo base_url('Libraries/getOfficeById'); ?>",
-                { office_id: selectedId },
+                "<?php echo base_url('Libraries/getOfficeById'); ?>", {
+                    office_id: selectedId
+                },
                 function(data) {
                     if (data) {
                         $select.empty();
@@ -283,17 +348,19 @@
                     url: "<?php echo base_url('Libraries/getOfficeList'); ?>",
                     dataType: 'json',
                     delay: 250,
-                    data: function (params) {
+                    data: function(params) {
                         return {
-                            search: { value: params.term || '' },
+                            search: {
+                                value: params.term || ''
+                            },
                             start: 0,
                             length: 10,
                             draw: 1
                         };
                     },
-                    processResults: function (data) {
+                    processResults: function(data) {
                         return {
-                            results: $.map(data.data, function (item) {
+                            results: $.map(data.data, function(item) {
                                 return {
                                     id: item.id,
                                     text: item.name
@@ -319,8 +386,9 @@
 
         if (selectedId) {
             $.post(
-                "<?php echo base_url('Libraries/getStockById'); ?>",
-                { stock_id: selectedId },
+                "<?php echo base_url('Libraries/getStockById'); ?>", {
+                    stock_id: selectedId
+                },
                 function(data) {
                     if (data) {
                         $select.empty();
@@ -348,17 +416,19 @@
                     url: "<?php echo base_url('Libraries/getStockList'); ?>",
                     dataType: 'json',
                     delay: 250,
-                    data: function (params) {
+                    data: function(params) {
                         return {
-                            search: { value: params.term || '' },
+                            search: {
+                                value: params.term || ''
+                            },
                             start: 0,
                             length: 10,
                             draw: 1
                         };
                     },
-                    processResults: function (data) {
+                    processResults: function(data) {
                         return {
-                            results: $.map(data.data, function (item) {
+                            results: $.map(data.data, function(item) {
                                 return {
                                     id: item.id,
                                     text: item.item_description +
@@ -373,27 +443,92 @@
         }
 
         return deferred.promise();
-        
+
     }
 
+    function initProcurementModeSelect2($modal, selectedId = null) {
+        const $select = $modal.find('#proc_id');
 
+        // Destroy existing Select2 if already initialized
+        if ($select.hasClass('select2-hidden-accessible')) {
+            $select.select2('destroy');
+        }
+
+        let deferred = $.Deferred();
+
+        // If a selected ID is provided, load it first
+        if (selectedId) {
+            $.post(
+                "<?php echo base_url('PurchaseRequest/getProcurementModeById'); ?>", {
+                    proc_id: selectedId
+                },
+                function(data) {
+                    if (data) {
+                        $select.empty();
+                        const option = new Option(data.proc_name, data.proc_id, true, true);
+                        $select.append(option);
+                    }
+                    setupSelect2();
+                    deferred.resolve();
+                },
+                'json'
+            );
+        } else {
+            setupSelect2();
+            deferred.resolve();
+        }
+
+        function setupSelect2() {
+            $select.select2({
+                dropdownParent: $modal,
+                placeholder: "Search procurement mode...",
+                width: '100%',
+                minimumInputLength: 0,
+                theme: 'bootstrap-4',
+                ajax: {
+                    url: "<?php echo base_url('PurchaseRequest/getProcurementModeList'); ?>",
+                    dataType: 'json',
+                    delay: 250,
+                    data: function(params) {
+                        return {
+                            search: params.term || ''
+                        };
+                    },
+                    processResults: function(data) {
+                        return {
+                            results: $.map(data, function(item) {
+                                return {
+                                    id: item.proc_id,
+                                    text: item.proc_name
+                                };
+                            })
+                        };
+                    }
+                }
+            });
+        }
+
+        return deferred.promise();
+    }
 </script>
 
 
 <style>
     /* Main Select2 box */
     .select2-container--bootstrap-4 .select2-selection {
-        height: 38px; /* match your input height */
+        height: 38px;
+        /* match your input height */
         padding: 0.375rem 0.75rem;
         font-size: 1rem;
-        line-height: 1.5; 
+        line-height: 1.5;
         border: 1px solid #ced4da;
         border-radius: 0.375rem;
     }
 
     /* Text inside main box */
     .select2-container--bootstrap-4 .select2-selection__rendered {
-        line-height: 28px; /* vertically center text */
+        line-height: 28px;
+        /* vertically center text */
     }
 
     /* Arrow on the right */
@@ -404,24 +539,29 @@
 
     /* The dropdown search box */
     .select2-container--bootstrap-4 .select2-search--dropdown .select2-search__field {
-        height: 38px; /* match your inputs */
+        height: 38px;
+        /* match your inputs */
         padding: 0.375rem 0.75rem;
         font-size: 1rem;
         line-height: 1.5;
         border: 1px solid #ced4da;
         /* border-radius: 0.375rem; */
-        width: 100%; /* make sure it fills dropdown */
+        width: 100%;
+        /* make sure it fills dropdown */
         box-sizing: border-box;
     }
+
     /* Dropdown search box focus */
     .select2-container--bootstrap-4 .select2-search--dropdown .select2-search__field:focus {
         border-color: #80bdff;
-        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
         outline: 0;
     }
+
     /* Dropdown options default */
     .select2-container--bootstrap-4 .select2-results__option {
-        padding: 0.375rem 0.75rem; /* match Bootstrap input padding */
+        padding: 0.375rem 0.75rem;
+        /* match Bootstrap input padding */
         font-size: 1rem;
         line-height: 1.5;
         cursor: pointer;
@@ -429,13 +569,16 @@
 
     /* Hover effect */
     .select2-container--bootstrap-4 .select2-results__option--highlighted {
-        background-color: #f8f9fa; /* light gray like Bootstrap hover */
-        color: #212529; /* default text color */
+        background-color: #f8f9fa;
+        /* light gray like Bootstrap hover */
+        color: #212529;
+        /* default text color */
     }
 
     /* Selected option */
     .select2-container--bootstrap-4 .select2-results__option[aria-selected="true"] {
-        background-color: #e9ecef; /* slightly darker gray */
+        background-color: #e9ecef;
+        /* slightly darker gray */
         color: #212529;
     }
 

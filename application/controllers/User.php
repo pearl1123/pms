@@ -136,67 +136,62 @@ class User extends CI_Controller
             $userGroup = $aModel->getAllGroupsByUID($userDetails->id);
 
             // Set flags
-            $is_super_admin = $is_default = $is_patient = $is_nurse = $is_user_admin = $is_reg_admit = $is_med_rec = $is_doctor = 0;
+            $is_procurement = 0;
+            $is_finance = 0;
+            $is_hr = 0;
+            $is_misd = 0;
+            $is_admin_office = 0;
+
             foreach ($userGroup as $u) {
+
                 switch ($u->group_id) {
-                    case 1:
-                        $is_default = 1;
+
+                    case 11:
+                        $is_procurement = 1;
                         break;
-                    case 2:
-                        $is_admin = 1;
+
+                    case 12:
+                        $is_finance = 1;
                         break;
-                    case 3:
-                        $is_user_admin = 1;
+
+                    case 13:
+                        $is_hr = 1;
                         break;
-                    case 4:
-                        $is_super_admin = 1;
+
+                    case 14:
+                        $is_misd = 1;
                         break;
-                    case 5:
-                        $is_doctor = 1;
+
+                    case 15:
+                        $is_admin_office = 1;
                         break;
-                    case 6:
-                        $is_nurse = 1;
-                        break;
-                    case 7:
-                        $is_reg_admit = 1;
-                        break;
-                    case 8:
-                        $is_med_rec = 1;
-                        break;
-                    default:
-                        $is_patient = 1;
                 }
             }
 
-            // Set session
+            // set session
             $this->session->set_userdata([
                 'userID'        => $userDetails->id,
                 'fullname'      => $userDetails->fullname,
                 'email'         => $userDetails->email,
                 'office'        => $userDetails->office,
-                'date_created'  => $userDetails->date_created,
                 'logged_in'     => TRUE,
-                'is_super_admin' => $is_super_admin,
-                'is_default'    => $is_default,
-                'is_patient'    => $is_patient,
-                'is_nurse'      => $is_nurse,
-                'is_doctor'     => $is_doctor,
-                'is_user_admin' => $is_user_admin,
-                'is_reg_admit'  => $is_reg_admit,
-                'is_med_rec'    => $is_med_rec,
                 'user_group'    => $userGroup,
                 'doctor_id'     => $userDetails->doctor_id,
-                'ui'            => $userDetails->ui
+                'ui'            => $userDetails->ui,
+
+                'is_procurement' => $is_procurement,
+                'is_finance'     => $is_finance,
+                'is_hr'          => $is_hr,
+                'is_misd'        => $is_misd,
+                'is_admin_office' => $is_admin_office
             ]);
 
             // Redirect based on role
-            if ($is_super_admin || $is_default || $is_nurse) {
+            if ($is_procurement || $is_finance || $is_hr) {
                 redirect('PurchaseRequest');
-            } elseif ($is_patient) {
+            } elseif ($is_misd) {
                 redirect('PurchaseRequest');
-            } elseif ($is_doctor) {
-                redirect('PurchaseRequest');
-            } elseif ($is_med_rec) {
+            } elseif ($is_admin_office) {
                 redirect('PurchaseRequest');
             } else {
                 redirect('User/index');

@@ -81,6 +81,7 @@
     </div>
 
     <?php $this->load->view('PurchaseRequest/modal_add'); ?>
+    <?php $this->load->view('PurchaseRequest/modal_item'); ?>
 </div>
 
 <!-- CLOSING TAGS
@@ -202,6 +203,7 @@
                         initOfficeSelect2($prUpdateModal, res.office_id),
                         initStockSelect2($prUpdateModal, res.stock_id),
                         initProcurementModeSelect2($prUpdateModal, res.stock_id),
+                        initProcurementModeSelect2($prUpdateModal, res.proc_id),
                     ).done(function() {
                         $prUpdateModal.modal('show');
                     });
@@ -266,6 +268,15 @@
 
         });
 
+        $(document).on('click', '#btnAddItem', function() {
+            const prId = $(this).data('prid');
+            const $modal = $('#prAddItem');
+            $modal.find('form')[0].reset();
+            $modal.find('input[name="pr_id"]').val(prId);
+            initStockSelect2AddItem($modal);
+            $modal.modal('show');
+        });
+
     }
 
     function initAttachmentSelect2($modal) {
@@ -303,6 +314,26 @@
             ).done(function() {
                 $modal.modal("show");
             });
+        });
+
+        // MODAL ITEM
+        const $prAddItem = $('#prAddItem');
+        const $qty = $prAddItem.find("#prQuantity");
+        const $unit = $prAddItem.find("#prUnitCost");
+        const $total = $prAddItem.find("#prTotalCost");
+
+        function calculateTotalCost() {
+            const prQty = parseFloat($qty.val()) || 0;
+            const prCost = parseFloat($unit.val()) || 0;
+            const total = prQty * prCost;
+            $total.val(total.toFixed(2));
+        }
+
+        $qty.add($unit).on("input change", calculateTotalCost);
+
+        $prAddItem.on('show.bs.modal', function() {
+            $(this).find("form")[0].reset();
+            $total.val('0.00');
         });
 
     });
@@ -433,7 +464,7 @@
                                     id: item.id,
                                     text: item.item_description +
                                         " (" + item.unit_code +
-                                        ") - On hand: " + item.stock_onhand
+                                        ") - Stock: " + item.stock_onhand
                                 };
                             })
                         };
@@ -510,8 +541,54 @@
 
         return deferred.promise();
     }
-</script>
 
+    function initStockSelect2AddItem($modal, selectedId = null) {
+        const $select = $modal.find('#prStock');
+
+        if ($select.hasClass('select2-hidden-accessible')) {
+            $select.select2('destroy');
+        }
+
+        $select.select2({
+            dropdownParent: $modal,
+            placeholder: "Search item...",
+            width: '100%',
+            minimumInputLength: 0,
+            theme: 'bootstrap-4',
+            ajax: {
+                url: "<?php echo base_url('Libraries/getStockList'); ?>",
+                dataType: 'json',
+                delay: 250,
+                data: function(params) {
+                    return {
+                        search: params.term || '',
+                        start: 0,
+                        length: 10
+                    };
+                },
+                processResults: function(data) {
+                    return {
+                        results: data.data.map(item => ({
+                            id: item.id,
+                            text: item.item_description + " (" + item.unit_code + ") - Stock: " + item.stock_onhand
+                        }))
+                    };
+                }
+            }
+        });
+
+        if (selectedId) {
+            $.post("<?php echo base_url('Libraries/getStockById'); ?>", {
+                stock_id: selectedId
+            }, function(data) {
+                if (data) {
+                    const option = new Option(data.text, data.id, true, true);
+                    $select.append(option).trigger('change');
+                }
+            }, 'json');
+        }
+    }
+</script>
 
 <style>
     /* Main Select2 box */

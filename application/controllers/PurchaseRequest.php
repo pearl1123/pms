@@ -126,7 +126,8 @@ class PurchaseRequest extends CI_Controller
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat mr-1" data-toggle="tooltip" title="Delete"><i class="fa fa-fw fa-trash"></i> </button>';
 
         foreach ($results[0] as $r) {
-            $btn_attachment = '<button type="button" id="btnAttachment" class="btn btn-sm btn-warning btn-flat" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Attachment"><i class="fa fa-fw fa-file"></i></button>';
+            $btn_attachment = '<button type="button" id="btnAttachment" class="btn btn-sm btn-warning btn-flat mr-1" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Attachment"><i class="fa fa-fw fa-file"></i></button>';
+            $btn_item = '<button type="button" id="btnAddItem" class="btn btn-sm btn-info btn-flat" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Item"><i class="fa fa-fw fa-shopping-cart"></i></button>';
             $data[] = array(
                 'id' => $r->pr_id,
                 'pr_no' => $r->pr_no,
@@ -145,7 +146,7 @@ class PurchaseRequest extends CI_Controller
                 'unit_code' => $r->unit_code,
                 'date_created' => $r->date_created,
                 'encoded_by' => $r->fullname,
-                'actions' => $btn_update . $btn_delete . $btn_attachment
+                'actions' => $btn_update . $btn_delete . $btn_attachment . $btn_item
             );
         }
 

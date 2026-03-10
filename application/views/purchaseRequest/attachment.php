@@ -29,7 +29,6 @@
 <script>
     $(document).ready(function() {
 
-        // Load attachments when modal opens
         $('#prAttachmentModal').on('shown.bs.modal', function() {
             var pr_id = $('#pr_id').val();
             var $container = $('#attachmentContainer');
@@ -104,7 +103,6 @@
             });
         });
 
-        // Upload button per row
         $(document).on('click', '.btnUpload', function() {
 
             var attachment_id = $(this).data('attachment');
@@ -133,11 +131,9 @@
                     if (data.success) {
                         alert('Upload successful: ' + data.message);
 
-                        // Update uploaded filename in the table without reloading
                         var rowTd = $('.file-input[data-attachment="' + attachment_id + '"]')
                             .closest('tr').find('td:nth-child(2)');
 
-                        // Replace underscores with spaces
                         var originalName = (data.original_file_name || fileInput.files[0].name).replace(/_/g, ' ');
                         var fileLink = `<a href="<?php echo base_url('assets/uploads/pr_attachments/'); ?>${data.file_name}" 
                                         target="_blank" class="text-success">
@@ -146,7 +142,6 @@
                         rowTd.html(fileLink);
                         rowTd.html('<span class="text-success">' + originalName + '</span>');
 
-                        // Clear the file input
                         fileInput.value = '';
                     } else {
                         alert('Upload failed: ' + data.message);
@@ -162,85 +157,3 @@
 
     });
 </script>
-
-<!-- <script>
-    $(document).ready(function() {
-
-        $('#prAttachmentModal').on('shown.bs.modal', function() {
-
-            var pr_id = $('#pr_id').val();
-            var $container = $('#attachmentContainer');
-
-            $container.empty();
-
-            if (!pr_id) {
-                console.log('PR ID missing');
-                return;
-            }
-
-            $.ajax({
-                url: "<?php echo base_url('PurchaseRequest/getPRAttachments'); ?>",
-                type: "POST",
-                data: {
-                    pr_id: pr_id
-                },
-                dataType: "json",
-                success: function(res) {
-
-                    if (res.length > 0) {
-
-                        var table = `
-                        <table class="table table-bordered table-striped">
-                            <thead class="thead-light">
-                                <tr>
-                                    <th width="50%">Attachment</th>
-                                    <th width="15%">Required</th>
-                                    <th width="35%">Upload File</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tblAttachments">
-                            </tbody>
-                        </table>
-                    `;
-
-                        $container.append(table);
-
-                        res.forEach(function(a) {
-
-                            var requiredBadge = a.required == 1 ?
-                                '<span class="badge badge-danger">Required</span>' :
-                                '<span class="badge badge-secondary">Optional</span>';
-
-                            var row = `
-                            <tr>
-                                <td>${a.attachment_name}</td>
-                                <td>${requiredBadge}</td>
-                                <td>
-                                    <input type="file"
-                                           class="form-control-file"
-                                           name="attachments[${a.attachment_id}]"
-                                           accept=".pdf,.doc,.docx,.jpg,.png">
-                                </td>
-                            </tr>
-                        `;
-
-                            $('#tblAttachments').append(row);
-
-                        });
-
-                    } else {
-
-                        $container.append('<p class="text-center">No attachments required for this PR.</p>');
-
-                    }
-
-                },
-                error: function(err) {
-                    console.error(err);
-                }
-            });
-
-        });
-
-    });
-</script> -->

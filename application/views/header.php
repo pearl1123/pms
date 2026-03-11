@@ -64,6 +64,12 @@
                     <span>Purchase Request List</span></a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('PPMP'); ?>">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>PPMP</span></a>
+            </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider">
 

@@ -56,8 +56,8 @@
                             <th>Item</th>
                             <th>Unit</th>
                             <th>Stock Onhand</th>
-                            <th>Encoded By</th>
-                            <th>Action</th>
+                            <th style="width: 10%;">Encoded By</th>
+                            <th style="width: 8%;">Action</th>
                         </tr>
                     </thead>
                     <tfoot>

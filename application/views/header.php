@@ -82,6 +82,7 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="<?php echo base_url('libraries/attachment'); ?>"><i class="fas fa-fw fa-circle"></i> Attachments</a>
+                        <a class="collapse-item" href="<?php echo base_url('libraries/fund'); ?>"><i class="fas fa-fw fa-circle"></i> Fund Source</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/item'); ?>"><i class="fas fa-fw fa-circle"></i> Item</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/office'); ?>"><i class="fas fa-fw fa-circle"></i> Office</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/mode'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Mode</a>

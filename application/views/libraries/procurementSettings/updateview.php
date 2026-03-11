@@ -52,23 +52,41 @@
                 <table class="table table-bordered" id="tblMode" width="100%" cellspacing="0">
                     <thead>
                         <tr>
-                            <th>No.</th>
-                            <th>Procurement Code</th>
-                            <th>Procurement Name</th>
-                            <th>Encoded By</th>
-                            <th>Action</th>
+                            <th></th>
+                            <th>Attachment</th>
                         </tr>
                     </thead>
                     <tfoot>
                         <tr>
-                            <th>No.</th>
-                            <th>Procurement Code</th>
-                            <th>Procurement Name</th>
-                            <th>Encoded By</th>
-                            <th>Action</th>
+                            <th></th>
+                            <th>Attachment</th>
                         </tr>
                     </tfoot>
                     <tbody id="modeBody">
+                        <?php 
+                            $list = array();
+                            foreach($proc_attach as $p){
+                                array_push($list, $p->attachment_id);
+                            }
+
+                            $proc = implode(" ", $list);
+                            foreach($attachment as $a){
+                                
+                                $pos = strpos($proc, $a->attachment_id);
+                                $check = "";
+                                $pos != '' ? $check = 'checked' : $check = 'unchecked';
+                        ?>
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="<?php echo $check; ?>" id="<?php echo $a->attachment_id;?>" <?php echo $check; ?> onchange="updateSettings(<?php echo $a->attachment_id;?>, '<?php echo $proc_code; ?>');">
+                                    </div>
+                                </td>
+                                <td style="width: 90%"><?= $a->attachment_name ?></td>
+                            </tr>
+                        <?php
+                            }
+                        ?>
                     </tbody>
                 </table>
             </div>
@@ -128,6 +146,26 @@
             ],
             order: [1,'desc']
         });
+    }
 
+    function updateSettings(id, code){
+        var value = $('#'+id).val();
+        $.ajax({
+            url: "<?php echo base_url('Libraries/updateSettings/'); ?>" + id + "/" + code + "/" + value,
+            async: false,
+            type: "POST",
+            datatype: "json",
+            success: function(data) {
+                Swal.fire({
+                    title: 'Success',
+                    html: "<span class = 'text-success'><b>SUCCESS!</b></span> Successfully updated attachment list.",
+                    type: 'success',
+                    confirmButtonColor: '#3085d6',
+                    confirmButtonText: 'OK!'
+                }).then((result) => {
+                    location.reload();
+                });
+            }
+        });
     }
 </script>

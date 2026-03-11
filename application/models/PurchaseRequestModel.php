@@ -8,7 +8,7 @@
             parent::__construct();
         }
 
-        // GET ATTACHMENT LIST
+        // GET PURCHASE REQUEST LIST
         // =========================================================================================================================================
         public function getPRList($start, $length)
         {

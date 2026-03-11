@@ -802,6 +802,10 @@ class Libraries extends CI_Controller
         redirect('Libraries/mode');
     }
 
+
+
+
+
     // PROCUREMENT SETTINGS VIEW
     // Displays module for settings; Library Module
     // =========================================================================================================================================
@@ -840,7 +844,7 @@ class Libraries extends CI_Controller
         $data = array();
 
         foreach($results[0] as $r){
-            $btn_update = '<a href="'.base_url("Libraries/updateProcurementSetting/") . $r->proc_id.'" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></a> ';
+            $btn_update = '<a href="'.base_url("Libraries/updateProcurementSetting/") . $r->proc_code.'" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></a> ';
             $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
 
             $data[] = array(
@@ -871,12 +875,14 @@ class Libraries extends CI_Controller
         $l_model = new LibraryModel();
 
         $attachment = $l_model->getSettingsUpdateView($id);
-        
+
         $data = array(
             'csrf' => $this->csrf(),
             'csrf_ajax' => $this->csrf_ajax(),
             'fullname' => $this->session->fullname,
-            'attachment' => $attachment
+            'attachment' => $attachment[0],
+            'proc_attach' => $attachment[1],
+            'proc_code' => $attachment[2]
         );
 
         #notification placeholder for now need to configure this later
@@ -892,41 +898,31 @@ class Libraries extends CI_Controller
     // UPDATE PROCUREMENT MODE
     // Updates existing procurement mode
     // =========================================================================================================================================
-    public function updateSettings(){
+    public function updateSettings($id, $code, $value){
         $l_model = new LibraryModel();
 
-        foreach($_POST['attachments'] as $attach){
-            $mode_data = array(
-                'proc_code' => htmlentities($_POST['proc_code']),
-                'attachments' => $attach,
+        if($value == 'checked'){
+            $settings_data = array(
+                'archived' => 1,
                 'modified_by' => $this->session->userID,
                 'date_modified' => date("Y-m-d H:i:s")
             );
+            $param = array('attachment_id' => $id, 'proc_code' => $code);
 
-            $param = array('proc_id' => htmlentities($_POST['proc_id']));
+            $res = $l_model->updateSettings($settings_data, $param);
 
-            $res = $l_model->updateMode($mode_data, $param);
-            if ($res > 0) {
-                $this->session->set_flashdata('success', 'Successfully updated procurement mode record.');
-            } else {
-                $this->session->set_flashdata('fail', 'Failed to update procurement mode record.');
-            }
-        } 
+        } else if($value == 'unchecked') {
+            $settings_data = array(
+                'proc_code' => $code,
+                'attachment_id' => $id,
+                'created_by' => $this->session->userID,
+                'date_created' => date("Y-m-d H:i:s")
+            );
 
-        // $this->validateMode('updateMode');
+            $res = $l_model->saveSettings($settings_data);
+        }
 
-        // if($this->form_validation->run()){
-        //     $this->security->xss_clean($mode_data);
-        //     $res = $l_model->updateMode($mode_data, $param);
-        //     if ($res > 0) {
-        //         $this->session->set_flashdata('success', 'Successfully updated procurement mode record.');
-        //     } else {
-        //         $this->session->set_flashdata('fail', 'Failed to update procurement mode record.');
-        //     }
-        // } else {
-        //     $this->session->set_flashdata('fail', validation_errors());
-        // }
-        redirect('Libraries/mode');
+        redirect('Libraries/updateProcurementSetting/'.$code);
     }
 
 
@@ -1518,5 +1514,186 @@ class Libraries extends CI_Controller
         } else {
             echo json_encode(['status' => 'fail', 'message' => 'Failed to delete stock record.']);
         }
+    }
+
+
+
+
+
+    // FUND SOURCE LIST VIEW
+    // Displays module for attachment; Library Module
+    // =========================================================================================================================================
+    public function fund()
+    {
+        $data = array(
+            'csrf' => $this->csrf(),
+            'csrf_ajax' => $this->csrf_ajax(),
+            'fullname' => $this->session->fullname
+        );
+
+        #notification placeholder for now need to configure this later
+        $data['notif'] = 1;
+        $data['config'] = 1;
+        $data['ondue'] = 1;
+
+        $this->load->view('header', $data);
+        $this->load->view('libraries/fund/listview');
+        $this->load->view('libraries/fund/modal_add');
+        $this->load->view('libraries/fund/modal_update');
+        $this->load->view('footer');
+    }
+
+    // FUND SOURCE LIST VIEW
+    // Gets list of attachments for data table
+    // =========================================================================================================================================
+    public function getFundList()
+    {
+        $draw = intval($this->input->get("draw"));
+        $start = intval($this->input->get("start"));
+        $length = intval($this->input->get("length"));
+        $l_model = new LibraryModel();
+
+        $results = $l_model->getFundListView($start, $length);
+
+        $data = array();
+
+        $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title=""><i class="fa fa-fw fa-pencil"></i></button> ';
+        $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
+
+        foreach ($results[0] as $r) {
+            $data[] = array(
+                'id' => $r->fund_id,
+                'name' => $r->fund_name,
+                'encoded_by' => $r->fullname,
+                'actions' => $btn_update . $btn_delete
+            );
+        }
+
+        $output = array(
+            "draw" => $draw,
+            "recordsTotal" => $results[1],
+            "recordsFiltered" => $results[1],
+            "data" => $data
+        );
+
+        echo json_encode($output);
+        exit();
+    }
+
+    //FUND SOURCE ATTACHMENT
+    //Validated input for unwanted entries; Set security checks
+    // =========================================================================================================================================
+    protected function validateFund($selector)
+    {
+        if ($selector == 'createFund') {
+            $config = array(
+                array(
+                    'field' => 'fund_name',
+                    'label' => 'Fund Source Name',
+                    'rules' => 'regex_match[/^[)\([\]\/\,:0-9a-zA-Z\-\.\s]+$/]|required',
+                )
+            );
+        } else if ($selector == 'updateFund') {
+            $config = array(
+                array(
+                    'field'   => 'fund_id',
+                    'label'   => 'Fund Source ID',
+                    'rules'   => 'required',
+                ),
+                array(
+                    'field' => 'fund_name',
+                    'label' => 'Fund Source Name',
+                    'rules' => 'regex_match[/^[)\([\]\/\,:0-9a-zA-Z\-\.\s]+$/]|required',
+                )
+            );
+        }
+
+        return $this->form_validation->set_rules($config);
+    }
+
+    // SAVE FUND SOURCE
+    // Saves newly created attachment
+    // =========================================================================================================================================
+    public function saveFund()
+    {
+        $l_model = new LibraryModel();
+
+        $fund_data = array(
+            'fund_name' => htmlentities($_POST['fund_name']),
+            'created_by' => $this->session->userID,
+            'date_created' => date("Y-m-d H:i:s")
+        );
+
+        $this->validateFund('createFund');
+
+        if ($this->form_validation->run()) {
+            $this->security->xss_clean($fund_data);
+            $res = $l_model->saveFund($fund_data);
+            if ($res > 0) {
+                $this->session->set_flashdata('success', 'Successfully created new fund source record.');
+            } else {
+                $this->session->set_flashdata('fail', 'Failed to create new fund source record.');
+            }
+        } else {
+            $this->session->set_flashdata('fail', validation_errors());
+        }
+        redirect('Libraries/fund');
+    }
+
+    // UPDATE FUND SOURCE
+    // Updates existing attachment
+    // =========================================================================================================================================
+    public function updateFund()
+    {
+        $l_model = new LibraryModel();
+
+        $fund_data = array(
+            'fund_name' => htmlentities($_POST['fund_name']),
+            'modified_by' => $this->session->userID,
+            'date_modified' => date("Y-m-d H:i:s")
+        );
+
+        $param = array('fund_id' => htmlentities($_POST['fund_id']));
+
+        $this->validateFund('updateFund');
+
+        if ($this->form_validation->run()) {
+            $this->security->xss_clean($fund_data);
+            $res = $l_model->updateFund($fund_data, $param);
+            if ($res > 0) {
+                $this->session->set_flashdata('success', 'Successfully updated fund source record.');
+            } else {
+                $this->session->set_flashdata('fail', 'Failed to update fund source record.');
+            }
+        } else {
+            $this->session->set_flashdata('fail', validation_errors());
+        }
+        redirect('Libraries/fund');
+    }
+
+    // DELETE FUND SOURCE
+    // Deletes existing attachment
+    // =========================================================================================================================================
+    public function deleteFund()
+    {
+        $l_model = new LibraryModel();
+
+        $fund_data = array(
+            'modified_by' => $this->session->userID,
+            'date_modified' => date("Y-m-d H:i:s"),
+            'archived' => 1
+        );
+
+        $param = array('fund_id' => htmlentities($_POST['id']));
+
+        $this->security->xss_clean($fund_data);
+        $res = $l_model->updateFund($fund_data, $param);
+        if ($res > 0) {
+            $this->session->set_flashdata('success', 'Successfully deleted fund source record.');
+        } else {
+            $this->session->set_flashdata('fail', 'Failed to delete fund source record.');
+        }
+
+        redirect('Libraries/fund');
     }
 }

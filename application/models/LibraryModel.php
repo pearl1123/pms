@@ -29,13 +29,6 @@ class LibraryModel extends CI_Model
         return array($res, $num);
     }
 
-    // GET PROCUREMENT MODE LIST
-    // =========================================================================================================================================
-    public function getAttachmentList()
-    {
-        
-    }
-
     // SAVE ATTACHMENT
     // =========================================================================================================================================
     public function saveAttachment($attachment_data)
@@ -129,9 +122,6 @@ class LibraryModel extends CI_Model
         $this->db->update('lib_office', $office_data, $param);
         return $this->db->affected_rows();
     }
-
-
-
 
     // GET ITEM STOCK
     // =========================================================================================================================================
@@ -358,12 +348,65 @@ class LibraryModel extends CI_Model
     {
         $this->db->select('l1.attachment_id, l1.attachment_name');
         $this->db->where(array('archived' => 0));
-        $res = $this->db->get('lib_attachments l1')->result();
+        $attach = $this->db->get('lib_attachments l1')->result();
 
-        return $res;
+        $this->db->select('l1.proc_attch_id, l1.attachment_id');
+        $this->db->where(array('archived' => 0, 'proc_code' => $id));
+        $proc_attach = $this->db->get('lib_procurement_attachment l1')->result();
+
+        return array($attach, $proc_attach, $id);
     }
 
+    // SAVE SETTINGS
+    // =========================================================================================================================================
+    public function saveSettings($settings_data)
+    {
+        $this->db->insert('lib_procurement_attachment', $settings_data);
+        return $this->db->insert_id();
+    }
 
+    // UPDATE SETTINGS
+    // =========================================================================================================================================
+    public function updateSettings($settings_data, $param)
+    {
+        $this->db->update('lib_procurement_attachment', $settings_data, $param);
+        return $this->db->affected_rows();
+    }
+
+    // GET FUND LIST
+    // =========================================================================================================================================
+    public function getFundListView($start, $length)
+    {
+        $this->db->select('l1.fund_id');
+        $this->db->where(array('archived' => 0));
+        $num = $this->db->get('lib_funds l1')->num_rows();
+
+        $this->db->select('l1.fund_id, l1.fund_name, t1.fullname');
+        $this->db->where(array('archived' => 0));
+        if ($length > 0) {
+            $this->db->limit($length, $start);
+        }
+        $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
+        $res = $this->db->get('lib_funds l1')->result();
+
+        return array($res, $num);
+    }
+
+    // SAVE ATTACHMENT
+    // =========================================================================================================================================
+    public function saveFund($fund_data)
+    {
+        $this->db->insert('lib_funds', $fund_data);
+        return $this->db->insert_id();
+    }
+
+    // UPDATE ATTACHMENT
+    // =========================================================================================================================================
+    public function updateFund($fund_data, $param)
+    {
+        $this->db->update('lib_funds', $fund_data, $param);
+        return $this->db->affected_rows();
+    }
 
 
     public function getAllPermissionPerGroupModule($group_id)

@@ -2,8 +2,6 @@
 
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Procurement Settings</h1>
-        <button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" id="btnAdd">
-            <i class="fas fa-plus fa-sm text-white-50"></i> Add Procurement Setting</button>
     </div>
 
     <hr/>
@@ -101,7 +99,7 @@
             'paging': true,
             "lengthMenu": [10, 15, 20],
             "ajax": {
-                url : "<?php echo base_url("Libraries/getModeList/"); ?>",
+                url : "<?php echo base_url("Libraries/getSettingsList/"); ?>",
                 type : 'GET'    
             },
             "language": {
@@ -127,16 +125,6 @@
                 }        
             ],
             order: [1,'desc']
-        });
-
-        $('#modeBody').on('click', '#btnUpdate', function () {
-            var data = ($(this).parents('tr').hasClass('child') )
-                            ? tblMode.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
-                            : tblMode.row($(this).parents('tr')).data(); // otherwise get original data
-            $('#modeID').val(data.id);
-            $('#modeCode_update').val(data.code);
-			$('#modeName_update').val(data.name);
-            $('#modeUpdateModal').modal('show');
         });
 
         $('#modeBody').on('click', '#btnDel', function () {

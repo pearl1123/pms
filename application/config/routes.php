@@ -49,19 +49,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'PatientRegistration/inpatientList';
+$route['default_controller'] = 'PurchaseRequest';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['ClinicalNotes/listview/(:num)'] = 'ClinicalNotes/listview/$1';
-$route['patientregistration/save_clinical_note'] = 'PatientRegistration/save_clinical_note';
-$route['patientregistration/save_selected_form_data'] = 'patientregistration/save_selected_form_data';
-$route['patientregistration/get_form_fields_ajax'] = 'patientregistration/get_form_fields_ajax';
-$route['patientregistration/dynamic_form_list/(:any)/(:num)'] = 'patientregistration/dynamic_form_list/$1/$2';
-$route['patientregistration/dynamic_form_view/(:any)/(:num)'] = 'patientregistration/dynamic_form_view/$1/$2';
-$route['patient-registration/form-list/(:any)/(:num)'] = 'PatientRegistration/form_list_view/$1/$2';
-$route['patient-registration/ajax-form-list/(:any)/(:num)'] = 'PatientRegistration/ajax_form_list/$1/$2';
-$route['patientregistration/generate_pdf/(:num)/(:num)/(:any)'] = 'PatientRegistration/generate_pdf/$1/$2/$3';
-$route['load-physical-exam-view'] = 'PatientNotes/load_physical_exam_view';
-$route['Clinical_Notes'] = 'PatientDocuments/PatientDocuments';
-$route['PatientRegistration/public_profile/(:num)'] = 'PatientRegistration/patientProfileRev/$1';
-$route['patient/profile/(:num)'] = 'PatientRegistration/patientProfilePublic/$1';

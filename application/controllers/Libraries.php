@@ -1851,7 +1851,6 @@ class Libraries extends CI_Controller
         $l_model = new LibraryModel();
         $perm_data = array(
             'permission_name' => htmlentities($this->input->post('name')),
-            'definition'      => htmlentities($this->input->post('definition')),
             'encoded_by'      => $this->session->userID,
             'date_encoded'    => date("Y-m-d H:i:s"),
             'archived'        => 0
@@ -1933,13 +1932,13 @@ class Libraries extends CI_Controller
         if ($selector == 'createPerm') {
             $config = array(
                 array('field' => 'name', 'label' => 'Name', 'rules' => 'required'),
-                array('field' => 'definition', 'label' => 'Definition', 'rules' => 'required')
+               
             );
         } else if ($selector == 'updatePerm') {
             $config = array(
                 array('field' => 'id', 'label' => 'ID', 'rules' => 'required'),
                 array('field' => 'name_u', 'label' => 'Name', 'rules' => 'required'),
-                array('field' => 'definition_u', 'label' => 'Definition', 'rules' => 'required')
+           
             );
         }
         return $this->form_validation->set_rules($config);

@@ -98,6 +98,8 @@
                         <a class="collapse-item" href="<?php echo base_url('libraries/item'); ?>"><i class="fas fa-fw fa-circle"></i> Item</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/office'); ?>"><i class="fas fa-fw fa-circle"></i> Office</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/mode'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Mode</a>
+                        <a class="collapse-item" href="<?php echo base_url('libraries/group'); ?>"><i class="fas fa-fw fa-circle"></i> Group</a>
+                        <a class="collapse-item" href="<?php echo base_url('libraries/permission'); ?>"><i class="fas fa-fw fa-circle"></i> Permissions</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/supplier'); ?>"><i class="fas fa-fw fa-circle"></i> Supplier</a>
                         <a class="collapse-item" href="<?php echo base_url('libraries/unit'); ?>"><i class="fas fa-fw fa-circle"></i> Unit</a>
                     </div>

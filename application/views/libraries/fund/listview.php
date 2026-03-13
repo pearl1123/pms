@@ -54,13 +54,8 @@
                         <tr>
                             <th>No.</th>
                             <th>Fund Source</th>
-<<<<<<< HEAD
-                            <th>Encoded By</th>
-                            <th>Action</th>
-=======
                             <th style="width: 10%;">Encoded By</th>
                             <th style="width: 8%;">Action</th>
->>>>>>> 1271112f1ee0d0f9611ccfa5590b425ec2a7d3d4
                         </tr>
                     </thead>
                     <tfoot>

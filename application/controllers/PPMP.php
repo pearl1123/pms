@@ -62,11 +62,17 @@
         // =========================================================================================================================================
         public function ppmpList($year)
         {
+            $l_model = new LibraryModel();
+
             $data = array(
                 'csrf' => $this->csrf(),
                 'csrf_ajax' => $this->csrf_ajax(),
                 'fullname' => $this->session->fullname,
-                'year' => $year
+                'year' => $year,
+                'unit' => $l_model->getActiveUnits(),
+                'mode' => $l_model->getActiveMode(),
+                'source' => $l_model->getActiveSource(),
+                'attachment' => $l_model->getActiveAttachment()
             );
 
             #notification placeholder for now need to configure this later
@@ -76,6 +82,7 @@
 
             $this->load->view('header', $data);
             $this->load->view('ppmp/ppmpitems');
+            $this->load->view('ppmp/modal_add');
             $this->load->view('footer');
         }
 
@@ -134,9 +141,38 @@
             $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
 
             foreach($results[0] as $r){
+
+                $project_type = 0;
+
+                switch($r->ppmp_project_type){
+                    case 1:
+                        $project_type = "Goods";
+                    break;
+
+                    case 2:
+                        $project_type = "Infrastructure";
+                    break;
+
+                    case 3:
+                        $project_type = "Consulting Services";
+                    break;
+
+                    default:
+                        $project_type = "";
+                    break;
+                }
+
                 $data[] = array(
                     'id' => $r->ppmp_id,
                     'year' => $r->ppmp_year,
+                    'general_description' => $r->ppmp_genaral_description,
+                    'project_type' => $project_type,
+                    'quantity' => $r->ppmp_quantity . ' ' .$r->unit_code,
+                    'cost' => $r->ppmp_cost,
+                    'proc_mode'=> $r->proc_code,
+                    'fund_name' => $r->fund_name,
+                    'pre-proc' => $r->ppmp_pre_proc,
+                    'remarks' => $r->ppmp_remarks,
                     'encoded_by' => $r->fullname,
                     'actions' => $btn_update . $btn_delete
                 );

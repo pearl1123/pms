@@ -53,14 +53,13 @@
                     <thead>
                         <tr>
                             <th>No.</th>
+                            <th>Year</th>
                             <th>General Description and Objective of the Project to be Procured</th>
                             <th>Type of the Project to be Procured</th>
                             <th>Quantity and Size of the Project to be Procured</th>
                             <th>Recommended Mode of Procurement</th>
                             <th>Source of Funds</th>
                             <th>Estimated Budget / Authorized Budgetary Allocation (PhP)</th>
-                            <th>Quantity</th>
-                            <th>Unit Cost per Item</th>
                             <th>Encoded By</th>
                             <th>Action</th>
                         </tr>
@@ -68,14 +67,13 @@
                     <tfoot>
                         <tr>
                             <th>No.</th>
+                            <th>Year</th>
                             <th>General Description and Objective of the Project to be Procured</th>
                             <th>Type of the Project to be Procured</th>
                             <th>Quantity and Size of the Project to be Procured</th>
                             <th>Recommended Mode of Procurement</th>
                             <th>Source of Funds</th>
                             <th>Estimated Budget / Authorized Budgetary Allocation (PhP)</th>
-                            <th>Quantity</th>
-                            <th>Unit Cost per Item</th>
                             <th>Encoded By</th>
                             <th>Action</th>
                         </tr>
@@ -113,7 +111,7 @@
             'paging': true,
             "lengthMenu": [10, 15, 20],
             "ajax": {
-                url : "<?php echo base_url("Libraries/getPPMPItemList/"); ?>",
+                url : "<?php echo base_url("PPMP/getPPMPItemList/"); ?>",
                 type : 'GET'    
             },
             "language": {
@@ -121,18 +119,24 @@
             },
             columns: [
                 { data: 'id', name: 'id'},
-                { data: 'name', name: 'attachment_name'},
+                { data: 'year', name: 'year'},
+                { data: 'general_description', name: 'general_description'},
+                { data: 'project_type', name: 'project_type'},
+                { data: 'quantity', name: 'quantity'},
+                { data: 'proc_mode', name: 'proc_mode'},
+                { data: 'fund_name', name: 'fund_name'},
+                { data: 'cost', name: 'cost'},
                 { data: 'encoded_by', name: 'encoded_by'},       
                 { data: 'actions', name: 'actions'},   
             ],
             'columnDefs': [
                 {
-                    'targets': [1,2,3],
+                    'targets': [2,3,4,5,6,7,8,9],
                     'visible': true,
                     'orderable': true
                 },
                 {   
-                    'targets': [0],
+                    'targets': [0,1],
                     'visible': false,
                     'orderable': false
                 }        
@@ -193,7 +197,7 @@
         datatable();
 
         $('#btnAdd').on('click', function(){    
-            $('#attachmentAddModal').modal("show"); 
+            $('#ppmpAddModal').modal("show"); 
         });
     });
 </script>

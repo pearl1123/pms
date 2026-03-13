@@ -43,6 +43,13 @@ class LibraryModel extends CI_Model
         return $this->db->affected_rows();
     }
 
+    // GET ACTIVE ATTACHMENT
+    // =========================================================================================================================================   
+    public function getActiveAttachment()
+    {
+        return $this->db->where('archived', 0)->get('lib_attachments')->result();
+    }
+
     // GET ITEM LIST
     public function getItemList($start, $length)
     {
@@ -314,6 +321,13 @@ class LibraryModel extends CI_Model
         return $this->db->affected_rows();
     }
 
+    // GET ACTIVE PROCUREMENT MODE
+    // =========================================================================================================================================   
+    public function getActiveMode()
+    {
+        return $this->db->where('archived', 0)->get('lib_procurement_mode')->result();
+    }
+
     // GET PROCUREMENT SETTINGS LIST
     // =========================================================================================================================================
     public function getSettingsListView($start, $length)
@@ -364,7 +378,7 @@ class LibraryModel extends CI_Model
         return $this->db->affected_rows();
     }
 
-    // GET FUND LIST
+    // GET FUND SOURCE LIST
     // =========================================================================================================================================
     public function getFundListView($start, $length)
     {
@@ -383,7 +397,7 @@ class LibraryModel extends CI_Model
         return array($res, $num);
     }
 
-    // SAVE ATTACHMENT
+    // SAVE FUND SOURCE
     // =========================================================================================================================================
     public function saveFund($fund_data)
     {
@@ -391,12 +405,19 @@ class LibraryModel extends CI_Model
         return $this->db->insert_id();
     }
 
-    // UPDATE ATTACHMENT
+    // UPDATE FUND SOURCE
     // =========================================================================================================================================
     public function updateFund($fund_data, $param)
     {
         $this->db->update('lib_funds', $fund_data, $param);
         return $this->db->affected_rows();
+    }
+
+    // GET ACTIVE FUND SOURCE
+    // =========================================================================================================================================   
+    public function getActiveSource()
+    {
+        return $this->db->where('archived', 0)->get('lib_funds')->result();
     }
 
 

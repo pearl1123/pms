@@ -29,7 +29,6 @@
 
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <button class="btn btn-primary" type="button" id="btnSaveRemarks">Submit</button>
             </div>
         </div>
     </div>
@@ -101,8 +100,7 @@
                                     <input type="text"
                                         class="form-control remarks-input"
                                         data-attachment="${a.attachment_id}"
-                                        placeholder="Enter remarks..."
-                                        value="${a.remarks ?? ''}">
+                                        value="${a.remarks ?? ''}" readonly>
                                 </td>
                                 <td class="text-center">
                                     <button type="button"
@@ -120,7 +118,7 @@
                     }
 
                     $('#prAttachmentModal').modal('show');
-                    $('#overlay').hide(); // hide loader
+                    $('#overlay').hide();
                 },
                 error: function(err) {
                     console.error(err);
@@ -158,75 +156,48 @@
                 processData: false,
                 contentType: false,
                 success: function(res) {
+
                     var data = typeof res === 'string' ? JSON.parse(res) : res;
 
                     if (data.success) {
-                        alert('Upload successful: ' + data.message);
+
+                        Swal.fire({
+                            type: 'success',
+                            title: 'Upload Successful',
+                            text: data.message,
+                            confirmButtonColor: '#3085d6'
+                        });
 
                         var row = $('.file-input[data-attachment="' + attachment_id + '"]').closest('tr');
+
                         var originalName = (data.original_file_name || fileInput.files[0].name).replace(/_/g, ' ');
+
                         var fileLink = `<a href="<?php echo base_url('assets/uploads/pr_attachments/'); ?>${data.file_name}" 
-                                        target="_blank" class="text-success">${originalName}</a>`;
+                            target="_blank" class="text-success">${originalName}</a>`;
+
                         row.find('td:nth-child(2)').html(fileLink);
                         fileInput.value = '';
-                    } else {
-                        alert('Upload failed: ' + data.message);
-                    }
-                },
-                error: function(err) {
-                    console.error(err);
-                    alert('Upload failed: See console for details.');
-                }
-            });
-        });
-
-        // SUBMIT button — saves all remarks in one batch
-        $(document).on('click', '#btnSaveRemarks', function() {
-            var pr_id = $('#pr_id').val();
-            var remarksData = [];
-
-            $('.remarks-input').each(function() {
-                remarksData.push({
-                    attachment_id: $(this).data('attachment'),
-                    remarks: $(this).val()
-                });
-            });
-
-            $.ajax({
-                url: "<?php echo base_url('PurchaseRequest/saveRemarks'); ?>",
-                type: "POST",
-                data: {
-                    pr_id: pr_id,
-                    remarks: remarksData
-                },
-                dataType: "json",
-                success: function(res) {
-
-                    if (res.success) {
-
-                        Swal.fire({
-                            type: "success",
-                            title: "Remarks saved successfully",
-                            text: res.message,
-                            confirmButtonText: "OK"
-                        }).then(function() {
-                            location.reload();
-                        });
 
                     } else {
 
                         Swal.fire({
-                            type: "error",
-                            title: "Failed to save Remarks",
-                            text: res.message
+                            type: 'error',
+                            title: 'Upload Failed',
+                            text: data.message
                         });
 
                     }
-
                 },
                 error: function(err) {
+
                     console.error(err);
-                    alert('Error saving remarks.');
+
+                    Swal.fire({
+                        type: 'error',
+                        title: 'Upload Failed',
+                        text: 'See console for details.'
+                    });
+
                 }
             });
         });

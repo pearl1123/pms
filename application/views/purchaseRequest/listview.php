@@ -814,7 +814,7 @@
         }
     }
 
-    $(document).on('click', '#btnAddItem', function() {
+    $(document).on('click', '.btnAddItem', function() {
         const prId = $(this).data('prid');
         const $modal = $('#prAddItem');
 
@@ -867,7 +867,6 @@
                             $select.append(option);
                         }
 
-                        // Initialize Select2 first
                         $select.select2({
                             placeholder: "-- Select Item --",
                             dropdownParent: $modal,
@@ -894,17 +893,10 @@
                             }
                         });
 
-                        // After initialization, add the selected option
                         if (item.stock_id) {
                             $select.val(item.stock_id).trigger('change.select2');
                         }
-                        // if (item.stock_id) {
-                        //     const stockLabel = `${item.item_description} (${item.unit_code}) - Stock: ${item.stock_onhand}`;
-                        //     const option = new Option(stockLabel, item.stock_id, true, true);
-                        //     $select.append(option).trigger('change');
-                        // }
 
-                        // Recalculate total for safety
                         const $rowQty = $row.find('.prQuantity');
                         const $rowUnit = $row.find('.prUnitCost');
                         const $rowTotal = $row.find('.prTotalCost');
@@ -916,7 +908,7 @@
                         });
                     });
                 } else {
-                    // No items, just create one empty row
+                    // No items — add one empty row
                     $('#btnAddRow').click();
                 }
 

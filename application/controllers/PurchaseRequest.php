@@ -66,7 +66,7 @@ class PurchaseRequest extends CI_Controller
         }
 
         // Get all active attachments for this procurement code and left join uploaded files
-        $this->db->select('a.attachment_id, a.attachment_name, pa.required, lap.file_name, lap.original_file_name');
+        $this->db->select('a.attachment_id, a.attachment_name, pa.required, lap.file_name, lap.original_file_name, lap.remarks');
         $this->db->from('lib_procurement_attachment pa');
         $this->db->join('lib_attachments a', 'a.attachment_id = pa.attachment_id', 'inner');
         $this->db->join('lib_attachment_per_pr lap', "lap.attachment_id = a.attachment_id AND lap.pr_id = $pr_id", 'left');
@@ -108,8 +108,8 @@ class PurchaseRequest extends CI_Controller
         $this->load->view('footer');
     }
 
-    // ATTACHMENT LIST VIEW
-    // Gets list of attachments for data table
+    // PURCHASE REQUEST LIST VIEW
+    // Gets list of purchase request for data table
     // =========================================================================================================================================
     public function getPRList()
     {
@@ -124,10 +124,11 @@ class PurchaseRequest extends CI_Controller
 
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title="Edit"><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat mr-1" data-toggle="tooltip" title="Delete"><i class="fa fa-fw fa-trash"></i> </button>';
+        $btn_send = '<button type="button" id="btnSend" class="btn btn-sm btn-success btn-flat mr-1" data-toggle="tooltip" title="Send"><i class="fa fa-fw fa-send"></i> </button>';
 
         foreach ($results[0] as $r) {
-            $btn_attachment = '<button type="button" id="btnAttachment" class="btn btn-sm btn-warning btn-flat mr-1" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Attachment"><i class="fa fa-fw fa-file"></i></button>';
-            $btn_item = '<button type="button" id="btnAddItem" class="btn btn-sm btn-info btn-flat" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Item"><i class="fa fa-fw fa-shopping-cart"></i></button>';
+            $btn_attachment = '<button type="button" class="btnAttachment btn btn-sm btn-warning btn-flat mr-1" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Attachment"><i class="fa fa-fw fa-file"></i></button>';
+            $btn_item       = '<button type="button" class="btnAddItem btn btn-sm btn-info btn-flat mr-1" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Item"><i class="fa fa-fw fa-shopping-cart"></i></button>';
             $data[] = array(
                 'id' => $r->pr_id,
                 'pr_no' => $r->pr_no,
@@ -146,7 +147,8 @@ class PurchaseRequest extends CI_Controller
                 'unit_code' => $r->unit_code,
                 'date_created' => $r->date_created,
                 'encoded_by' => $r->fullname,
-                'actions' => $btn_update . $btn_delete . $btn_attachment . $btn_item
+                'review_status'  => $r->review_status ?? 'not_sent',
+                'actions' => $btn_update . $btn_attachment . $btn_item . $btn_send . $btn_delete
             );
         }
 
@@ -186,10 +188,10 @@ class PurchaseRequest extends CI_Controller
                 array('field' => 'prNumber',      'label' => 'PR Number',    'rules' => 'required'),
                 // array('field' => 'saiNumber',     'label' => 'SAI Number',   'rules' => 'required'),
                 array('field' => 'prOffice',      'label' => 'Office',       'rules' => 'required|integer'),
-                array('field' => 'proc_id',       'label' => 'Procurement Mode', 'rules' => 'required|integer'),
-                array('field' => 'prQuantity',    'label' => 'Quantity',     'rules' => 'required|integer'),
-                array('field' => 'prUnitCost',    'label' => 'Unit Cost',    'rules' => 'required|numeric'),
-                array('field' => 'prTotalCost',   'label' => 'Total Cost',   'rules' => 'required|numeric'),
+                // array('field' => 'proc_id',       'label' => 'Procurement Mode', 'rules' => 'required|integer'),
+                // array('field' => 'prQuantity',    'label' => 'Quantity',     'rules' => 'required|integer'),
+                // array('field' => 'prUnitCost',    'label' => 'Unit Cost',    'rules' => 'required|numeric'),
+                // array('field' => 'prTotalCost',   'label' => 'Total Cost',   'rules' => 'required|numeric'),
                 // array('field' => 'prRemarks',     'label' => 'Remarks',      'rules' => 'required'),
                 array('field' => 'prRequestedBy', 'label' => 'Requested By', 'rules' => 'required'),
                 array('field' => 'prDesignation', 'label' => 'Designation',  'rules' => 'required'),
@@ -197,14 +199,14 @@ class PurchaseRequest extends CI_Controller
         } else if ($selector == 'updatePR') {
             $config = array(
                 array('field' => 'prId',          'label' => 'PR ID',        'rules' => 'required|integer'),
-                array('field' => 'prStock',       'label' => 'Stock',        'rules' => 'required|integer'),
+                // array('field' => 'prStock',       'label' => 'Stock',        'rules' => 'required|integer'),
                 array('field' => 'prNumber',      'label' => 'PR Number',    'rules' => 'required'),
                 // array('field' => 'saiNumber',     'label' => 'SAI Number',   'rules' => 'required'),
                 array('field' => 'prOffice',      'label' => 'Office',       'rules' => 'required|integer'),
-                array('field' => 'proc_id',       'label' => 'Procurement Mode', 'rules' => 'required|integer'),
-                array('field' => 'prQuantity',    'label' => 'Quantity',     'rules' => 'required|integer'),
-                array('field' => 'prUnitCost',    'label' => 'Unit Cost',    'rules' => 'required|numeric'),
-                array('field' => 'prTotalCost',   'label' => 'Total Cost',   'rules' => 'required|numeric'),
+                // array('field' => 'proc_id',       'label' => 'Procurement Mode', 'rules' => 'required|integer'),
+                // array('field' => 'prQuantity',    'label' => 'Quantity',     'rules' => 'required|integer'),
+                // array('field' => 'prUnitCost',    'label' => 'Unit Cost',    'rules' => 'required|numeric'),
+                // array('field' => 'prTotalCost',   'label' => 'Total Cost',   'rules' => 'required|numeric'),
                 // array('field' => 'prRemarks',     'label' => 'Remarks',      'rules' => 'required'),
                 array('field' => 'prRequestedBy', 'label' => 'Requested By', 'rules' => 'required'),
                 array('field' => 'prDesignation', 'label' => 'Designation',  'rules' => 'required'),
@@ -221,7 +223,7 @@ class PurchaseRequest extends CI_Controller
     {
         $this->load->model('PurchaseRequestModel');
 
-        $user_id = 1; // fallback if aauth not loaded
+        $user_id = 1;
         if (isset($this->aauth)) {
             $user_id = $this->aauth->get_user_id();
         }
@@ -231,14 +233,27 @@ class PurchaseRequest extends CI_Controller
         $sai_no      = $this->input->post('saiNumber');
         $proc_id     = $this->input->post('proc_id');
         $office_id   = $this->input->post('prOffice');
-        $stock_id    = $this->input->post('prStock');
-        $quantity    = $this->input->post('prQuantity');
-        $unit_cost   = $this->input->post('prUnitCost');
+        // $stock_id    = $this->input->post('prStock');
+        // $quantity    = $this->input->post('prQuantity');
+        // $unit_cost   = $this->input->post('prUnitCost');
         $remarks     = $this->input->post('prRemarks');
         $requested_by = $this->input->post('prRequestedBy');
         $designation = $this->input->post('prDesignation');
 
         $today = date('Y-m-d');
+
+        $exists = $this->db
+            ->where('pr_no', $pr_no)
+            ->or_where('sai_no', $sai_no)
+            ->where('archived', 0)
+            ->get('tbl_purchase_request')
+            ->row();
+
+        if ($exists) {
+            $this->session->set_flashdata('fail', 'Duplicate PR Number or SAI Number. Cannot save.');
+            redirect('PurchaseRequest');
+            return;
+        }
 
         // Prepare data array
         $data = [
@@ -248,9 +263,9 @@ class PurchaseRequest extends CI_Controller
             'date_2'      => $today,
             'proc_id'     => $proc_id,
             'office_id'   => $office_id,
-            'stock_id'    => $stock_id,
-            'quantity'    => $quantity,
-            'unit_cost'   => $unit_cost,
+            // 'stock_id'    => $stock_id,
+            // 'quantity'    => $quantity,
+            // 'unit_cost'   => $unit_cost,
             'remarks'     => $remarks,
             'requested_by' => $requested_by,
             'designation' => $designation,
@@ -278,12 +293,9 @@ class PurchaseRequest extends CI_Controller
     // =========================================================================================================================================
     public function updatePR()
     {
-        $l_model = new LibraryModel();
         $pr_model = new PurchaseRequestModel();
 
         $pr_id = $_POST['prId'];
-        $stock_id = $_POST['prStock'];
-        $stock = $l_model->getStockById($stock_id);
 
         $pr_data = array(
             'unit_id'       => isset($stock->unit_id) ? intval($stock->unit_id) : null,
@@ -293,9 +305,9 @@ class PurchaseRequest extends CI_Controller
             // 'date_1'        => !empty($_POST['prNumber']) ? date("Y-m-d H:i:s") : null,
             // 'sai_no'        => !empty($_POST['saiNumber']) ? intval($_POST['saiNumber']) : NULL,
             // 'date_2'        => !empty($_POST['saiNumber']) ? date("Y-m-d H:i:s") : null,
-            'stock_id'      => $_POST['prStock'] ?? '',
-            'quantity'      => intval($_POST['prQuantity']) ?? intval(0),
-            'unit_cost'     => floatval($_POST['prUnitCost']) ?? floatval(0),
+            // 'stock_id'      => $_POST['prStock'] ?? '',
+            // 'quantity'      => intval($_POST['prQuantity']) ?? intval(0),
+            // 'unit_cost'     => floatval($_POST['prUnitCost']) ?? floatval(0),
             // 'total_cost'    => intval($_POST['prQuantity']) * floatval($_POST['prUnitCost']),
             'remarks'       => $_POST['prRemarks'] ?? '',
             'requested_by'  => $_POST['prRequestedBy'] ?? '',
@@ -421,5 +433,314 @@ class PurchaseRequest extends CI_Controller
             $error = $this->upload->display_errors('', '');
             echo json_encode(['success' => false, 'message' => $error]);
         }
+    }
+    // SAVE PURCHASE REQUEST ITEM
+    // Saves the purchase request item
+    // =========================================================================================================================================
+    public function savePRitem()
+    {
+        $pr_id       = $this->input->post('pr_id');
+        $pr_item_ids = $this->input->post('prItemId');
+        $stock_ids   = $this->input->post('prStock');
+        $quantities  = $this->input->post('prQuantity');
+        $unit_costs  = $this->input->post('prUnitCost');
+        $totals      = $this->input->post('prTotalCost');
+
+        $user_id = $this->session->userdata('id');
+
+        if (empty($pr_id) || empty($stock_ids) || empty($quantities) || empty($unit_costs)) {
+            log_message('error', 'PR ITEM VALIDATION FAILED: ' . json_encode($_POST));
+            $this->session->set_flashdata('fail', 'Missing required fields.');
+            redirect('PurchaseRequest/index');
+            return;
+        }
+
+        $submitted_ids = [];
+
+        foreach ($stock_ids as $i => $stock_id) {
+            $pr_item_id = isset($pr_item_ids[$i]) ? intval($pr_item_ids[$i]) : 0;
+            $quantity   = $quantities[$i] ?? 0;
+            $unit_cost  = $unit_costs[$i] ?? 0;
+            $total_cost = $totals[$i] ?? ($quantity * $unit_cost);
+
+            if (!$stock_id || $quantity <= 0 || $unit_cost <= 0) continue;
+
+            if ($pr_item_id > 0) {
+                // UPDATE existing row
+                $data = [
+                    'stock_id'      => $stock_id,
+                    'quantity'      => $quantity,
+                    'unit_cost'     => $unit_cost,
+                    'total_cost'    => $total_cost,
+                    'date_modified' => date('Y-m-d H:i:s'),
+                    'modified_by'   => $user_id
+                ];
+                $this->db->where('pr_item_id', $pr_item_id)
+                    ->where('pr_id', $pr_id)
+                    ->update('lib_purchase_request_items', $data);
+
+                $submitted_ids[] = $pr_item_id;
+            } else {
+                // INSERT new row
+                $data = [
+                    'pr_id'        => $pr_id,
+                    'stock_id'     => $stock_id,
+                    'quantity'     => $quantity,
+                    'unit_cost'    => $unit_cost,
+                    'total_cost'   => $total_cost,
+                    'date_created' => date('Y-m-d H:i:s'),
+                    'created_by'   => $user_id,
+                    'archived'     => 0
+                ];
+                $this->db->insert('lib_purchase_request_items', $data);
+                $submitted_ids[] = (int) $this->db->insert_id();
+            }
+        }
+
+        // Archive rows belonging to this PR that were NOT in the submitted form
+        $existing_ids = $this->db
+            ->select('pr_item_id')
+            ->where('pr_id', $pr_id)
+            ->where('archived', 0)
+            ->get('lib_purchase_request_items')
+            ->result_array();
+
+        $existing_ids = array_column($existing_ids, 'pr_item_id');
+
+        // Find IDs to archive = existing in DB but not submitted
+        $to_archive = array_diff($existing_ids, $submitted_ids);
+
+        if (!empty($to_archive)) {
+            $this->db->where_in('pr_item_id', $to_archive)
+                ->where('pr_id', $pr_id) // safety
+                ->update('lib_purchase_request_items', [
+                    'archived'      => 1,
+                    'date_modified' => date('Y-m-d H:i:s'),
+                    'modified_by'   => $user_id
+                ]);
+            log_message('debug', 'PR ITEMS ARCHIVED: ' . json_encode($to_archive));
+        }
+
+        $this->session->set_flashdata('success', 'Purchase Request items successfully saved.');
+        redirect('PurchaseRequest/index');
+    }
+
+    // GET ITEM IF EXIST
+    // Get the item if existing
+    // ========================================================================================================================================= 
+    public function getPRItem()
+    {
+        $pr_id = $this->input->post('pr_id');
+        $pr_model = new PurchaseRequestModel();
+        $items = $pr_model->getPRItem($pr_id);
+
+        echo json_encode($items); // this will now return an array
+    }
+
+    // SAVE REMARKS
+    // Save the remarks inside the attachment per PR
+    // =========================================================================================================================================
+    public function saveRemarks()
+    {
+        $pr_id      = $this->input->post('pr_id');
+        $remarks    = $this->input->post('remarks'); // array of [attachment_id, remarks]
+        $user_id    = $this->session->userdata('id');
+
+        if (empty($pr_id) || empty($remarks)) {
+            echo json_encode(['success' => false, 'message' => 'Missing data.']);
+            return;
+        }
+
+        foreach ($remarks as $item) {
+            $attachment_id = $item['attachment_id'];
+            $remark_text   = $item['remarks'];
+
+            $existing = $this->db
+                ->where('pr_id', $pr_id)
+                ->where('attachment_id', $attachment_id)
+                ->get('lib_attachment_per_pr')
+                ->row();
+
+            if ($existing) {
+                $this->db->where('attachment_per_id', $existing->attachment_per_id)
+                    ->update('lib_attachment_per_pr', [
+                        'remarks'       => $remark_text,
+                        'date_modified' => date('Y-m-d H:i:s'),
+                        'modified_by'   => $user_id
+                    ]);
+            }
+            // If no existing record, remarks will be saved on first file upload
+        }
+
+        echo json_encode(['success' => true, 'message' => 'Remarks saved.']);
+    }
+
+    // SEND PURCHASE REQUEST
+    // Submit the PR for review
+    // =========================================================================================================================================
+    public function sendPR()
+    {
+        $pr_id   = $this->input->post('pr_id');
+        $user_id = $this->session->userdata('id');
+
+        if (empty($pr_id)) {
+            echo json_encode(['success' => false, 'message' => 'Missing PR ID.']);
+            return;
+        }
+
+        $pr = $this->db
+            ->where('pr_id',   $pr_id)
+            ->where('archived', 0)
+            ->get('tbl_purchase_request')
+            ->row();
+
+        if (!$pr) {
+            echo json_encode(['success' => false, 'message' => 'Purchase Request not found.']);
+            return;
+        }
+
+        if (empty($pr->proc_id)) {
+            echo json_encode([
+                'success' => false,
+                'message' => 'This PR has no Procurement Mode set. Please update it before sending.'
+            ]);
+            return;
+        }
+
+        $item_count = $this->db
+            ->where('pr_id',   $pr_id)
+            ->where('archived', 0)
+            ->count_all_results('lib_purchase_request_items');
+
+        if ($item_count === 0) {
+            echo json_encode([
+                'success' => false,
+                'message' => 'This PR has no items. Please add at least one item before sending.'
+            ]);
+            return;
+        }
+
+        $already_sent = $this->db
+            ->where('pr_id',   $pr_id)
+            ->where('archived', 0)
+            ->get('tbl_purchase_request_review')
+            ->row();
+
+        if ($already_sent) {
+            echo json_encode([
+                'success' => false,
+                'message' => 'This Purchase Request has already been sent for review.'
+            ]);
+            return;
+        }
+
+        $proc = $this->db
+            ->select('proc_id, proc_code, proc_name')
+            ->where('proc_id',  $pr->proc_id)
+            ->where('archived', 0)
+            ->get('lib_procurement_mode')
+            ->row();
+
+        if (!$proc) {
+            echo json_encode([
+                'success' => false,
+                'message' => 'Procurement Mode not found. Please check the PR settings.'
+            ]);
+            return;
+        }
+
+        $now = date('Y-m-d H:i:s');
+
+        $attachments = $this->db
+            ->where('pr_id',   $pr_id)
+            ->where('archived', 0)
+            ->get('lib_attachment_per_pr')
+            ->result();
+
+        $proc_attachments = $this->db
+            ->where('proc_code', $proc->proc_code)
+            ->where('archived',  0)
+            ->get('lib_procurement_attachment')
+            ->result();
+
+        $proc_attch_map = [];
+        foreach ($proc_attachments as $pa) {
+            $proc_attch_map[$pa->attachment_id] = $pa->proc_attch_id;
+        }
+
+        $items = $this->db
+            ->select('pr_item_id')
+            ->where('pr_id',   $pr_id)
+            ->where('archived', 0)
+            ->get('lib_purchase_request_items')
+            ->result();
+
+        $rows = [];
+
+        // One row per uploaded attachment
+        foreach ($attachments as $att) {
+            $rows[] = [
+                'attachment_per_id' => $att->attachment_per_id,
+                'pr_id'             => $pr_id,
+                'attachmend_id'     => $att->attachment_id,
+                'pr_item_id'        => null,
+                'proc_id'           => $pr->proc_id,
+                'proc_attch_id'     => $proc_attch_map[$att->attachment_id] ?? null,
+                'status'            => 'pending',
+                'date_created'      => $now,
+                'created_by'        => $user_id,
+                'archived'          => 0
+            ];
+        }
+
+        foreach ($items as $item) {
+            $rows[] = [
+                'attachment_per_id' => null,
+                'pr_id'             => $pr_id,
+                'attachmend_id'     => null,
+                'pr_item_id'        => $item->pr_item_id,
+                'proc_id'           => $pr->proc_id,
+                'proc_attch_id'     => null,
+                'status'            => 'pending',
+                'date_created'      => $now,
+                'created_by'        => $user_id,
+                'archived'          => 0
+            ];
+        }
+
+        // insert one base row so the PR still appears in the review queue
+        if (empty($rows)) {
+            $rows[] = [
+                'attachment_per_id' => null,
+                'pr_id'             => $pr_id,
+                'attachmend_id'     => null,
+                'pr_item_id'        => null,
+                'proc_id'           => $pr->proc_id,
+                'proc_attch_id'     => null,
+                'status'            => 'pending',
+                'date_created'      => $now,
+                'created_by'        => $user_id,
+                'archived'          => 0
+            ];
+        }
+
+        $this->db->insert_batch('tbl_purchase_request_review', $rows);
+        $affected = $this->db->affected_rows();
+
+        if ($affected > 0) {
+            log_message('info', 'PR #' . $pr_id . ' sent for review by user #' . $user_id . ' — ' . $affected . ' review rows inserted.');
+            echo json_encode([
+                'success' => true,
+                'message' => 'Purchase Request <b>PR No. ' . htmlspecialchars($pr->pr_no) . '</b> has been successfully sent for review.'
+            ]);
+        } else {
+            log_message('error', 'sendPR failed for pr_id=' . $pr_id . ' — insert_batch returned 0 rows.');
+            echo json_encode([
+                'success' => false,
+                'message' => 'Failed to send Purchase Request. Please try again.'
+            ]);
+        }
+
+        exit();
     }
 }

@@ -103,7 +103,7 @@
     var tblPR;
 
     function datatable() {
-        var tblPR = $('#tblPR').DataTable({
+        tblPR = $('#tblPR').DataTable({
             "responsive": true,
             "autoWidth": false,
             'serverSide': true,
@@ -137,13 +137,11 @@
                     data: 'office_desc',
                     name: 'office_desc'
                 },
-                // { data: 'pr_date', name: 'pr_date'},
                 {
                     data: 'date_created',
                     name: 'date_created',
                     render: function(data, type, row) {
                         if (!data) return '';
-
                         let date = new Date(data);
                         return date.toLocaleDateString('en-US', {
                             year: 'numeric',
@@ -157,6 +155,10 @@
                     name: 'encoded_by'
                 },
                 {
+                    data: 'review_status',
+                    name: 'review_status'
+                }, // hidden
+                {
                     data: 'actions',
                     name: 'actions'
                 },
@@ -167,19 +169,30 @@
                     'orderable': true
                 },
                 {
-                    'targets': [0],
+                    'targets': [0, 7],
                     'visible': false,
                     'orderable': false
                 }
             ],
-            order: [1, 'desc']
+            order: [1, 'desc'],
+
+            createdRow: function(row, data, dataIndex) {
+                var status = (data.review_status || 'not_sent').toLowerCase();
+
+                if (status !== 'not_sent' && status !== 'rejected') {
+                    $(row).find('#btnUpdate').hide();
+                    $(row).find('#btnDel').hide();
+                    $(row).find('#btnSend').hide();
+                    $(row).find('.btnAddItem').hide();
+                    $(row).find('.btnAttachment').hide();
+                }
+            }
         });
 
         $('#prBody').on('click', '#btnUpdate', function() {
             var data = ($(this).parents('tr').hasClass('child')) ?
-                tblPR.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
-                :
-                tblPR.row($(this).parents('tr')).data(); // otherwise get original data
+                tblPR.row($(this).parents().prev('tr')).data() :
+                tblPR.row($(this).parents('tr')).data();
 
             const $prUpdateModal = $('#prUpdateModal');
             $.ajax({
@@ -193,8 +206,6 @@
                     $prUpdateModal.find('#prId').val(res.pr_id || '');
                     $prUpdateModal.find('#prNumber').val(res.pr_no || '');
                     $prUpdateModal.find('#saiNumber').val(res.sai_no || '');
-                    $prUpdateModal.find('#prQuantity').val(res.quantity || '').trigger('input');
-                    $prUpdateModal.find('#prUnitCost').val(res.unit_cost || '').trigger('input');
                     $prUpdateModal.find('#prRemarks').val(res.remarks || '');
                     $prUpdateModal.find('#prRequestedBy').val(res.requested_by || '');
                     $prUpdateModal.find('#prDesignation').val(res.designation || '');
@@ -216,9 +227,8 @@
 
         $('#prBody').on('click', '#btnDel', function() {
             var data = ($(this).parents('tr').hasClass('child')) ?
-                tblPR.row($(this).parents().prev('tr')).data() // if tr is a child, then get the parents
-                :
-                tblPR.row($(this).parents('tr')).data(); // otherwise get original data
+                tblPR.row($(this).parents().prev('tr')).data() :
+                tblPR.row($(this).parents('tr')).data();
             var id = data.id;
             Swal.fire({
                 title: 'Delete?',
@@ -257,9 +267,18 @@
 
         $('#tblPR').on('click', '#btnAttachment', function() {
 
-            var pr_id = $(this).data('prid'); // read from button
+            var pr_id = $(this).data('prid');
 
             const $modal = $('#prAttachmentModal');
+
+            Swal.fire({
+                title: 'Loading...',
+                text: 'Please wait',
+                allowOutsideClick: false,
+                didOpen: () => {
+                    Swal.showLoading();
+                }
+            });
 
             $modal.find('form')[0].reset();
             $modal.find('#pr_id').val(pr_id);
@@ -281,7 +300,7 @@
 
     function initAttachmentSelect2($modal) {
         return $modal.find('#prAttachment').select2({
-            dropdownParent: $modal, // Important inside modal
+            dropdownParent: $modal,
             width: '100%',
             placeholder: "-- Select Attachment --",
             allowClear: true
@@ -334,6 +353,212 @@
         $prAddItem.on('show.bs.modal', function() {
             $(this).find("form")[0].reset();
             $total.val('0.00');
+        });
+
+        // Calculate total cost per row
+        function calculateTotal($row) {
+            const qty = parseFloat($row.find('.prQuantity').val()) || 0;
+            const unit = parseFloat($row.find('.prUnitCost').val()) || 0;
+            $row.find('.prTotalCost').val((qty * unit).toFixed(2));
+        }
+
+        // Recalculate total on input change
+        $('#itemRowsContainer').on('input', '.prQuantity, .prUnitCost', function() {
+            const $row = $(this).closest('.item-row');
+            calculateTotal($row);
+        });
+
+        // Add new row
+        $('#btnAddRow').on('click', function() {
+            const $lastRow = $('#itemRowsContainer .item-row:last');
+            const $newRow = $('<div class="row item-row"></div>');
+
+            // Build new row HTML manually
+            $newRow.html(`
+            <input type="hidden" name="prItemId[]" class="prItemId" value="">
+            <div class="mb-3 col-lg-5">
+                <label>Item <span class="text-danger">*</span></label>
+                <select class="form-control prStock" name="prStock[]" required></select>
+            </div>
+            <div class="mb-3 col-lg-2">
+                <label>Quantity <span class="text-danger">*</span></label>
+                <input type="number" class="form-control prQuantity" name="prQuantity[]" min="1" step="1" placeholder="0" required>
+            </div>
+            <div class="mb-3 col-lg-2">
+                <label>Unit Cost <span class="text-danger">*</span></label>
+                <input type="number" class="form-control prUnitCost" name="prUnitCost[]" min="1" step="0.01" placeholder="0.00" required>
+            </div>
+            <div class="mb-3 col-lg-2">
+                <label>Total Cost <span class="text-danger">*</span></label>
+                <input type="number" class="form-control prTotalCost" name="prTotalCost[]" placeholder="0.00" readonly>
+            </div>
+            <div class="mb-3 col-lg-1 d-flex align-items-end">
+                <button type="button" class="btn btn-danger btnRemoveRow">X</button>
+            </div>
+        `);
+
+            // Append new row
+            $('#itemRowsContainer').append($newRow);
+
+            // Initialize Select2 only for the new select
+            $newRow.find('.prStock').select2({
+                placeholder: "-- Select Item --",
+                dropdownParent: $('#prAddItem'),
+                width: '100%',
+                ajax: {
+                    url: "<?php echo base_url('Libraries/getStockList'); ?>",
+                    dataType: 'json',
+                    delay: 250,
+                    data: function(params) {
+                        return {
+                            search: params.term || '',
+                            start: 0,
+                            length: 10
+                        };
+                    },
+                    processResults: function(data) {
+                        return {
+                            results: data.data.map(item => ({
+                                id: item.id,
+                                text: `${item.item_description} (${item.unit_code}) - Stock: ${item.stock_onhand}`
+                            }))
+                        };
+                    }
+                }
+            });
+        });
+
+        // Remove row with validation
+        $('#itemRowsContainer').on('click', '.btnRemoveRow', function() {
+            const $rows = $('#itemRowsContainer .item-row');
+
+            if ($rows.length === 1) {
+                Swal.fire({
+                    title: 'Cannot Remove',
+                    html: "At least <b>one item</b> is required.",
+                    type: 'warning',
+                    confirmButtonColor: '#3085d6',
+                    confirmButtonText: 'OK'
+                });
+                return;
+            }
+
+            const $row = $(this).closest('.item-row');
+
+            Swal.fire({
+                title: 'Remove Item?',
+                html: "<span class='text-danger'><b>WARNING!</b></span> This item will be removed from the list.",
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Yes, remove it!'
+            }).then((result) => {
+                if (result.value) {
+                    $row.remove();
+                }
+            });
+        });
+
+        // Initialize first row Select2
+        $('#itemRowsContainer .item-row:first').find('.prStock').select2({
+            placeholder: "-- Select Item --",
+            dropdownParent: $('#prAddItem'),
+            width: '100%',
+            ajax: {
+                url: "<?php echo base_url('Libraries/getStockList'); ?>",
+                dataType: 'json',
+                delay: 250,
+                data: function(params) {
+                    return {
+                        search: params.term || '',
+                        start: 0,
+                        length: 10
+                    };
+                },
+                processResults: function(data) {
+                    return {
+                        results: data.data.map(item => ({
+                            id: item.id,
+                            text: `${item.item_description} (${item.unit_code}) - Stock: ${item.stock_onhand}`
+                        }))
+                    };
+                }
+            }
+        });
+
+        $('#prBody').on('click', '#btnSend', function() {
+
+            var data = ($(this).parents('tr').hasClass('child')) ?
+                tblPR.row($(this).parents().prev('tr')).data() :
+                tblPR.row($(this).parents('tr')).data();
+
+            var pr_id = data.id;
+            var pr_no = data.pr_no;
+            var status = (data.proc_name && data.proc_name !== '—') ? data.proc_name : null;
+
+            Swal.fire({
+                title: 'Send for Review?',
+                html: 'You are about to send <b>PR No. ' + pr_no + '</b> to the Procurement Staff for review.' +
+                    '<br><small class="text-muted">This action cannot be undone.</small>',
+                type: 'question',
+                showCancelButton: true,
+                confirmButtonColor: '#28a745',
+                cancelButtonColor: '#6c757d',
+                confirmButtonText: '<i class="fa fa-send mr-1"></i> Yes, Send it!',
+                cancelButtonText: 'Cancel',
+                allowOutsideClick: false
+            }).then(function(result) {
+                if (!result.value) return;
+
+                // Show loading state
+                Swal.fire({
+                    title: 'Sending...',
+                    text: 'Please wait.',
+                    allowOutsideClick: false,
+                    onBeforeOpen: function() {
+                        Swal.showLoading();
+                    }
+                });
+
+                $.ajax({
+                    url: "<?php echo base_url('PurchaseRequest/sendPR'); ?>",
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        pr_id: pr_id
+                    },
+                    success: function(res) {
+                        if (res.success) {
+                            Swal.fire({
+                                title: 'Sent!',
+                                html: "<span class='text-success'><b>SUCCESS!</b></span> " + res.message,
+                                type: 'success',
+                                confirmButtonColor: '#3085d6',
+                                confirmButtonText: 'OK'
+                            }).then(function() {
+                                tblPR.ajax.reload(null, false); // reload without resetting pagination
+                            });
+                        } else {
+                            Swal.fire({
+                                title: 'Cannot Send',
+                                html: "<span class='text-danger'><b>ERROR!</b></span> " + res.message,
+                                type: 'error',
+                                confirmButtonColor: '#3085d6',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    },
+                    error: function(xhr, status, err) {
+                        console.error('sendPR error:', err);
+                        Swal.fire(
+                            'Error',
+                            'An unexpected error occurred. Please try again.',
+                            'error'
+                        );
+                    }
+                });
+            });
         });
 
     });
@@ -588,6 +813,114 @@
             }, 'json');
         }
     }
+
+    $(document).on('click', '.btnAddItem', function() {
+        const prId = $(this).data('prid');
+        const $modal = $('#prAddItem');
+
+        // Clear all existing rows
+        $('#itemRowsContainer').empty();
+
+        $.ajax({
+            url: "<?php echo base_url('PurchaseRequest/getPRItem'); ?>",
+            type: "POST",
+            data: {
+                pr_id: prId
+            },
+            dataType: "json",
+            success: function(res) {
+                console.log("PR Items returned:", res);
+                if (res && res.length > 0) {
+                    res.forEach(function(item) {
+                        const $row = $(`
+                        <div class="row item-row mb-2">
+                        <input type="hidden" name="prItemId[]" class="prItemId" value="${item.pr_item_id || ''}">
+                            <div class="mb-3 col-lg-5">
+                                <label>Item <span class="text-danger">*</span></label>
+                                <select name="prStock[]" class="form-control prStock" required></select>
+                            </div>
+                            <div class="mb-3 col-lg-2">
+                                <label>Quantity <span class="text-danger">*</span></label>
+                                <input type="number" name="prQuantity[]" class="form-control prQuantity" min="1" step="1" value="${item.quantity}" required>
+                            </div>
+                            <div class="mb-3 col-lg-2">
+                                <label>Unit Cost <span class="text-danger">*</span></label>
+                                <input type="number" name="prUnitCost[]" class="form-control prUnitCost" min="1" step="0.01" value="${item.unit_cost}" required>
+                            </div>
+                            <div class="mb-3 col-lg-2">
+                                <label>Total Cost</label>
+                                <input type="number" name="prTotalCost[]" class="form-control prTotalCost" value="${item.total_cost}" readonly>
+                            </div>
+                            <div class="mb-3 col-lg-1 d-flex align-items-end">
+                                <button type="button" class="btn btn-danger btnRemoveRow">X</button>
+                            </div>
+                        </div>
+                    `);
+
+                        $('#itemRowsContainer').append($row);
+
+                        const $select = $row.find('.prStock');
+
+                        if (item.stock_id) {
+                            const stockLabel = `${item.item_description} (${item.unit_code}) - Stock: ${item.stock_onhand}`;
+                            const option = new Option(stockLabel, item.stock_id, true, true);
+                            $select.append(option);
+                        }
+
+                        $select.select2({
+                            placeholder: "-- Select Item --",
+                            dropdownParent: $modal,
+                            width: '100%',
+                            ajax: {
+                                url: "<?php echo base_url('Libraries/getStockList'); ?>",
+                                dataType: 'json',
+                                delay: 250,
+                                data: function(params) {
+                                    return {
+                                        search: params.term || '',
+                                        start: 0,
+                                        length: 10
+                                    };
+                                },
+                                processResults: function(data) {
+                                    return {
+                                        results: data.data.map(i => ({
+                                            id: i.id,
+                                            text: `${i.item_description} (${i.unit_code}) - Stock: ${i.stock_onhand}`
+                                        }))
+                                    };
+                                }
+                            }
+                        });
+
+                        if (item.stock_id) {
+                            $select.val(item.stock_id).trigger('change.select2');
+                        }
+
+                        const $rowQty = $row.find('.prQuantity');
+                        const $rowUnit = $row.find('.prUnitCost');
+                        const $rowTotal = $row.find('.prTotalCost');
+
+                        $rowQty.add($rowUnit).on('input change', function() {
+                            const qty = parseFloat($rowQty.val()) || 0;
+                            const unit = parseFloat($rowUnit.val()) || 0;
+                            $rowTotal.val((qty * unit).toFixed(2));
+                        });
+                    });
+                } else {
+                    // No items — add one empty row
+                    $('#btnAddRow').click();
+                }
+
+                $modal.find('input[name="pr_id"]').val(prId);
+                $modal.modal('show');
+            },
+            error: function(err) {
+                console.error(err);
+                $modal.modal('show');
+            }
+        });
+    });
 </script>
 
 <style>

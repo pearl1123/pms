@@ -1,20 +1,20 @@
-<div class="modal fade" id="prAddModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="bacAddModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Add Purchase Request</h5>
+                <h5 class="modal-title">Add Bids and Awards</h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <form action="<?php echo base_url("PurchaseRequest/savePR"); ?>" method="post" class="form-horizontal" id="formPRAdd">
+            <form action="<?php echo base_url("BidsAndAwards/saveBAC"); ?>" method="post" class="form-horizontal" id="formBACAdd">
                 <input type="hidden" name="<?= $this->security->get_csrf_token_name(); ?>" value="<?= $this->security->get_csrf_hash(); ?>">
                 
                 <div class="modal-body" style="max-height:70vh; overflow-y:auto;">
                     <div class="row">
                         <div class="mb-3 col-lg-6">
-                            <label for="prNumber">PR Number. <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" name="prNumber" id="prNumber" inputmode="numeric" pattern="[0-9]*" required>
+                            <label for="bacNumber">BAC Number. <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" name="bacNumber" id="bacNumber" inputmode="numeric" pattern="[0-9]*" required>
                         </div>
                         <div class="mb-3 col-lg-6">
                             <label for="saiNumber">SAI Number</label>
@@ -26,28 +26,28 @@
                         <select name="proc_id" id="proc_id" class="form-control select2" required></select>
                     </div>
                     <div class="mb-3">
-                        <label for="prOffice">Office <span class="text-danger">*</span></label>
-                        <select name="prOffice" id="prOffice" class="form-control select2" required></select>
+                        <label for="bacOffice">Office <span class="text-danger">*</span></label>
+                        <select name="bacOffice" id="bacOffice" class="form-control select2" required></select>
                     </div>
                     <div class="mb-3">
-                        <label for="prRemarks">Remarks</label>
-                        <textarea name="prRemarks" id="prRemarks" class="form-control" rows="3" style="resize: none;"></textarea>
+                        <label for="bacRemarks">Remarks</label>
+                        <textarea name="bacRemarks" id="bacRemarks" class="form-control" rows="3" style="resize: none;"></textarea>
                     </div>
                     <div class="row">
                         <div class="mb-3 col-lg-6">
-                            <label for="prRequestedBy">Requested By <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" name="prRequestedBy" id="prRequestedBy" required>
+                            <label for="bacRequestedBy">Requested By <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" name="bacRequestedBy" id="bacRequestedBy" required>
                         </div>
                         <div class="mb-3 col-lg-6">
-                            <label for="prDesignation">Designation <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" name="prDesignation" id="prDesignation" required>
+                            <label for="bacDesignation">Designation <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" name="bacDesignation" id="bacDesignation" required>
                         </div>
                     </div>
                 </div>
 
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <button class="btn btn-primary" type="submit">Save</button>
+                    <button class="btn btn-primary" type="submit">Submit</button>
                 </div>
             </form>
         </div>
@@ -57,22 +57,22 @@
 
 <script>
     $(document).ready(function() {
-        var $prAddModal = $('#prAddModal');
+        var $bacAddModal = $('#bacAddModal');
 
-        $prAddModal.on('shown.bs.modal', function() {
-            $(this).find('#prNumber').trigger('focus');
+        $bacAddModal.on('shown.bs.modal', function() {
+            $(this).find('#bacNumber').trigger('focus');
         });
 
-        $prAddModal.off("input", "#prQuantity, #prUnitCost").on("input", "#prQuantity, #prUnitCost", function() {
-            const prQty = $prAddModal.find("#prQuantity").val() || 0;
-            const prCost = $prAddModal.find("#prUnitCost").val() || 0;
-            const prTotal = $prAddModal.find("#prTotalCost");
-            const total = prQty * prCost;
+        $bacAddModal.off("input", "#bacQuantity, #bacUnitCost").on("input", "#bacQuantity, #bacUnitCost", function() {
+            const bacQty = $bacAddModal.find("#bacQuantity").val() || 0;
+            const bacCost = $bacAddModal.find("#bacUnitCost").val() || 0;
+            const bacTotal = $bacAddModal.find("#bacTotalCost");
+            const total = bacQty * bacCost;
 
-            prTotal.val(total.toFixed(2));
+            bacTotal.val(total.toFixed(2));
         })
 
-        document.querySelectorAll('#prNumber, #saiNumber').forEach(function(el) {
+        document.querySelectorAll('#bacNumber, #saiNumber').forEach(function(el) {
             el.addEventListener('input', function() {
                 this.value = this.value.replace(/[^0-9]/g, '');
             });

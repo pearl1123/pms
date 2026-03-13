@@ -65,6 +65,12 @@
             </li>
 
             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('ProcurementStaff'); ?>">
+                    <i class="fas fa-fw fa-list"></i>
+                    <span>Procurement Request Review List</span></a>
+            </li>
+
+            <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('PPMP'); ?>">
                     <i class="fas fa-shopping-cart"></i>
                     <span>PPMP</span></a>

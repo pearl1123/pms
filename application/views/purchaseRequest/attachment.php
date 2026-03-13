@@ -1,3 +1,17 @@
+<style>
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.7);
+        z-index: 9999;
+        display: none;
+        text-align: center;
+        padding-top: 20%;
+    }
+</style>
 <div class="modal fade" id="prAttachmentModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -7,37 +21,37 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <form action="<?php echo base_url("PurchaseRequest/saveAttachment"); ?>" method="post" class="form-horizontal" id="formPRAdd" enctype="multipart/form-data">
-                <div class="modal-body" style="max-height:70vh; overflow-y:auto;">
-                    <input type="hidden" name="pr_id" id="pr_id">
+            <div class="modal-body" style="max-height:70vh; overflow-y:auto;">
+                <input type="hidden" id="pr_id">
 
-                    <div id="attachmentContainer">
+                <div id="attachmentContainer"></div>
+            </div>
 
-                    </div>
-
-                </div>
-
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <button class="btn btn-primary" type="submit">Submit</button>
-                </div>
-            </form>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <button class="btn btn-primary" type="button" id="btnSaveRemarks">Submit</button>
+            </div>
         </div>
     </div>
 </div>
 
+<div id="overlay">
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <p>Loading...</p>
+</div>
+
 <script>
     $(document).ready(function() {
-
-        $('#prAttachmentModal').on('shown.bs.modal', function() {
-            var pr_id = $('#pr_id').val();
+        $('#tblPR').on('click', '.btnAttachment', function() {
+            var pr_id = $(this).data('prid');
+            $('#pr_id').val(pr_id);
             var $container = $('#attachmentContainer');
             $container.empty();
 
-            if (!pr_id) {
-                console.log('PR ID missing');
-                return;
-            }
+            // Show overlay loader inside modal
+            $('#overlay').show();
 
             $.ajax({
                 url: "<?php echo base_url('PurchaseRequest/getPRAttachments'); ?>",
@@ -47,64 +61,82 @@
                 },
                 dataType: "json",
                 success: function(res) {
+                    $container.empty();
+
                     if (res.length > 0) {
                         var table = `
-                        <table class="table table-bordered table-hover">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th width="35%">Attachment Name</th>
-                                    <th width="25%">Uploaded File</th>
-                                    <th width="25%">Select File</th>
-                                    <th width="15%">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tblAttachmentBody"></tbody>
-                        </table>
-                    `;
+                    <table class="table table-bordered table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th width="25%">Attachment Name</th>
+                                <th width="20%">Uploaded File</th>
+                                <th width="20%">Select File</th>
+                                <th width="20%">Remarks</th>
+                                <th width="15%">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tblAttachmentBody"></tbody>
+                    </table>`;
                         $container.append(table);
 
                         res.forEach(function(a) {
                             var uploadedFile = (a.file_name && a.original_file_name) ?
                                 `<a href="<?php echo base_url('assets/uploads/pr_attachments/'); ?>${a.file_name}" 
-                                    target="_blank" class="text-success">
-                                    ${a.original_file_name.replace(/_/g, ' ')}
-                                </a>` :
+                                target="_blank" class="text-success">
+                                ${a.original_file_name.replace(/_/g, ' ')}
+                            </a>` :
                                 `<span class="text-muted">No file uploaded</span>`;
 
                             var row = `
-                                <tr>
-                                    <td>${a.attachment_name}</td>
-                                    <td class="text-center">${uploadedFile}</td>
-                                    <td>
-                                        <input type="file"
-                                            class="form-control file-input"
-                                            data-attachment="${a.attachment_id}"
-                                            accept=".pdf,.doc,.docx,.jpg,.png">
-                                    </td>
-                                    <td class="text-center">
-                                        <button type="button"
-                                                class="btn btn-success btnUpload"
-                                                data-attachment="${a.attachment_id}">
-                                            Upload
-                                        </button>
-                                    </td>
-                                </tr>
-                            `;
+                            <tr>
+                                <td>${a.attachment_name}</td>
+                                <td class="text-center">${uploadedFile}</td>
+                                <td>
+                                    <input type="file"
+                                        class="form-control file-input"
+                                        data-attachment="${a.attachment_id}"
+                                        accept=".pdf,.doc,.docx,.jpg,.png">
+                                </td>
+                                <td>
+                                    <input type="text"
+                                        class="form-control remarks-input"
+                                        data-attachment="${a.attachment_id}"
+                                        placeholder="Enter remarks..."
+                                        value="${a.remarks ?? ''}">
+                                </td>
+                                <td class="text-center">
+                                    <button type="button"
+                                            class="btn btn-success btnUpload"
+                                            data-attachment="${a.attachment_id}">
+                                        Upload
+                                    </button>
+                                </td>
+                            </tr>`;
                             $('#tblAttachmentBody').append(row);
                         });
 
                     } else {
                         $container.append('<p class="text-center">No attachments required for this PR.</p>');
                     }
+
+                    $('#prAttachmentModal').modal('show');
+                    $('#overlay').hide(); // hide loader
                 },
                 error: function(err) {
                     console.error(err);
+                    $('#overlay').hide();
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Failed to load attachments.'
+                    });
                 }
             });
+
         });
 
+        // UPLOAD button — handles file only
         $(document).on('click', '.btnUpload', function() {
-
             var attachment_id = $(this).data('attachment');
             var pr_id = $('#pr_id').val();
             var fileInput = $('.file-input[data-attachment="' + attachment_id + '"]')[0];
@@ -131,17 +163,11 @@
                     if (data.success) {
                         alert('Upload successful: ' + data.message);
 
-                        var rowTd = $('.file-input[data-attachment="' + attachment_id + '"]')
-                            .closest('tr').find('td:nth-child(2)');
-
+                        var row = $('.file-input[data-attachment="' + attachment_id + '"]').closest('tr');
                         var originalName = (data.original_file_name || fileInput.files[0].name).replace(/_/g, ' ');
                         var fileLink = `<a href="<?php echo base_url('assets/uploads/pr_attachments/'); ?>${data.file_name}" 
-                                        target="_blank" class="text-success">
-                                        ${data.original_file_name.replace(/_/g, ' ')}
-                                        </a>`;
-                        rowTd.html(fileLink);
-                        rowTd.html('<span class="text-success">' + originalName + '</span>');
-
+                                        target="_blank" class="text-success">${originalName}</a>`;
+                        row.find('td:nth-child(2)').html(fileLink);
                         fileInput.value = '';
                     } else {
                         alert('Upload failed: ' + data.message);
@@ -152,7 +178,63 @@
                     alert('Upload failed: See console for details.');
                 }
             });
+        });
 
+        // SUBMIT button — saves all remarks in one batch
+        $(document).on('click', '#btnSaveRemarks', function() {
+            var pr_id = $('#pr_id').val();
+            var remarksData = [];
+
+            $('.remarks-input').each(function() {
+                remarksData.push({
+                    attachment_id: $(this).data('attachment'),
+                    remarks: $(this).val()
+                });
+            });
+
+            $.ajax({
+                url: "<?php echo base_url('PurchaseRequest/saveRemarks'); ?>",
+                type: "POST",
+                data: {
+                    pr_id: pr_id,
+                    remarks: remarksData
+                },
+                dataType: "json",
+                success: function(res) {
+
+                    if (res.success) {
+
+                        Swal.fire({
+                            type: "success",
+                            title: "Remarks saved successfully",
+                            text: res.message,
+                            confirmButtonText: "OK"
+                        }).then(function() {
+                            location.reload();
+                        });
+
+                    } else {
+
+                        Swal.fire({
+                            type: "error",
+                            title: "Failed to save Remarks",
+                            text: res.message
+                        });
+
+                    }
+
+                },
+                error: function(err) {
+                    console.error(err);
+                    alert('Error saving remarks.');
+                }
+            });
+        });
+
+        $(document).on('click', '.btnAttachment', function() {
+            var pr_id = $(this).data('prid');
+            $('#pr_id').val(pr_id);
+            $('#prAttachmentModal').modal('show');
         });
 
     });

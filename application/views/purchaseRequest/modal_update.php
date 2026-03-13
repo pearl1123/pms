@@ -9,7 +9,7 @@
             </div>
             <form action="<?php echo base_url("PurchaseRequest/updatePR"); ?>" method="post" class="form-horizontal" id="formPRAdd">
                 <div class="modal-body">
-                    <input type="hidden" name="prId" id="prId">
+                    <input type="hidden" name="prId" id="prId" value="">
                     <div class="row">
                         <div class="mb-3 col-lg-6">
                             <label for="prNumber">PR Number. <span class="text-danger">*</span></label>
@@ -29,24 +29,6 @@
                     <div class="mb-3">
                         <label for="prOffice">Office <span class="text-danger">*</span></label>
                         <select name="prOffice" id="prOffice" class="form-control select2" required></select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="prStock">Stock <span class="text-danger">*</span></label>
-                        <select name="prStock" id="prStock" class="form-control select2" required></select>
-                    </div>
-                    <div class="row">
-                        <div class="mb-3 col-lg-4">
-                            <label for="prQuantity">Quantity <span class="text-danger">*</span></label>
-                            <input type="number" class="form-control" name="prQuantity" id="prQuantity" min="1" step="1" placeholder="0" required>
-                        </div>
-                        <div class="mb-3 col-lg-4">
-                            <label for="prUnitCost">Unit Cost <span class="text-danger">*</span></label>
-                            <input type="number" class="form-control" name="prUnitCost" id="prUnitCost" min="1" step="0.01" placeholder="0.00" required>
-                        </div>
-                        <div class="mb-3 col-lg-4">
-                            <label for="prTotalCost">Total Cost <span class="text-danger">*</span></label>
-                            <input type="number" class="form-control" name="prTotalCost" id="prTotalCost" placeholder="0.00" readonly>
-                        </div>
                     </div>
                     <div class="mb-3">
                         <label for="prRemarks">Remarks</label>
@@ -81,16 +63,6 @@
         $prUpdateModal.on('shown.bs.modal', function() {
             $(this).find('#prNumber').trigger('focus');
         });
-
-        $prUpdateModal.off("input", "#prQuantity, #prUnitCost")
-            .on("input", "#prQuantity, #prUnitCost", function() {
-                const prQty = $prUpdateModal.find("#prQuantity").val() || 0;
-                const prCost = $prUpdateModal.find("#prUnitCost").val() || 0;
-                const prTotal = $prUpdateModal.find("#prTotalCost");
-                const total = prQty * prCost;
-
-                prTotal.val(total.toFixed(2));
-            })
 
         document.querySelectorAll('#prNumber, #saiNumber').forEach(function(el) {
             el.addEventListener('input', function() {

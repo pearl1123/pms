@@ -30,6 +30,7 @@ class PurchaseRequestModel extends CI_Model
                            ) AS review_status', FALSE);
 
         $this->db->where(array('t1.archived' => 0));
+        $this->db->order_by('t1.date_created', 'DESC');
         if ($length > 0) {
             $this->db->limit($length, $start);
         }

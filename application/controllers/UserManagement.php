@@ -96,7 +96,6 @@ class UserManagement extends CI_Controller
         log_message('debug', '=== REGISTRATION START ===');
         log_message('debug', 'POST Data: ' . print_r($this->input->post(), true));
 
-        // Check if form is actually being submitted
         if (!$this->input->post()) {
             log_message('debug', 'No POST data received');
             $this->session->set_flashdata('fail', 'No form data received.');
@@ -106,10 +105,10 @@ class UserManagement extends CI_Controller
 
         $this->load->library('form_validation');
 
-        // Set validation rules
         $this->form_validation->set_rules('fullname', 'Full Name', 'required|trim');
         $this->form_validation->set_rules('phone_number', 'Phone Number', 'required|trim');
         $this->form_validation->set_rules('office', 'Office', 'required|integer');
+        $this->form_validation->set_rules('group', 'Group', 'required|integer');
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email|trim');
         $this->form_validation->set_rules('password', 'Password', 'required|min_length[6]');
         $this->form_validation->set_rules('confirm_pass', 'Confirm Password', 'required|matches[password]');
@@ -125,60 +124,40 @@ class UserManagement extends CI_Controller
 
         log_message('debug', 'Form validation passed');
 
-        // Check captcha
-        $captcha = $this->input->post('captcha');
-        log_message('debug', 'Captcha input: ' . $captcha);
-        log_message('debug', 'Session captcha: ' . $this->session->captchaCode);
-
-        if ($captcha !== $this->session->captchaCode) {
-            log_message('debug', 'Captcha mismatch');
-            $this->session->set_flashdata('fail', 'Captcha does not match.');
-            $this->session->set_flashdata('old_input', $this->input->post());
-            redirect('UserManagement/index');
-            return;
-        }
-
-        log_message('debug', 'Captcha validation passed');
-
         // Prepare data
         $data = [
-            'fullname'      => html_escape($this->input->post('fullname')),
-            'phone_number'  => html_escape($this->input->post('phone_number')),
-            'office'        => (int) $this->input->post('office'),
-            // 'ward'          => $this->input->post('ward') ? (int) $this->input->post('ward') : null,
-            'email'         => html_escape($this->input->post('email')),
-            'password'      => $this->input->post('password')
+            'fullname'     => html_escape($this->input->post('fullname')),
+            'phone_number' => html_escape($this->input->post('phone_number')),
+            'office'       => (int) $this->input->post('office'),
+            'group'        => (int) $this->input->post('group'),
+            // 'ward'      => $this->input->post('ward') ? (int) $this->input->post('ward') : null,
+            'email'        => html_escape($this->input->post('email')),
+            'password'     => $this->input->post('password')
         ];
 
         log_message('debug', 'Prepared data for user creation: ' . print_r($data, true));
 
         try {
-            // Create user
-            $user_data = $this->aauth->create_user(
-                $data['email'],
-                $data['password'],
-                $data['fullname'],
-                $data['phone_number'],
-                $data['office'],
-                // $data['ward'],
-                null
-            );
+            $user_data = $this->User_Model->insert_user($data);
 
             if ($user_data) {
-                log_message('debug', 'User created successfully: ' . print_r($user_data, true));
+                log_message('debug', 'User saved successfully: id=' . $user_data);
+
+                $this->db->insert('aauth_user_to_group', [
+                    'user_id'  => $user_data,
+                    'group_id' => $data['group']
+                ]);
+                log_message('debug', 'Group assigned: user_id=' . $user_data . ', group_id=' . $data['group']);
 
                 $token = time();
                 $aModel = new AuthModel();
                 $aModel->insertTokenEmail($token, $data['email']);
 
-                // Email notification code here...
-
-                $this->session->set_flashdata('success', 'Registration successful! Please check your email for verification.');
+                $this->session->set_flashdata('success', 'Registration successful!');
                 redirect('UserManagement');
             } else {
-                $errors = $this->aauth->print_errors();
-                log_message('debug', 'AAuth user creation failed: ' . $errors);
-                $this->session->set_flashdata('fail', $errors);
+                log_message('debug', 'User insert failed — email already in use by an active user.');
+                $this->session->set_flashdata('fail', 'Email is already in use by an existing user.');
                 $this->session->set_flashdata('old_input', $data);
                 redirect('UserManagement');
             }

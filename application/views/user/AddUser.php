@@ -56,24 +56,20 @@
                         <input type="password" name="confirm_pass" class="form-control" required>
                     </div>
 
-                    <div class="form-group">
-                        <label>Group</label>
-                        <select name="group_id" class="form-control">
-                            <?php foreach ($groups as $group): ?>
-                                <option value="<?= $group->id; ?>">
-                                    <?= $group->name; ?>
-                                </option>
-                            <?php endforeach; ?>
-                        </select>
-                    </div>
+                    <select name="group" class="form-control" required>
+                        <option value="">-- Select Group --</option>
+                        <?php foreach ($groups as $group): ?>
+                            <option value="<?= $group->id; ?>">
+                                <?= $group->name; ?>
+                            </option>
+                        <?php endforeach; ?>
+                    </select>
 
                     <div class="checkbox">
                         <label>
                             <input type="checkbox" name="banned" value="1"> Inactive
                         </label>
                     </div>
-
-                   
 
                 </div>
 

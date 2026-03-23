@@ -124,7 +124,7 @@ class PurchaseRequest extends CI_Controller
 
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title="Edit"><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat mr-1" data-toggle="tooltip" title="Delete"><i class="fa fa-fw fa-trash"></i> </button>';
-        $btn_send = '<button type="button" id="btnSend" class="btn btn-sm btn-success btn-flat mr-1" data-toggle="tooltip" title="Send"><i class="fa fa-fw fa-send"></i> </button>';
+        $btn_send = '<button type="button" id="btnSend" class="btn btn-sm btn-success btn-flat mr-1" data-toggle="tooltip" title="Submit"><i class="fa fa-fw fa-send"></i> </button>';
 
         foreach ($results[0] as $r) {
             $btn_attachment = '<button type="button" class="btnAttachment btn btn-sm btn-warning btn-flat mr-1" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Attachment"><i class="fa fa-fw fa-file"></i></button>';
@@ -366,9 +366,9 @@ class PurchaseRequest extends CI_Controller
     // =========================================================================================================================================
     public function uploadAttachment()
     {
-        $pr_id = $this->input->post('pr_id');
+        $pr_id         = $this->input->post('pr_id');
         $attachment_id = $this->input->post('attachment_id');
-        $user_id = $this->session->userdata('id');
+        $user_id       = $this->session->userdata('id');
 
         if (empty($_FILES['file']['name'])) {
             echo json_encode(['success' => false, 'message' => 'No file selected.']);
@@ -381,58 +381,66 @@ class PurchaseRequest extends CI_Controller
             mkdir($upload_path, 0777, true);
         }
 
-        $config['upload_path'] = $upload_path;
-        $config['allowed_types'] = 'pdf|doc|docx|jpg|jpeg|png';
-        $config['max_size'] = 5120;
-        $config['encrypt_name'] = TRUE;
+        $config['upload_path']    = $upload_path;
+        $config['allowed_types']  = 'pdf|doc|docx|jpg|jpeg|png';
+        $config['max_size']       = 5120;
+        $config['encrypt_name']   = TRUE;
 
         $this->load->library('upload', $config);
 
-        if ($this->upload->do_upload('file')) {
-
-            $upload_data = $this->upload->data();
-            $original_name = $upload_data['client_name'];
-
-            // Get PR to retrieve proc_id
-            $pr = $this->db->select('proc_id')->where('pr_id', $pr_id)->get('tbl_purchase_request')->row();
-            $proc_id = $pr->proc_id ?? null;
-
-            // Check if record already exists
-            $existing = $this->db->where('pr_id', $pr_id)
-                ->where('attachment_id', $attachment_id)
-                ->get('lib_attachment_per_pr')
-                ->row();
-
-            $data = [
-                'pr_id' => $pr_id,
-                'attachment_id' => $attachment_id,
-                'file_name' => $upload_data['file_name'],
-                'original_file_name' => $original_name,
-                'proc_id' => $proc_id,
-                'archived' => 0
-            ];
-
-            if ($existing) {
-                // Update existing row
-                $data['date_modified'] = date('Y-m-d H:i:s');
-                $data['modified_by'] = $user_id;
-
-                $this->db->where('attachment_per_id', $existing->attachment_per_id)
-                    ->update('lib_attachment_per_pr', $data);
-            } else {
-                // Insert new row
-                $data['date_created'] = date('Y-m-d H:i:s');
-                $data['created_by'] = $user_id;
-
-                $this->db->insert('lib_attachment_per_pr', $data);
-            }
-
-            echo json_encode(['success' => true, 'message' => 'File uploaded successfully.', 'file_name' => $upload_data['file_name']]);
-        } else {
-            // Upload failed
+        if (!$this->upload->do_upload('file')) {
             $error = $this->upload->display_errors('', '');
             echo json_encode(['success' => false, 'message' => $error]);
+            return;
         }
+
+        $upload_data   = $this->upload->data();
+        $original_name = $upload_data['client_name'];
+
+        // Get PR to retrieve proc_id
+        $pr      = $this->db->select('proc_id')
+            ->where('pr_id', $pr_id)
+            ->get('tbl_purchase_request')
+            ->row();
+        $proc_id = $pr->proc_id ?? null;
+
+        // Check if an ACTIVE (non-archived) record already exists for this pr + attachment
+        $existing = $this->db
+            ->where('pr_id',         $pr_id)
+            ->where('attachment_id', $attachment_id)
+            ->where('archived',      0)
+            ->get('lib_attachment_per_pr')
+            ->row();
+
+        $data = [
+            'pr_id'              => $pr_id,
+            'attachment_id'      => $attachment_id,
+            'proc_id'            => $proc_id,
+            'file_name'          => $upload_data['file_name'],
+            'original_file_name' => $original_name,
+            'archived'           => 0
+        ];
+
+        if ($existing) {
+            // Replace the existing file
+            $data['date_modified'] = date('Y-m-d H:i:s');
+            $data['modified_by']   = $user_id;
+
+            $this->db->where('attachment_per_id', $existing->attachment_per_id)
+                ->update('lib_attachment_per_pr', $data);
+        } else {
+            // Insert fresh row
+            $data['date_created'] = date('Y-m-d H:i:s');
+            $data['created_by']   = $user_id;
+
+            $this->db->insert('lib_attachment_per_pr', $data);
+        }
+
+        echo json_encode([
+            'success'   => true,
+            'message'   => 'File uploaded successfully.',
+            'file_name' => $upload_data['file_name']
+        ]);
     }
     // SAVE PURCHASE REQUEST ITEM
     // Saves the purchase request item
@@ -627,11 +635,24 @@ class PurchaseRequest extends CI_Controller
             ->row();
 
         if ($already_sent) {
-            echo json_encode([
-                'success' => false,
-                'message' => 'This Purchase Request has already been sent for review.'
-            ]);
-            return;
+            if (strtolower($already_sent->status) === 'rejected') {
+                
+                $this->db
+                    ->where('pr_id', $pr_id)
+                    ->where('archived', 0)
+                    ->update('tbl_purchase_request_review', [
+                        'archived'      => 1,
+                        'modified_by'   => $user_id,
+                        'date_modified' => date('Y-m-d H:i:s')
+                    ]);
+            } else {
+                
+                echo json_encode([
+                    'success' => false,
+                    'message' => 'This Purchase Request has already been sent and is currently ' . ucfirst($already_sent->status) . '.'
+                ]);
+                return;
+            }
         }
 
         $proc = $this->db

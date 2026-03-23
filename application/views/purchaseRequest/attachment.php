@@ -202,6 +202,57 @@
             });
         });
 
+        // SUBMIT button — saves all remarks in one batch
+        $(document).on('click', '#btnSaveRemarks', function() {
+            var pr_id = $('#pr_id').val();
+            var remarksData = [];
+
+            $('.remarks-input').each(function() {
+                remarksData.push({
+                    attachment_id: $(this).data('attachment'),
+                    remarks: $(this).val()
+                });
+            });
+
+            $.ajax({
+                url: "<?php echo base_url('PurchaseRequest/saveRemarks'); ?>",
+                type: "POST",
+                data: {
+                    pr_id: pr_id,
+                    remarks: remarksData
+                },
+                dataType: "json",
+                success: function(res) {
+
+                    if (res.success) {
+
+                        Swal.fire({
+                            type: "success",
+                            title: "Remarks saved successfully",
+                            text: res.message,
+                            confirmButtonText: "OK"
+                        }).then(function() {
+                            location.reload();
+                        });
+
+                    } else {
+
+                        Swal.fire({
+                            type: "error",
+                            title: "Failed to save Remarks",
+                            text: res.message
+                        });
+
+                    }
+
+                },
+                error: function(err) {
+                    console.error(err);
+                    alert('Error saving remarks.');
+                }
+            });
+        });
+
         $(document).on('click', '.btnAttachment', function() {
             var pr_id = $(this).data('prid');
             $('#pr_id').val(pr_id);

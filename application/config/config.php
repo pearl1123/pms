@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 // $config['base_url'] = 'http://localhost/bdots';
-$config['base_url'] = 'http://localhost/pms';
+$config['base_url'] = 'http://192.168.25.17/pms';
 
 // $config['base_url'] = 'http://192.168.5.27/dots';
 

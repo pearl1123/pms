@@ -180,11 +180,20 @@
                 var status = (data.review_status || 'not_sent').toLowerCase();
 
                 if (status !== 'not_sent' && status !== 'rejected') {
-                    $(row).find('#btnUpdate').hide();
-                    $(row).find('#btnDel').hide();
-                    $(row).find('#btnSend').hide();
+                    $(row).find('.btnUpdate').hide();
+                    $(row).find('.btnDel').hide();
+                    $(row).find('.btnSend').hide();
                     $(row).find('.btnAddItem').hide();
                     $(row).find('.btnAttachment').hide();
+
+                    var badge = '';
+                    if (status === 'pending') {
+                        badge = '<span class="badge badge-warning px-2 py-1"><i class="fas fa-clock mr-1"></i> Pending Review</span>';
+                    } else if (status === 'approved') {
+                        badge = '<span class="badge badge-success px-2 py-1"><i class="fas fa-check-circle mr-1"></i> Approved</span>';
+                    }
+
+                    $(row).find('td').last().html(badge);
                 }
             }
         });
@@ -498,14 +507,14 @@
             var status = (data.proc_name && data.proc_name !== '—') ? data.proc_name : null;
 
             Swal.fire({
-                title: 'Send for Review?',
+                title: 'Submit for Review?',
                 html: 'You are about to send <b>PR No. ' + pr_no + '</b> to the Procurement Staff for review.' +
                     '<br><small class="text-muted">This action cannot be undone.</small>',
                 type: 'question',
                 showCancelButton: true,
                 confirmButtonColor: '#28a745',
                 cancelButtonColor: '#6c757d',
-                confirmButtonText: '<i class="fa fa-send mr-1"></i> Yes, Send it!',
+                confirmButtonText: '<i class="fa fa-send mr-1"></i> Yes, Submit it!',
                 cancelButtonText: 'Cancel',
                 allowOutsideClick: false
             }).then(function(result) {

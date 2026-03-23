@@ -3,6 +3,37 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class User_model extends CI_Model
 {
+    public function insert_user($data)
+    {
+        $this->db->where('email', $data['email']);
+        $this->db->where('DELETED', 0);
+        $existing = $this->db->get('aauth_users')->row();
+
+        if ($existing) {
+            return false;
+        }
+
+        $this->db->insert('aauth_users', [
+            'fullname'     => $data['fullname'],
+            'phone_number' => $data['phone_number'],
+            'office'       => $data['office'],
+            'email'        => $data['email'],
+            'pass'         => password_hash($data['password'], PASSWORD_DEFAULT),
+            'email_verify' => 1,
+            'banned'       => 0,
+            'DELETED'      => 0,
+            'date_created' => date('Y-m-d H:i:s')
+        ]);
+
+        return $this->db->insert_id();
+    }
+
+    public function get_deleted_user_by_email($email)
+    {
+        $this->db->where('email', $email);
+        $this->db->where('DELETED', 1);
+        return $this->db->get('aauth_users')->row();
+    }
 
     public function get_user_by_id($id)
     {
@@ -14,11 +45,10 @@ class User_model extends CI_Model
 
     public function get_offices()
     {
-        $this->db->where('archived', 0); // exclude archived
+        $this->db->where('archived', 0);
         $this->db->order_by('office_desc', 'ASC');
         return $this->db->get('lib_office')->result();
     }
-
 
     public function edit($id, $data)
     {
@@ -136,6 +166,4 @@ class User_model extends CI_Model
             return []; // return empty array if no records found
         }
     }
-
-    
 }

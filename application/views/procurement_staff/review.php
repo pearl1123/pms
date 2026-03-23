@@ -48,20 +48,40 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-md-3 mb-3">
+                    <label class="text-xs font-weight-bold text-uppercase text-muted">Department</label>
+                    <p id="reviewOffice" class="font-weight-bold mb-0">—</p>
+                </div>
+                <div class="col-md-3 mb-3">
                     <label class="text-xs font-weight-bold text-uppercase text-muted">PR No.</label>
                     <p id="reviewPrNo" class="font-weight-bold mb-0">—</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="text-xs font-weight-bold text-uppercase text-muted">Date</label>
+                    <p id="reviewDate1" class="font-weight-bold mb-0">—</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <!-- spacer -->
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <label class="text-xs font-weight-bold text-uppercase text-muted">Section</label>
+                    <p id="reviewSection" class="font-weight-bold mb-0">—</p>
                 </div>
                 <div class="col-md-3 mb-3">
                     <label class="text-xs font-weight-bold text-uppercase text-muted">SAI No.</label>
                     <p id="reviewSaiNo" class="font-weight-bold mb-0">—</p>
                 </div>
                 <div class="col-md-3 mb-3">
-                    <label class="text-xs font-weight-bold text-uppercase text-muted">Procurement Mode</label>
-                    <p id="reviewProcName" class="font-weight-bold mb-0">—</p>
+                    <label class="text-xs font-weight-bold text-uppercase text-muted">Date</label>
+                    <p id="reviewDate2" class="font-weight-bold mb-0">—</p>
                 </div>
                 <div class="col-md-3 mb-3">
-                    <label class="text-xs font-weight-bold text-uppercase text-muted">Department</label>
-                    <p id="reviewOffice" class="font-weight-bold mb-0">—</p>
+                    <!-- spacer -->
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <label class="text-xs font-weight-bold text-uppercase text-muted">Procurement Mode</label>
+                    <p id="reviewProcName" class="font-weight-bold mb-0">—</p>
                 </div>
                 <div class="col-md-3 mb-3">
                     <label class="text-xs font-weight-bold text-uppercase text-muted">Requested By</label>
@@ -75,10 +95,7 @@
                     <label class="text-xs font-weight-bold text-uppercase text-muted">Encoded By</label>
                     <p id="reviewEncodedBy" class="mb-0">—</p>
                 </div>
-                <div class="col-md-3 mb-3">
-                    <label class="text-xs font-weight-bold text-uppercase text-muted">Date Sent</label>
-                    <p id="reviewDateCreated" class="mb-0">—</p>
-                </div>
+
                 <div class="col-md-12 mb-3">
                     <label class="text-xs font-weight-bold text-uppercase text-muted">Remarks</label>
                     <p id="reviewRemarks" class="mb-0">—</p>
@@ -132,13 +149,13 @@
                 <table class="table table-bordered table-sm mb-0">
                     <thead class="thead-light">
                         <tr>
-                            <th>#</th>
-                            <th>Attachment Name</th>
-                            <th class="text-center">Required</th>
-                            <th>File</th>
-                            <th>Remarks</th>
-                            <th class="text-center">Upload Status</th>
-                            <th>Staff Remarks</th>
+                            <th style="width: 40px;">#</th>
+                            <th style="width: 20%;">Attachment Name</th>
+                            <th style="width: 80px;" class="text-center">Required</th>
+                            <th style="width: 25%;">File</th>
+                            <th style="width: 15%;">Previous Remarks</th>
+                            <th style="width: 100px;" class="text-center">Upload Status</th>
+                            <th style="width: 20%;">Staff Remarks</th>
                         </tr>
                     </thead>
                     <tbody id="reviewAttachmentsBody">
@@ -154,13 +171,15 @@
     </div>
 
     <!-- STAFF REMARKS + ACTION BUTTONS -->
-    <div class="d-flex justify-content-end mb-4" id="actionCard">
-        <button type="button" class="btn btn-danger mr-2" id="btnReject">
-            <i class="fas fa-times-circle mr-1"></i> Reject
-        </button>
-        <button type="button" class="btn btn-success" id="btnApprove">
-            <i class="fas fa-check-circle mr-1"></i> Approve
-        </button>
+    <div id="actionCard" style="display:none;">
+        <div class="d-flex justify-content-end mb-4">
+            <button type="button" class="btn btn-danger mr-2" id="btnReject">
+                <i class="fas fa-times-circle mr-1"></i> Reject
+            </button>
+            <button type="button" class="btn btn-success" id="btnApprove">
+                <i class="fas fa-check-circle mr-1"></i> Approve
+            </button>
+        </div>
     </div>
 
 </div>
@@ -206,6 +225,18 @@
         });
     }
 
+    function handleActionButtons(status) {
+        var s = (status || '').toLowerCase();
+        if (s === 'pending') {
+            $('#actionCard').show();
+            $('#btnApprove').show();
+            $('#btnReject').show();
+        } else {
+            // approved or rejected — hide everything
+            $('#actionCard').hide();
+        }
+    }
+
     // Load PR details on page load
     function loadReviewDetail() {
         $.ajax({
@@ -225,22 +256,21 @@
                 var pr = res.pr;
 
                 // PR Info
-                $('#reviewPrNo').text(pr.pr_no || '—');
-                $('#reviewSaiNo').text(pr.sai_no || '—');
-                $('#reviewProcName').text(pr.proc_name || '—');
                 $('#reviewOffice').text(pr.office_desc || '—');
+                $('#reviewPrNo').text(pr.pr_no || '—');
+                $('#reviewDate1').text(formatDate(pr.date_1));
+                $('#reviewSection').text('—');
+                $('#reviewSaiNo').text(pr.sai_no || '—');
+                $('#reviewDate2').text(formatDate(pr.date_2));
+                $('#reviewProcName').text(pr.proc_name || '—');
                 $('#reviewRequestedBy').text(pr.requested_by || '—');
                 $('#reviewDesignation').text(pr.designation || '—');
                 $('#reviewEncodedBy').text(pr.encoded_by || '—');
-                $('#reviewDateCreated').text(formatDate(pr.date_created));
                 $('#reviewRemarks').text(pr.remarks || '—');
                 $('#reviewStatusBadge').html(statusBadge(pr.status));
 
-                // Hide approve/reject if not pending
-                var isPending = (pr.status || '').toLowerCase() === 'pending';
-                if (!isPending) {
-                    $('#actionCard').hide();
-                }
+                // Show or hide action buttons based on status
+                handleActionButtons(pr.status);
 
                 // Items
                 if (res.items && res.items.length > 0) {
@@ -271,6 +301,8 @@
                 // Attachments
                 if (res.attachments && res.attachments.length > 0) {
                     var attachHtml = '';
+                    var isPending = (pr.status || '').toLowerCase() === 'pending';
+
                     $.each(res.attachments, function(i, att) {
                         var required = att.required == 1 ?
                             '<span class="badge badge-danger">Required</span>' :
@@ -288,9 +320,6 @@
                             '<span class="badge badge-success">Uploaded</span>' :
                             '<span class="badge badge-secondary">Missing</span>';
 
-                        var isPending = (res.pr.status || '').toLowerCase() === 'pending';
-
-                        // Staff remarks — editable if pending, readonly if already actioned
                         var staffRemarksInput = isPending ?
                             '<textarea class="form-control form-control-sm staffRemarksInput" ' +
                             'rows="2" placeholder="Enter remarks..." ' +
@@ -358,6 +387,9 @@
 
     function updateStatus(status) {
 
+        // Disable buttons immediately to prevent double click
+        $('#btnApprove, #btnReject').prop('disabled', true).addClass('disabled');
+
         // Collect per-attachment staff remarks
         var attachmentRemarks = [];
         $('.staffRemarksInput').each(function() {
@@ -379,6 +411,16 @@
             },
             success: function(res) {
                 if (res.success) {
+
+                    // Hide buttons immediately
+                    handleActionButtons(status);
+
+                    // Update status badge instantly
+                    $('#reviewStatusBadge').html(statusBadge(status));
+
+                    // Make all staff remarks readonly
+                    $('.staffRemarksInput').prop('readonly', true).addClass('bg-light');
+
                     Swal.fire({
                         title: status === 'approved' ? 'Approved!' : 'Rejected!',
                         html: "<span class='text-" + (status === 'approved' ? 'success' : 'danger') +
@@ -388,12 +430,17 @@
                     }).then(function() {
                         window.location.href = "<?php echo base_url('ProcurementStaff'); ?>";
                     });
+
                 } else {
+                    // Re-enable buttons on failure
+                    $('#btnApprove, #btnReject').prop('disabled', false).removeClass('disabled');
                     Swal.fire('Error', res.message || 'An error occurred.', 'error');
                 }
             },
             error: function(err) {
                 console.error(err);
+                // Re-enable buttons on error
+                $('#btnApprove, #btnReject').prop('disabled', false).removeClass('disabled');
                 Swal.fire('Error', 'An unexpected error occurred.', 'error');
             }
         });

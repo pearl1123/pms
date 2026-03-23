@@ -23,39 +23,47 @@ class ProcurementStaffModel extends CI_Model
         $count_row = $this->db->get()->row();
         $total     = $count_row ? intval($count_row->total) : 0;
 
+        // ---- DATA QUERY ----
         $this->db->select("
-            MIN(r.preq_id)                                          AS preq_id,
-            r.pr_id,
-            pr.pr_no,
-            pr.sai_no,
-            pr.date_created,
-            p.proc_name,
-            o.office_desc,
-            u.fullname                                              AS encoded_by,
-            r.status,
+                MIN(r.preq_id)                                              AS preq_id,
+                r.pr_id,
+                pr.pr_no,
+                pr.sai_no,
+                pr.date_created,
+                p.proc_name,
+                o.office_desc,
+                u.fullname                                                  AS encoded_by,
+                r.status,
 
-            -- Total required attachments for this procurement mode
-            (
-                SELECT COUNT(*)
-                FROM   lib_procurement_attachment pa2
-                WHERE  pa2.proc_code = p.proc_code
-                AND    pa2.archived  = 0
-            )                                                       AS total_attachments,
+                -- Total ACTIVE required attachments for this procurement mode
+                (
+                    SELECT COUNT(*)
+                    FROM   lib_procurement_attachment pa2
+                    INNER JOIN lib_attachments a2 ON a2.attachment_id = pa2.attachment_id
+                    WHERE  pa2.proc_code = p.proc_code
+                    AND    pa2.archived  = 0
+                    AND    a2.archived   = 0
+                )                                                           AS total_attachments,
 
-            -- Uploaded attachments for this PR
-            (
-                SELECT COUNT(*)
-                FROM   lib_attachment_per_pr lap2
-                WHERE  lap2.pr_id    = r.pr_id
-                AND    lap2.archived = 0
-                AND    lap2.file_name IS NOT NULL
-                AND    lap2.file_name != ''
-            )                                                       AS uploaded_count
-        ", FALSE);
+                -- Uploaded files that match ACTIVE required attachments for this PR
+                (
+                    SELECT COUNT(*)
+                    FROM   lib_attachment_per_pr lap2
+                    INNER JOIN lib_procurement_attachment pa3 ON pa3.attachment_id = lap2.attachment_id
+                                                            AND pa3.proc_code     = p.proc_code
+                                                            AND pa3.archived      = 0
+                    INNER JOIN lib_attachments a3             ON a3.attachment_id  = lap2.attachment_id
+                                                            AND a3.archived       = 0
+                    WHERE  lap2.pr_id    = r.pr_id
+                    AND    lap2.archived = 0
+                    AND    lap2.file_name IS NOT NULL
+                    AND    lap2.file_name != ''
+                )                                                           AS uploaded_count
+            ", FALSE);
 
         $this->db->from('tbl_purchase_request_review r');
-        $this->db->join('tbl_purchase_request pr',  'pr.pr_id    = r.pr_id',    'left');
-        $this->db->join('lib_procurement_mode p',   'p.proc_id   = pr.proc_id', 'left');
+        $this->db->join('tbl_purchase_request pr',  'pr.pr_id    = r.pr_id',     'left');
+        $this->db->join('lib_procurement_mode p',   'p.proc_id   = pr.proc_id',  'left');
         $this->db->join('lib_office o',             'o.office_id = pr.office_id', 'left');
         $this->db->join('aauth_users u',            'u.id        = pr.created_by', 'left');
 
@@ -199,25 +207,38 @@ class ProcurementStaffModel extends CI_Model
             ->get()
             ->row();
 
-        if (!$pr || empty($pr->proc_code)) {
-            // No procurement mode set — return whatever was uploaded directly
-            return $this->db
-                ->select('
-                    lap.attachment_per_id,
-                    lap.attachment_id,
-                    a.attachment_name,
-                    NULL           AS required,
-                    lap.file_name,
-                    lap.original_file_name,
-                    lap.remarks
-                ', FALSE)
-                ->from('lib_attachment_per_pr lap')
-                ->join('lib_attachments a', 'a.attachment_id = lap.attachment_id', 'left')
-                ->where('lap.pr_id',  $pr_id)
-                ->where('lap.archived', 0)
-                ->get()
-                ->result();
-        }
+        if (!$pr) return [];
+
+        $this->db->select("
+            pa.proc_attch_id,
+            pa.attachment_id,
+            pa.required,
+            a.attachment_name,
+            lap.attachment_per_id,
+            lap.file_name,
+            lap.original_file_name,
+            lap.remarks
+        ", FALSE);
+
+        $this->db->from('lib_procurement_attachment pa');
+        $this->db->join(
+            'lib_attachments a',
+            'a.attachment_id = pa.attachment_id AND a.archived = 0',
+            'inner'
+        );
+        $this->db->join(
+            'lib_attachment_per_pr lap',
+            'lap.attachment_id = pa.attachment_id
+         AND lap.pr_id = ' . $this->db->escape($pr_id) . '
+         AND lap.archived = 0',
+            'left'
+        );
+
+        $this->db->where('pa.proc_code', $pr->proc_code);
+        $this->db->where('pa.archived',  0);
+        $this->db->order_by('pa.proc_attch_id', 'ASC');
+
+        return $this->db->get()->result();
 
         // All required attachments for the procurement mode OUTER-joined with uploads
         $this->db->select('

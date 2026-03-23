@@ -104,13 +104,9 @@ class User extends CI_Controller
 
             $email = $this->input->post('email');
             $password = $this->input->post('password');
-            $login = $this->aauth->login($email, $password);
-
-            $email = $this->input->post('email');
-            $password = $this->input->post('password');
 
             // Fetch user first
-            $userDetails = $aModel->getUserDetails($email);
+            $userDetails = $aModel->get_active_user_by_email($email);
 
             if (!$userDetails) {
                 $this->session->set_flashdata('fail', 'Invalid email or password.');

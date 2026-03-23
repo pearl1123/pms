@@ -151,7 +151,7 @@ class UserManagement extends CI_Controller
 
                 $token = time();
                 $aModel = new AuthModel();
-                $aModel->insertTokenEmail($token, $data['email']);
+                // $aModel->insertTokenEmail($token, $data['email']);
 
                 $this->session->set_flashdata('success', 'Registration successful!');
                 redirect('UserManagement');

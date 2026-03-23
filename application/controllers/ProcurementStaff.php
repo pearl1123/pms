@@ -14,6 +14,7 @@ class ProcurementStaff extends CI_Controller
             $this->session->set_flashdata('fail', 'Session expired. Please Sign in.');
             redirect('User/index');
         }
+      
     }
 
     public function csrf()

@@ -65,11 +65,14 @@
                     <span>Purchase Request List</span></a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('ProcurementStaff'); ?>">
-                    <i class="fas fa-fw fa-list"></i>
-                    <span>Procurement Request Review List</span></a>
-            </li>
+            <?php if ($this->aauth->is_member(11) || $this->aauth->is_member(14)): ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo base_url('ProcurementStaff'); ?>">
+                        <i class="fas fa-fw fa-list"></i>
+                        <span>Procurement Request Review List</span>
+                    </a>
+                </li>
+            <?php endif; ?>
 
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('PPMP'); ?>">
@@ -78,57 +81,59 @@
             </li>
 
             <!-- Divider -->
-            <hr class="sidebar-divider">
+            <?php if ($this->aauth->is_member(11) || $this->aauth->is_member(14)): ?>
+                <hr class="sidebar-divider">
 
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                SETTINGS
-            </div>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Libraries</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="<?php echo base_url('libraries/attachment'); ?>"><i class="fas fa-fw fa-circle"></i> Attachments</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/fund'); ?>"><i class="fas fa-fw fa-circle"></i> Fund Source</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/item'); ?>"><i class="fas fa-fw fa-circle"></i> Item</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/office'); ?>"><i class="fas fa-fw fa-circle"></i> Office</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/mode'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Mode</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/group'); ?>"><i class="fas fa-fw fa-circle"></i> Group</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/permission'); ?>"><i class="fas fa-fw fa-circle"></i> Permissions</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/supplier'); ?>"><i class="fas fa-fw fa-circle"></i> Supplier</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/unit'); ?>"><i class="fas fa-fw fa-circle"></i> Unit</a>
-                    </div>
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    SETTINGS
                 </div>
-            </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('UserManagement'); ?>">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>User Management</span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages1"
-                    aria-expanded="true" aria-controls="collapsePages1">
-                    <i class="fas fa-fw fa-tools"></i>
-                    <span>Configuration</span>
-                </a>
-                <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="<?php echo base_url('libraries/procurementSettings'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Settings</a>
-                        <a class="collapse-item" href="<?php echo base_url('libraries/stock'); ?>"><i class="fas fa-fw fa-circle"></i> Available Stock</a>
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                        aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-cog"></i>
+                        <span>Libraries</span>
+                    </a>
+                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="<?php echo base_url('libraries/attachment'); ?>"><i class="fas fa-fw fa-circle"></i> Attachments</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/fund'); ?>"><i class="fas fa-fw fa-circle"></i> Fund Source</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/item'); ?>"><i class="fas fa-fw fa-circle"></i> Item</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/office'); ?>"><i class="fas fa-fw fa-circle"></i> Office</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/mode'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Mode</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/group'); ?>"><i class="fas fa-fw fa-circle"></i> Group</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/permission'); ?>"><i class="fas fa-fw fa-circle"></i> Permissions</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/supplier'); ?>"><i class="fas fa-fw fa-circle"></i> Supplier</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/unit'); ?>"><i class="fas fa-fw fa-circle"></i> Unit</a>
+                        </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo base_url('UserManagement'); ?>">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>User Management</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages1"
+                        aria-expanded="true" aria-controls="collapsePages1">
+                        <i class="fas fa-fw fa-tools"></i>
+                        <span>Configuration</span>
+                    </a>
+                    <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="<?php echo base_url('libraries/procurementSettings'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Settings</a>
+                            <a class="collapse-item" href="<?php echo base_url('libraries/stock'); ?>"><i class="fas fa-fw fa-circle"></i> Available Stock</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider d-none d-md-block">
+            <?php endif; ?>
 
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
@@ -278,7 +283,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $this->session->userdata('fullname'); ?></span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>

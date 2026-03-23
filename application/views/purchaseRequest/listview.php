@@ -58,6 +58,7 @@
                             <th>Department</th>
                             <th>Date</th>
                             <th>Encoded By</th>
+                            <th>Status</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -70,6 +71,7 @@
                             <th>Department</th>
                             <th>Date</th>
                             <th>Encoded By</th>
+                            <th>Status</th>
                             <th>Action</th>
                         </tr>
                     </tfoot>

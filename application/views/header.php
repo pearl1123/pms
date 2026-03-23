@@ -79,6 +79,11 @@
                     <i class="fas fa-shopping-cart"></i>
                     <span>PPMP</span></a>
             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('BAC'); ?>">
+                    <i class="fas fa-file-contract"></i>
+                    <span>BAC</span></a>
+            </li>
 
             <!-- Divider -->
             <?php if ($this->aauth->is_member(11) || $this->aauth->is_member(14)): ?>

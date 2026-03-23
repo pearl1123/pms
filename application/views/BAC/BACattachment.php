@@ -7,7 +7,7 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <form action="<?php echo base_url("BidsAndAwards/saveAttachment"); ?>" method="post" class="form-horizontal" id="formBACAdd" enctype="multipart/form-data">
+            <form action="<?php echo base_url("BAC/saveAttachment"); ?>" method="post" class="form-horizontal" id="formBACAdd" enctype="multipart/form-data">
                 <div class="modal-body" style="max-height:70vh; overflow-y:auto;">
                     <input type="hidden" name="bac_id" id="bac_id">
 
@@ -40,7 +40,7 @@
             }
 
             $.ajax({
-                url: "<?php echo base_url('BidsAndAwards/getBACAttachments'); ?>",
+                url: "<?php echo base_url('BAC/getBACAttachments'); ?>",
                 type: "POST",
                 data: {
                     bac_id: bac_id
@@ -120,7 +120,7 @@
             formData.append('attachment_id', attachment_id);
 
             $.ajax({
-                url: "<?php echo base_url('BidsAndAwards/uploadAttachment'); ?>",
+                url: "<?php echo base_url('BAC/uploadAttachment'); ?>",
                 type: "POST",
                 data: formData,
                 processData: false,

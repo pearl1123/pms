@@ -7,7 +7,7 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <form action="<?php echo base_url("BidsAndAwards/saveBAC"); ?>" method="post" class="form-horizontal" id="formBACAdd">
+            <form action="<?php echo base_url("BAC/saveBAC"); ?>" method="post" class="form-horizontal" id="formBACAdd">
                 <input type="hidden" name="<?= $this->security->get_csrf_token_name(); ?>" value="<?= $this->security->get_csrf_hash(); ?>">
                 
                 <div class="modal-body" style="max-height:70vh; overflow-y:auto;">

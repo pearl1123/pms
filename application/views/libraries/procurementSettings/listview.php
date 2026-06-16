@@ -53,6 +53,7 @@
                             <th>No.</th>
                             <th>Procurement Code</th>
                             <th>Procurement Name</th>
+                            <th>Procurement Steps</th>
                             <th style="width: 10%;">Encoded By</th>
                             <th style="width: 8%;">Action</th>
                         </tr>
@@ -62,6 +63,7 @@
                             <th>No.</th>
                             <th>Procurement Code</th>
                             <th>Procurement Name</th>
+                            <th>Procurement Steps</th>
                             <th>Encoded By</th>
                             <th>Action</th>
                         </tr>
@@ -109,6 +111,7 @@
                 { data: 'id', name: 'id'},
                 { data: 'code', name: 'proc_code'},
                 { data: 'name', name: 'proc_name'},
+                { data: 'steps', name: 'steps'},
                 { data: 'encoded_by', name: 'encoded_by'},       
                 { data: 'actions', name: 'actions'},   
             ],

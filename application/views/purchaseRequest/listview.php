@@ -47,6 +47,17 @@
             <h6 class="m-0 font-weight-bold text-primary">Purchase Request List</h6>
         </div>
         <div class="card-body">
+            <?php
+                $can_procurement = $this->aauth->is_member(GROUP_PROCUREMENT);
+                $can_admin       = $this->aauth->is_member(GROUP_ADMIN);
+                $can_reviewer    = $this->aauth->is_member(GROUP_REVIEWER);
+                $can_approver    = $this->aauth->is_member(GROUP_APPROVER);
+            ?>
+            <?php echo $can_procurement ? '(Procurement)' : ''; ?>
+
+            <?php echo $can_admin ? '(Admin Office)' : ''; ?>
+            <?php echo $can_reviewer ? '(Reviewer)' : ''; ?>
+            <?php echo $can_approver ? '(Approver)' : ''; ?>
             <div class="table-responsive">
                 <table class="table table-bordered" id="tblPR" width="100%" cellspacing="0">
                     <thead>
@@ -278,7 +289,7 @@
 
         $('#tblPR').on('click', '#btnAttachment', function() {
 
-            var pr_id = $(this).data('prid');
+            var pr_id = $(this).data('pr_id');
 
             const $modal = $('#prAttachmentModal');
 
@@ -298,6 +309,20 @@
 
         });
 
+        $('#tblPR').on('click', '#btnPrint', function() {
+            var data = ($(this).parents('tr').hasClass('child')) ?
+                tblPR.row($(this).parents().prev('tr')).data() :
+                tblPR.row($(this).parents('tr')).data();
+            var id = data.id;
+
+            console.log(id);
+            var url = "<?= base_url('PurchaseRequest/view_pdf/'); ?>" + id;
+            document.getElementById('pdfFrame').src = url;
+
+            var myModal = new bootstrap.Modal(document.getElementById('pdfModal'));
+            myModal.show();
+        });
+
         $(document).on('click', '#btnAddItem', function() {
             const prId = $(this).data('prid');
             const $modal = $('#prAddItem');
@@ -306,7 +331,6 @@
             initStockSelect2AddItem($modal);
             $modal.modal('show');
         });
-
     }
 
     function initAttachmentSelect2($modal) {
@@ -408,35 +432,35 @@
             </div>
         `);
 
-            // Append new row
-            $('#itemRowsContainer').append($newRow);
+        // Append new row
+        $('#itemRowsContainer').append($newRow);
 
-            // Initialize Select2 only for the new select
-            $newRow.find('.prStock').select2({
-                placeholder: "-- Select Item --",
-                dropdownParent: $('#prAddItem'),
-                width: '100%',
-                ajax: {
-                    url: "<?php echo base_url('Libraries/getStockList'); ?>",
-                    dataType: 'json',
-                    delay: 250,
-                    data: function(params) {
-                        return {
-                            search: params.term || '',
-                            start: 0,
-                            length: 10
-                        };
-                    },
-                    processResults: function(data) {
-                        return {
-                            results: data.data.map(item => ({
-                                id: item.id,
-                                text: `${item.item_description} (${item.unit_code}) - Stock: ${item.stock_onhand}`
-                            }))
-                        };
-                    }
+        // Initialize Select2 only for the new select
+        $newRow.find('.prStock').select2({
+            placeholder: "-- Select Item --",
+            dropdownParent: $('#prAddItem'),
+            width: '100%',
+            ajax: {
+                url: "<?php echo base_url('Libraries/getStockList'); ?>",
+                dataType: 'json',
+                delay: 250,
+                data: function(params) {
+                    return {
+                        search: params.term || '',
+                        start: 0,
+                        length: 10
+                    };
+                },
+                processResults: function(data) {
+                    return {
+                        results: data.data.map(item => ({
+                            id: item.id,
+                            text: `${item.item_description} (${item.unit_code}) - Stock: ${item.stock_onhand}`
+                        }))
+                    };
                 }
-            });
+            }
+        });
         });
 
         // Remove row with validation

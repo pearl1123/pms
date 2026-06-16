@@ -330,19 +330,26 @@ class LibraryModel extends CI_Model
 
     // GET PROCUREMENT SETTINGS LIST
     // =========================================================================================================================================
-    public function getSettingsListView($start, $length)
-    {
+    public function getSettingsListView($start, $length){
         $this->db->select('l1.proc_id');
-        $this->db->where(array('archived' => 0));
+        $this->db->where(array('l1.archived' => 0));
+        $this->db->join('lib_procurement_settings t2', 't2.proc_id = l1.proc_id AND t2.archived = 0', 'left');
+        $this->db->join('lib_procurement_step t3', 't3.proc_step_id = t2.proc_step_id AND t3.archived = 0', 'left');
+        
         $num = $this->db->get('lib_procurement_mode l1')->num_rows();
 
-        $this->db->select('l1.proc_id, l1.proc_code, l1.proc_name, t1.fullname');
-        $this->db->where(array('archived' => 0));
+        $this->db->select('l1.proc_id, l1.proc_code, l1.proc_name, t1.fullname, GROUP_CONCAT(t3.step_description) AS steps');
+        
         if($length > 0) {
             $this->db->limit($length, $start);
         }
         $this->db->join('aauth_users t1', 't1.id = l1.created_by', 'left');
+        $this->db->join('lib_procurement_settings t2', 't2.proc_id = l1.proc_id AND t2.archived = 0', 'left');
+        $this->db->join('lib_procurement_step t3', 't3.proc_step_id = t2.proc_step_id AND t3.archived = 0', 'left');
+        $this->db->where(array('l1.archived' => 0));
+        $this->db->group_by('l1.proc_id');
         $res = $this->db->get('lib_procurement_mode l1')->result();
+       
 
         return array($res, $num);
     }
@@ -564,5 +571,355 @@ class LibraryModel extends CI_Model
     {
         $this->db->update('lib_supplier', $supplier_data, $param);
         return $this->db->affected_rows();
+    }
+
+    public function getProcurementStepsList($start, $length){
+        $this->db->select('ps.proc_step_id, ps.step_description');
+        $this->db->from('lib_procurement_step ps');
+        $this->db->where('archived', 0);
+        $num = $this->db->get()->num_rows();
+
+        $this->db->select('ps.proc_step_id, ps.step_description');
+        $this->db->select('GROUP_CONCAT(a.attachment_name SEPARATOR ", ") AS attachments', false);
+        $this->db->from('lib_procurement_step ps');
+        $this->db->join('`lib_step_attachment` psa', 'psa.proc_step_id = ps.proc_step_id', 'left');
+        $this->db->join('lib_attachments a', 'a.attachment_id = psa.attachment_id', 'left');
+        $this->db->where('ps.archived', 0);
+        $this->db->group_by('ps.proc_step_id');
+        $this->db->limit($length, $start);
+        $query = $this->db->get();
+
+        return array($query->result(), $num);
+    }
+
+    public function saveProcurementStep1($step_data, $docs, $proc_step_id = null){
+        $this->db->trans_begin();
+
+        try {
+            if (empty($proc_step_id)) {
+
+                $step_data['created_by'] = $this->session->userdata('userID');
+                $step_data['date_created'] = date("Y-m-d H:i:s");
+
+                $this->db->insert('lib_procurement_step', $step_data);
+                $proc_step_id = $this->db->insert_id();
+            } else {
+
+                $step_data['updated_by'] = $this->session->userdata('userID');
+                $step_data['date_updated'] = date("Y-m-d H:i:s");
+
+                $this->db->where('proc_step_id', $proc_step_id);
+                $this->db->update('lib_procurement_step', $step_data);
+            }
+
+            // Ensure docs is array
+            $docs = !empty($docs) ? $docs : [];
+            $existing_docs = $this->db
+                ->select('attachment_id')
+                ->from('lib_step_attachment')
+                ->where('proc_step_id', $proc_step_id)
+                ->get()
+                ->result_array();
+
+            $existing_doc_ids = array_column($existing_docs, 'attachment_id');
+
+            $unticked_docs = array_diff($existing_doc_ids, $docs);
+
+            if (!empty($unticked_docs)) {
+
+                $this->db->where('proc_step_id', $proc_step_id);
+                $this->db->where_in('attachment_id', $unticked_docs);
+                $this->db->update('lib_step_attachment', [
+                    'is_archived' => 1,
+                    'updated_by' => $this->session->userdata('userID'),
+                    'date_updated' => date("Y-m-d H:i:s")
+                ]);
+            }
+
+            foreach ($docs as $doc_id) {
+                $required = $this->input->post('isRequired_' . $doc_id) ? 1 : 0;
+                $existing = $this->db
+                    ->where('proc_step_id', $proc_step_id)
+                    ->where('attachment_id', $doc_id)
+                    ->get('lib_step_attachment')
+                    ->row_array();
+
+                if ($existing) {
+                    $this->db->where('id', $existing['id']);
+                    $this->db->update('lib_step_attachment', [
+                        'is_archived' => 0,
+                        'is_required' => $required,
+                        'updated_by' => $this->session->userdata('userID'),
+                        'date_updated' => date("Y-m-d H:i:s")
+                    ]);
+                } else {
+                    $this->db->insert('lib_step_attachment', [
+                        'proc_step_id' => $proc_step_id,
+                        'attachment_id' => $doc_id,
+                        'is_required' => $required,
+                        'is_archived' => 0,
+                        'date_created' => date("Y-m-d H:i:s"),
+                        'created_by' => $this->session->userdata('userID')
+                    ]);
+                }
+            }
+            if ($this->db->trans_status() === FALSE) {
+
+                $this->db->trans_rollback();
+
+                return json_encode([
+                    'status' => false,
+                    'message' => 'Failed to save procurement step'
+                ]);
+            }
+
+            $this->db->trans_commit();
+
+            return json_encode([
+                'status' => true,
+                'id' => $proc_step_id
+            ]);
+
+        } catch (Exception $e) {
+
+            $this->db->trans_rollback();
+
+            log_message('error', $e->getMessage());
+
+            return json_encode([
+                'status' => false,
+                'message' => $e->getMessage()
+            ]);
+        }
+    }
+
+    public function saveProcurementStep($step_data, $docs = [],$proc_step_id = null){
+        $this->db->trans_begin();
+
+        try {
+            $userID = $this->session->userdata('userID');
+            $datetime = date("Y-m-d H:i:s");
+
+            if (empty($proc_step_id)) {
+                $step_data['created_by'] = $userID;
+                $step_data['date_created'] = $datetime;
+
+                $this->db->insert('lib_procurement_step',$step_data);
+
+                $proc_step_id = $this->db->insert_id();
+            } else {
+                $step_data['modified_by'] = $userID;
+                $step_data['date_modified'] = $datetime;
+
+                $this->db->where('proc_step_id', $proc_step_id);
+                $this->db->update('lib_procurement_step',$step_data);
+            }
+
+            $docs = is_array($docs) ? $docs : [];
+
+            $existing_docs = $this->db
+                ->select('attachment_id')
+                ->where(
+                    'proc_step_id',
+                    $proc_step_id
+                )
+                ->where('archived', 0)
+                ->get('lib_step_attachment')
+                ->result_array();
+
+            $existing_doc_ids =
+                array_column(
+                    $existing_docs,
+                    'attachment_id'
+                );
+
+            $unticked_docs =
+                array_diff(
+                    $existing_doc_ids,
+                    $docs
+                );
+
+            if (!empty($unticked_docs)) {
+                $this->db
+                    ->where(
+                        'proc_step_id',
+                        $proc_step_id
+                    )
+                    ->where_in(
+                        'attachment_id',
+                        $unticked_docs
+                    )
+                    ->update(
+                        'lib_step_attachment',
+                        [
+                            'archived' => 1,
+                            'modified_by' => $userID,
+                            'date_modified' => $datetime
+                        ]
+                    );
+            }
+
+            foreach ($docs as $doc_id) {
+                $required = $this->input->post('isRequired_' . $doc_id) ? 1 : 0;
+
+                $existing = $this->db
+                    ->where(
+                        'proc_step_id',
+                        $proc_step_id
+                    )
+                    ->where(
+                        'attachment_id',
+                        $doc_id
+                    )
+                    ->get('lib_step_attachment')
+                    ->row_array();
+
+                if ($existing) {
+                    $this->db
+                        ->where(
+                            'proc_step_id',
+                            $proc_step_id
+                        )
+                        ->where(
+                            'attachment_id',
+                            $doc_id
+                        )
+                        ->update(
+                            'lib_step_attachment',
+                            [
+                                'archived' => 0,
+                                'is_required' => $required,
+                                'modified_by' => $userID,
+                                'date_modified' => $datetime
+                            ]
+                        );
+                } else {
+
+                    $this->db->insert(
+                        'lib_step_attachment',
+                        [
+                            'proc_step_id' =>
+                                $proc_step_id,
+                            'attachment_id' =>
+                                $doc_id,
+                            'is_required' =>
+                                $required,
+                            'archived' => 0,
+                            'date_created' =>
+                                $datetime,
+                            'created_by' =>
+                                $userID
+                        ]
+                    );
+                }
+            }
+
+            if ( $this->db->trans_status() === FALSE ) {
+                $this->db->trans_rollback();
+                return json_encode([
+                    'status' => false,
+                    'message' =>
+                        'Failed to save procurement step'
+                ]);
+            }
+
+            $this->db->trans_commit();
+
+            return json_encode([
+                'status' => true,
+                'id' => $proc_step_id
+            ]);
+
+        } catch (Exception $e) {
+
+            $this->db->trans_rollback();
+            log_message( 'error', $e->getMessage() );
+
+            return json_encode([
+                'status' => false,
+                'message' => $e->getMessage()
+            ]);
+        }
+    }
+
+    public function deleteProcurementStep($data,$param){
+        $this->db->trans_start();
+        $this->db->where($param);
+        $this->db->update('lib_procurement_step',$data);
+
+        if ($this->db->trans_status() === FALSE){
+             $this->db->trans_rollback();
+            log_message('error', 'Transaction failed: ' . $this->db->last_query());
+            return json_encode(['status' => false, 'message' => 'Failed to save delete procurement step']);
+        } else {
+            $this->db->trans_commit();
+            return json_encode(['status' => true, 'message' => 'Procurement step deleted successfully']);
+        }
+        
+    }
+
+    public function getProcurementStepDetails($param){
+        $this->db->select('ps.proc_step_id, ps.step_description');
+        $this->db->from('lib_procurement_step ps');
+        $this->db->where($param);
+        $step_details = $this->db->get()->row();
+
+        $this->db->select('a.attachment_id, a.attachment_name, psa.is_required');
+        $this->db->from('lib_step_attachment psa');
+        $this->db->join('lib_attachments a', 'a.attachment_id = psa.attachment_id', 'left');
+        $this->db->where('psa.proc_step_id', $step_details->proc_step_id);
+        $this->db->where('psa.archived', 0);
+        $attachments = $this->db->get()->result();
+
+        return array('step_details' => $step_details, 'attachments' => $attachments);
+        exit();
+    }
+
+    public function getAllProcurementSteps(){
+        return $this->db->where('archived', 0)->get('lib_procurement_step')->result();
+    }
+
+    public function getCurrentProcurementSettings($id){
+        return $this->db->where('lib_procurement_settings.archived', 0)
+                        ->where('proc_id', $id)
+                        ->join('lib_procurement_step', 'lib_procurement_step.proc_step_id = lib_procurement_settings.proc_step_id', 'left')
+                        ->order_by('order', 'ASC')
+                        ->get('lib_procurement_settings')
+                        ->result();
+    }
+
+    public function saveProcurementWorkflow($workflow, $proc_id){
+        $this->db->trans_start();
+
+        #delete existing workflow settings for the procurement mode
+        $this->db->where('proc_id', $proc_id);
+        $this->db->update('lib_procurement_settings', 
+                [   'archived' =>1, 
+                    'modified_by' => $this->session->userID, 
+                    'date_modified' => date("Y-m-d H:i:s")]);
+
+
+        foreach(json_decode($workflow, true) as $step){
+            $setting_data = array(
+                'proc_id' => $proc_id,
+                'proc_step_id' => $step['id'],
+                'order' => $step['order'],
+                'created_by' => $this->session->userID,
+                'date_created' => date("Y-m-d H:i:s"),
+                'archived' => 0
+            );
+            $this->db->insert('lib_procurement_settings', $setting_data);
+        }
+
+        if ($this->db->trans_status() === FALSE){
+             $this->db->trans_rollback();
+            log_message('error', 'Transaction failed: ' . $this->db->last_query());
+            return json_encode(['status' => false, 'message' => 'Failed to save procurement workflow']);
+        } else {
+            $this->db->trans_commit();
+            return json_encode(['status' => true, 'message' => 'Procurement workflow saved successfully']);
+        }
+
+
     }
 }

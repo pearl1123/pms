@@ -37,11 +37,6 @@ class Libraries extends CI_Controller
         );
     }
 
-
-
-
-
-
     // ATTACHMENT LIST VIEW
     // Displays module for attachment; Library Module
     // =========================================================================================================================================
@@ -832,27 +827,28 @@ class Libraries extends CI_Controller
     // PROCUREMENT SETTINGS LIST VIEW
     // Gets list of procurement modes for data table
     // =========================================================================================================================================
-    public function getSettingsList()
-    {
+    public function getSettingsList(){
         $draw = intval($this->input->get("draw"));
         $start = intval($this->input->get("start"));
         $length = intval($this->input->get("length"));
         $l_model = new LibraryModel();
 
         $results = $l_model->getSettingsListView($start, $length);
-
         $data = array();
 
         foreach($results[0] as $r){
-            $btn_update = '<a href="'.base_url("Libraries/updateProcurementSetting/") . $r->proc_code.'" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></a> ';
+            $btn_update = '<a href="'.base_url("Libraries/updateProcurementSetting/") . $r->proc_code.'/'.$r->proc_id.'" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-cog"></i></a> ';
             $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
-
+            $btn_attachments = '<a href="'.base_url("Libraries/updateProcurementSetting/") . $r->proc_code.'" id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></a> ';
+            $btn_process = '<button type="button" id="btnProcess" class="btn btn-sm btn-info btn-flat"><i class="fa fa-fw fa-paperclip"></i> </button>';
+            
             $data[] = array(
                 'id' => $r->proc_id,
                 'code' => $r->proc_code,
                 'name' => $r->proc_name,
+                'steps' => '',
                 'encoded_by' => $r->fullname,
-                'actions' => $btn_update . $btn_delete
+                'actions' => $btn_update 
             );
         }
 
@@ -867,13 +863,35 @@ class Libraries extends CI_Controller
         exit();
     }
 
-    // VIEW UPDATE PROCUREMENT SETTING
-    // Display view for procurement setting update
-    // =========================================================================================================================================
-    public function updateProcurementSetting($id)
-    {
+    public function updateProcurementSetting($code,$id){
         $l_model = new LibraryModel();
+        $attachment = $l_model->getSettingsUpdateView($code);
+        $steps = $l_model->getAllProcurementSteps();
 
+        $data = array(
+            'csrf' => $this->csrf(),
+            'csrf_ajax' => $this->csrf_ajax(),
+            'fullname' => $this->session->fullname,
+            'attachment' => $attachment[0],
+            'proc_attach' => $attachment[1],
+            'proc_code' => $attachment[2],
+            'proc_id' => $id,
+            'steps' => $steps,
+            'curSet' => $l_model->getCurrentProcurementSettings($id)
+        );
+
+        #notification placeholder for now need to configure this later
+        $data['notif'] = 1;
+        $data['config'] = 1;
+        $data['ondue'] = 1;
+
+        $this->load->view('header', $data);
+        $this->load->view('libraries/procurementSettings/updateview');
+        $this->load->view('footer');
+    }
+
+    public function updateProcurementSettingOrig($id){
+        $l_model = new LibraryModel();
         $attachment = $l_model->getSettingsUpdateView($id);
 
         $data = array(
@@ -891,7 +909,7 @@ class Libraries extends CI_Controller
         $data['ondue'] = 1;
 
         $this->load->view('header', $data);
-        $this->load->view('libraries/procurementSettings/updateview');
+        $this->load->view('libraries/procurementSettings/updateview2');
         $this->load->view('footer');
     }
 
@@ -1068,8 +1086,7 @@ class Libraries extends CI_Controller
     // UPDATE UNIT
     // Updates existing unit
     // =========================================================================================================================================
-    public function updateUnit()
-    {
+    public function updateUnit(){
         $l_model = new LibraryModel();
 
         $unit_data = array(
@@ -1101,8 +1118,7 @@ class Libraries extends CI_Controller
     // DELETE ITEM
     // Deletes existing item
     // =========================================================================================================================================
-    public function deleteUnit()
-    {
+    public function deleteUnit(){
         $l_model = new LibraryModel();
 
         $unit_data = array(
@@ -1124,11 +1140,6 @@ class Libraries extends CI_Controller
 
         redirect('Libraries/unit');
     }
-
-
-
-
-
 
     // STOCK LIST VIEW
     // Displays module for stock; Library Module
@@ -1516,10 +1527,6 @@ class Libraries extends CI_Controller
         }
     }
 
-
-
-
-
     // FUND SOURCE LIST VIEW
     // Displays module for attachment; Library Module
     // =========================================================================================================================================
@@ -1740,13 +1747,13 @@ class Libraries extends CI_Controller
             $sub_array['status']                  = ($row->archived == 0) ? 'Active' : 'Inactive';
 
             $sub_array['actions'] = '
-    <button type="button" class="btn btn-sm btn-info btnUpdate" data-id="' . $row->supplier_id . '">
-        <i class="fas fa-edit"></i>
-    </button>
-    <button type="button" class="btn btn-sm btn-danger btnDel" data-id="' . $row->supplier_id . '">
-        <i class="fas fa-trash"></i>
-    </button>
-';
+                <button type="button" class="btn btn-sm btn-info btnUpdate" data-id="' . $row->supplier_id . '">
+                    <i class="fas fa-edit"></i>
+                </button>
+                <button type="button" class="btn btn-sm btn-danger btnDel" data-id="' . $row->supplier_id . '">
+                    <i class="fas fa-trash"></i>
+                </button>
+            ';
 
             $data[] = $sub_array;
         }
@@ -2277,6 +2284,152 @@ class Libraries extends CI_Controller
         $res = $l_model->updateGroup($group_data, $param);
 
         echo json_encode(['success' => $res > 0]);
+        exit();
+    }
+
+    public function procurementSteps()
+    {
+        $l_model = new LibraryModel();
+
+        $data = array(
+            'csrf' => $this->csrf(),
+            'csrf_ajax' => $this->csrf_ajax(),
+            'fullname' => $this->session->fullname,
+            'attachment' => $l_model->getActiveAttachment()
+        );
+
+        #notification placeholder for now need to configure this later
+        $data['notif'] = 1;
+        $data['config'] = 1;
+        $data['ondue'] = 1;
+
+        $this->load->view('header', $data);
+        $this->load->view('libraries/procurementSteps/listview', $data);
+        $this->load->view('libraries/procurementSteps/modal_add', $data);
+        $this->load->view('footer');
+    }
+
+    public function getProcurementStepsList(){
+        $draw = intval($this->input->get("draw"));
+        $start = intval($this->input->get("start"));
+        $length = intval($this->input->get("length"));
+        $l_model = new LibraryModel();
+
+        $results = $l_model->getProcurementStepsList($start, $length);
+        $data = array();
+
+        foreach($results[0] as $r){
+            $btn_update = '<button id="btnUpdate" class="btn btn-sm btn-primary btn-flat"><i class="fa fa-fw fa-pencil"></i></button> ';
+            $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat"><i class="fa fa-fw fa-trash"></i> </button>';
+            $data[] = array(
+                'proc_step_id' => $r->proc_step_id,
+                'step' => $r->step_description,
+                'attachments' => $r->attachments,
+                'actions' => $btn_update . $btn_delete
+            );
+        }
+
+        $output = array(
+            "draw" => $draw,
+            "recordsTotal" => $results[1],
+            "recordsFiltered" => $results[1],
+            "data" => $data
+        );
+
+        echo json_encode($output);
+        exit();
+    }
+
+    public function saveProcurementStep(){
+        $proc_step_id = $this->input->post('stepId');
+        $step_data = ['step_description' => htmlentities($this->input->post('step_description') )];
+
+        $docs = $this->input->post('docs');
+
+        $l_model = new LibraryModel();
+
+        $res = $l_model->saveProcurementStep($step_data,$docs,$proc_step_id);
+        $res = json_decode($res, true);
+
+        if ($res['status'] == TRUE) {
+            $message = empty($proc_step_id)
+                ? 'Procurement step record created successfully.'
+                : 'Procurement step record updated successfully.';
+
+            $this->session->set_flashdata('success',$message);
+        } else {
+            $message = empty($proc_step_id)
+                ? 'Failed to create procurement step record.'
+                : 'Failed to update procurement step record.';
+
+            $this->session->set_flashdata('fail',$message);
+        }
+
+        redirect('Libraries/procurementSteps');
+    }
+
+    public function deleteProcurementStep(){
+        $l_model = new LibraryModel();
+
+        $step_id = $this->input->post('id');
+        $param = array('proc_step_id' => htmlentities($step_id));
+        $data = array(
+            'modified_by' => $this->session->userID,
+            'date_modified' => date("Y-m-d H:i:s"),
+            'archived' => 1
+        );
+
+        $res = $l_model->deleteProcurementStep($data,$param);
+        $res = json_decode($res, true); // Decode the JSON response from the model
+
+        if ($res['status'] == TRUE){
+             return $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode($res));
+        } else {
+            return $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode($res));
+        }
+        exit();
+    }
+
+    public function getProcurementStepDetails(){
+        $l_model = new LibraryModel();
+
+        $step_id = $this->input->post('id');
+        $param = array('proc_step_id' => htmlentities($step_id));
+
+        $res = $l_model->getProcurementStepDetails($param);
+        if ($res) {
+            return $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode(['status' => TRUE, 'data' => $res]));
+        } else {
+            return $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode(['status' => FALSE, 'message' => 'Failed to retrieve procurement step details.']));
+        }
+        exit();
+    }
+
+    public function saveProcurementWorkflow($proc_id){
+        $l_model = new LibraryModel();
+        
+        $workflow = $this->input->post('workflow');
+        
+
+        $res = $l_model->saveProcurementWorkflow($workflow, $proc_id);
+        if ($res > 0) {
+            return $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode(['status' => TRUE, 'message' => 'Procurement workflow saved successfully.']));
+        } else {
+            return $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode(['status' => FALSE, 'message' => 'Failed to save procurement workflow.']));
+        }
+
         exit();
     }
 }

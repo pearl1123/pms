@@ -31,121 +31,250 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <?php
+            $can_procurement = $this->aauth->is_member(GROUP_PROCUREMENT);
+            $can_admin       = $this->aauth->is_member(GROUP_ADMIN);
+            $can_reviewer    = $this->aauth->is_member(GROUP_REVIEWER);
+            $can_approver    = $this->aauth->is_member(GROUP_APPROVER);
+        ?>
 
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-cart-plus"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">PMIS</div>
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center"
+        href="<?= base_url('PurchaseRequest'); ?>">
+
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+
+        <div class="sidebar-brand-text mx-3">
+            PMIS 
+        </div>
+    </a>
+
+    <hr class="sidebar-divider my-0">
+
+    <!-- Dashboard -->
+    <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('Dashboard'); ?>">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+        </a>
+    </li>
+
+    <hr class="sidebar-divider">
+
+    <div class="sidebar-heading">
+        PROCUREMENT
+    </div>
+
+    <!-- Purchase Requests -->
+    <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('PurchaseRequest'); ?>">
+            <i class="fas fa-file-alt"></i>
+            <span>Purchase Requests</span>
+        </a>
+    </li>
+
+    <!-- PPMP -->
+    <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('PPMP'); ?>">
+            <i class="fas fa-shopping-cart"></i>
+            <span>PPMP</span>
+        </a>
+    </li>
+
+    <!-- BAC -->
+    <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('BAC'); ?>">
+            <i class="fas fa-file-contract"></i>
+            <span>BAC</span>
+        </a>
+    </li>
+
+    <?php if ($can_reviewer): ?>
+
+        <hr class="sidebar-divider">
+
+        <div class="sidebar-heading">
+            REVIEWER
+        </div>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/myInbox'); ?>">
+                <i class="fas fa-inbox"></i>
+                <span>Review Inbox</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/forReview'); ?>">
+                <i class="fas fa-search"></i>
+                <span>For Review</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/returnedDocuments'); ?>">
+                <i class="fas fa-undo"></i>
+                <span>Returned Documents</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/reviewHistory'); ?>">
+                <i class="fas fa-history"></i>
+                <span>Review History</span>
+            </a>
+        </li>
+
+    <?php endif; ?>
+
+
+    <?php if ($can_approver): ?>
+
+        <hr class="sidebar-divider">
+
+        <div class="sidebar-heading">
+            APPROVER
+        </div>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/approvalInbox'); ?>">
+                <i class="fas fa-inbox"></i>
+                <span>Approval Inbox</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/forApproval'); ?>">
+                <i class="fas fa-check-circle"></i>
+                <span>For Approval</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/disapprovedDocuments'); ?>">
+                <i class="fas fa-times-circle"></i>
+                <span>Disapproved</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/approvalHistory'); ?>">
+                <i class="fas fa-history"></i>
+                <span>Approval History</span>
+            </a>
+        </li>
+
+    <?php endif; ?>
+
+
+    <?php if ($can_procurement): ?>
+
+        <hr class="sidebar-divider">
+
+        <div class="sidebar-heading">
+            PROCUREMENT OFFICE
+        </div>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PPMP/all'); ?>">
+                <i class="fas fa-list"></i>
+                <span>All PPMP</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('PurchaseRequest/all'); ?>">
+                <i class="fas fa-folder-open"></i>
+                <span>All Purchase Requests</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('ProcurementStaff'); ?>">
+                <i class="fas fa-clipboard-check"></i>
+                <span>Procurement Review</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('Tracking'); ?>">
+                <i class="fas fa-route"></i>
+                <span>Document Tracking</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('Reports'); ?>">
+                <i class="fas fa-chart-bar"></i>
+                <span>Reports</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('UserManagement'); ?>">
+                <i class="fas fa-users"></i>
+                <span>User Management</span>
+            </a>
+        </li>
+
+        <!-- Libraries -->
+        <li class="nav-item">
+
+            <a class="nav-link collapsed"
+                href="#"
+                data-toggle="collapse"
+                data-target="#collapseLibraries">
+
+                <i class="fas fa-cogs"></i>
+                <span>Libraries</span>
+
             </a>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
+            <div id="collapseLibraries"
+                class="collapse"
+                data-parent="#accordionSidebar">
 
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
-            </li>
+                <div class="bg-white py-2 collapse-inner rounded">
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
+                    <a class="collapse-item" href="<?= base_url('libraries/procurementSteps'); ?>">Procurement Steps</a>
 
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                PURCHASE REQUEST
-            </div>
+                    <a class="collapse-item" href="<?= base_url('libraries/attachment'); ?>">Attachments</a>
 
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('PurchaseRequest'); ?>">
-                    <i class="fas fa-fw fa-list"></i>
-                    <span>Purchase Request List</span></a>
-            </li>
+                    <a class="collapse-item" href="<?= base_url('libraries/fund'); ?>">Fund Sources</a>
 
-            <?php if ($this->aauth->is_member(11) || $this->aauth->is_member(14)): ?>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('ProcurementStaff'); ?>">
-                        <i class="fas fa-fw fa-list"></i>
-                        <span>Procurement Request Review List</span>
-                    </a>
-                </li>
-            <?php endif; ?>
+                    <a class="collapse-item" href="<?= base_url('libraries/item'); ?>">Items</a>
 
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('PPMP'); ?>">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span>PPMP</span></a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('BAC'); ?>">
-                    <i class="fas fa-file-contract"></i>
-                    <span>BAC</span></a>
-            </li>
+                    <a class="collapse-item" href="<?= base_url('libraries/office'); ?>">Offices</a>
 
-            <!-- Divider -->
-            <?php if ($this->aauth->is_member(11) || $this->aauth->is_member(14)): ?>
-                <hr class="sidebar-divider">
+                    <a class="collapse-item" href="<?= base_url('libraries/mode'); ?>">Procurement Modes</a>
 
-                <!-- Heading -->
-                <div class="sidebar-heading">
-                    SETTINGS
+                    <a class="collapse-item" href="<?= base_url('libraries/group'); ?>">Groups</a>
+
+                    <a class="collapse-item" href="<?= base_url('libraries/permission'); ?>">Permissions</a>
+
+                    <a class="collapse-item" href="<?= base_url('libraries/supplier'); ?>">Suppliers</a>
+
+                    <a class="collapse-item" href="<?= base_url('libraries/unit'); ?>">Units</a>
+
                 </div>
 
-                <!-- Nav Item - Pages Collapse Menu -->
-                <li class="nav-item">
-                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                        aria-expanded="true" aria-controls="collapsePages">
-                        <i class="fas fa-fw fa-cog"></i>
-                        <span>Libraries</span>
-                    </a>
-                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="<?php echo base_url('libraries/attachment'); ?>"><i class="fas fa-fw fa-circle"></i> Attachments</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/fund'); ?>"><i class="fas fa-fw fa-circle"></i> Fund Source</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/item'); ?>"><i class="fas fa-fw fa-circle"></i> Item</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/office'); ?>"><i class="fas fa-fw fa-circle"></i> Office</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/mode'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Mode</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/group'); ?>"><i class="fas fa-fw fa-circle"></i> Group</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/permission'); ?>"><i class="fas fa-fw fa-circle"></i> Permissions</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/supplier'); ?>"><i class="fas fa-fw fa-circle"></i> Supplier</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/unit'); ?>"><i class="fas fa-fw fa-circle"></i> Unit</a>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('UserManagement'); ?>">
-                        <i class="fas fa-fw fa-user"></i>
-                        <span>User Management</span></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages1"
-                        aria-expanded="true" aria-controls="collapsePages1">
-                        <i class="fas fa-fw fa-tools"></i>
-                        <span>Configuration</span>
-                    </a>
-                    <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="<?php echo base_url('libraries/procurementSettings'); ?>"><i class="fas fa-fw fa-circle"></i> Procurement Settings</a>
-                            <a class="collapse-item" href="<?php echo base_url('libraries/stock'); ?>"><i class="fas fa-fw fa-circle"></i> Available Stock</a>
-                        </div>
-                    </div>
-                </li>
-
-                <!-- Divider -->
-                <hr class="sidebar-divider d-none d-md-block">
-            <?php endif; ?>
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 
-        </ul>
+        </li>
+
+    <?php endif; ?>
+
+    <hr class="sidebar-divider d-none d-md-block">
+
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+
+</ul>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->

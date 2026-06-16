@@ -16,16 +16,14 @@ class PurchaseRequest extends CI_Controller
         }
     }
 
-    public function csrf()
-    {
+    public function csrf(){
         $name = $this->security->get_csrf_token_name();
         $hash = $this->security->get_csrf_hash();
         $html = '<input type="hidden" name="' . $name . '" value="' . $hash . '">';
         return $html;
     }
 
-    public function csrf_ajax()
-    {
+    public function csrf_ajax(){
         return array(
             'name' => $this->security->get_csrf_token_name(),
             'hash' => $this->security->get_csrf_hash()
@@ -105,6 +103,7 @@ class PurchaseRequest extends CI_Controller
         $this->load->view('purchaseRequest/modal_add');
         $this->load->view('purchaseRequest/modal_update');
         $this->load->view('purchaseRequest/attachment');
+        $this->load->view('purchaseRequest/modal_PR');
         $this->load->view('footer');
     }
 
@@ -125,6 +124,8 @@ class PurchaseRequest extends CI_Controller
         $btn_update = '<button type="button" id="btnUpdate" class="btn btn-sm btn-primary btn-flat" data-toggle="tooltip" title="Edit"><i class="fa fa-fw fa-pencil"></i></button> ';
         $btn_delete = '<button type="button" id="btnDel" class="btn btn-sm btn-danger btn-flat mr-1" data-toggle="tooltip" title="Delete"><i class="fa fa-fw fa-trash"></i> </button>';
         $btn_send = '<button type="button" id="btnSend" class="btn btn-sm btn-success btn-flat mr-1" data-toggle="tooltip" title="Submit"><i class="fa fa-fw fa-send"></i> </button>';
+        $btn_print = '<button type="button" id="btnPrint" class="btn btn-sm btn-secondary btn-flat mr-1" data-toggle="tooltip" title="Print"><i class="fa fa-fw fa-print"></i> </button>';
+
 
         foreach ($results[0] as $r) {
             $btn_attachment = '<button type="button" class="btnAttachment btn btn-sm btn-warning btn-flat mr-1" data-prid="' . $r->pr_id . '" data-toggle="tooltip" title="Attachment"><i class="fa fa-fw fa-file"></i></button>';
@@ -148,7 +149,7 @@ class PurchaseRequest extends CI_Controller
                 'date_created' => $r->date_created,
                 'encoded_by' => $r->fullname,
                 'review_status'  => $r->review_status ?? 'not_sent',
-                'actions' => $btn_update . $btn_attachment . $btn_item . $btn_send . $btn_delete
+                'actions' => $btn_update . $btn_attachment . $btn_item . $btn_send . $btn_delete . $btn_print
             );
         }
 
@@ -442,6 +443,7 @@ class PurchaseRequest extends CI_Controller
             'file_name' => $upload_data['file_name']
         ]);
     }
+
     // SAVE PURCHASE REQUEST ITEM
     // Saves the purchase request item
     // =========================================================================================================================================
@@ -763,5 +765,131 @@ class PurchaseRequest extends CI_Controller
         }
 
         exit();
+    }
+
+    public function view_pdf($pr_id){
+        error_reporting(error_reporting() & ~E_DEPRECATED);
+        $l_model = new PurchaseRequestModel();
+        $this->load->library('Pdf');
+
+        $pdf = new Pdf();
+
+        // Set document info
+        $pdf->SetCreator(PDF_CREATOR);
+        $pdf->SetAuthor('Your Name');
+        $pdf->SetTitle('Sample PDF');
+
+        // Remove header/footer (optional)
+        $pdf->setPrintHeader(false);
+        $pdf->setPrintFooter(false);
+
+        // Add page
+        $pdf->AddPage();
+        $pr_items = $l_model->getPRItem($pr_id);
+        $pr_details = $l_model->getPurchaseRequestById($pr_id);
+
+        // HTML content
+        $html = '
+            <div class = "col-lg-12" align = "center">
+                <table class = "table table-bordered" style="width: 100%;">
+                    <tr>
+                        <td rowspan = "2" align = "right" width="25%"><img src="' . base_url('assets/img/LCP_logo.png') . '" alt="LCP Logo" width="70" height="30"></td>
+                        <td align = "center" width="50%"><h4>LUNG CENTER OF THE PHILIPPINES</h4></td>
+                        <td width= "20%"></td>
+                    </tr>
+                    <tr>
+                        <td><h6>Quezon Avenue, Quezon City</h6></td>
+                        <td width= "30%"></td>
+                    </tr>
+                </table>
+                <br>
+                <h4>PURCHASE REQUEST</h4>
+
+                <font size = "10">
+                    <table class = "table table-bordered" style="width: 100%;">
+                        <tr>
+                            <td width="15%">DEPARTMENT:</td>
+                            <td width="35%">___________________________</td>
+                            <td width= "10%" align="right">P.R. No.</td>
+                            <td width= "15%">___________</td>
+                            <td width= "10%" align="right">DATE</td>
+                            <td width= "15%">___________</td>
+                        </tr>
+                        <tr>
+                            <td width="15%" align = "left">SECTION:</td>
+                            <td width="35%">___________________________</td>
+                            <td width= "10%" align="right">SAI No.</td>
+                            <td width= "15%">___________</td>
+                            <td width= "10%" align="right">DATE</td>
+                            <td width= "15%">___________</td>
+                        </tr>
+                    </table>
+                    <br><br>
+                    <table class = "table table-bordered" style="width: 100%; border: 1px solid #000;" border="1">
+                        <tr>
+                            <td width="10%">Stock on Hand</td>
+                            <td width="10%">Unit</td>
+                            <td width= "50%">Item Description</td>
+                            <td width= "10%">Quantity</td>
+                            <td width= "10%">Unit Cost</td>
+                            <td width= "10%">Total Cost</td>
+                        </tr>';
+                        foreach($pr_items as $item){
+                            $html .= '  <tr>
+                                            <td width="10%"></td>
+                                            <td width="10%">'.$item->unit_code.'</td>
+                                            <td width= "50%">'.$item->item_description.'</td>
+                                            <td width= "10%">'.$item->quantity.'</td>
+                                            <td width= "10%" align="right">'.$item->unit_cost.'</td>
+                                            <td width= "10%" align="right">'.$item->total_cost.'</td>
+                                        </tr>';
+                        } 
+                    $html .= '</table>
+                 </font>
+               
+            </div>
+        ';
+
+        $pdf->writeHTML($html, true, false, true, false, '');
+
+        $pageHeight = $pdf->getPageHeight();
+        $bottomMargin = $pdf->getBreakMargin();
+        $targetY = $pageHeight - $bottomMargin - 50.8;
+
+        $currentY = $pdf->GetY();
+
+        if ($currentY < $targetY) {
+            $pdf->SetY($targetY);
+        } else {
+            $pdf->AddPage();
+            $pdf->SetY($targetY);
+        }
+
+        $pdf->SetFont('helvetica', '', 10);
+        $pdf->SetLineWidth(0.2); // thickness
+        $pdf->SetDrawColor(0, 0, 0); // black
+
+        $y = $pdf->GetY();
+        $pdf->Line(10, $y, 200, $y);
+        $pdf->Cell(0, 10, 'REMARKS     '.$pr_details->remarks, 0, 1);
+
+        $pdf->Ln();
+        $pdf->SetLineWidth(0.2); // thickness
+        $pdf->SetDrawColor(0, 0, 0); // black
+
+        $y = $pdf->GetY();
+        $pdf->Line(10, $y, 200, $y);
+        $pdf->Cell(95, 5, 'Signature:', 0, 0, 'L'); // left side
+        $pdf->Cell(95, 5, 'Approved by:                                  ', 0, 1, 'R'); // right side
+        $pdf->Cell(95, 5, 'Requested by:' . $pr_details->requested_by, 0, 0, 'L'); // left side
+        $pdf->Cell(95, 5, '___________________________', 0, 1, 'R'); // right side
+        $pdf->Cell(95, 5, 'Designation: ' . $pr_details->designation, 0, 0, 'L'); // left side
+        $pdf->Ln();
+
+        $y = $pdf->GetY();
+        $pdf->Line(10, $y, 200, $y);
+        $pdf->Cell(95, 5, 'Run Date:  '.date('m/d/Y h:i:s A') , 0, 0, 'L'); // left side
+
+        $pdf->Output('sample.pdf', 'I'); 
     }
 }

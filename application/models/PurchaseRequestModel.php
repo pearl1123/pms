@@ -71,27 +71,27 @@ class PurchaseRequestModel extends CI_Model
     public function getPRItem($pr_id)
     {
         $this->db->select('
-        t1.pr_item_id,
-        t1.pr_id,
-        t1.stock_id,
-        t1.quantity,
-        t1.unit_cost,
-        t1.total_cost,
-        t2.stock_onhand,
-        t2.item_source,
-        COALESCE(
-            CASE WHEN t2.item_source = "library"  THEN i_lib.item_description  ELSE NULL END,
-            CASE WHEN t2.item_source = "diet"      THEN i_diet.name             ELSE NULL END,
-            CASE WHEN t2.item_source = "pharmacy"  THEN i_pharm.brand_name      ELSE NULL END,
-            "Unknown Item"
-        ) as item_description,
-        COALESCE(
-            CASE WHEN t2.item_source = "library"  THEN u_lib.unit_code          ELSE NULL END,
-            CASE WHEN t2.item_source = "diet"      THEN i_diet.unit             ELSE NULL END,
-            CASE WHEN t2.item_source = "pharmacy"  THEN i_dosage.dosage_name    ELSE NULL END,
-            ""
-        ) as unit_code
-    ', FALSE);
+            t1.pr_item_id,
+            t1.pr_id,
+            t1.stock_id,
+            t1.quantity,
+            t1.unit_cost,
+            t1.total_cost,
+            t2.stock_onhand,
+            t2.item_source,
+            COALESCE(
+                CASE WHEN t2.item_source = "library"  THEN i_lib.item_description  ELSE NULL END,
+                CASE WHEN t2.item_source = "diet"      THEN i_diet.name             ELSE NULL END,
+                CASE WHEN t2.item_source = "pharmacy"  THEN i_pharm.brand_name      ELSE NULL END,
+                "Unknown Item"
+            ) as item_description,
+            COALESCE(
+                CASE WHEN t2.item_source = "library"  THEN u_lib.unit_code          ELSE NULL END,
+                CASE WHEN t2.item_source = "diet"      THEN i_diet.unit             ELSE NULL END,
+                CASE WHEN t2.item_source = "pharmacy"  THEN i_dosage.dosage_name    ELSE NULL END,
+                ""
+            ) as unit_code
+        ', FALSE);
 
         $this->db->from('lib_purchase_request_items t1');
         $this->db->join('lib_stocks t2',              't2.stock_id = t1.stock_id',                   'left');

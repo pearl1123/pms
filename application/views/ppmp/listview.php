@@ -1,97 +1,3 @@
-<div class="container-fluid">
-
-    <!-- PAGE HEADER
-    ========================================================================================================================================= -->
-    <div class="d-sm-flex align-items-center justify-content-between mb-3">
-        <div>
-            <h1 class="h3 mb-0 text-gray-800">
-                <i class="fas fa-clipboard-list mr-2 text-primary"></i>PPMP
-            </h1>
-            <small class="text-muted">Project Procurement Management Plan &mdash; All Years</small>
-        </div>
-        <button class="btn btn-primary shadow-sm" id="btnAdd">
-            <i class="fas fa-plus fa-sm mr-1"></i> Create PPMP
-        </button>
-    </div>
-
-    <!-- BREADCRUMBS
-    ========================================================================================================================================= -->
-    <nav aria-label="breadcrumb" class="mb-3">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#"><i class="fas fa-home fa-sm"></i> Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">PPMP</li>
-        </ol>
-    </nav>
-
-    <!-- ALERTS
-    ========================================================================================================================================= -->
-    <?php if ($this->session->flashdata('fail') <> null) { ?>
-        <div class="alert alert-danger alert-dismissible fade show shadow-sm">
-            <i class="fas fa-exclamation-circle mr-2"></i>
-            <?php echo $this->session->flashdata('fail'); ?>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-    <?php } ?>
-    <?php if ($this->session->flashdata('success') <> null) { ?>
-        <div class="alert alert-success alert-dismissible fade show shadow-sm">
-            <i class="fas fa-check-circle mr-2"></i>
-            <?php echo $this->session->flashdata('success'); ?>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-    <?php } ?>
-
-    <!-- MAIN CONTENT
-    ========================================================================================================================================= -->
-    <div class="card shadow mb-4">
-        <div class="card-header py-3 d-flex align-items-center justify-content-between">
-            <h6 class="m-0 font-weight-bold text-primary">
-                <i class="fas fa-table mr-2"></i>PPMP List
-            </h6>
-            <span class="text-muted small" id="recordCount"></span>
-        </div>
-        <div class="card-body p-0">
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover mb-0" id="tblPPMP" width="100%" cellspacing="0">
-                    <thead>
-                        <tr>
-                            <th style="width: 220px;">Fiscal Year</th>
-                            <th>Encoded By</th>
-                            <th style="width: 120px;" class="text-center">Action</th>
-                        </tr>
-                    </thead>
-                    <tfoot>
-                        <tr>
-                            <th>Fiscal Year</th>
-                            <th>Encoded By</th>
-                            <th class="text-center">Action</th>
-                        </tr>
-                    </tfoot>
-                    <tbody id="ppmpBody"></tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<!-- CLOSING TAGS
-========================================================================================================================================= -->
-</div>
-</div>
-</div>
-</body>
-</html>
-
-<!-- SCRIPTS
-========================================================================================================================================= -->
-<script src="<?php echo base_url('assets/frameworks/sbadmin/vendor/jquery/jquery.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/frameworks/sbadmin/vendor/datatables/jquery.dataTables.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/frameworks/sbadmin/vendor/datatables/dataTables.bootstrap4.min.js'); ?>"></script>
-
 <style>
     /* ── Table header ─────────────────────────────────────────────────────── */
     #tblPPMP thead tr th {
@@ -222,6 +128,100 @@
         box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
 </style>
+<div class="container-fluid">
+    <!-- PAGE HEADER
+    ========================================================================================================================================= -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-3">
+        <div>
+            <h1 class="h3 mb-0 text-gray-800">
+                <i class="fas fa-clipboard-list mr-2 text-primary"></i>PPMP
+            </h1>
+            <small class="text-muted">Project Procurement Management Plan &mdash; All Years</small>
+        </div>
+        <button class="btn btn-primary shadow-sm" id="btnAdd">
+            <i class="fas fa-plus fa-sm mr-1"></i> Create PPMP
+        </button>
+    </div>
+
+    <!-- BREADCRUMBS
+    ========================================================================================================================================= -->
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"><i class="fas fa-home fa-sm"></i> Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">PPMP</li>
+        </ol>
+    </nav>
+
+    <!-- ALERTS
+    ========================================================================================================================================= -->
+    <?php if ($this->session->flashdata('fail') <> null) { ?>
+        <div class="alert alert-danger alert-dismissible fade show shadow-sm">
+            <i class="fas fa-exclamation-circle mr-2"></i>
+            <?php echo $this->session->flashdata('fail'); ?>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    <?php } ?>
+    <?php if ($this->session->flashdata('success') <> null) { ?>
+        <div class="alert alert-success alert-dismissible fade show shadow-sm">
+            <i class="fas fa-check-circle mr-2"></i>
+            <?php echo $this->session->flashdata('success'); ?>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    <?php } ?>
+
+    <!-- MAIN CONTENT
+    ========================================================================================================================================= -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">
+                <i class="fas fa-table mr-2"></i>PPMP List
+            </h6>
+            <span class="text-muted small" id="recordCount"></span>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover mb-0" id="tblPPMP" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th style="width: 220px;">Fiscal Year</th>
+                            <th>Encoded By</th>
+                            <th style="width: 120px;" class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Fiscal Year</th>
+                            <th>Encoded By</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </tfoot>
+                    <tbody id="ppmpBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- CLOSING TAGS
+========================================================================================================================================= -->
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!-- SCRIPTS
+========================================================================================================================================= -->
+<script src="<?php echo base_url('assets/frameworks/sbadmin/vendor/jquery/jquery.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/frameworks/sbadmin/vendor/datatables/jquery.dataTables.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/frameworks/sbadmin/vendor/datatables/dataTables.bootstrap4.min.js'); ?>"></script>
+
+
 
 <script>
     /* ── Helper: get initials from full name ─────────────────────────────── */
@@ -343,4 +343,25 @@
             });
         });
     });
+
+    $(document).on('click', '.btnRoutePPMP', function () {
+    var ppmpId = $(this).data('id');
+
+    $('#route_ppmp_id').val(ppmpId);
+    $('#route_action_type').val('');
+    $('#route_to_user_id').val('');
+    $('#ppmpRoutingModal').modal('show');
+});
+
+$('#route_action_type').on('change', function () {
+    var action = $(this).val();
+
+    if (action === 'APPROVE' || action === 'DISAPPROVE' || action === 'MARK_REVIEWED') {
+        $('#route_to_user_id').prop('required', false);
+    } else {
+        $('#route_to_user_id').prop('required', true);
+    }
+});
+
+    
 </script>

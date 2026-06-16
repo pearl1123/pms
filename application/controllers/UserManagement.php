@@ -9,6 +9,7 @@ class UserManagement extends CI_Controller
     {
         parent::__construct();
         $this->load->model('User_Model');
+        $this->load->model('AuthModel');
         $this->load->library('aauth');
     }
 

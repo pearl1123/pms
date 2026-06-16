@@ -128,69 +128,23 @@ class User extends CI_Controller
                 redirect('User/index');
             }
 
-            // If login successful, proceed with session setup
-            $userGroup = $aModel->getAllGroupsByUID($userDetails->id);
-
-            // Set flags
-            $is_procurement = 0;
-            $is_finance = 0;
-            $is_hr = 0;
-            $is_misd = 0;
-            $is_admin_office = 0;
-
-            foreach ($userGroup as $u) {
-
-                switch ($u->group_id) {
-
-                    case 11:
-                        $is_procurement = 1;
-                        break;
-
-                    case 12:
-                        $is_finance = 1;
-                        break;
-
-                    case 13:
-                        $is_hr = 1;
-                        break;
-
-                    case 14:
-                        $is_misd = 1;
-                        break;
-
-                    case 15:
-                        $is_admin_office = 1;
-                        break;
-                }
-            }
-
             // set session
             $this->session->set_userdata([
                 'userID'        => $userDetails->id,
                 'fullname'      => $userDetails->fullname,
                 'email'         => $userDetails->email,
                 'office'        => $userDetails->office,
-                'logged_in'     => TRUE,
-                'user_group'    => $userGroup,
-                'doctor_id'     => $userDetails->doctor_id,
-                'ui'            => $userDetails->ui,
-
-                'is_procurement' => $is_procurement,
-                'is_finance'     => $is_finance,
-                'is_hr'          => $is_hr,
-                'is_misd'        => $is_misd,
-                'is_admin_office' => $is_admin_office
+                'logged_in'     => TRUE
             ]);
 
-            // Redirect based on role
-            if ($is_procurement || $is_finance || $is_hr) {
+            if (is_procurement()) {
                 redirect('PurchaseRequest');
-            } elseif ($is_misd) {
+            } else if (is_end_user()) {
                 redirect('PurchaseRequest');
-            } elseif ($is_admin_office) {
+            } else if (is_admin()) {
                 redirect('PurchaseRequest');
-            } else {
-                redirect('User/index');
+            } else if (is_reviewer()) {
+                redirect('Dashboard/index');
             }
         }
     }
@@ -242,22 +196,6 @@ class User extends CI_Controller
         $this->load->view('register', $data);
     }
 
-
-    // public function getWardsByOffice()
-    // {
-    //     $office_id = $this->input->post('office_id');
-
-    //     if (!$office_id) {
-    //         echo json_encode([]);
-    //         return;
-    //     }
-
-    //     $this->load->model('User_model');
-    //     $wards = $this->User_model->get_wards_by_office($office_id);
-
-    //     echo json_encode($wards);
-    // }
-
     // SAVE REGISTRATION
     // =========================================================================================================================================
     public function saveRegistration()
@@ -308,7 +246,6 @@ class User extends CI_Controller
         }
 
         log_message('debug', 'Captcha validation passed');
-
         // Prepare data
         $data = [
             'fullname'      => html_escape($this->input->post('fullname')),

@@ -83,3 +83,15 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+/*
+|--------------------------------------------------------------------------
+| User Group Constants
+|--------------------------------------------------------------------------
+*/
+
+defined('GROUP_PROCUREMENT')  OR define('GROUP_PROCUREMENT', 5);
+defined('GROUP_ADMIN') OR define('GROUP_ADMIN', 1);
+defined('GROUP_ENDUSER')      OR define('GROUP_ENDUSER', 2);
+defined('GROUP_REVIEWER')     OR define('GROUP_REVIEWER', 3);
+defined('GROUP_APPROVER')     OR define('GROUP_APPROVER', 4);
